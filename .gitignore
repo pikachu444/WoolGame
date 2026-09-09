@@ -4,7 +4,11 @@ UnityProject/[Oo]bj/
 UnityProject/[Ll]ogs/
 UnityProject/[Uu]ser[Ss]ettings/
 UnityProject/MemoryCaptures/
-Builds/
+UnityProject/.utmp/
+Builds/*
+!Builds/Android/
+Builds/Android/*
+!Builds/Android/WoolLab.apk
 Tools/
 *.keystore
 *.jks
@@ -12,3 +16,15 @@ Tools/
 *.sln
 *.slnx
 .vs/
+*.blend1
+Scripts/Staging/
+!UnityProject/Assets/CozyRescue/Tests/Standalone~/DemoChecks.csproj
+
+# Keep the delivery evidence, not intermediate render sequences.
+Evidence/*
+!Evidence/Final/
+!Evidence/ChecksRelease/
+!Evidence/PointerRelease/
+!Evidence/Android/
+Evidence/Final/frame_*.png
+Evidence/Final/recording.ffconcat

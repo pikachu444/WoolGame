@@ -2,10 +2,12 @@
 
 Unity URP로 만든 Android 개인용 뜨개 퍼즐 시연입니다. 광고·과금·로그인·서버 없이 방향 블록 네 개와 24개의 색 unit으로 고양이 구조까지 플레이합니다.
 
+**현재 상태: 개발 중인 시각 프로토타입입니다.** APK 빌드와 데스크톱 시연 검증은 완료했지만, 원작 수준의 그래픽 완성 기준은 아직 미달입니다. 몸통의 편물 조직·마디 형태·배경과 UI의 입체감·풀림 시작점 표현이 남은 개선 항목입니다. Android 실기기 검증도 미실시입니다.
+
 ## 실행
 
-- Android 설치 파일: `Builds/Android/WoolLab.apk`.
-- Windows 미리보기: `Builds/Windows/WoolLab.exe`.
+- [Android 설치 파일](Builds/Android/WoolLab.apk).
+- Windows 미리보기 출력: `Builds/Windows/WoolLab.exe` (저장소에는 포함하지 않으며 빌드 방법은 아래 문서 참조).
 - Unity **6000.3.23f1**에서 `UnityProject`를 열고 `Assets/CozyRescue/Scenes/WoolLab.unity`를 실행합니다. 모델과 UI는 Play 시 생성됩니다.
 - 아트 연결이나 씬을 재생성할 때는 `WoolLab > Generate scene (preserve art settings)`를 사용합니다.
 

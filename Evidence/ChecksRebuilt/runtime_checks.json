@@ -1,0 +1,143 @@
+{
+    "scope": "Actual player API integration; not physical touch, visual acceptance, or Android performance certification.",
+    "platform": "WindowsPlayer",
+    "unity": "6000.3.23f1",
+    "device": "ROG Zephyrus M16 GU603HM (ASUSTeK COMPUTER INC.)",
+    "graphics": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "timestampUtc": "2026-09-09T13:53:51.1480284Z",
+    "passed": true,
+    "runtimeErrors": 0,
+    "frameSamples": 299,
+    "replayIterations": 20,
+    "sampleWallSeconds": 4.985489845275879,
+    "frameMedianMs": 16.660690307617189,
+    "frameP95Ms": 17.127037048339845,
+    "performanceScope": "Five-second noncapture wall-frame sample while playing; includes check-runner overhead. No GPU timing or 15-minute stability claim.",
+    "checks": [
+        {
+            "name": "Blocked B rejects",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Select D",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Select C",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Select B",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Select A",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Pause freezes clock and collection for .25 wall seconds",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Resume clears pause",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "24 units collected and success within 10 seconds",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Clock continues after logical success",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Twenty replay cycles",
+            "passed": true,
+            "detail": "API-driven resets and deterministic advances, with a real presentation frame after every cycle."
+        },
+        {
+            "name": "Owned resource tracker available",
+            "passed": true,
+            "detail": ""
+        },
+        {
+            "name": "Paused aspect resize 16_9",
+            "passed": true,
+            "detail": "Requested 450x800; actual 450x800. API resize, not physical touch."
+        },
+        {
+            "name": "Aspect dimensions 16_9",
+            "passed": true,
+            "detail": "Actual 450x800"
+        },
+        {
+            "name": "Capture aspect_16_9.png",
+            "passed": true,
+            "detail": "Actual runtime render 450x800; not a desktop mouse-input check."
+        },
+        {
+            "name": "Paused aspect resize 20_9",
+            "passed": true,
+            "detail": "Requested 450x1000; actual 450x1000. API resize, not physical touch."
+        },
+        {
+            "name": "Aspect dimensions 20_9",
+            "passed": true,
+            "detail": "Actual 450x1000"
+        },
+        {
+            "name": "Capture aspect_20_9.png",
+            "passed": true,
+            "detail": "Actual runtime render 450x1000; not a desktop mouse-input check."
+        },
+        {
+            "name": "Paused aspect resize 19_5_9",
+            "passed": true,
+            "detail": "Requested 450x975; actual 450x975. API resize, not physical touch."
+        },
+        {
+            "name": "Aspect dimensions 19_5_9",
+            "passed": true,
+            "detail": "Actual 450x975"
+        },
+        {
+            "name": "Capture aspect_19_5_9.png",
+            "passed": true,
+            "detail": "Actual runtime render 450x975; not a desktop mouse-input check."
+        },
+        {
+            "name": "Mid-unravel paused resize preserves clock and collection",
+            "passed": true,
+            "detail": "Session seconds=1.239331; consumed=2; actual 450x800"
+        },
+        {
+            "name": "Mid-unravel units do not collapse to world origin",
+            "passed": true,
+            "detail": "Active knit transforms=23; at origin=0. Geometry sanity only; visual continuity requires image review."
+        },
+        {
+            "name": "Capture aspect_mid_unravel_paused.png",
+            "passed": true,
+            "detail": "Actual runtime render 450x800; not a desktop mouse-input check."
+        },
+        {
+            "name": "Owned resources replaced without retained old assets",
+            "passed": true,
+            "detail": "Returned aspect=540x1170; baseline owned=83; current owned=83; old native objects alive=0. Before: owned meshes/materials/textures=36/44/2; global loaded meshes/materials=61/88. After: owned meshes/materials/textures=36/44/2; global loaded meshes/materials=61/88. Global counts are diagnostic only; imported/builtin resource activity is not an exact-count gate."
+        },
+        {
+            "name": "No runtime errors during checks",
+            "passed": true,
+            "detail": "Error/exception/assert log count: 0"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+  "generator": "generate_art.py",
+  "blender": "4.5.13 LTS",
+  "original": true,
+  "source_axes": "Y up / Z front",
+  "stitches_per_tile": 4,
+  "segment_bounds": [
+    1,
+    0.407645,
+    0.7
+  ],
+  "materials": {
+    "Wool": [
+      0.81,
+      0.91,
+      0.9,
+      1
+    ],
+    "Cream": [
+      0.96,
+      0.86,
+      0.67,
+      1
+    ],
+    "Blush": [
+      0.94,
+      0.43,
+      0.44,
+      1
+    ],
+    "Cocoa": [
+      0.39,
+      0.28,
+      0.24,
+      1
+    ],
+    "Eye": [
+      0.045,
+      0.032,
+      0.04,
+      1
+    ],
+    "Highlight": [
+      1,
+      1,
+      0.95,
+      1
+    ],
+    "Scarf": [
+      0.27,
+      0.58,
+      0.56,
+      1
+    ],
+    "Nose": [
+      0.52,
+      0.26,
+      0.25,
+      1
+    ]
+  },
+  "segment_source": "CloudSegmentSource.blend",
+  "segment_refinement": "Raised swept opening lip with low trailing sleeve, Pass10 review"
+}

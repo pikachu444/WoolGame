@@ -1,0 +1,82 @@
+{
+  "CloudSegment": {
+    "objects": 1,
+    "triangles": 720,
+    "bounds_imported_blender": [
+      [
+        -0.5,
+        0.5
+      ],
+      [
+        -0.12000006437301636,
+        0.28764456510543823
+      ],
+      [
+        -0.3499999940395355,
+        0.3500000238418579
+      ]
+    ],
+    "object_names": [
+      "CloudSegment"
+    ]
+  },
+  "CloudDragonHead": {
+    "objects": 8,
+    "triangles": 12096,
+    "bounds_imported_blender": [
+      [
+        -0.645662248134613,
+        0.645662248134613
+      ],
+      [
+        -0.18500009179115295,
+        0.683513879776001
+      ],
+      [
+        -0.4650000333786011,
+        0.7079998850822449
+      ]
+    ],
+    "object_names": [
+      "CloudDragonHead_Blush",
+      "CloudDragonHead_Cocoa",
+      "CloudDragonHead_Cream",
+      "CloudDragonHead_Wool",
+      "EyeGlint",
+      "EyeGlint.001",
+      "EyeL",
+      "EyeR"
+    ]
+  },
+  "CreamCat": {
+    "objects": 11,
+    "triangles": 13392,
+    "bounds_imported_blender": [
+      [
+        -0.38999995589256287,
+        0.46000000834465027
+      ],
+      [
+        -0.020000042393803596,
+        1.3110673427581787
+      ],
+      [
+        -0.24999985098838806,
+        0.37400001287460327
+      ]
+    ],
+    "object_names": [
+      "CreamCat_Blush",
+      "CreamCat_Cocoa",
+      "CreamCat_Cream",
+      "CreamCat_Nose",
+      "CreamCat_Scarf",
+      "EyeGlint.002",
+      "EyeGlint.003",
+      "EyeL.001",
+      "EyeR.001",
+      "WavePawL",
+      "WavePawR"
+    ]
+  }
+}

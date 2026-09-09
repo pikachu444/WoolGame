@@ -1,0 +1,15 @@
+{
+  "original": true,
+  "source": "periodic closed Catmull-Rom yarn loops with rounded circular relief",
+  "stitches": [
+    4,
+    4
+  ],
+  "size": [
+    1024,
+    1024
+  ],
+  "normal": "OpenGL tangent space",
+  "preview": "mathematical Lambert preview, not game capture",
+  "periodic_height_seam_max": 0.002655681619975092
+}

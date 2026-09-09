@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b50cbd898d9ce478faeb667658ced8, type: 3}
+  m_Name: WoolLabSettings
+  m_EditorClassIdentifier: CozyRescue.Presentation::CozyRescue.Presentation.WoolLabSettings
+  yarnColors:
+  - {r: 0.9372549, g: 0.32941177, b: 0.35686275, a: 1}
+  - {r: 0.9490196, g: 0.7647059, b: 0.2509804, a: 1}
+  - {r: 0.30588236, g: 0.73333335, b: 0.39607844, a: 1}
+  - {r: 0.25882354, g: 0.5529412, b: 0.87058824, a: 1}
+  background: {r: 0.95686275, g: 0.92941177, b: 0.8862745, a: 1}
+  ink: {r: 0.31764707, g: 0.29803923, b: 0.40392157, a: 1}
+  bodyWidth: 1.5
+  bodyPitch: 0.34
+  smoothness: 0.18
+  stitchColumns: 8
+  normalStrength: 0.65
+  fuzz: 0.055
+  pathSpeed: 0.13
+  cuffMesh: {fileID: 4300000, guid: a8efbf7f46b2f21429924becd952ad91, type: 2}
+  dragonModel: {fileID: 919132149155446097, guid: d62cbd0b5f1806a478550de16630638e, type: 3}
+  catModel: {fileID: 919132149155446097, guid: b493ed9eaa538824687df55eae9bfbf1, type: 3}
+  knitNormal: {fileID: 2800000, guid: 509667abe7160a549bde7c90e7ecada0, type: 3}
+  knitAO: {fileID: 2800000, guid: 61d5c6e04f1ea0d47986da7ae95f19ab, type: 3}
+  physicalKnit: 1
+  uiFont: {fileID: 12800000, guid: aba584b92209e77439354b00e3b4e3ac, type: 3}
+  controlIcons:
+  - {fileID: 21300000, guid: d4b2f73482aaf99478e5c57cd78de238, type: 3}
+  - {fileID: 21300000, guid: 8faae5d254f5bb64981a47f809977d52, type: 3}
+  - {fileID: 21300000, guid: 9b6ab97f05f2b7946a2d1f66068e9a6e, type: 3}
+  knitShader: {fileID: 4800000, guid: 63369e4a5ccbe7743809f881d8db7e6a, type: 3}
+  surfaceShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}

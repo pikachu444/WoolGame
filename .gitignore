@@ -1,0 +1,14 @@
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]ser[Ss]ettings/
+UnityProject/MemoryCaptures/
+Builds/
+Tools/
+*.keystore
+*.jks
+*.csproj
+*.sln
+*.slnx
+.vs/

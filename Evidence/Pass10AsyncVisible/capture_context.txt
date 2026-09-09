@@ -1,0 +1,15 @@
+Actual runtime screen capture over 16 wall-clock seconds after two warm-up frames and replay.
+GPU readback, memory copies, PNG encoding and disk writes add recording overhead. This is NOT a performance benchmark.
+No interpolated frames or altered simulation speed. Use frame_times.csv for video timing.
+Unity=6000.3.23f1
+Platform=WindowsPlayer
+Device=ROG Zephyrus M16 GU603HM (ASUSTeK COMPUTER INC.)
+GPU=NVIDIA GeForce RTX 3060 Laptop GPU
+Resolution=540x1170
+AsyncGPUReadback=True
+FlipY=False
+MaxInFlight=3
+Frames=469
+SkippedWhileQueueFull=10
+Errors=0
+

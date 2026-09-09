@@ -1,0 +1,5 @@
+{
+  "name": "CozyRescue.Presentation",
+  "references": ["CozyRescue.Demo", "Unity.InputSystem", "Unity.ugui", "Unity.TextMeshPro", "Unity.RenderPipelines.Universal.Runtime"],
+  "autoReferenced": true
+}

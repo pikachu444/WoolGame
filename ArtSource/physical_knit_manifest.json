@@ -1,0 +1,13 @@
+{
+  "original": true,
+  "blender": "4.5.13 LTS",
+  "stitches": [
+    4,
+    4
+  ],
+  "normal": "OpenGL tangent space",
+  "source_triangles": 374222,
+  "samples": 24,
+  "source": "three helical plys following raised knit legs and underpassing rounded return",
+  "texture_resolution": 1024
+}

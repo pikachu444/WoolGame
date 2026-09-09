@@ -1,0 +1,102 @@
+{
+  "original": true,
+  "axes": "Y up, +Z front",
+  "assets": {
+    "CloudDragonHead": {
+      "bounds_Yup": [
+        1.3284975290298462,
+        1.0150000005960464,
+        1.049999713897705
+      ],
+      "triangles": 16180,
+      "source_objects": 27,
+      "fbx_roundtrip_blender_world_bounds": [
+        1.142224669456482,
+        1.0150002092123032,
+        1.0499998033046722
+      ],
+      "fbx_mesh_objects": 9,
+      "animated_names": [
+        "EyeL",
+        "EyeR"
+      ]
+    },
+    "CreamCat": {
+      "bounds_Yup": [
+        0.8329618573188782,
+        1.1874603666365147,
+        0.5679998397827148
+      ],
+      "triangles": 16348,
+      "source_objects": 29,
+      "fbx_roundtrip_blender_world_bounds": [
+        0.8329619467258453,
+        1.216603845357895,
+        0.567999854683876
+      ],
+      "fbx_mesh_objects": 12,
+      "animated_names": [
+        "EyeL.001",
+        "EyeR.001",
+        "WavePawL",
+        "WavePawR"
+      ]
+    }
+  },
+  "materials": {
+    "Wool": [
+      0.82,
+      0.19,
+      0.015,
+      1
+    ],
+    "Cream": [
+      1,
+      0.7,
+      0.25,
+      1
+    ],
+    "Blush": [
+      0.97,
+      0.31,
+      0.25,
+      1
+    ],
+    "Cocoa": [
+      0.24,
+      0.075,
+      0.022,
+      1
+    ],
+    "Eye": [
+      0.055,
+      0.027,
+      0.014,
+      1
+    ],
+    "EyeWhite": [
+      1,
+      0.96,
+      0.84,
+      1
+    ],
+    "Highlight": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Scarf": [
+      0.79,
+      0.055,
+      0.07,
+      1
+    ],
+    "Nose": [
+      0.55,
+      0.15,
+      0.11,
+      1
+    ]
+  }
+}

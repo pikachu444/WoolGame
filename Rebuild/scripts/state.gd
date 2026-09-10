@@ -275,6 +275,8 @@ func tick(dt: float) -> void:
 		var unit=units[index]
 		captured.emit(unit.duplicate(),b.duplicate());units.remove_at(index)
 		b.remaining-=1;collected+=1;b.next=time+0.46
+		# A successful winding resets inactivity even if it consumed the last visible match.
+		stalled_since=-1
 		var dragon=dragons[unit.dragon];dragon.head=maxf(route_length*0.25,float(dragon.head)-4.0)
 		if b.remaining==0:b.phase="clearing";b.finish=time+0.52
 		changed.emit()

@@ -39,7 +39,24 @@ func choose(s: State,style: int=0) -> int:
 		var candidates=ancestors(s,b.id)
 		if not candidates.is_empty():return candidates[0]
 	return -1
+func check_winding_resets_stall() -> void:
+	# Independent reviewer replay: full shelf still captures new visible strands.
+	# Previously lost at 30.633s, only 0.033s after the most recent capture.
+	var actions=[{"capacity":4,"color":2,"id":19,"t":2.4,"visible_same_color":4},{"capacity":2,"color":5,"id":26,"t":4.79999999999999,"visible_same_color":2},{"capacity":2,"color":0,"id":0,"t":7.19999999999998,"visible_same_color":10},{"capacity":6,"color":5,"id":13,"t":9.59999999999998,"visible_same_color":3},{"capacity":4,"color":3,"id":12,"t":12,"visible_same_color":10},{"capacity":6,"color":1,"id":25,"t":14.4,"visible_same_color":2},{"capacity":2,"color":5,"id":18,"t":16.8,"visible_same_color":0},{"capacity":4,"color":1,"id":14,"t":19.2000000000001,"visible_same_color":0},{"capacity":2,"color":4,"id":15,"t":21.6000000000002,"visible_same_color":0}]
+	var s=State.new();s.reset(0,9,{"max_hearts":3,"shield":true,"freeze":true})
+	var cursor=0;var previous=0;var captures_after_stall=0;var reset_failed=false
+	while s.time<31.0 and not s.lost:
+		if cursor<actions.size() and s.time+0.001>=actions[cursor].t:
+			s.select(int(actions[cursor].id));cursor+=1
+		previous=s.collected;s.advance(1.0/30.0)
+		if s.collected>previous and s.time>22.6:
+			captures_after_stall+=1
+			if s.stalled_since>=0 and s.time-s.stalled_since>0.04:reset_failed=true
+	check(captures_after_stall>=5,"Replay captures while all shelf positions are occupied")
+	check(not s.lost and not reset_failed,"Successful winding resets shelf inactivity before defeat")
+
 func _initialize() -> void:
+	check_winding_resets_stall()
 	var completed=[]
 	for level in range(10):
 		var s=State.new()

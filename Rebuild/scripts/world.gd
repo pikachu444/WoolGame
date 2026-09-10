@@ -34,7 +34,7 @@ func capture(unit: Dictionary, block: Dictionary) -> void:
 	for i in range(state.units.size()):
 		if state.units[i].id == unit.id: index=i; break
 	var distance = float(positions.get(unit.id,state.unit_distance(index)))
-	flights.append({"start":state.time,"distance":distance,"color":block.color,"slot":block.slot,"angle":tangent_at(distance)-PI/2})
+	flights.append({"start":state.time,"distance":distance,"color":block.color,"slot":block.slot,"dragon":unit.dragon,"angle":tangent_for(state.dragons[unit.dragon].curve,distance)-PI/2})
 	positions.erase(unit.id)
 
 func reset_visuals() -> void:
@@ -43,11 +43,11 @@ func reset_visuals() -> void:
 func celebrate() -> void:
 	rescue_time=state.time
 	for i in range(55):
-		sparks.append({"p":Layout.CAT,"v":Vector2(sin(i*2.4)*250,-180-absf(cos(i*1.7))*240),"color":i%6,"t":0.0,"r":float(i%5+3)})
+		sparks.append({"p":state.cat_position,"v":Vector2(sin(i*2.4)*250,-180-absf(cos(i*1.7))*240),"color":i%6,"t":0.0,"r":float(i%5+3)})
 
 func _process(dt: float) -> void:
 	if state==null: return
-	if not state.paused:
+	if state.active and not state.paused:
 		clock+=dt
 		mist_visibility=move_toward(mist_visibility,1.0 if state.has_lower_yarn() and not state.won and state.time>=state.boost_until else 0.0,dt*3)
 		for i in range(state.units.size()):
@@ -155,7 +155,9 @@ func unravel_contact(source: Vector2, angle: float, edge: Vector2, peel: float, 
 
 func yarn_flight(f: Dictionary) -> void:
 	var t=clampf((state.time-f.start)/0.46,0,1)
-	var source=point_at(f.distance)
+	var flight_curve: Curve2D=state.dragons[f.dragon].curve
+	var source=flight_curve.sample_baked(clampf(f.distance,0,flight_curve.get_baked_length()),true)
+	source=Vector2(clampf(source.x,8,584),clampf(source.y,24,410))
 	var end=winding_point(f.slot) if f.slot<state.slots.size() and state.slots[f.slot]>=0 else slot_center(f.slot)
 	var color: Color=WoolArt.COLORS[f.color]
 	# Consume rows at their original stitch scale. The strand follows that same moving edge.
@@ -189,50 +191,79 @@ func yarn_flight(f: Dictionary) -> void:
 	draw_polyline(PackedVector2Array([strand[pulse],strand[pulse+1],strand[pulse+2]]),Color(1,0.97,0.72,pulse_alpha),3.0,true)
 	unravel_contact(source,f.angle,edge,peel,t,color)
 
+func tangent_for(curve: Curve2D,distance: float) -> float:
+	var length=curve.get_baked_length()
+	return (curve.sample_baked(clampf(distance+4,0,length),true)-curve.sample_baked(clampf(distance-4,0,length),true)).angle()
+
+func draw_flame(start: Vector2,end: Vector2,amount: float) -> void:
+	var vector=end-start
+	for i in range(16,0,-1):
+		var q=i/16.0
+		var p=start+vector*q+vector.orthogonal().normalized()*sin(clock*27+i)*5*q
+		var radius=(7+10*sin(q*PI))*(1-q*0.65)*amount
+		draw_circle(p,radius+6,Color(1,0.42,0.06,0.18))
+		draw_circle(p,radius,Color(1,0.56+q*0.3,0.07,0.9))
+		draw_circle(p,radius*0.5,Color(1,0.98,0.62,0.95))
+
 func _draw() -> void:
-	if state==null or route==null: return
-	draw_route()
+	if state==null or state.dragons.is_empty():return
+	for enemy in state.dragons:
+		route=enemy.curve
+		draw_route()
+	route=state.route_curve
 	snow_decor()
-	var cat=Layout.CAT
-	var danger=clampf((state.head/state.route_length-0.80)/0.15,0,1)
-	cat.x+=sin(clock*13)*danger*2.8
-	var hop=0.0 if not state.won else -absf(sin((state.time-rescue_time)*5))*13
-	ellipse(cat+Vector2(0,33),Vector2(25,5),Color(0.26,0.42,0.48,0.15))
-	draw_set_transform(cat+Vector2(0,hop),sin(clock*1.5)*0.018)
-	draw_texture_rect_region(WoolArt.CAST,Rect2(-27,-34,54,69),Rect2(712 if state.won else 91,77,452,526))
-	draw_set_transform(Vector2.ZERO)
-	if danger>0.4 and not state.won:
-		WoolArt.box(self,Rect2(cat+Vector2(-17,-81),Vector2(34,32)),Color("fff3d1"),12)
-		WoolArt.text(self,"!",cat+Vector2(0,-56),26,Color("c77454"))
 	if not state.won:
-		# Rear sleeves overlap the roots ahead, leaving the forward-pointed prongs visible.
 		for i in range(state.units.size()):
 			var unit=state.units[i]
+			var curve: Curve2D=state.dragons[unit.dragon].curve
 			var d=float(positions.get(unit.id,state.unit_distance(i)))
-			if d<0 or d>route.get_baked_length(): continue
+			if d<0 or d>curve.get_baked_length():continue
+			var point=curve.sample_baked(d,true)
+			if point.x< -60 or point.x>652:continue
+			var angle=tangent_for(curve,d)-PI/2
 			var color: Color=WoolArt.COLORS[unit.color]
-			# Each capacity unit keeps one large forward-pointed overlapping sleeve.
-			for offset in [0.0]:
-				var point=point_at(d+offset)
-				var angle=tangent_at(d+offset)-PI/2
-				WoolArt.stamp(self,WoolArt.CUFF,point+Vector2(0,3),CUFF_SIZE+Vector2(2,2),Color(0.2,0.33,0.39,0.12),angle)
-				WoolArt.stamp(self,WoolArt.CUFF,point,CUFF_SIZE,color,angle)
-	var hp=point_at(state.head)
-	if state.won:
-		for offset in [48,28]:WoolArt.stamp(self,WoolArt.CUFF,point_at(state.head-offset),CUFF_SIZE,Color("ed5d3f"),tangent_at(state.head-offset)-PI/2)
-	# Keep the face readable in the fixed camera; steer its gaze rather than rolling it upside down.
-	var heading=tangent_at(state.head)
-	var mirrored=cos(heading)>0
-	var rotation=clampf(heading-(PI if not mirrored and heading>0 else -PI if not mirrored else 0),-0.7,0.7)
-	draw_set_transform(hp,rotation,Vector2(-1,1) if mirrored else Vector2.ONE)
-	breath_flame()
-	draw_texture_rect_region(HEAD_IMAGE,Rect2(-52,-47,104,94),Rect2(76,13,511,622))
-	draw_set_transform(Vector2.ZERO)
+			WoolArt.stamp(self,WoolArt.CUFF,point+Vector2(0,3),CUFF_SIZE+Vector2(2,2),Color(0.2,0.33,0.39,0.12),angle)
+			WoolArt.stamp(self,WoolArt.CUFF,point,CUFF_SIZE,color,angle)
+	for enemy in state.dragons:
+		if enemy.phase=="cleared" and not state.won:continue
+		var curve: Curve2D=enemy.curve
+		var hp=curve.sample_baked(clampf(enemy.head,0,curve.get_baked_length()),true)
+		var heading=tangent_for(curve,enemy.head)
+		var mirrored=cos(heading)>0
+		var rotation=clampf(heading-(PI if not mirrored and heading>0 else -PI if not mirrored else 0),-0.7,0.7)
+		if enemy.phase=="windup":
+			WoolArt.box(self,Rect2(hp+Vector2(-22,-80),Vector2(44,31)),Color("ffe7ae"),12)
+			WoolArt.text(self,"!",hp+Vector2(0,-55),26,Color("c63d20"))
+		if enemy.phase=="fire" and not state.won:draw_flame(hp+(state.cat_position-hp).normalized()*37+Vector2(0,10),state.cat_position+Vector2(0,6),1.0)
+		draw_set_transform(hp,rotation,Vector2(-1,1) if mirrored else Vector2.ONE)
+		draw_texture_rect_region(HEAD_IMAGE,Rect2(-52,-47,104,94),Rect2(76,13,511,622))
+		draw_set_transform(Vector2.ZERO)
+		if state.time<state.freeze_until:
+			for i in range(8):
+				var p=hp+Vector2.RIGHT.rotated(i*TAU/8)*48
+				draw_colored_polygon(PackedVector2Array([p+Vector2(-9,0),p+Vector2(0,-23),p+Vector2(10,0),p+Vector2(0,19)]),Color(0.4,0.87,1,0.66))
 	upper_mist()
+	var cat=state.cat_position
+	var running=state.cat_phase=="fleeing"
+	var hop=-absf(sin(clock*26))*6 if running else -absf(sin((state.time-rescue_time)*5))*13 if state.won else 0.0
+	if running:
+		for i in range(4):ellipse(cat+Vector2(-20-i*12,30),Vector2(6+i*2,3+i),Color(1,1,1,0.35-i*0.06))
+	ellipse(cat+Vector2(0,33),Vector2(25,5),Color(0.26,0.42,0.48,0.18))
+	var tint=Color(1,0.65,0.6) if state.cat_phase=="hurt" and sin(clock*25)>0 else Color.WHITE
+	draw_set_transform(cat+Vector2(0,hop),sin(clock*(20 if running else 1.5))*(0.07 if running else 0.018))
+	draw_texture_rect_region(WoolArt.CAST,Rect2(-27,-34,54,69),Rect2(712 if state.won else 91,77,452,526),tint)
+	draw_set_transform(Vector2.ZERO)
+	if state.time<state.shield_until or state.time<state.invulnerable_until:
+		var color=Color(0.35,0.85,1,0.85) if state.time<state.shield_until else Color(1,0.86,0.32,0.7)
+		draw_circle(cat,45,Color(color,0.14));draw_arc(cat,44,0,TAU,64,color,3.0,true)
+	if not state.won:
+		for i in range(state.max_hearts):
+			var center=cat+Vector2((i-(state.max_hearts-1)*0.5)*25,-52)
+			draw_texture_rect_region(WoolArt.DETAILS,Rect2(center-Vector2(12,12),Vector2(24,24)),Rect2(701,166,472,365),Color.WHITE if i<state.hearts else Color("728ea0"))
 	ellipse(Vector2(35,373),Vector2(36,30),Color(1,0.85,0.1,0.13))
 	draw_texture_rect_region(WoolArt.CAST,Rect2(0,344,69,62),Rect2(78,717,490,444))
-	for i in range(state.slots.size()): spool(i);slot_completion(i)
-	for f in flights: yarn_flight(f)
+	for i in range(state.slots.size()):spool(i);slot_completion(i)
+	for f in flights:yarn_flight(f)
 	for p in sparks:
 		draw_set_transform(p.p,p.t*4+p.r)
 		draw_rect(Rect2(-p.r,-p.r*0.45,p.r*2,p.r*0.9),Color(WoolArt.COLORS[p.color],clampf(2.6-p.t,0,1)))

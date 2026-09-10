@@ -14,7 +14,7 @@ var clock=0.0
 var ripples: Array[Dictionary]=[]
 
 func on_selected(id: int) -> void:
-	ripples.append({"p":rect_for(state.blocks[id]).get_center(),"time":clock})
+	ripples.append({"p":Vector2(296,574) if state.blocks[id].get("from_reserve",false) else rect_for(state.blocks[id]).get_center(),"time":clock})
 
 func _ready() -> void:
 	material=WoolArt.material()
@@ -24,7 +24,7 @@ func rect_for(b: Dictionary) -> Rect2:
 	return Rect2(Vector2(b.cell),Vector2(b.size))
 
 func _input(event: InputEvent) -> void:
-	if state==null or state.paused or state.won or state.lost: return
+	if state==null or not state.active or state.paused or state.won or state.lost: return
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT:
 		var p=get_global_mouse_position()
 		if event.pressed:
@@ -47,6 +47,7 @@ func travel_position(b: Dictionary) -> Vector2:
 	var a=r.get_center()
 	var v=Vector2(WoolState.DIRS[b.direction])
 	var t=clampf((state.time-b.depart)/0.62,0,1)
+	if b.get("from_reserve",false):return Vector2(296,574).lerp(Layout.slot_center(b.slot),smoothstep(0,1,t))
 	var exit=a
 	if v.x<0: exit.x=2-r.size.x/2
 	elif v.x>0: exit.x=590+r.size.x/2

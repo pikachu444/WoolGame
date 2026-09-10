@@ -9,7 +9,7 @@ Builds/*
 !Builds/Android/
 Builds/Android/*
 !Builds/Android/WoolLab.apk
-Tools/
+/Tools/
 *.keystore
 *.jks
 *.csproj

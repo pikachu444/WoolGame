@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+WOOL_READY profile=C:/SourceCodes/WoolGame/BuildWork/Representative/UiProfile/campaign_v2.json screen=home level=1 viewport=(592.0, 1138.0)
+
+FAIL Scene completes stage 2
+FAIL Victory persists before result animation
+FAIL Victory opens result
+FAIL Victory displays earned scene 2
+SCRIPT ERROR: Invalid access of index '0' on a base object of type: 'Array[TextureRect]'.
+   at: run (res://tests/verify_ui.gd:94)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/verify_ui.gd:94)
+       [1] frames (res://tests/verify_ui.gd:12)

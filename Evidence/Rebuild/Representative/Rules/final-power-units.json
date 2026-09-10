@@ -1,0 +1,137 @@
+{
+  "checks": 378,
+  "failures": [],
+  "records": [
+    {
+      "case": "capture trigger",
+      "relative_times": [
+        0.57,
+        0.569999999999482
+      ]
+    },
+    {
+      "case": "repel",
+      "duration": 1.7,
+      "event": {
+        "head": 2016.79928710937,
+        "kind": "repel",
+        "time": 0.57,
+        "unit_id": 0
+      },
+      "from": 2016.79928710937,
+      "midpoint": 1516.79928710937,
+      "to": 1016.79928710937
+    },
+    {
+      "case": "slow",
+      "normal_delta_0_1s": 5.40000000000055,
+      "slow_delta_1s": 13.5000000000014,
+      "start": 0.57,
+      "until": 6.57
+    },
+    {
+      "case": "continue repel",
+      "events": [
+        {
+          "head": 2016.79928710937,
+          "kind": "repel",
+          "time": 0.57,
+          "unit_id": 0
+        }
+      ],
+      "note": "No product state restore API exists; snapshot encoding is not a save/resume validation",
+      "snapshot_has_slow_timer": false
+    },
+    {
+      "case": "continue slow",
+      "events": [
+        {
+          "head": 2016.79928710937,
+          "kind": "slow",
+          "time": 0.57,
+          "unit_id": 0
+        }
+      ],
+      "note": "No product state restore API exists; snapshot encoding is not a save/resume validation",
+      "snapshot_has_slow_timer": false
+    },
+    {
+      "case": "attack cancellation",
+      "new_warning": 1.54,
+      "old_deadline": 0.51
+    },
+    {
+      "activation_head": 2016.79928710937,
+      "case": "return phase",
+      "speed_measurement_0_2s": 67.0000000000005,
+      "target_after": 1976.79928710937,
+      "target_before_extra_winding": 2016.79928710937
+    },
+    {
+      "case": "actual stage marker wiring",
+      "markers": [
+        {
+          "distance": 1000.0,
+          "duration": 1.7,
+          "kind": "repel",
+          "return_speed": 335.0,
+          "return_to_fraction": 0.711106024587084,
+          "unit_id": 54
+        },
+        {
+          "duration": 6.0,
+          "factor": 0.25,
+          "kind": "slow",
+          "unit_id": 152
+        }
+      ],
+      "note": "Full observed ordinal verification is in final-replay.json"
+    },
+    {
+      "case": "ordinary recoil floor boundaries",
+      "measurements": [
+        {
+          "after": 1832.09436035156,
+          "before": 1842.09436035156,
+          "floor": 1832.09436035156,
+          "relative_to_floor": 10.0
+        },
+        {
+          "after": 1752.09436035156,
+          "before": 1752.09436035156,
+          "floor": 1832.09436035156,
+          "relative_to_floor": -80.0
+        }
+      ]
+    }
+  ],
+  "save_limit": "Game has no mid-run State restore API; continue and snapshot serialization only were tested.",
+  "scope": "frozen candidate07 effect unit regression; full stage replay in final-replay.json",
+  "source_sha256_at_end": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+    "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+  },
+  "source_sha256_at_start": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+    "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+  },
+  "stage_has_yarn_powers": true,
+  "stage_powers": [
+    {
+      "distance": 1000.0,
+      "duration": 1.7,
+      "kind": "repel",
+      "return_speed": 335.0,
+      "return_to_fraction": 0.711106024587084,
+      "unit_id": 54
+    },
+    {
+      "duration": 6.0,
+      "factor": 0.25,
+      "kind": "slow",
+      "unit_id": 152
+    }
+  ]
+}

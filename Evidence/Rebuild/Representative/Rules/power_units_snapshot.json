@@ -1,0 +1,120 @@
+{
+  "checks": 384,
+  "failures": [],
+  "records": [
+    {
+      "case": "capture trigger",
+      "relative_times": [
+        0.57,
+        0.569999999999482
+      ]
+    },
+    {
+      "case": "repel",
+      "duration": 1.7,
+      "event": {
+        "head": 2016.79928710937,
+        "kind": "repel",
+        "time": 0.57,
+        "unit_id": 0
+      },
+      "from": 2016.79928710937,
+      "midpoint": 1516.79928710937,
+      "to": 1016.79928710937
+    },
+    {
+      "case": "slow",
+      "normal_delta_0_1s": 5.40000000000055,
+      "slow_delta_1s": 13.5000000000014,
+      "start": 0.57,
+      "until": 6.57
+    },
+    {
+      "case": "continue repel",
+      "events": [
+        {
+          "head": 2016.79928710937,
+          "kind": "repel",
+          "time": 0.57,
+          "unit_id": 0
+        }
+      ],
+      "note": "No product state restore API exists; snapshot encoding is not a save/resume validation",
+      "snapshot_has_slow_timer": false
+    },
+    {
+      "case": "continue slow",
+      "events": [
+        {
+          "head": 2016.79928710937,
+          "kind": "slow",
+          "time": 0.57,
+          "unit_id": 0
+        }
+      ],
+      "note": "No product state restore API exists; snapshot encoding is not a save/resume validation",
+      "snapshot_has_slow_timer": false
+    },
+    {
+      "case": "attack cancellation",
+      "new_warning": 0.98,
+      "old_deadline": 0.51
+    },
+    {
+      "activation_head": 2016.79928710937,
+      "case": "return phase",
+      "speed_measurement_0_2s": 67.0000000000005,
+      "target_after": 1976.79928710937,
+      "target_before_extra_winding": 2016.79928710937
+    },
+    {
+      "case": "actual stage marker wiring",
+      "markers": [
+        {
+          "distance": 1000.0,
+          "duration": 1.7,
+          "kind": "repel",
+          "return_speed": 335.0,
+          "return_to_fraction": 0.721750903143384,
+          "unit_id": 54
+        },
+        {
+          "duration": 6.0,
+          "factor": 0.25,
+          "kind": "slow",
+          "unit_id": 152
+        }
+      ],
+      "note": "Observed block capture ordinal and full route replay deferred until candidate freeze"
+    }
+  ],
+  "save_limit": "Game has no mid-run State restore API; continue and snapshot serialization only were tested.",
+  "scope": "effect unit snapshot; controlled existing-unit marker fixture; final stage replay deferred",
+  "source_sha256_at_end": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "3d7cdd716ab904c82c35e25f221ab04bc2c99274d349c020a35269968fc14211",
+    "state": "24cc33585450166e6abe8ba033ba7a036d676591b26d9353c9d92f228e5200f6"
+  },
+  "source_sha256_at_start": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "3d7cdd716ab904c82c35e25f221ab04bc2c99274d349c020a35269968fc14211",
+    "state": "24cc33585450166e6abe8ba033ba7a036d676591b26d9353c9d92f228e5200f6"
+  },
+  "stage_has_yarn_powers": true,
+  "stage_powers": [
+    {
+      "distance": 1000.0,
+      "duration": 1.7,
+      "kind": "repel",
+      "return_speed": 335.0,
+      "return_to_fraction": 0.721750903143384,
+      "unit_id": 54
+    },
+    {
+      "duration": 6.0,
+      "factor": 0.25,
+      "kind": "slow",
+      "unit_id": 152
+    }
+  ]
+}

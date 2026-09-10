@@ -1,0 +1,116 @@
+{
+  "source": "C:/SourceCodes/WoolGame/BuildWork/BehaviorResearch/HR-0KwTL8dA.mp4",
+  "sourceDimensions": [
+    288,
+    640
+  ],
+  "scope": "Exact PNG seeks plus5fps extracted sequence; no realtime audio/input claim. Manual head-face centers ±5px, not engine path pivots.",
+  "cat": {
+    "body": [
+      150,
+      178
+    ],
+    "feet": [
+      150,
+      194
+    ],
+    "hearts": 1,
+    "unchangedThroughoutSourceRange": [
+      109.5,
+      113
+    ]
+  },
+  "checkpoints": [
+    {
+      "t": 109.5,
+      "head": [
+        264,
+        171
+      ],
+      "progress": 67,
+      "fire": false
+    },
+    {
+      "t": 110,
+      "head": [
+        257,
+        177
+      ],
+      "progress": 67,
+      "fire": false
+    },
+    {
+      "t": 110.5,
+      "head": [
+        251,
+        179
+      ],
+      "progress": 67,
+      "fire": false
+    },
+    {
+      "t": 110.967,
+      "head": [
+        245,
+        179
+      ],
+      "noseApprox": [
+        225,
+        182
+      ],
+      "progress": 67,
+      "fire": false
+    },
+    {
+      "t": 111.4,
+      "head": [
+        239,
+        179
+      ],
+      "progress": 67,
+      "fire": false
+    },
+    {
+      "t": 111.95,
+      "head": [
+        232,
+        179
+      ],
+      "noseApprox": [
+        214,
+        182
+      ],
+      "progress": 67,
+      "fire": false,
+      "purpleShelfRemaining": 6
+    },
+    {
+      "t": 112.5,
+      "head": [
+        260,
+        171
+      ],
+      "progress": 68,
+      "fire": false,
+      "purpleShelfRemaining": 4
+    },
+    {
+      "t": 113,
+      "head": [
+        270,
+        153
+      ],
+      "progress": 69,
+      "fire": false,
+      "purpleShelfRemaining": 3
+    }
+  ],
+  "observations": [
+    "Around107.2–109.1 fire points downward from the right turn and ends before109.5.",
+    "Around110.2–113 the screen has a red danger border. No cat shield/immunity effect is visible.",
+    "At110.967 source face-to-cat horizontal separation is about95px; using nose front about75px.",
+    "At111.95 the newly arrived P6 has not yet counted down; afterward collection retreats the head around the right bend.",
+    "Manual lower-straight face displacement110.5→111.95 is about19px/1.45s,roughly13 source px/s, unlike the earlier26–27 estimate. Exact speed rules are unknown."
+  ],
+  "interpretationLimit": "The original has not reached visible cat contact at110.97. These observations do not establish a windup duration, projectile collision rule, damage immunity duration, or attack cooldown."
+}

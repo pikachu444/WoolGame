@@ -1,0 +1,67 @@
+{
+  "capture_during_windup": {
+    "captures": [
+      {
+        "block": 0,
+        "gap_before": 90.0,
+        "head_before": 2448.40258789063,
+        "phase": "windup",
+        "time": 0.41
+      }
+    ],
+    "end": {
+      "collected": 1,
+      "gap": 126.0,
+      "hearts": 0,
+      "lost": true,
+      "phase": "fire",
+      "time": 0.51
+    },
+    "events": [
+      {
+        "deadline": 0.51,
+        "event": "warning",
+        "gap": 90.0,
+        "hearts": 1,
+        "phase": "windup",
+        "time": 0.01
+      },
+      {
+        "collected": 1,
+        "event": "collected",
+        "gap": 126.0,
+        "head": 2412.40258789063,
+        "hearts": 1,
+        "phase": "windup",
+        "time": 0.41
+      }
+    ],
+    "fixture": "Placed normal state at final cat anchor and initial90px approach; all selection/winding afterwards through normal API",
+    "selected": 0
+  },
+  "no_capture_control": {
+    "captures": [],
+    "end": {
+      "collected": 0,
+      "gap": 90.0,
+      "hearts": 0,
+      "lost": true,
+      "phase": "fire",
+      "time": 0.51
+    },
+    "events": [
+      {
+        "deadline": 0.51,
+        "event": "warning",
+        "gap": 90.0,
+        "hearts": 1,
+        "phase": "windup",
+        "time": 0.01
+      }
+    ],
+    "fixture": "Placed normal state at final cat anchor and initial90px approach; all selection/winding afterwards through normal API",
+    "selected": -1
+  },
+  "reference_sha256": "c6904a81f729753fbd9db66e956bac8d3c053114b941b7dfd411a4f56c90c606",
+  "state_sha256": "7a3dd18c9fbad48f503597cf81e18384ff7cbe1ed0dc33661d7e04bc54ddf313"
+}

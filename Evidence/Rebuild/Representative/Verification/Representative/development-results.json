@@ -1,0 +1,1871 @@
+{
+  "checks": 367,
+  "color_units": {
+    "0": 14,
+    "1": 34,
+    "2": 24,
+    "3": 22,
+    "4": 34,
+    "5": 18,
+    "6": 24,
+    "7": 6
+  },
+  "failures": [],
+  "geometry": [
+    {
+      "blockers": [],
+      "id": 0,
+      "reference_id": "b01"
+    },
+    {
+      "blockers": [],
+      "id": 1,
+      "reference_id": "b02"
+    },
+    {
+      "blockers": [],
+      "id": 2,
+      "reference_id": "b03"
+    },
+    {
+      "blockers": [
+        0
+      ],
+      "id": 3,
+      "reference_id": "b04"
+    },
+    {
+      "blockers": [],
+      "id": 4,
+      "reference_id": "b05"
+    },
+    {
+      "blockers": [],
+      "id": 5,
+      "reference_id": "b06"
+    },
+    {
+      "blockers": [
+        1
+      ],
+      "id": 6,
+      "reference_id": "b07"
+    },
+    {
+      "blockers": [
+        0,
+        3
+      ],
+      "id": 7,
+      "reference_id": "b08"
+    },
+    {
+      "blockers": [
+        2
+      ],
+      "id": 8,
+      "reference_id": "b09"
+    },
+    {
+      "blockers": [],
+      "id": 9,
+      "reference_id": "b10"
+    },
+    {
+      "blockers": [],
+      "id": 10,
+      "reference_id": "b11"
+    },
+    {
+      "blockers": [],
+      "id": 11,
+      "reference_id": "b12"
+    },
+    {
+      "blockers": [
+        11
+      ],
+      "id": 12,
+      "reference_id": "b13"
+    },
+    {
+      "blockers": [
+        11,
+        12
+      ],
+      "id": 13,
+      "reference_id": "b14"
+    },
+    {
+      "blockers": [
+        15,
+        16
+      ],
+      "id": 14,
+      "reference_id": "b15"
+    },
+    {
+      "blockers": [
+        16
+      ],
+      "id": 15,
+      "reference_id": "b16"
+    },
+    {
+      "blockers": [],
+      "id": 16,
+      "reference_id": "b17"
+    },
+    {
+      "blockers": [],
+      "id": 17,
+      "reference_id": "b18"
+    },
+    {
+      "blockers": [],
+      "id": 18,
+      "reference_id": "b19"
+    },
+    {
+      "blockers": [
+        24
+      ],
+      "id": 19,
+      "reference_id": "b20"
+    },
+    {
+      "blockers": [
+        25,
+        27
+      ],
+      "id": 20,
+      "reference_id": "b21"
+    },
+    {
+      "blockers": [
+        26
+      ],
+      "id": 21,
+      "reference_id": "b22"
+    },
+    {
+      "blockers": [],
+      "id": 22,
+      "reference_id": "b23"
+    },
+    {
+      "blockers": [],
+      "id": 23,
+      "reference_id": "b24"
+    },
+    {
+      "blockers": [],
+      "id": 24,
+      "reference_id": "b25"
+    },
+    {
+      "blockers": [
+        27
+      ],
+      "id": 25,
+      "reference_id": "b26"
+    },
+    {
+      "blockers": [],
+      "id": 26,
+      "reference_id": "b27"
+    },
+    {
+      "blockers": [],
+      "id": 27,
+      "reference_id": "b28"
+    }
+  ],
+  "opening_winding": {
+    "arrival": 0.404,
+    "flight_duration": 0.404,
+    "records": [
+      {
+        "collected": 1,
+        "head_distance": 2018.42,
+        "head_net_movement": -7.6,
+        "remaining": 3,
+        "time": 0.6
+      },
+      {
+        "collected": 2,
+        "head_distance": 2000.02,
+        "head_net_movement": -26.0,
+        "remaining": 2,
+        "time": 1.0
+      },
+      {
+        "collected": 3,
+        "head_distance": 1981.62,
+        "head_net_movement": -44.4,
+        "remaining": 1,
+        "time": 1.4
+      },
+      {
+        "collected": 4,
+        "head_distance": 1963.22,
+        "head_net_movement": -62.8,
+        "remaining": 0,
+        "time": 1.8
+      }
+    ],
+    "scope": "One original first block with no subsequent input; mapped timing candidate, not source constants"
+  },
+  "runs": [
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 0.9
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 1.7
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 2.6
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 3.5
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 4.4
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 5.3
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 6.2
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 7.1
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 8.0
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 8.9
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 9.8
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 12.5
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 13.4
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 14.3
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 16.1
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 20.9
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 24.1
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 24.9
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 30.5
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 33.9
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 36.6
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 40.2
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 43.8
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 46.5
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 49.2
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 50.1
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 51.0
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 0.8,
+      "last_action_to_clear": 4.7,
+      "lost": false,
+      "max_capture_gap": 2.3,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1837.49436035156,
+          "head_source_x_before_power": 29.2,
+          "kind": "repel",
+          "source_time": 25.67,
+          "time": 9.27,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1846.49436035156,
+          "head_source_x_before_power": 33.6,
+          "kind": "slow",
+          "source_time": 62.27,
+          "time": 45.87,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 2,
+      "time": 55.7,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 1.2
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 3.7
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 5.0
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 6.3
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 7.6
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 8.9
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 10.2
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 11.5
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 12.8
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 14.1
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 15.4
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 16.6
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 17.8
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 20.2
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 22.6
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 26.2
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 27.4
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 33.5
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 37.4
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 40.0
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 43.9
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 47.8
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 50.4
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 53.0
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 54.3
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 55.6
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 1.2,
+      "last_action_to_clear": 4.7,
+      "lost": false,
+      "max_capture_gap": 2.8,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1833.89436035156,
+          "head_source_x_before_power": 27.5,
+          "kind": "repel",
+          "source_time": 27.87,
+          "time": 11.47,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1841.09436035156,
+          "head_source_x_before_power": 30.9,
+          "kind": "slow",
+          "source_time": 66.17,
+          "time": 49.77,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 2,
+      "time": 60.3,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 4.9
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 7.4
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 9.9
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 12.4
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 14.9
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 17.3
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 19.7
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 22.1
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 24.5
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 26.9
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 29.3
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 31.7
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 34.2
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 36.7
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 39.2
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 41.7
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 46.7
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 51.7
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 54.2
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 56.7
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 59.2
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 64.2
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 66.7
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 69.2
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 71.7
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 74.2
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 2.4,
+      "last_action_to_clear": 2.9,
+      "lost": false,
+      "max_capture_gap": 2.5,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1853.69436035156,
+          "head_source_x_before_power": 37.3,
+          "kind": "repel",
+          "source_time": 34.93,
+          "time": 18.53,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1841.09436035156,
+          "head_source_x_before_power": 30.9,
+          "kind": "slow",
+          "source_time": 80.17,
+          "time": 63.77,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 2,
+      "time": 77.1,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 3.3
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 6.6
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 9.9
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 13.2
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 16.4
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 19.6
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 22.8
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 26.0
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 29.2
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 32.4
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 35.7
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 39.0
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 42.3
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 45.6
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 48.9
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 52.2
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 55.5
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 62.1
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 65.4
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 68.7
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 72.0
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 75.3
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 78.6
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 81.9
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 85.2
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 88.5
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 91.8
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 3.2,
+      "last_action_to_clear": 2.9,
+      "lost": false,
+      "max_capture_gap": 3.0,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1892.49436035156,
+          "head_source_x_before_power": 57.7,
+          "kind": "repel",
+          "source_time": 40.43,
+          "time": 24.03,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1841.09436035156,
+          "head_source_x_before_power": 30.9,
+          "kind": "slow",
+          "source_time": 96.3,
+          "time": 79.9,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 2,
+      "time": 94.7,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 0.9
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 1.7
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 2.6
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 3.5
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 4.4
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 5.3
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 6.2
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 7.1
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 8.0
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 8.9
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 9.8
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 11.6
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 13.4
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 14.3
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 15.2
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 16.1
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 20.1
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 24.9
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 28.1
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 31.3
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 33.9
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 36.6
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 40.2
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 42.9
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 45.6
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 46.5
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 47.4
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 0.8,
+      "last_action_to_clear": 4.7,
+      "lost": false,
+      "max_capture_gap": 1.8,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "policy_scope": "greedy diagnostic, not required to win",
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1835.69436035156,
+          "head_source_x_before_power": 28.3,
+          "kind": "repel",
+          "source_time": 25.67,
+          "time": 9.27,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1846.49436035156,
+          "head_source_x_before_power": 33.6,
+          "kind": "slow",
+          "source_time": 58.7,
+          "time": 42.3,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 0,
+      "time": 52.1,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 1.2
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 3.7
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 5.0
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 6.3
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 7.6
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 8.9
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 10.2
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 11.5
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 12.8
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 14.1
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 15.4
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 16.6
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 17.8
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 19.0
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 20.2
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 22.6
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 27.4
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 31.0
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 34.8
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 37.4
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 40.0
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 43.9
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 46.5
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 47.8
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 50.4
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 51.7
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 1.2,
+      "last_action_to_clear": 4.7,
+      "lost": false,
+      "max_capture_gap": 1.8,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "policy_scope": "greedy diagnostic, not required to win",
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1855.49436035156,
+          "head_source_x_before_power": 38.3,
+          "kind": "repel",
+          "source_time": 27.87,
+          "time": 11.47,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1841.09436035156,
+          "head_source_x_before_power": 30.9,
+          "kind": "slow",
+          "source_time": 62.3,
+          "time": 45.9,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 0,
+      "time": 56.4,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 23,
+          "source": "visible-policy",
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "source": "visible-policy",
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "source": "visible-policy",
+          "time": 4.9
+        },
+        {
+          "block": 2,
+          "source": "visible-policy",
+          "time": 7.4
+        },
+        {
+          "block": 26,
+          "source": "visible-policy",
+          "time": 9.9
+        },
+        {
+          "block": 5,
+          "source": "visible-policy",
+          "time": 12.4
+        },
+        {
+          "block": 24,
+          "source": "visible-policy",
+          "time": 14.9
+        },
+        {
+          "block": 10,
+          "source": "visible-policy",
+          "time": 17.3
+        },
+        {
+          "block": 0,
+          "source": "visible-policy",
+          "time": 19.7
+        },
+        {
+          "block": 17,
+          "source": "visible-policy",
+          "time": 22.1
+        },
+        {
+          "block": 27,
+          "source": "visible-policy",
+          "time": 24.5
+        },
+        {
+          "block": 9,
+          "source": "visible-policy",
+          "time": 26.9
+        },
+        {
+          "block": 8,
+          "source": "visible-policy",
+          "time": 29.3
+        },
+        {
+          "block": 16,
+          "source": "visible-policy",
+          "time": 31.7
+        },
+        {
+          "block": 22,
+          "source": "visible-policy",
+          "time": 34.2
+        },
+        {
+          "block": 25,
+          "source": "visible-policy",
+          "time": 36.7
+        },
+        {
+          "block": 3,
+          "source": "visible-policy",
+          "time": 39.2
+        },
+        {
+          "block": 7,
+          "source": "visible-policy",
+          "time": 41.7
+        },
+        {
+          "block": 21,
+          "source": "visible-policy",
+          "time": 46.7
+        },
+        {
+          "block": 1,
+          "source": "visible-policy",
+          "time": 49.2
+        },
+        {
+          "block": 11,
+          "source": "visible-policy",
+          "time": 51.7
+        },
+        {
+          "block": 15,
+          "source": "visible-policy",
+          "time": 54.2
+        },
+        {
+          "block": 14,
+          "source": "visible-policy",
+          "time": 56.7
+        },
+        {
+          "block": 12,
+          "source": "visible-policy",
+          "time": 59.2
+        },
+        {
+          "block": 13,
+          "source": "visible-policy",
+          "time": 61.7
+        },
+        {
+          "block": 6,
+          "source": "visible-policy",
+          "time": 64.2
+        },
+        {
+          "block": 20,
+          "source": "visible-policy",
+          "time": 66.7
+        },
+        {
+          "block": 19,
+          "source": "visible-policy",
+          "time": 69.2
+        }
+      ],
+      "checkpoints": [],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 2.4,
+      "last_action_to_clear": 2.9,
+      "lost": false,
+      "max_capture_gap": 2.0,
+      "max_slots": 4,
+      "observed_actions_replayed": 0,
+      "observed_prefix": false,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 1853.69436035156,
+          "head_source_x_before_power": 37.3,
+          "kind": "repel",
+          "source_time": 34.93,
+          "time": 18.53,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 1833.89436035156,
+          "head_source_x_before_power": 27.5,
+          "kind": "slow",
+          "source_time": 77.53,
+          "time": 61.13,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 1,
+      "time": 72.1,
+      "total": 176,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 16,
+          "slot": 1,
+          "source": "observed",
+          "time": 0.3
+        },
+        {
+          "block": 15,
+          "slot": 1,
+          "source": "observed",
+          "time": 2.9
+        },
+        {
+          "block": 14,
+          "slot": 2,
+          "source": "observed",
+          "time": 5.6
+        },
+        {
+          "block": 23,
+          "slot": 3,
+          "source": "observed",
+          "time": 9.1
+        },
+        {
+          "block": 22,
+          "slot": 3,
+          "source": "observed",
+          "time": 11.8
+        },
+        {
+          "block": 9,
+          "slot": 4,
+          "source": "observed",
+          "time": 16.2
+        },
+        {
+          "block": 26,
+          "slot": 4,
+          "source": "observed",
+          "time": 23.0
+        },
+        {
+          "block": 2,
+          "slot": 4,
+          "source": "observed",
+          "time": 26.0
+        },
+        {
+          "block": 10,
+          "slot": 4,
+          "source": "observed",
+          "time": 29.4
+        },
+        {
+          "block": 0,
+          "slot": 4,
+          "source": "observed",
+          "time": 34.8
+        },
+        {
+          "block": 8,
+          "slot": 4,
+          "source": "observed",
+          "time": 38.7
+        },
+        {
+          "block": 3,
+          "slot": 4,
+          "source": "observed",
+          "time": 42.0
+        },
+        {
+          "block": 27,
+          "slot": 4,
+          "source": "observed",
+          "time": 46.6
+        },
+        {
+          "block": 18,
+          "slot": 4,
+          "source": "observed",
+          "time": 49.9
+        },
+        {
+          "block": 5,
+          "slot": 4,
+          "source": "observed",
+          "time": 56.9
+        },
+        {
+          "block": 7,
+          "slot": 2,
+          "source": "observed",
+          "time": 64.4
+        },
+        {
+          "block": 21,
+          "slot": 2,
+          "source": "observed",
+          "time": 72.6
+        },
+        {
+          "block": 24,
+          "slot": 1,
+          "source": "observed",
+          "time": 78.9
+        },
+        {
+          "block": 19,
+          "slot": 2,
+          "source": "observed",
+          "time": 80.8
+        },
+        {
+          "block": 11,
+          "slot": 4,
+          "source": "observed",
+          "time": 84.5
+        },
+        {
+          "block": 12,
+          "slot": 4,
+          "source": "observed",
+          "time": 95.1
+        },
+        {
+          "block": 17,
+          "slot": 4,
+          "source": "observed",
+          "time": 98.8
+        },
+        {
+          "block": 25,
+          "slot": 3,
+          "source": "observed",
+          "time": 106.3
+        },
+        {
+          "block": 20,
+          "slot": 1,
+          "source": "observed",
+          "time": 110.7
+        },
+        {
+          "block": 13,
+          "slot": 2,
+          "source": "observed",
+          "time": 114.2
+        },
+        {
+          "block": 1,
+          "slot": 1,
+          "source": "observed",
+          "time": 119.8
+        },
+        {
+          "block": 4,
+          "slot": 2,
+          "source": "observed",
+          "time": 121.5
+        },
+        {
+          "block": 6,
+          "slot": 1,
+          "source": "observed",
+          "time": 122.9
+        }
+      ],
+      "checkpoints": [
+        {
+          "collected": 4,
+          "cyan_remaining": 10,
+          "head_distance": 1963.21928710937,
+          "head_source_x": 94.9,
+          "orange_remaining": 10,
+          "red_remaining": 6,
+          "slots": [
+            16,
+            -1,
+            -1,
+            -1
+          ],
+          "source_time": 18.5,
+          "time": 2.1
+        },
+        {
+          "collected": 8,
+          "cyan_remaining": 6,
+          "head_distance": 2094.81928710939,
+          "head_source_x": 164.2,
+          "orange_remaining": 10,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            -1,
+            -1
+          ],
+          "source_time": 24.1,
+          "time": 7.7
+        },
+        {
+          "collected": 9,
+          "cyan_remaining": 5,
+          "head_distance": 2076.41928710939,
+          "head_source_x": 154.5,
+          "orange_remaining": 10,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            -1,
+            -1
+          ],
+          "source_time": 24.5,
+          "time": 8.1
+        },
+        {
+          "collected": 19,
+          "cyan_remaining": 5,
+          "head_distance": 2032.81928710943,
+          "head_source_x": 131.6,
+          "orange_remaining": 4,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            22,
+            -1
+          ],
+          "source_time": 31.1,
+          "time": 14.7
+        },
+        {
+          "collected": 39,
+          "cyan_remaining": 5,
+          "head_distance": 1983.41928710943,
+          "head_source_x": 105.6,
+          "orange_remaining": 2,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            22,
+            -1
+          ],
+          "source_time": 45.0,
+          "time": 28.6
+        },
+        {
+          "collected": 56,
+          "cyan_remaining": 5,
+          "head_distance": 1855.49436035155,
+          "head_source_x": 38.3,
+          "orange_remaining": 2,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            22,
+            3
+          ],
+          "source_time": 60.0,
+          "time": 43.6
+        },
+        {
+          "collected": 73,
+          "cyan_remaining": 5,
+          "head_distance": 1950.89436035156,
+          "head_source_x": 88.5,
+          "orange_remaining": 2,
+          "red_remaining": 6,
+          "slots": [
+            15,
+            14,
+            22,
+            -1
+          ],
+          "source_time": 73.1,
+          "time": 56.7
+        },
+        {
+          "collected": 102,
+          "cyan_remaining": 0,
+          "head_distance": 1918.29436035155,
+          "head_source_x": 71.3,
+          "orange_remaining": 2,
+          "red_remaining": 2,
+          "slots": [
+            15,
+            21,
+            22,
+            -1
+          ],
+          "source_time": 89.6,
+          "time": 73.2
+        },
+        {
+          "collected": 110,
+          "cyan_remaining": 0,
+          "head_distance": 2008.49436035156,
+          "head_source_x": 118.8,
+          "orange_remaining": 2,
+          "red_remaining": 0,
+          "slots": [
+            -1,
+            -1,
+            22,
+            -1
+          ],
+          "source_time": 95.1,
+          "time": 78.7
+        },
+        {
+          "collected": 129,
+          "cyan_remaining": 0,
+          "head_distance": 2213.29436035165,
+          "head_source_x": 226.6,
+          "orange_remaining": 1,
+          "red_remaining": 0,
+          "slots": [
+            24,
+            19,
+            22,
+            17
+          ],
+          "source_time": 117.1,
+          "time": 100.7
+        },
+        {
+          "collected": 172,
+          "cyan_remaining": 0,
+          "head_distance": 1851.89436035156,
+          "head_source_x": 36.4,
+          "orange_remaining": 0,
+          "red_remaining": 0,
+          "slots": [
+            6,
+            -1,
+            -1,
+            -1
+          ],
+          "source_time": 140.5,
+          "time": 124.1
+        }
+      ],
+      "coins": 300,
+      "collected": 176,
+      "hearts": 1,
+      "interval": 2.4,
+      "last_action_to_clear": 2.7,
+      "lost": false,
+      "max_capture_gap": 9.3,
+      "max_slots": 4,
+      "observed_actions_replayed": 28,
+      "observed_prefix": true,
+      "power_events": [
+        {
+          "color": 1,
+          "head_before_power": 2011.41928710942,
+          "head_source_x_before_power": 120.3,
+          "kind": "repel",
+          "source_time": 47.0,
+          "time": 30.6,
+          "unit_id": 54
+        },
+        {
+          "color": 1,
+          "head_before_power": 2218.69436035165,
+          "head_source_x_before_power": 229.4,
+          "kind": "slow",
+          "source_time": 117.2,
+          "time": 100.8,
+          "unit_id": 152
+        }
+      ],
+      "reason": "",
+      "style": 0,
+      "time": 125.6,
+      "total": 176,
+      "won": true
+    }
+  ],
+  "scope": "Developer checks; source geometry observed, inferred parameters explicitly labelled in reference_stage.gd. Not independent or native play.",
+  "source_sha256": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+  "state_sha256": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+}

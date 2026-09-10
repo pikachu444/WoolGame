@@ -1,0 +1,57 @@
+{
+  "version": "0.5.0-test.1",
+  "source_sha256": {
+    "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987",
+    "representative": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+    "world": "b61faac24090523a5296dfabfba41b1cb749c7c7af3214a8574657a115cb5b78"
+  },
+  "checks": {
+    "campaign": "48/48",
+    "stage_progression": "2062/2062",
+    "representative": "367/367",
+    "ui": "147/147"
+  },
+  "known_limitations": [
+    "Original hidden yarn order is reconstructed; several shelf completions differ by seconds.",
+    "Board width occupancy and pre-punch head/knockback path are not an exact visual match.",
+    "Windows lock screen prevented native pointer completion.",
+    "Android package/signature/alignment verified, device gameplay not yet verified.",
+    "UI test process reports 2 ObjectDB leaked instances at exit."
+  ],
+  "files": [
+    {
+      "name": "WoolRescue-Android.apk",
+      "bytes": 59677558,
+      "sha256": "aa7d8ef7d5bda3533edfdcbab4b4586a674f0af3be0f9203d183e9e6f3721412"
+    },
+    {
+      "name": "WoolRescue-Windows.zip",
+      "bytes": 67034348,
+      "sha256": "88dde4bb2c1788a58b46cfa6d17d64fc8fd73f3bc7aa16d1edf2b0c9288e8695"
+    },
+    {
+      "name": "WoolRescue.exe",
+      "bytes": 109268480,
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+    },
+    {
+      "name": "WoolRescue.pck",
+      "bytes": 29174512,
+      "sha256": "1578b7ab0d4ef01d0c48eaad99aa198a6442271afda60e3335b6cc2561132f79"
+    }
+  ],
+  "independent": {
+    "source_actions": 28,
+    "alternative_visible_runs": 8,
+    "rule_failures": 0,
+    "last_wait_max_seconds": 4.56,
+    "visual_review": "Three targeted corrections verified; known visual differences retained."
+  },
+  "recording": {
+    "file": "Visual/WoolRescue-Stage2.mp4",
+    "seconds": 35,
+    "scope": "Deterministic source departure replay rendered by the normal game; not native pointer play",
+    "sha256": "4e6f22d0ccf44fe67628ee354fc63cfce361f05f8a74fefcc4b6e97c5a824200"
+  },
+  "source_commit": "dbb72cc5c80ba7e75d78217f0503f73aa558812f"
+}

@@ -1,0 +1,4 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL visible policy capture gap below8 3.2:0 14.7999999999977
+REP_RUN observed=false interval=3.2 policy=0 guard=true won=true t=113.35999999999 gap=14.7999999999977 endwait=4.55999999999909

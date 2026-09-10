@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+REP_RUN observed=true interval=1.2 policy=0 guard=true won=true t=125.486999999999 gap=9.34000000000025 endwait=2.61999999999948
+REP_RUN observed=false interval=0.8 policy=0 guard=true won=true t=52.46 gap=2.39999999999995 endwait=4.46000000000006
+REP_RUN observed=false interval=0.8 policy=1 guard=true won=true t=39.38 gap=1.61999999999997 endwait=2.58000000000002
+REP_RUN observed=false interval=1.2 policy=0 guard=true won=true t=60.8600000000002 gap=2.56000000000037 endwait=4.46000000000014
+REP_RUN observed=false interval=1.2 policy=1 guard=true won=true t=55.7600000000001 gap=2.55999999999995 endwait=4.1600000000001
+REP_RUN observed=false interval=2.4 policy=0 guard=true won=true t=83.7599999999962 gap=3.79999999999984 endwait=4.55999999999909
+REP_RUN observed=false interval=2.4 policy=1 guard=true won=true t=73.8199999999982 gap=4.28000000000026 endwait=1.81999999999964
+REP_RUN observed=false interval=3.2 policy=0 guard=true won=true t=97.3599999999934 gap=3.88 endwait=4.55999999999909
+REP_RUN observed=false interval=3.2 policy=1 guard=true won=true t=91.4199999999946 gap=5.87999999999992 endwait=1.81999999999964
+REP_RUN observed=false interval=1.2 policy=1 guard=false won=true t=44.9200000000001 gap=1.88 endwait=1.72000000000008
+INDEPENDENT_FINAL_REPLAY checks=54581 failures=0

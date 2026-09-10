@@ -1,0 +1,244 @@
+{
+  "observed_input_count": 28,
+  "source_time_offset": 16.4,
+  "source_replay": {
+    "won": true,
+    "time": 125.486999999999,
+    "source_end_time": 141.886999999999,
+    "final_wait": 2.61999999999948,
+    "source_end_delta": 1.453999999999013,
+    "checkpoints": [
+      {
+        "cat": [
+          307.400085449219,
+          357.200042724609
+        ],
+        "collected": 39,
+        "head": [
+          226.6171875,
+          269.799957275391
+        ],
+        "hearts": 1,
+        "phase": "chasing",
+        "remaining_C10": 5,
+        "remaining_O10": 2,
+        "remaining_R6": 6,
+        "source_time": 45,
+        "time": 28.5999999999999
+      },
+      {
+        "cat": [
+          307.400085449219,
+          357.200042724609
+        ],
+        "collected": 56,
+        "head": [
+          100.474533081055,
+          269.781127929688
+        ],
+        "hearts": 1,
+        "phase": "chasing",
+        "remaining_C10": 5,
+        "remaining_O10": 2,
+        "remaining_R6": 6,
+        "source_time": 60,
+        "time": 43.6
+      },
+      {
+        "cat": [
+          307.400085449219,
+          357.200042724609
+        ],
+        "collected": 119,
+        "head": [
+          497.823822021484,
+          356.766235351563
+        ],
+        "hearts": 1,
+        "phase": "chasing",
+        "remaining_C10": 0,
+        "remaining_O10": 2,
+        "remaining_R6": 0,
+        "source_time": 110.967,
+        "time": 94.567
+      }
+    ],
+    "powers": [
+      {
+        "block": 10,
+        "color": 1,
+        "head_before": 2015.41528710929,
+        "phase_before": "chasing",
+        "power": "repel",
+        "reference_id": "b11",
+        "source_time": 47.007,
+        "spool_ordinal": 3,
+        "time": 30.607,
+        "unit_id": 54,
+        "yellow_ordinal": 3
+      },
+      {
+        "block": 17,
+        "color": 1,
+        "head_before": 2219.43236035171,
+        "phase_before": "chasing",
+        "power": "slow",
+        "reference_id": "b18",
+        "source_time": 117.107,
+        "spool_ordinal": 4,
+        "time": 100.707,
+        "unit_id": 152,
+        "yellow_ordinal": 18
+      }
+    ],
+    "completionComparisons": [
+      {
+        "id": "b17",
+        "source_complete": 18.43,
+        "model_clear": 18.513,
+        "delta": 0.08300000000000196
+      },
+      {
+        "id": "b16",
+        "source_complete": 95,
+        "model_clear": 90.0999999999998,
+        "delta": -4.900000000000205
+      },
+      {
+        "id": "b15",
+        "source_complete": 76.6,
+        "model_clear": 75.35300000000029,
+        "delta": -1.2469999999997015
+      },
+      {
+        "id": "b24",
+        "source_complete": 27.4,
+        "model_clear": 27.447000000000003,
+        "delta": 0.04700000000000415
+      },
+      {
+        "id": "b23",
+        "source_complete": 123.5,
+        "model_clear": 118.10699999999899,
+        "delta": -5.39300000000101
+      },
+      {
+        "id": "b10",
+        "source_complete": 36,
+        "model_clear": 36.8129999999998,
+        "delta": 0.8129999999998034
+      },
+      {
+        "id": "b27",
+        "source_complete": 41.1,
+        "model_clear": 41.38,
+        "delta": 0.28000000000000114
+      },
+      {
+        "id": "b03",
+        "source_complete": 44.2,
+        "model_clear": 44.159999999999904,
+        "delta": -0.04000000000009862
+      },
+      {
+        "id": "b11",
+        "source_complete": 47.9,
+        "model_clear": 47.527,
+        "delta": -0.37299999999999756
+      },
+      {
+        "id": "b01",
+        "source_complete": 53,
+        "model_clear": 52.900000000000205,
+        "delta": -0.09999999999979536
+      }
+    ],
+    "head_110_967_in_source_pixels": [
+      250.22306422183368,
+      187.77170281661213
+    ]
+  },
+  "guarded_policies": [
+    {
+      "interval": 0.8,
+      "policy": 0,
+      "won": true,
+      "time": 52.46,
+      "max_gap": 2.39999999999995,
+      "final_wait": 4.46000000000006,
+      "hearts": 1
+    },
+    {
+      "interval": 0.8,
+      "policy": 1,
+      "won": true,
+      "time": 39.38,
+      "max_gap": 1.61999999999997,
+      "final_wait": 2.58000000000002,
+      "hearts": 1
+    },
+    {
+      "interval": 1.2,
+      "policy": 0,
+      "won": true,
+      "time": 60.8600000000002,
+      "max_gap": 2.56000000000037,
+      "final_wait": 4.46000000000014,
+      "hearts": 1
+    },
+    {
+      "interval": 1.2,
+      "policy": 1,
+      "won": true,
+      "time": 55.7600000000001,
+      "max_gap": 2.55999999999995,
+      "final_wait": 4.1600000000001,
+      "hearts": 1
+    },
+    {
+      "interval": 2.4,
+      "policy": 0,
+      "won": true,
+      "time": 83.7599999999962,
+      "max_gap": 3.79999999999984,
+      "final_wait": 4.55999999999909,
+      "hearts": 1
+    },
+    {
+      "interval": 2.4,
+      "policy": 1,
+      "won": true,
+      "time": 73.8199999999982,
+      "max_gap": 4.28000000000026,
+      "final_wait": 1.81999999999964,
+      "hearts": 1
+    },
+    {
+      "interval": 3.2,
+      "policy": 0,
+      "won": true,
+      "time": 97.3599999999934,
+      "max_gap": 3.88,
+      "final_wait": 4.55999999999909,
+      "hearts": 1
+    },
+    {
+      "interval": 3.2,
+      "policy": 1,
+      "won": true,
+      "time": 91.4199999999946,
+      "max_gap": 5.87999999999992,
+      "final_wait": 1.81999999999964,
+      "hearts": 1
+    }
+  ],
+  "capture_recoil_postprocess": {
+    "capture_count": 176,
+    "mismatches": []
+  },
+  "diagnostic_naive": {
+    "won": true,
+    "time": 60.1999999999999,
+    "policy": "current visible match count; no pending-demand subtraction or last-slot completion guard"
+  }
+}

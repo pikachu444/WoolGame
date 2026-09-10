@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-09-10T15:57:03.663Z",
+  "reviewer": "/root/rules_reviewer",
+  "verdict": "PASS_EFFECT_UNITS_SNAPSHOT_NOT_FINAL_REPLAY",
+  "source_sha256": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "3d7cdd716ab904c82c35e25f221ab04bc2c99274d349c020a35269968fc14211",
+    "state": "24cc33585450166e6abe8ba033ba7a036d676591b26d9353c9d92f228e5200f6"
+  },
+  "source_stable_during_execution": true,
+  "checks": 384,
+  "failures": [],
+  "execution": {
+    "headless": true,
+    "windowsHide": true,
+    "engine": "Godot4.7.2",
+    "project": "C:/SourceCodes/WoolGame/Rebuild",
+    "harness": "C:/SourceCodes/WoolGame/BuildWork/Representative/Rules/power_units.gd"
+  },
+  "fixtures": "Synthetic marker on existing cyan unit; normal selection and winding afterwards. Separate actual stage yellow marker wiring checked.",
+  "save_scope": "No mid-run game restore API; continue and snapshot encoding only.",
+  "evidence": [
+    {
+      "path": "power_units.gd",
+      "sha256": "2a0e487dc76d91a572e116322c77f2004ce7aa945bffa9202c6cb90000fe6b59"
+    },
+    {
+      "path": "power_units_snapshot.json",
+      "sha256": "72deb3392f1639a162a3441ceb260348241aa8178c1ca07e85b0da6f8524a254"
+    },
+    {
+      "path": "power_units_snapshot.log",
+      "sha256": "a3907e7068acb50f3dcf78af7723cfa8a64ff84f6fc55c0a8b07fe98d77f9585"
+    }
+  ]
+}

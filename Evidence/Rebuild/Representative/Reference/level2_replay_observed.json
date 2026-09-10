@@ -1,0 +1,613 @@
+{
+  "source": {
+    "url": "https://www.youtube.com/watch?v=HR-0KwTL8dA",
+    "local": "C:/SourceCodes/WoolGame/BuildWork/BehaviorResearch/HR-0KwTL8dA.mp4",
+    "video_time_seconds": 6.8,
+    "level_label": "Level 2",
+    "progress_percent": 0,
+    "source_dimensions": [
+      288,
+      640
+    ],
+    "frame": "C:/SourceCodes/WoolGame/Evidence/Rebuild/Representative/Reference/N3_Level2_start_006.80s.png"
+  },
+  "scope": "Direct observation of this Level 2 run only. Video timestamps refer to first visible substantial block movement, not physical touch events. Approx ±0.1s for movement; arrival/completion approx ±0.25s except separately narrowed end.",
+  "active_start_source_seconds": 16.4,
+  "active_start_is_recreation_choice": true,
+  "active_shelf_count": 4,
+  "total_capacity_if_all_S4_M6_L10": 176,
+  "events": [
+    {
+      "order": 1,
+      "id": "b17",
+      "color": "C",
+      "color_index": 6,
+      "direction": "R",
+      "length_class": "S",
+      "source_motion_seconds": 16.633,
+      "relative_active_seconds": 0.233,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 1,
+      "shelf_arrival_source_seconds_approx": 17,
+      "shelf_complete_source_seconds_approx": 18.43
+    },
+    {
+      "order": 2,
+      "id": "b16",
+      "color": "R",
+      "color_index": 0,
+      "direction": "R",
+      "length_class": "M",
+      "source_motion_seconds": 19.233,
+      "relative_active_seconds": 2.833,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 1,
+      "shelf_arrival_source_seconds_approx": 19.8,
+      "shelf_complete_source_seconds_approx": 95
+    },
+    {
+      "order": 3,
+      "id": "b15",
+      "color": "C",
+      "color_index": 6,
+      "direction": "R",
+      "length_class": "L",
+      "source_motion_seconds": 21.933,
+      "relative_active_seconds": 5.533,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 2,
+      "shelf_arrival_source_seconds_approx": 22.3,
+      "shelf_complete_source_seconds_approx": 76.6
+    },
+    {
+      "order": 4,
+      "id": "b24",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "S",
+      "source_motion_seconds": 25.467,
+      "relative_active_seconds": 9.067,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 3,
+      "shelf_arrival_source_seconds_approx": 26,
+      "shelf_complete_source_seconds_approx": 27.4
+    },
+    {
+      "order": 5,
+      "id": "b23",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "L",
+      "source_motion_seconds": 28.133,
+      "relative_active_seconds": 11.733,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 3,
+      "shelf_arrival_source_seconds_approx": 28.5,
+      "shelf_complete_source_seconds_approx": 123.5
+    },
+    {
+      "order": 6,
+      "id": "b10",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "L",
+      "source_motion_seconds": 32.533,
+      "relative_active_seconds": 16.133,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 4,
+      "shelf_arrival_source_seconds_approx": 33,
+      "shelf_complete_source_seconds_approx": 36
+    },
+    {
+      "order": 7,
+      "id": "b27",
+      "color": "P",
+      "color_index": 4,
+      "direction": "D",
+      "length_class": "S",
+      "source_motion_seconds": 39.4,
+      "relative_active_seconds": 23,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 4,
+      "shelf_arrival_source_seconds_approx": 39.9,
+      "shelf_complete_source_seconds_approx": 41.1
+    },
+    {
+      "order": 8,
+      "id": "b03",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "S",
+      "source_motion_seconds": 42.4,
+      "relative_active_seconds": 26,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 4,
+      "shelf_arrival_source_seconds_approx": 42.9,
+      "shelf_complete_source_seconds_approx": 44.2
+    },
+    {
+      "order": 9,
+      "id": "b11",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "S",
+      "source_motion_seconds": 45.767,
+      "relative_active_seconds": 29.367,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 4,
+      "shelf_arrival_source_seconds_approx": 46,
+      "shelf_complete_source_seconds_approx": 47.9
+    },
+    {
+      "order": 10,
+      "id": "b01",
+      "color": "G",
+      "color_index": 2,
+      "direction": "U",
+      "length_class": "S",
+      "source_motion_seconds": 51.2,
+      "relative_active_seconds": 34.8,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      },
+      "shelf_slot_1based": 4,
+      "shelf_arrival_source_seconds_approx": 51.5,
+      "shelf_complete_source_seconds_approx": 53
+    },
+    {
+      "order": 11,
+      "id": "b09",
+      "color": "B",
+      "color_index": 3,
+      "direction": "U",
+      "length_class": "M",
+      "source_motion_seconds": 55.033,
+      "relative_active_seconds": 38.633,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 12,
+      "id": "b04",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "M",
+      "source_motion_seconds": 58.4,
+      "relative_active_seconds": 42,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_head_59_00s.png"
+      }
+    },
+    {
+      "order": 13,
+      "id": "b28",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "S",
+      "source_motion_seconds": 62.967,
+      "relative_active_seconds": 46.567,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 14,
+      "id": "b19",
+      "color": "B",
+      "color_index": 3,
+      "direction": "D",
+      "length_class": "L",
+      "source_motion_seconds": 66.267,
+      "relative_active_seconds": 49.867,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_66_90s.png"
+      }
+    },
+    {
+      "order": 15,
+      "id": "b06",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "L",
+      "source_motion_seconds": 73.233,
+      "relative_active_seconds": 56.833,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 16,
+      "id": "b08",
+      "color": "G",
+      "color_index": 2,
+      "direction": "U",
+      "length_class": "L",
+      "source_motion_seconds": 80.767,
+      "relative_active_seconds": 64.367,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 17,
+      "id": "b22",
+      "color": "M",
+      "color_index": 7,
+      "direction": "D",
+      "length_class": "M",
+      "source_motion_seconds": 88.9,
+      "relative_active_seconds": 72.5,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 18,
+      "id": "b25",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "S",
+      "source_motion_seconds": 95.267,
+      "relative_active_seconds": 78.867,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 19,
+      "id": "b20",
+      "color": "B",
+      "color_index": 3,
+      "direction": "D",
+      "length_class": "M",
+      "source_motion_seconds": 97.167,
+      "relative_active_seconds": 80.767,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 20,
+      "id": "b12",
+      "color": "R",
+      "color_index": 0,
+      "direction": "L",
+      "length_class": "S",
+      "source_motion_seconds": 100.8,
+      "relative_active_seconds": 84.4,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 21,
+      "id": "b13",
+      "color": "P",
+      "color_index": 4,
+      "direction": "L",
+      "length_class": "M",
+      "source_motion_seconds": 111.4,
+      "relative_active_seconds": 95,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_111_95s.png"
+      }
+    },
+    {
+      "order": 22,
+      "id": "b18",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "S",
+      "source_motion_seconds": 115.167,
+      "relative_active_seconds": 98.767,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_115_95s.png"
+      }
+    },
+    {
+      "order": 23,
+      "id": "b26",
+      "color": "C",
+      "color_index": 6,
+      "direction": "D",
+      "length_class": "M",
+      "source_motion_seconds": 122.667,
+      "relative_active_seconds": 106.267,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_123_33s.png"
+      }
+    },
+    {
+      "order": 24,
+      "id": "b21",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "L",
+      "source_motion_seconds": 127.033,
+      "relative_active_seconds": 110.633,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 25,
+      "id": "b14",
+      "color": "G",
+      "color_index": 2,
+      "direction": "L",
+      "length_class": "L",
+      "source_motion_seconds": 130.567,
+      "relative_active_seconds": 114.167,
+      "capacity": {
+        "value": 10,
+        "status": "initial shelf number directly observed"
+      }
+    },
+    {
+      "order": 26,
+      "id": "b02",
+      "color": "R",
+      "color_index": 0,
+      "direction": "U",
+      "length_class": "S",
+      "source_motion_seconds": 136.133,
+      "relative_active_seconds": 119.733,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_136_33s.png"
+      }
+    },
+    {
+      "order": 27,
+      "id": "b05",
+      "color": "C",
+      "color_index": 6,
+      "direction": "U",
+      "length_class": "S",
+      "source_motion_seconds": 137.867,
+      "relative_active_seconds": 121.467,
+      "capacity": {
+        "value": 4,
+        "status": "initial shelf number directly observed",
+        "evidence": "N3_capacity_138_13s.png"
+      }
+    },
+    {
+      "order": 28,
+      "id": "b07",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "M",
+      "source_motion_seconds": 139.267,
+      "relative_active_seconds": 122.867,
+      "capacity": {
+        "value": 6,
+        "status": "initial shelf number directly observed"
+      }
+    }
+  ],
+  "long_waits": [
+    {
+      "id": "b16",
+      "slot": 1,
+      "observation": "R6 stays 6 until ~89.0; begins collecting ~89.5; clears ~95.0."
+    },
+    {
+      "id": "b15",
+      "slot": 2,
+      "observation": "C10 consumes 5 early, retains 5 until ~73.0, clears ~76.6. At exact24.0 it is still6; reaches5 shortly afterward."
+    },
+    {
+      "id": "b23",
+      "slot": 3,
+      "observation": "O10 reaches3 by31,2 by45,retains2 until~116.4,1 until~123; clears~123.5."
+    },
+    {
+      "id": "b25",
+      "slot": 1,
+      "observation": "O4 arrives~95.9, remains4 at124, begins later and clears~127.5."
+    },
+    {
+      "id": "b20",
+      "slot": 2,
+      "observation": "B6 arrives~97.5, consumes5 early but retains1 from~99 until~133; clears~134."
+    }
+  ],
+  "abilities": [
+    {
+      "type": "large_knockback",
+      "block_id": "b11",
+      "collection_ordinal_in_spool": 3,
+      "source_marker_disappear_seconds_approx": 47.2,
+      "source_head_hit_seconds_approx": 47.5,
+      "source_reverse_end_seconds_approx": 49.2,
+      "visible_marker": "green fist above yellow yarn unit",
+      "observed_reverse_duration_seconds_approx": 1.7,
+      "estimated_reverse_source_path_pixels_range": [
+        480,
+        510
+      ],
+      "distance_status": "manual geometric estimate, not internal engine constant",
+      "evidence": "N3_knockback_047-050s_10fps.png",
+      "return_motion": {
+        "observation": "Rapid forward return on upper straight after the large reverse; no collection during this measurement.",
+        "source_seconds": [
+          49.5,
+          50
+        ],
+        "head_centers_source_pixels": [
+          [
+            148,
+            86
+          ],
+          [
+            60,
+            86
+          ]
+        ],
+        "manual_speed_source_pixels_per_second_approx": 176,
+        "uncertainty": "centers manual ±5px; exact acceleration/deceleration boundary unknown",
+        "subsequent_head_centers": [
+          {
+            "t": 50.5,
+            "xy": [
+              17,
+              112
+            ]
+          },
+          {
+            "t": 51,
+            "xy": [
+              24,
+              131
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "slow",
+      "block_id": "b18",
+      "collection_ordinal_in_spool": 4,
+      "source_marker_disappear_seconds_approx": 117,
+      "tutorial_overlay_source_range": [
+        117.2,
+        118.8
+      ],
+      "ice_visible_source_range_approx": [
+        119.4,
+        125.5
+      ],
+      "visible_marker": "orange Slow badge above yellow yarn unit",
+      "evidence": "N3_slow_115.5-120.3s_5fps.png"
+    }
+  ],
+  "end": {
+    "last_block_motion_seconds": 139.267,
+    "last_spool_arrival_seconds_approx": 139.5,
+    "saved_banner_begin_seconds_approx": 140.5,
+    "reward_coin_tally_seconds_range": [
+      145,
+      146.5
+    ],
+    "next_level3_visible_seconds_approx": 148.5,
+    "last_slot_clear_seconds_approx": 140.4,
+    "percent100_first_verified_frame_seconds": 140.433,
+    "saved_banner_first_verified_frame_seconds": 140.467,
+    "note": "At exact140.400 the last shelf is empty while progress still reads99%;140.433 reads100%;140.467 already has the success banner. Sampling bounds, not internal transition timestamps."
+  },
+  "head_checkpoints": [
+    {
+      "t": 18.5,
+      "xy": [
+        105,
+        133
+      ],
+      "percent": 2,
+      "hearts": "not displayed",
+      "collected": 4
+    },
+    {
+      "t": 24,
+      "xy": [
+        174,
+        132
+      ],
+      "percent": 4,
+      "hearts": 1,
+      "collected": 8
+    },
+    {
+      "t": 31,
+      "xy": [
+        162,
+        132
+      ],
+      "percent": 11,
+      "hearts": 1,
+      "collected": 20
+    },
+    {
+      "t": 60,
+      "xy": [
+        39,
+        132
+      ],
+      "percent": 31,
+      "hearts": 1,
+      "collected": 56
+    },
+    {
+      "t": 95,
+      "xy": [
+        140,
+        132
+      ],
+      "percent": 62,
+      "hearts": 1,
+      "collected": null,
+      "notes": "about110 from displayed progress, not an independently verified counter total"
+    }
+  ]
+}

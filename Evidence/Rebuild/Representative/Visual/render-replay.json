@@ -1,0 +1,3673 @@
+{
+  "actions": [
+    {
+      "accepted": true,
+      "block": 16,
+      "game_time": 0.23,
+      "source_time": 16.63
+    },
+    {
+      "accepted": true,
+      "block": 15,
+      "game_time": 2.83,
+      "source_time": 19.23
+    },
+    {
+      "accepted": true,
+      "block": 14,
+      "game_time": 5.53,
+      "source_time": 21.93
+    },
+    {
+      "accepted": true,
+      "block": 23,
+      "game_time": 9.07,
+      "source_time": 25.47
+    },
+    {
+      "accepted": true,
+      "block": 22,
+      "game_time": 11.73,
+      "source_time": 28.13
+    },
+    {
+      "accepted": true,
+      "block": 9,
+      "game_time": 16.13,
+      "source_time": 32.53
+    },
+    {
+      "accepted": true,
+      "block": 26,
+      "game_time": 23.0,
+      "source_time": 39.4
+    },
+    {
+      "accepted": true,
+      "block": 2,
+      "game_time": 26.0,
+      "source_time": 42.4
+    },
+    {
+      "accepted": true,
+      "block": 10,
+      "game_time": 29.37,
+      "source_time": 45.77
+    },
+    {
+      "accepted": true,
+      "block": 0,
+      "game_time": 34.7999999999998,
+      "source_time": 51.2
+    },
+    {
+      "accepted": true,
+      "block": 8,
+      "game_time": 38.633,
+      "source_time": 55.033
+    },
+    {
+      "accepted": true,
+      "block": 3,
+      "game_time": 41.9999999999998,
+      "source_time": 58.4
+    },
+    {
+      "accepted": true,
+      "block": 27,
+      "game_time": 46.567,
+      "source_time": 62.967
+    },
+    {
+      "accepted": true,
+      "block": 18,
+      "game_time": 49.867,
+      "source_time": 66.267
+    },
+    {
+      "accepted": true,
+      "block": 5,
+      "game_time": 56.833,
+      "source_time": 73.233
+    },
+    {
+      "accepted": true,
+      "block": 7,
+      "game_time": 64.367,
+      "source_time": 80.767
+    },
+    {
+      "accepted": true,
+      "block": 21,
+      "game_time": 72.4999999999995,
+      "source_time": 88.9
+    },
+    {
+      "accepted": true,
+      "block": 24,
+      "game_time": 78.867,
+      "source_time": 95.267
+    },
+    {
+      "accepted": true,
+      "block": 19,
+      "game_time": 80.767,
+      "source_time": 97.167
+    },
+    {
+      "accepted": true,
+      "block": 11,
+      "game_time": 84.3999999999998,
+      "source_time": 100.8
+    },
+    {
+      "accepted": true,
+      "block": 12,
+      "game_time": 94.9999999999992,
+      "source_time": 111.4
+    },
+    {
+      "accepted": true,
+      "block": 17,
+      "game_time": 98.767,
+      "source_time": 115.167
+    },
+    {
+      "accepted": true,
+      "block": 25,
+      "game_time": 106.267,
+      "source_time": 122.667
+    },
+    {
+      "accepted": true,
+      "block": 20,
+      "game_time": 110.633,
+      "source_time": 127.033
+    },
+    {
+      "accepted": true,
+      "block": 13,
+      "game_time": 114.167,
+      "source_time": 130.567
+    },
+    {
+      "accepted": true,
+      "block": 1,
+      "game_time": 119.733,
+      "source_time": 136.133
+    },
+    {
+      "accepted": true,
+      "block": 4,
+      "game_time": 121.467,
+      "source_time": 137.867
+    },
+    {
+      "accepted": true,
+      "block": 6,
+      "game_time": 122.867,
+      "source_time": 139.267
+    }
+  ],
+  "failed_selection": false,
+  "reference_sha256": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+  "scope": "Normal game rendering with deterministic source departure replay; not native manual input.",
+  "state": {
+    "blocks": [
+      {
+        "arrival": 35.0354444444443,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(274, 599)",
+        "color": 2,
+        "depart": 34.7999999999998,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 36.5999999999997,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.235444444444444,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(296.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 627.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(296.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0474444444444444,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.147444444444444
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.195444444444444
+            }
+          ],
+          "size": "(45.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 0,
+        "next": 36.8999999999997,
+        "phase": "finished",
+        "reference_id": "b01",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(45, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 119.961,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(223, 644)",
+        "color": 0,
+        "depart": 119.733,
+        "destination_slot": 0,
+        "direction": 0,
+        "finish": 121.533333333333,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(244.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(244.5, 673.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(244.5, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(244.5, 590.0)",
+              "angle_a": 0.0,
+              "angle_b": 4.71238911151886,
+              "b": "(244.5, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(244.5, 590.0)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 4.71238911151886,
+              "b": "(78.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(78.0, 590.0)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 0.0,
+              "b": "(78.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(78.0, 590.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 58.0)"
+        },
+        "from_reserve": false,
+        "id": 1,
+        "next": 121.833333333333,
+        "phase": "finished",
+        "reference_id": "b02",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 58)",
+        "slot": -1
+      },
+      {
+        "arrival": 26.228,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(326, 644)",
+        "color": 4,
+        "depart": 26.0,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 27.7,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(347.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(347.5, 673.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(347.5, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(347.5, 590.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(347.5, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(347.5, 590.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 590.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(510.0, 590.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 58.0)"
+        },
+        "from_reserve": false,
+        "id": 2,
+        "next": 28.0,
+        "phase": "finished",
+        "reference_id": "b03",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 58)",
+        "slot": -1
+      },
+      {
+        "arrival": 42.2354444444443,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(274, 658)",
+        "color": 1,
+        "depart": 41.9999999999998,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 44.6666666666663,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.235444444444444,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(296.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 690.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 593.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 593.5)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(296.5, 593.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 593.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 593.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0474444444444444,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 593.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 593.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.147444444444444
+            },
+            {
+              "a": "(510.0, 593.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.195444444444444
+            }
+          ],
+          "size": "(45.0, 65.0)"
+        },
+        "from_reserve": false,
+        "id": 3,
+        "next": 44.9666666666663,
+        "phase": "finished",
+        "reference_id": "b04",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(45, 65)",
+        "slot": -1
+      },
+      {
+        "arrival": 121.695,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(122, 723)",
+        "color": 6,
+        "depart": 121.467,
+        "destination_slot": 1,
+        "direction": 0,
+        "finish": 123.233333333333,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(143.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(143.5, 751.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(143.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(143.5, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(143.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(143.5, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 4,
+        "next": 123.533333333333,
+        "phase": "finished",
+        "reference_id": "b05",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 57.0911111111111,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(173, 696)",
+        "color": 4,
+        "depart": 56.833,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 61.2666666666664,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.258111111111111,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(194.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(194.5, 737.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(194.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(194.5, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(194.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(194.5, 602.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0701111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 602.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.170111111111111
+            },
+            {
+              "a": "(510.0, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.218111111111111
+            }
+          ],
+          "size": "(43.0, 83.0)"
+        },
+        "from_reserve": false,
+        "id": 5,
+        "next": 61.5666666666664,
+        "phase": "finished",
+        "reference_id": "b06",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 83)",
+        "slot": -1
+      },
+      {
+        "arrival": 123.095,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(223, 712)",
+        "color": 1,
+        "depart": 122.867,
+        "destination_slot": 0,
+        "direction": 0,
+        "finish": 125.533333333333,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(245.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(245.5, 745.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(245.5, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(245.5, 594.5)",
+              "angle_a": 0.0,
+              "angle_b": 4.71238911151886,
+              "b": "(245.5, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(245.5, 594.5)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 4.71238911151886,
+              "b": "(78.0, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(78.0, 594.5)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 0.0,
+              "b": "(78.0, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(78.0, 594.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(45.0, 67.0)"
+        },
+        "from_reserve": false,
+        "id": 6,
+        "next": 125.833333333333,
+        "phase": "finished",
+        "reference_id": "b07",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(45, 67)",
+        "slot": -1
+      },
+      {
+        "arrival": 64.595,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(275, 725)",
+        "color": 2,
+        "depart": 64.367,
+        "destination_slot": 1,
+        "direction": 0,
+        "finish": 68.7666666666664,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(296.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 766.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 4.71238911151886,
+              "b": "(296.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 602.5)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 4.71238911151886,
+              "b": "(222.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(222.0, 602.5)",
+              "angle_a": 4.71238911151886,
+              "angle_b": 0.0,
+              "b": "(222.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(222.0, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 83.0)"
+        },
+        "from_reserve": false,
+        "id": 7,
+        "next": 69.0666666666664,
+        "phase": "finished",
+        "reference_id": "b08",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 83)",
+        "slot": -1
+      },
+      {
+        "arrival": 38.861,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(326, 712)",
+        "color": 3,
+        "depart": 38.633,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 41.2999999999999,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(347.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(347.5, 745.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(347.5, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(347.5, 594.5)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(347.5, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(347.5, 594.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 594.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 594.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(510.0, 594.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 67.0)"
+        },
+        "from_reserve": false,
+        "id": 8,
+        "next": 41.5999999999999,
+        "phase": "finished",
+        "reference_id": "b09",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(43, 67)",
+        "slot": -1
+      },
+      {
+        "arrival": 16.358,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(378, 696)",
+        "color": 4,
+        "depart": 16.13,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 20.2333333333333,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(399.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(399.5, 737.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(399.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(399.5, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(399.5, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(399.5, 602.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 602.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 602.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(510.0, 602.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 83.0)"
+        },
+        "from_reserve": false,
+        "id": 9,
+        "next": 20.5333333333333,
+        "phase": "finished",
+        "reference_id": "b10",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 83)",
+        "slot": -1
+      },
+      {
+        "arrival": 29.598,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(428, 723)",
+        "color": 1,
+        "depart": 29.37,
+        "destination_slot": 3,
+        "direction": 0,
+        "finish": 31.0666666666667,
+        "flight": {
+          "angle": 0.0,
+          "base_angle": -1.57079637050629,
+          "duration": 0.228,
+          "impacts": [
+            {
+              "normal": "(0.0, -1.0)",
+              "point": "(449.5, 561.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(449.5, 751.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(449.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(449.5, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(449.5, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(449.5, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 0.0,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            }
+          ],
+          "size": "(43.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 10,
+        "next": 31.3666666666667,
+        "phase": "finished",
+        "reference_id": "b11",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 84.8031111111109,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(67, 781)",
+        "color": 0,
+        "depart": 84.3999999999998,
+        "destination_slot": 3,
+        "direction": 3,
+        "finish": 86.3666666666663,
+        "flight": {
+          "angle": -4.71238911151886,
+          "base_angle": 3.14159274101257,
+          "duration": 0.403111111111111,
+          "impacts": [
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 810.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(87.5, 810.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(28.5, 810.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(28.5, 810.0)",
+              "angle_a": 0.0,
+              "angle_b": -4.71238911151886,
+              "b": "(28.5, 810.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(28.5, 810.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(28.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(28.0, 590.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(28.0, 590.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.107111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(510.0, 590.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -4.71238911151886,
+              "b": "(510.0, 590.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.315111111111111
+            },
+            {
+              "a": "(510.0, 590.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.363111111111111
+            }
+          ],
+          "size": "(41.0, 58.0)"
+        },
+        "from_reserve": false,
+        "id": 11,
+        "next": 86.6666666666664,
+        "phase": "finished",
+        "reference_id": "b12",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(41, 58)",
+        "slot": -1
+      },
+      {
+        "arrival": 95.4031111111103,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(122, 783)",
+        "color": 4,
+        "depart": 94.9999999999992,
+        "destination_slot": 3,
+        "direction": 3,
+        "finish": 97.8333333333324,
+        "flight": {
+          "angle": -4.71238911151886,
+          "base_angle": 3.14159274101257,
+          "duration": 0.403111111111111,
+          "impacts": [
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 811.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(151.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(37.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(37.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": -4.71238911151886,
+              "b": "(37.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(37.5, 811.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.107111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -4.71238911151886,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.315111111111111
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.363111111111111
+            }
+          ],
+          "size": "(59.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 12,
+        "next": 98.1333333333324,
+        "phase": "finished",
+        "reference_id": "b13",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(59, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 114.506111111111,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(198, 783)",
+        "color": 2,
+        "depart": 114.167,
+        "destination_slot": 1,
+        "direction": 3,
+        "finish": 118.666666666666,
+        "flight": {
+          "angle": -4.71238911151886,
+          "base_angle": 3.14159274101257,
+          "duration": 0.339111111111111,
+          "impacts": [
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 811.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(233.0, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(43.0, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(43.0, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": -4.71238911151886,
+              "b": "(43.0, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(43.0, 811.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0431111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -4.71238911151886,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.251111111111111
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": -4.71238911151886,
+              "angle_b": -4.71238911151886,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.299111111111111
+            }
+          ],
+          "size": "(70.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 13,
+        "next": 118.966666666666,
+        "phase": "finished",
+        "reference_id": "b14",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(70, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 5.902,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(324, 783)",
+        "color": 6,
+        "depart": 5.53,
+        "destination_slot": 1,
+        "direction": 1,
+        "finish": 59.2666666666665,
+        "flight": {
+          "angle": -1.57079637050629,
+          "base_angle": 0.0,
+          "duration": 0.372,
+          "impacts": [
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 811.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(360.0, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(548.0, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(548.0, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(548.0, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(548.0, 811.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": 3.14159274101257,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": 3.14159274101257,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.076,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(222.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.284
+            },
+            {
+              "a": "(222.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.332
+            }
+          ],
+          "size": "(72.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 14,
+        "next": 59.5666666666665,
+        "phase": "finished",
+        "reference_id": "b15",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(72, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 3.234,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(410, 783)",
+        "color": 0,
+        "depart": 2.83,
+        "destination_slot": 0,
+        "direction": 1,
+        "finish": 73.8666666666661,
+        "flight": {
+          "angle": -1.57079637050629,
+          "base_angle": 0.0,
+          "duration": 0.404,
+          "impacts": [
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 811.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(439.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(554.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(554.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(554.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(554.5, 811.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": 3.14159274101257,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": 3.14159274101257,
+              "b": "(78.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.108,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(78.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(78.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.316
+            },
+            {
+              "a": "(78.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.364
+            }
+          ],
+          "size": "(59.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 15,
+        "next": 74.1666666666661,
+        "phase": "finished",
+        "reference_id": "b16",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(59, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 0.634,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(484, 783)",
+        "color": 6,
+        "depart": 0.23,
+        "destination_slot": 0,
+        "direction": 1,
+        "finish": 2.1,
+        "flight": {
+          "angle": -1.57079637050629,
+          "base_angle": 0.0,
+          "duration": 0.404,
+          "impacts": [
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 811.0)",
+              "time": 0.052
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(504.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(563.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(563.5, 811.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(563.5, 811.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(563.5, 811.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.06,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": 3.14159274101257,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.16
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": 3.14159274101257,
+              "b": "(78.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.108,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.208
+            },
+            {
+              "a": "(78.0, 589.0)",
+              "angle_a": 3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(78.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.316
+            },
+            {
+              "a": "(78.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.364
+            }
+          ],
+          "size": "(41.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 16,
+        "next": 2.4,
+        "phase": "finished",
+        "reference_id": "b17",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(41, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 99.2829575659322,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(122, 846)",
+        "color": 1,
+        "depart": 98.767,
+        "destination_slot": 3,
+        "direction": 2,
+        "finish": 100.866666666667,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.515957565932246,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(143.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 992.0)",
+              "time": 0.14
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(143.5, 874.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(143.5, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(143.5, 992.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(143.5, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(143.5, 992.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(32.08, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(32.08, 992.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(32.08, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(32.08, 992.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0848464548211349,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(28.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.272846454821135
+            },
+            {
+              "a": "(28.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.107111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.320846454821135
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.427957565932246
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.475957565932246
+            }
+          ],
+          "size": "(43.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 17,
+        "next": 101.166666666667,
+        "phase": "finished",
+        "reference_id": "b18",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 56)",
+        "slot": -1
+      },
+      {
+        "arrival": 50.3777512799536,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(173, 849)",
+        "color": 3,
+        "depart": 49.867,
+        "destination_slot": 3,
+        "direction": 2,
+        "finish": 54.5666666666664,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.510751279953628,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(194.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 979.5)",
+              "time": 0.14
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(194.5, 889.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(194.5, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(194.5, 979.5)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(194.5, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(194.5, 979.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(42.83, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(42.83, 979.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(42.83, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(42.83, 979.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0796401688425165,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            },
+            {
+              "a": "(28.0, 601.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(28.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.267640168842516
+            },
+            {
+              "a": "(28.0, 601.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(510.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.107111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.315640168842516
+            },
+            {
+              "a": "(510.0, 601.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.422751279953628
+            },
+            {
+              "a": "(510.0, 601.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.470751279953628
+            }
+          ],
+          "size": "(43.0, 81.0)"
+        },
+        "from_reserve": false,
+        "id": 18,
+        "next": 54.8666666666664,
+        "phase": "finished",
+        "reference_id": "b19",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 81)",
+        "slot": -1
+      },
+      {
+        "arrival": 81.2229521029288,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(225, 849)",
+        "color": 3,
+        "depart": 80.767,
+        "destination_slot": 1,
+        "direction": 2,
+        "finish": 113.333333333333,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.455952102928831,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(246.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 986.0)",
+              "time": 0.146502221001519
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(246.5, 883.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(246.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(246.5, 986.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(246.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(246.5, 986.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(37.24, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0465022210015191,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(37.24, 986.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(37.24, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.146502221001519
+            },
+            {
+              "a": "(37.24, 986.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0823387708162007,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.194502221001519
+            },
+            {
+              "a": "(28.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(28.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.27684099181772
+            },
+            {
+              "a": "(28.0, 595.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(222.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0431111111111111,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.32484099181772
+            },
+            {
+              "a": "(222.0, 595.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(222.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.367952102928831
+            },
+            {
+              "a": "(222.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.415952102928831
+            }
+          ],
+          "size": "(43.0, 68.0)"
+        },
+        "from_reserve": false,
+        "id": 19,
+        "next": 113.633333333333,
+        "phase": "finished",
+        "reference_id": "b20",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(43, 68)",
+        "slot": -1
+      },
+      {
+        "arrival": 111.16139404511,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(275, 815)",
+        "color": 1,
+        "depart": 110.633,
+        "destination_slot": 0,
+        "direction": 2,
+        "finish": 115.3,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.528394045110335,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(296.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 980.5)",
+              "time": 0.156340006510417
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 854.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 980.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 980.5)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(296.5, 980.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 980.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(550.03, 980.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0563400065104167,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(550.03, 980.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(550.03, 980.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.156340006510417
+            },
+            {
+              "a": "(550.03, 980.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 600.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0800540385999178,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.204340006510417
+            },
+            {
+              "a": "(564.0, 600.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 600.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.284394045110334
+            },
+            {
+              "a": "(564.0, 600.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(78.0, 600.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.108,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.332394045110334
+            },
+            {
+              "a": "(78.0, 600.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(78.0, 600.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.440394045110334
+            },
+            {
+              "a": "(78.0, 600.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.488394045110334
+            }
+          ],
+          "size": "(43.0, 79.0)"
+        },
+        "from_reserve": false,
+        "id": 20,
+        "next": 115.6,
+        "phase": "finished",
+        "reference_id": "b21",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 79)",
+        "slot": -1
+      },
+      {
+        "arrival": 72.9881743285414,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(328, 849)",
+        "color": 7,
+        "depart": 72.4999999999995,
+        "destination_slot": 1,
+        "direction": 2,
+        "finish": 75.4333333333327,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.488174328541895,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(348.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 986.0)",
+              "time": 0.145835557725694
+            }
+          ],
+          "position": "(222.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(348.5, 883.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(348.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(348.5, 986.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(348.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(348.5, 986.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(554.76, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0458355577256944,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(554.76, 986.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(554.76, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.145835557725694
+            },
+            {
+              "a": "(554.76, 986.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0823387708162007,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.193835557725694
+            },
+            {
+              "a": "(564.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.276174328541895
+            },
+            {
+              "a": "(564.0, 595.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(222.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.076,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.324174328541895
+            },
+            {
+              "a": "(222.0, 595.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(222.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.400174328541895
+            },
+            {
+              "a": "(222.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(222.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.448174328541895
+            }
+          ],
+          "size": "(41.0, 68.0)"
+        },
+        "from_reserve": false,
+        "id": 21,
+        "next": 75.7333333333327,
+        "phase": "finished",
+        "reference_id": "b22",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(41, 68)",
+        "slot": -1
+      },
+      {
+        "arrival": 12.1776401688425,
+        "capacity": 10,
+        "capacity_observed": true,
+        "cell": "(378, 849)",
+        "color": 5,
+        "depart": 11.73,
+        "destination_slot": 2,
+        "direction": 2,
+        "finish": 101.7,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.447640168842517,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(399.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 979.5)",
+              "time": 0.14
+            }
+          ],
+          "position": "(366.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(399.5, 889.5)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(399.5, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(399.5, 979.5)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(399.5, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(399.5, 979.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(549.17, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(549.17, 979.5)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(549.17, 979.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(549.17, 979.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0796401688425165,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            },
+            {
+              "a": "(564.0, 601.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.267640168842516
+            },
+            {
+              "a": "(564.0, 601.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(366.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.044,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.315640168842516
+            },
+            {
+              "a": "(366.0, 601.5)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 601.5)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.359640168842516
+            },
+            {
+              "a": "(366.0, 601.5)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.407640168842516
+            }
+          ],
+          "size": "(43.0, 81.0)"
+        },
+        "from_reserve": false,
+        "id": 22,
+        "next": 102.0,
+        "phase": "finished",
+        "reference_id": "b23",
+        "reference_length": "L",
+        "remaining": 0,
+        "size": "(43, 81)",
+        "slot": -1
+      },
+      {
+        "arrival": 9.52368564967105,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(428, 849)",
+        "color": 5,
+        "depart": 9.07,
+        "destination_slot": 2,
+        "direction": 2,
+        "finish": 11.1,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.453685649671053,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(449.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 994.0)",
+              "time": 0.14
+            }
+          ],
+          "position": "(366.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(449.5, 875.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(449.5, 994.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(449.5, 994.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(449.5, 994.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(449.5, 994.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(561.64, 994.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(561.64, 994.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(561.64, 994.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14
+            },
+            {
+              "a": "(561.64, 994.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 587.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0856856496710526,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.188
+            },
+            {
+              "a": "(564.0, 587.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 587.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.273685649671053
+            },
+            {
+              "a": "(564.0, 587.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(366.0, 587.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.044,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.321685649671053
+            },
+            {
+              "a": "(366.0, 587.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 587.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.365685649671053
+            },
+            {
+              "a": "(366.0, 587.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.413685649671053
+            }
+          ],
+          "size": "(43.0, 52.0)"
+        },
+        "from_reserve": false,
+        "id": 23,
+        "next": 11.4,
+        "phase": "finished",
+        "reference_id": "b24",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 52)",
+        "slot": -1
+      },
+      {
+        "arrival": 79.3241058560199,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(225, 923)",
+        "color": 5,
+        "depart": 78.867,
+        "destination_slot": 0,
+        "direction": 2,
+        "finish": 108.3,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.457105856019851,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(246.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(-1.0, 0.0)",
+              "point": "(8.0, 993.0)",
+              "time": 0.147839999728733
+            }
+          ],
+          "position": "(78.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(246.5, 950.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(246.5, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(246.5, 993.0)",
+              "angle_a": 0.0,
+              "angle_b": 1.57079637050629,
+              "b": "(246.5, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(246.5, 993.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(31.22, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0478399997287326,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(31.22, 993.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(31.22, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.147839999728733
+            },
+            {
+              "a": "(31.22, 993.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(28.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0852658562911184,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.195839999728733
+            },
+            {
+              "a": "(28.0, 588.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -1.57079637050629,
+              "b": "(28.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.281105856019851
+            },
+            {
+              "a": "(28.0, 588.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(78.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.329105856019851
+            },
+            {
+              "a": "(78.0, 588.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(78.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.369105856019851
+            },
+            {
+              "a": "(78.0, 588.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(78.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.417105856019851
+            }
+          ],
+          "size": "(43.0, 54.0)"
+        },
+        "from_reserve": false,
+        "id": 24,
+        "next": 108.6,
+        "phase": "finished",
+        "reference_id": "b25",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 54)",
+        "slot": -1
+      },
+      {
+        "arrival": 106.734729884097,
+        "capacity": 6,
+        "capacity_observed": true,
+        "cell": "(275, 896)",
+        "color": 6,
+        "depart": 106.267,
+        "destination_slot": 2,
+        "direction": 2,
+        "finish": 109.166666666667,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.467729884097451,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(296.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 986.0)",
+              "time": 0.15739111328125
+            }
+          ],
+          "position": "(366.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 930.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 986.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(296.5, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 986.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(554.76, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.05739111328125,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(554.76, 986.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(554.76, 986.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.15739111328125
+            },
+            {
+              "a": "(554.76, 986.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0823387708162007,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.20539111328125
+            },
+            {
+              "a": "(564.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.287729884097451
+            },
+            {
+              "a": "(564.0, 595.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(366.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.044,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.335729884097451
+            },
+            {
+              "a": "(366.0, 595.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 595.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.379729884097451
+            },
+            {
+              "a": "(366.0, 595.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(366.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.427729884097451
+            }
+          ],
+          "size": "(43.0, 68.0)"
+        },
+        "from_reserve": false,
+        "id": 25,
+        "next": 109.466666666667,
+        "phase": "finished",
+        "reference_id": "b26",
+        "reference_length": "M",
+        "remaining": 0,
+        "size": "(43, 68)",
+        "slot": -1
+      },
+      {
+        "arrival": 23.4564391961349,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(328, 923)",
+        "color": 4,
+        "depart": 23.0,
+        "destination_slot": 3,
+        "direction": 2,
+        "finish": 24.9333333333333,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.456439196134869,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(348.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 993.0)",
+              "time": 0.14717333984375
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(348.5, 950.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(348.5, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(348.5, 993.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(348.5, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(348.5, 993.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(560.78, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04717333984375,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(560.78, 993.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(560.78, 993.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.14717333984375
+            },
+            {
+              "a": "(560.78, 993.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0852658562911184,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.19517333984375
+            },
+            {
+              "a": "(564.0, 588.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.280439196134868
+            },
+            {
+              "a": "(564.0, 588.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.328439196134868
+            },
+            {
+              "a": "(510.0, 588.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 588.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.368439196134868
+            },
+            {
+              "a": "(510.0, 588.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.416439196134868
+            }
+          ],
+          "size": "(41.0, 54.0)"
+        },
+        "from_reserve": false,
+        "id": 26,
+        "next": 25.2333333333333,
+        "phase": "finished",
+        "reference_id": "b27",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(41, 54)",
+        "slot": -1
+      },
+      {
+        "arrival": 47.0343842288012,
+        "capacity": 4,
+        "capacity_observed": true,
+        "cell": "(275, 968)",
+        "color": 1,
+        "depart": 46.567,
+        "destination_slot": 3,
+        "direction": 2,
+        "finish": 48.5999999999999,
+        "flight": {
+          "angle": -3.14159274101257,
+          "base_angle": 1.57079637050629,
+          "duration": 0.46738422880117,
+          "impacts": [
+            {
+              "normal": "(0.0, 1.0)",
+              "point": "(296.5, 1020.0)",
+              "time": 0.052
+            },
+            {
+              "normal": "(1.0, 0.0)",
+              "point": "(584.0, 992.0)",
+              "time": 0.158537773980035
+            }
+          ],
+          "position": "(510.0, 450.0)",
+          "scale": 0.86,
+          "segments": [
+            {
+              "a": "(296.5, 996.0)",
+              "angle_a": 0.0,
+              "angle_b": 0.0,
+              "b": "(296.5, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.052,
+              "kind": "line",
+              "scale_a": 1.0,
+              "scale_b": 1.0,
+              "start": 0.0
+            },
+            {
+              "a": "(296.5, 992.0)",
+              "angle_a": 0.0,
+              "angle_b": -1.57079637050629,
+              "b": "(296.5, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 1.0,
+              "scale_b": 0.86,
+              "start": 0.052
+            },
+            {
+              "a": "(296.5, 992.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -1.57079637050629,
+              "b": "(559.92, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0585377739800347,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.1
+            },
+            {
+              "a": "(559.92, 992.0)",
+              "angle_a": -1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(559.92, 992.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.158537773980035
+            },
+            {
+              "a": "(559.92, 992.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.0848464548211349,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.206537773980035
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": 1.57079637050629,
+              "b": "(564.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.29138422880117
+            },
+            {
+              "a": "(564.0, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": 1.57079637050629,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.33938422880117
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": 1.57079637050629,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 589.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.048,
+              "kind": "turn",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.37938422880117
+            },
+            {
+              "a": "(510.0, 589.0)",
+              "angle_a": -3.14159274101257,
+              "angle_b": -3.14159274101257,
+              "b": "(510.0, 450.0)",
+              "control": "(0.0, 0.0)",
+              "duration": 0.04,
+              "kind": "line",
+              "scale_a": 0.86,
+              "scale_b": 0.86,
+              "start": 0.42738422880117
+            }
+          ],
+          "size": "(43.0, 56.0)"
+        },
+        "from_reserve": false,
+        "id": 27,
+        "next": 48.8999999999999,
+        "phase": "finished",
+        "reference_id": "b28",
+        "reference_length": "S",
+        "remaining": 0,
+        "size": "(43, 56)",
+        "slot": -1
+      }
+    ],
+    "cat_anchor": 1,
+    "cat_phase": "rescued",
+    "cat_position": [
+      307.400085449219,
+      357.200042724609
+    ],
+    "coins": 350,
+    "collected": 176,
+    "dragons": [
+      {
+        "head": 1832.09436035156,
+        "id": 0,
+        "phase": "cleared",
+        "until": 34.8666666666665
+      }
+    ],
+    "freeze_until": 0,
+    "hearts": 1,
+    "invulnerable_until": 0,
+    "level": 1,
+    "lost": false,
+    "max_hearts": 1,
+    "mode": "challenge",
+    "power_events": [
+      {
+        "head": 1973.39928710943,
+        "kind": "repel",
+        "time": 30.5666666666667,
+        "unit_id": 54
+      },
+      {
+        "head": 2180.49436035175,
+        "kind": "slow",
+        "time": 100.766666666667,
+        "unit_id": 152
+      }
+    ],
+    "reserve": [],
+    "shield_until": 0,
+    "slots": [
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "time": 125.533333333333,
+    "total": 176,
+    "units": [],
+    "won": true
+  },
+  "state_sha256": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987",
+  "world_sha256": "b61faac24090523a5296dfabfba41b1cb749c7c7af3214a8574657a115cb5b78"
+}

@@ -1,0 +1,446 @@
+{
+  "source": {
+    "url": "https://www.youtube.com/watch?v=HR-0KwTL8dA",
+    "local": "C:/SourceCodes/WoolGame/BuildWork/BehaviorResearch/HR-0KwTL8dA.mp4",
+    "video_time_seconds": 6.8,
+    "level_label": "Level 2",
+    "progress_percent": 0,
+    "source_dimensions": [
+      288,
+      640
+    ],
+    "frame": "C:/SourceCodes/WoolGame/Evidence/Rebuild/Representative/Reference/N3_Level2_start_006.80s.png"
+  },
+  "coordinate_notes": "Manual observed visual bounding rectangles in source pixels including visible depth/shadow, approximate ±2px, not collider rectangles. S/M/L lengths correlate with initial shelf values 4/6/10; all28 initial capacities were independently read in this run. Detailed replay and timing caveats are in level2_replay_observed.json.",
+  "block_count": 28,
+  "color_count": 8,
+  "blocks": [
+    {
+      "id": "b01",
+      "color": "G",
+      "color_index": 2,
+      "direction": "U",
+      "length_class": "S",
+      "bbox": [
+        132,
+        293,
+        25,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b02",
+      "color": "R",
+      "color_index": 0,
+      "direction": "U",
+      "length_class": "S",
+      "bbox": [
+        104,
+        318,
+        24,
+        32
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_136_33s.png"
+    },
+    {
+      "id": "b03",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "S",
+      "bbox": [
+        161,
+        318,
+        24,
+        32
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b04",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "M",
+      "bbox": [
+        132,
+        326,
+        25,
+        36
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_head_59_00s.png"
+    },
+    {
+      "id": "b05",
+      "color": "C",
+      "color_index": 6,
+      "direction": "U",
+      "length_class": "S",
+      "bbox": [
+        48,
+        362,
+        24,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_138_13s.png"
+    },
+    {
+      "id": "b06",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "L",
+      "bbox": [
+        76,
+        347,
+        24,
+        46
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b07",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "M",
+      "bbox": [
+        104,
+        356,
+        25,
+        37
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b08",
+      "color": "G",
+      "color_index": 2,
+      "direction": "U",
+      "length_class": "L",
+      "bbox": [
+        133,
+        363,
+        24,
+        46
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b09",
+      "color": "B",
+      "color_index": 3,
+      "direction": "U",
+      "length_class": "M",
+      "bbox": [
+        161,
+        356,
+        24,
+        37
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b10",
+      "color": "P",
+      "color_index": 4,
+      "direction": "U",
+      "length_class": "L",
+      "bbox": [
+        190,
+        347,
+        24,
+        46
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b11",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "U",
+      "length_class": "S",
+      "bbox": [
+        218,
+        362,
+        24,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b12",
+      "color": "R",
+      "color_index": 0,
+      "direction": "L",
+      "length_class": "S",
+      "bbox": [
+        17,
+        394,
+        23,
+        32
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b13",
+      "color": "P",
+      "color_index": 4,
+      "direction": "L",
+      "length_class": "M",
+      "bbox": [
+        48,
+        395,
+        33,
+        31
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_111_95s.png"
+    },
+    {
+      "id": "b14",
+      "color": "G",
+      "color_index": 2,
+      "direction": "L",
+      "length_class": "L",
+      "bbox": [
+        90,
+        395,
+        39,
+        31
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b15",
+      "color": "C",
+      "color_index": 6,
+      "direction": "R",
+      "length_class": "L",
+      "bbox": [
+        160,
+        395,
+        40,
+        31
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b16",
+      "color": "R",
+      "color_index": 0,
+      "direction": "R",
+      "length_class": "M",
+      "bbox": [
+        208,
+        395,
+        33,
+        31
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b17",
+      "color": "C",
+      "color_index": 6,
+      "direction": "R",
+      "length_class": "S",
+      "bbox": [
+        249,
+        395,
+        23,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b18",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "S",
+      "bbox": [
+        48,
+        430,
+        24,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_115_95s.png"
+    },
+    {
+      "id": "b19",
+      "color": "B",
+      "color_index": 3,
+      "direction": "D",
+      "length_class": "L",
+      "bbox": [
+        76,
+        432,
+        24,
+        45
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_66_90s.png"
+    },
+    {
+      "id": "b20",
+      "color": "B",
+      "color_index": 3,
+      "direction": "D",
+      "length_class": "M",
+      "bbox": [
+        105,
+        432,
+        24,
+        38
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b21",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "L",
+      "bbox": [
+        133,
+        413,
+        24,
+        44
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b22",
+      "color": "M",
+      "color_index": 7,
+      "direction": "D",
+      "length_class": "M",
+      "bbox": [
+        162,
+        432,
+        23,
+        38
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b23",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "L",
+      "bbox": [
+        190,
+        432,
+        24,
+        45
+      ],
+      "capacity": 10,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b24",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "S",
+      "bbox": [
+        218,
+        432,
+        24,
+        29
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b25",
+      "color": "O",
+      "color_index": 5,
+      "direction": "D",
+      "length_class": "S",
+      "bbox": [
+        105,
+        473,
+        24,
+        30
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b26",
+      "color": "C",
+      "color_index": 6,
+      "direction": "D",
+      "length_class": "M",
+      "bbox": [
+        133,
+        458,
+        24,
+        38
+      ],
+      "capacity": 6,
+      "capacity_status": "initial shelf number directly observed",
+      "capacity_evidence": "N3_capacity_123_33s.png"
+    },
+    {
+      "id": "b27",
+      "color": "P",
+      "color_index": 4,
+      "direction": "D",
+      "length_class": "S",
+      "bbox": [
+        162,
+        473,
+        23,
+        30
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    },
+    {
+      "id": "b28",
+      "color": "Y",
+      "color_index": 1,
+      "direction": "D",
+      "length_class": "S",
+      "bbox": [
+        133,
+        498,
+        24,
+        31
+      ],
+      "capacity": 4,
+      "capacity_status": "initial shelf number directly observed"
+    }
+  ]
+}

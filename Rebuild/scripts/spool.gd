@@ -10,7 +10,7 @@ func _process(_dt: float) -> void:
 	if not visible:return
 	var b=state.blocks[state.slots[index]]
 	visible=b.phase!="travel"
-	material.set_shader_parameter("opacity",clampf((b.finish-state.time)/0.52,0,1) if b.phase=="clearing" else 1.0)
+	material.set_shader_parameter("opacity",clampf((b.finish-state.time)/state.clear_duration,0,1) if b.phase=="clearing" else 1.0)
 	position=Layout.slot_center(index)
 	var span=65.0 if b.capacity<=4 else 83.0 if b.capacity<=6 else 129.0
 	material.set_shader_parameter("span",span)

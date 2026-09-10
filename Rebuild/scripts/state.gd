@@ -27,11 +27,13 @@ var slots: Array[int]=[-1,-1,-1,-1]
 var reserve: Array[int]=[]
 var witness: Array[int]=[]
 var dragons: Array[Dictionary]=[]
+var power_events: Array[Dictionary]=[]
 var time=0.0
 var paused=false
 var won=false
 var lost=false
 var active=false
+var first_departure=false
 var loss_reason=""
 var won_at=-1.0
 var hearts=1
@@ -47,6 +49,10 @@ var collected=0
 var initial_collected=0
 var total=0
 var pitch=44.0
+var winding_interval=0.46
+var unwind_duration=0.46
+var clear_duration=0.52
+var head_recoil=4.0
 var speed=18.0
 var route_curve: Curve2D
 var route_length=0.0
@@ -72,13 +78,16 @@ func reset(_length: float=0.0,level: int=0,options: Dictionary={}) -> void:
 	max_hearts=int(options.get("max_hearts",1));hearts=max_hearts
 	shield_enabled=bool(options.get("shield",false));freeze_enabled=bool(options.get("freeze",false))
 	shield_used=false;freeze_used=false;shield_until=0;freeze_until=0;invulnerable_until=0
-	blocks.clear();units.clear();slots.assign([-1,-1,-1,-1]);reserve.clear();witness.clear();dragons.clear()
-	time=0;won=false;lost=false;paused=false;active=true;won_at=-1;collected=0;initial_collected=0;total=0;boost_until=0;hint_id=-1;loss_reason="";stalled_since=-1
+	blocks.clear();units.clear();slots.assign([-1,-1,-1,-1]);reserve.clear();witness.clear();dragons.clear();power_events.clear()
+	time=0;won=false;lost=false;paused=false;active=true;first_departure=false;won_at=-1;collected=0;initial_collected=0;total=0;boost_until=0;hint_id=-1;loss_reason="";stalled_since=-1
 	route_curve=definition.curve;route_length=route_curve.get_baked_length();speed=definition.speed
+	pitch=float(definition.get("pitch",44.0));winding_interval=float(definition.get("winding_interval",0.46))
+	unwind_duration=float(definition.get("unwind_duration",0.46));clear_duration=float(definition.get("clear_duration",0.52))
+	head_recoil=float(definition.get("head_recoil",4.0))
 	cat_anchor_index=0;cat_position=definition.anchors[0];cat_phase="waiting"
 	for i in range(definition.dragons):
 		var curve=route_curve if i==0 else Campaign.curve_for(level_index,true)
-		dragons.append({"id":i,"curve":curve,"head":curve.get_baked_length()*0.34,"phase":"chasing","until":0.0})
+		dragons.append({"id":i,"curve":curve,"head":curve.get_baked_length()*float(definition.get("initial_head_fraction",0.34)),"phase":"chasing","until":0.0})
 	for item in definition.blocks:
 		var b=item.duplicate(true)
 		b.merge({"id":blocks.size(),"remaining":b.capacity,"phase":"board","slot":-1,"depart":-1.0,"arrival":-1.0,"next":0.0,"finish":-1.0})
@@ -90,10 +99,18 @@ func reset(_length: float=0.0,level: int=0,options: Dictionary={}) -> void:
 			if not removed.has(b.id) and blockers(b.id,removed).is_empty():next=b.id;break
 		if next<0:push_error("Campaign escape cycle");break
 		removed.append(next);witness.append(next)
-	var yarn_order: Array=definition.get("yarn_order",witness)
-	for order in range(yarn_order.size()):
-		var b=blocks[yarn_order[order]]
-		for j in range(b.capacity):units.append({"id":total,"color":b.color,"dragon":order%dragons.size()});total+=1
+	if definition.has("yarn_segments"):
+		for segment in definition.yarn_segments:
+			for j in range(int(segment.amount)):
+				units.append({"id":total,"color":int(segment.color),"dragon":int(segment.get("dragon",0))});total+=1
+	else:
+		var yarn_order: Array=definition.get("yarn_order",witness)
+		for order in range(yarn_order.size()):
+			var b=blocks[yarn_order[order]]
+			for j in range(b.capacity):units.append({"id":total,"color":b.color,"dragon":order%dragons.size()});total+=1
+	for power in definition.get("yarn_powers",[]):
+		var unit_id=int(power.unit_id)
+		if unit_id>=0 and unit_id<units.size():units[unit_id].power=power.duplicate(true)
 	changed.emit()
 
 func playable() -> bool:return active and not paused and not won and not lost
@@ -123,9 +140,13 @@ func select(id: int) -> bool:
 
 func begin_travel(id: int) -> bool:
 	if not slots.has(-1):return false
+	first_departure=true
 	var b=blocks[id];b.slot=slots.find(-1);slots[b.slot]=id
+	b.destination_slot=b.slot
 	b.from_reserve=b.phase=="reserve";reserve.erase(id);b.phase="travel";b.depart=time
-	b.flight=BlockFlight.build(b,b.slot);b.arrival=time+b.flight.duration;b.next=b.arrival+0.16
+	b.flight=BlockFlight.build(b,b.slot)
+	BlockFlight.retime(b.flight,float(definition.get("flight_time_scale",1.0)))
+	b.arrival=time+b.flight.duration;b.next=b.arrival+0.16
 	hint_id=-1;stalled_since=-1;selected.emit(id);changed.emit();return true
 
 func affordable(tool: String) -> bool:return mode=="free" or coins>=int(COSTS[tool])
@@ -187,6 +208,7 @@ func continue_run() -> bool:
 	cat_phase="waiting";changed.emit();return true
 
 func unit_distance(index: int) -> float:
+	if dragons.size()==1:return float(dragons[0].head)-65.0-index*pitch
 	var unit=units[index];var offset=0
 	for i in range(index):
 		if units[i].dragon==unit.dragon:offset+=1
@@ -217,6 +239,7 @@ func target_unit(color: int) -> int:
 	var candidate=-1;var closest=INF
 	for i in range(units.size()):
 		if units[i].color!=color or not exposed(i):continue
+		if dragons.size()==1:return i
 		var d=dragons[units[i].dragon];var gap=d.curve.get_closest_offset(cat_position)-d.head
 		if gap<closest:closest=gap;candidate=i
 	return candidate
@@ -232,6 +255,22 @@ func attack() -> void:
 		shield_used=true;shield_until=time+5.0;cat_phase="shield";encounter.emit("shield");return
 	hearts=maxi(0,hearts-1);invulnerable_until=time+1.0;cat_phase="hurt";hurt.emit();changed.emit()
 	if hearts==0:lost=true;loss_reason="용의 불꽃이 고양이에게 닿았어요"
+
+func activate_yarn_power(unit: Dictionary,dragon: Dictionary) -> void:
+	if not unit.has("power"):return
+	var power: Dictionary=unit.power
+	var kind=String(power.kind)
+	power_events.append({"time":time,"unit_id":unit.id,"kind":kind,"head":dragon.head})
+	if kind=="repel":
+		dragon.repel_start=time;dragon.repel_from=float(dragon.head)
+		dragon.repel_to=maxf(0,float(dragon.head)-float(power.distance))
+		dragon.recover_to=minf(float(dragon.head),float(power.get("return_to_fraction",0.0))*float(dragon.curve.get_baked_length()))
+		dragon.recover_speed=float(power.get("return_speed",0.0))
+		dragon.phase="repelled";dragon.until=time+float(power.duration)
+		encounter.emit("yarn_repel")
+	elif kind=="slow":
+		dragon.slow_until=time+float(power.duration);dragon.slow_factor=float(power.factor)
+		encounter.emit("yarn_slow")
 
 func advance(dt: float) -> void:
 	if not active or paused or lost:return
@@ -255,13 +294,28 @@ func tick(dt: float) -> void:
 	for d in dragons:
 		if not units.any(func(u):return u.dragon==d.id):d.phase="cleared";continue
 		if time<freeze_until:continue
+		if not first_departure and time<float(definition.get("reading_grace",0.0)):continue
 		var target=float(d.curve.get_closest_offset(cat_position))
-		if d.phase=="windup":
-			if time>=d.until:d.phase="fire";d.until=time+0.5;attack()
+		if d.phase=="repelled":
+			var progress=clampf((time-float(d.repel_start))/maxf(float(d.until)-float(d.repel_start),0.01),0,1)
+			d.head=lerpf(float(d.repel_from),float(d.repel_to),smoothstep(0,1,progress))
+			if progress>=1:d.phase="recovering" if float(d.recover_speed)>0 and float(d.recover_to)>float(d.head) else "chasing";d.until=time
+		elif d.phase=="recovering":
+			d.head=minf(float(d.recover_to),float(d.head)+float(d.recover_speed)*dt)
+			if float(d.head)>=float(d.recover_to):d.phase="chasing";d.until=time
+		elif d.phase=="windup":
+			# Winding can push the dragon out of its threatened range during the warning.
+			if target-float(d.head)>100.0 or cat_phase=="fleeing":
+				d.phase="chasing";d.until=time
+			elif time>=d.until:d.phase="fire";d.until=time+0.5;attack()
 		elif d.phase=="fire":
 			if time>=d.until:d.phase="chasing";d.until=time+0.8
 		else:
-			d.head=minf(float(d.head)+speed*dt,target-90.0)
+			var approach_speed=speed
+			if cat_anchor_index==definition.anchors.size()-1 and target-float(d.head)<=float(definition.get("final_approach_distance",0.0)):
+				approach_speed=float(definition.get("final_approach_speed",speed))
+			var movement=approach_speed*float(d.get("slow_factor",1.0)) if time<float(d.get("slow_until",0.0)) else approach_speed
+			d.head=minf(float(d.head)+movement*dt,target-90.0)
 			if target-d.head<=100.0 and cat_phase!="fleeing" and time>=d.until:
 				if freeze_enabled and not freeze_used:freeze_used=true;freeze_until=time+3.0;encounter.emit("freeze")
 				if cat_anchor_index<definition.anchors.size()-1:flee()
@@ -274,11 +328,18 @@ func tick(dt: float) -> void:
 		if index<0:continue
 		var unit=units[index]
 		captured.emit(unit.duplicate(),b.duplicate());units.remove_at(index)
-		b.remaining-=1;collected+=1;b.next=time+0.46
+		b.remaining-=1;collected+=1;b.next=time+winding_interval
 		# A successful winding resets inactivity even if it consumed the last visible match.
 		stalled_since=-1
-		var dragon=dragons[unit.dragon];dragon.head=maxf(route_length*0.25,float(dragon.head)-4.0)
-		if b.remaining==0:b.phase="clearing";b.finish=time+0.52
+		var dragon=dragons[unit.dragon]
+		var recoil_floor=minf(route_length*float(definition.get("recoil_floor_fraction",0.25)),float(dragon.head))
+		dragon.head=maxf(recoil_floor,float(dragon.head)-head_recoil)
+		if dragon.phase=="repelled":
+			dragon.repel_from=maxf(0,float(dragon.repel_from)-head_recoil)
+			dragon.repel_to=maxf(0,float(dragon.repel_to)-head_recoil)
+		if dragon.phase in ["repelled","recovering"]:dragon.recover_to=maxf(0,float(dragon.recover_to)-head_recoil)
+		activate_yarn_power(unit,dragon)
+		if b.remaining==0:b.phase="clearing";b.finish=time+clear_duration
 		changed.emit()
 	for b in blocks:
 		if b.phase=="clearing" and time>=b.finish:b.phase="finished";slots[b.slot]=-1;b.slot=-1;changed.emit()
@@ -300,4 +361,4 @@ func request_hint() -> int:
 func snapshot() -> Dictionary:
 	var enemies=[]
 	for d in dragons:enemies.append({"id":d.id,"head":d.head,"phase":d.phase,"until":d.until})
-	return {"level":level_index,"mode":mode,"coins":coins,"time":time,"hearts":hearts,"max_hearts":max_hearts,"cat_phase":cat_phase,"cat_anchor":cat_anchor_index,"cat_position":[cat_position.x,cat_position.y],"shield_until":shield_until,"freeze_until":freeze_until,"invulnerable_until":invulnerable_until,"dragons":enemies,"slots":slots.duplicate(),"reserve":reserve.duplicate(),"blocks":blocks.duplicate(true),"units":units.duplicate(true),"won":won,"lost":lost,"collected":collected,"total":total}
+	return {"level":level_index,"mode":mode,"coins":coins,"time":time,"hearts":hearts,"max_hearts":max_hearts,"cat_phase":cat_phase,"cat_anchor":cat_anchor_index,"cat_position":[cat_position.x,cat_position.y],"shield_until":shield_until,"freeze_until":freeze_until,"invulnerable_until":invulnerable_until,"dragons":enemies,"slots":slots.duplicate(),"reserve":reserve.duplicate(),"blocks":blocks.duplicate(true),"units":units.duplicate(true),"won":won,"lost":lost,"collected":collected,"total":total,"power_events":power_events.duplicate(true)}

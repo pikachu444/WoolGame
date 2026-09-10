@@ -4,7 +4,7 @@ const Campaign=preload("res://scripts/campaign.gd")
 var checks=0
 var failures=[]
 var reports=[]
-var out="C:/SourceCodes/WoolGame/Evidence/Rebuild/FunRevision/Stages"
+var out="C:/SourceCodes/WoolGame/Evidence/Rebuild/Representative/Stages"
 func check(value: bool,label: String) -> void:
 	checks+=1
 	if not value:failures.append(label);printerr("FAIL ",label)
@@ -39,6 +39,8 @@ func choose(s: State,style: int=0) -> int:
 		if not s.can_select(b.id):continue
 		var matching=int(counts.get(b.color,0))
 		if matching<=0:continue
+		# The reference board needs one recoverable shelf position for its held colors.
+		if s.definition.get("reference_stage",false) and s.slots.count(-1)==1 and matching<b.remaining:continue
 		var value=float(matching)/b.remaining
 		if style==1:value=float(matching)-b.remaining*0.1
 		if value>score:score=value;best=b.id
@@ -93,7 +95,7 @@ func run() -> void:
 		var s=fresh(level);var colors={};var capacities={};var directions={};var open=0;var productive=0;var maximum_depth=0;var dependency_edges=0
 		for b in s.blocks:
 			colors[b.color]=true;capacities[b.capacity]=true;directions[b.direction]=true
-			check(b.color>=0 and b.color<6 and b.direction>=0 and b.direction<4,"valid token %d"%level)
+			check(b.color>=0 and b.color<Campaign.COLOR_COUNT and b.direction>=0 and b.direction<4,"valid token %d"%level)
 			check(Rect2i(0,590,592,436).encloses(Rect2i(b.cell,b.size)),"inside board %d"%level)
 			var dependencies=s.blockers(b.id);dependency_edges+=dependencies.size();maximum_depth=maxi(maximum_depth,depth(s,b.id))
 			if dependencies.is_empty():

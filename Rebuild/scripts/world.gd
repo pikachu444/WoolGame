@@ -4,6 +4,7 @@ const WoolState = preload("res://scripts/state.gd")
 const HEAD_IMAGE = preload("res://art/reference_details.res")
 const Layout = preload("res://scripts/layout.gd")
 const MapTheme = preload("res://scripts/map_theme.gd")
+const BOOSTER_IMAGE=preload("res://art/booster_icons.res")
 const CUFF_SIZE = Vector2(65,80)
 
 var state: WoolState
@@ -36,7 +37,7 @@ func capture(unit: Dictionary, block: Dictionary) -> void:
 	for i in range(state.units.size()):
 		if state.units[i].id == unit.id: index=i; break
 	var distance = float(positions.get(unit.id,state.unit_distance(index)))
-	flights.append({"start":state.time,"distance":distance,"color":block.color,"slot":block.slot,"dragon":unit.dragon,"angle":tangent_for(state.dragons[unit.dragon].curve,distance)-PI/2})
+	flights.append({"start":state.time,"duration":state.unwind_duration,"distance":distance,"color":block.color,"slot":block.slot,"dragon":unit.dragon,"angle":tangent_for(state.dragons[unit.dragon].curve,distance)-PI/2})
 	positions.erase(unit.id)
 
 func reset_visuals() -> void:
@@ -58,7 +59,7 @@ func _process(dt: float) -> void:
 			var u=state.units[i]
 			var target=state.unit_distance(i)
 			positions[u.id]=lerpf(float(positions.get(u.id,target)),target,1-exp(-dt*13))
-		flights=flights.filter(func(f): return state.time-f.start<0.48)
+		flights=flights.filter(func(f): return state.time-f.start<f.duration+0.02)
 		for p in sparks:
 			p.t+=dt; p.v.y+=360*dt; p.p+=p.v*dt
 		sparks=sparks.filter(func(p): return p.t<2.6)
@@ -74,11 +75,9 @@ func spool(index: int) -> void:
 	var b=state.blocks[state.slots[index]]
 	if b.phase!="travel":WoolArt.outlined_text(self,str(b.remaining),slot_center(index)+Vector2(0,39),21)
 
-func slot_completion(index: int) -> void:
-	if index>=state.slots.size() or state.slots[index]<0:return
-	var b=state.blocks[state.slots[index]]
-	if b.phase!="clearing":return
-	var t=clampf(1-(b.finish-state.time)/0.52,0,1)
+func slot_completion(index: int,age: float) -> void:
+	# Visual completion can linger after the logical slot is available again.
+	var t=clampf(age/0.52,0,1)
 	var center=slot_center(index)
 	for i in range(9):
 		var angle=i*TAU/9+t*0.8
@@ -236,7 +235,7 @@ func unravel_contact(source: Vector2, angle: float, edge: Vector2, peel: float, 
 		draw_circle(p,1.5,Color(1,0.98,0.8,alpha))
 
 func yarn_flight(f: Dictionary) -> void:
-	var t=clampf((state.time-f.start)/0.46,0,1)
+	var t=clampf((state.time-f.start)/f.duration,0,1)
 	var flight_curve: Curve2D=state.dragons[f.dragon].curve
 	var source=flight_curve.sample_baked(clampf(f.distance,0,flight_curve.get_baked_length()),true)
 	source=Vector2(clampf(source.x,8,584),clampf(source.y,24,410))
@@ -287,6 +286,20 @@ func draw_flame(start: Vector2,end: Vector2,amount: float) -> void:
 		draw_circle(p,radius,Color(1,0.56+q*0.3,0.07,0.9))
 		draw_circle(p,radius*0.5,Color(1,0.98,0.62,0.95))
 
+func power_badge(center: Vector2,kind: String,size: float=1.0) -> void:
+	var radius=17.0*size
+	draw_circle(center+Vector2(0,2)*size,radius+2,Color(0.15,0.27,0.2,0.35))
+	draw_circle(center,radius+2,Color("fff5cf"))
+	draw_circle(center,radius,Color("54c942") if kind=="repel" else Color("f6a732"))
+	if kind=="repel":
+		var q=BOOSTER_IMAGE.get_size()/2
+		draw_texture_rect_region(BOOSTER_IMAGE,Rect2(center-Vector2(18,18)*size,Vector2(36,36)*size),Rect2(Vector2(q.x,0),q))
+	else:
+		for i in range(6):
+			var direction=Vector2.RIGHT.rotated(i*TAU/6)
+			draw_line(center,center+direction*11*size,Color.WHITE,2.2*size,true)
+			for side in [-1,1]:draw_line(center+direction*7*size,center+(direction*4+direction.orthogonal()*3*side)*size,Color.WHITE,1.7*size,true)
+
 func _draw() -> void:
 	if state==null or state.dragons.is_empty():return
 	for enemy in state.dragons:
@@ -307,6 +320,7 @@ func _draw() -> void:
 			if state.has_lower_yarn() and state.time>=state.boost_until and not state.exposed(i):color=Color("d6e0e8")
 			WoolArt.stamp(self,WoolArt.CUFF,point+Vector2(0,3),CUFF_SIZE+Vector2(2,2),Color(0.2,0.33,0.39,0.12),angle)
 			WoolArt.stamp(self,WoolArt.CUFF,point,CUFF_SIZE,color,angle)
+			if unit.has("power") and state.exposed(i):power_badge(point,unit.power.kind)
 	for enemy in state.dragons:
 		if enemy.phase=="cleared" and not state.won:continue
 		var curve: Curve2D=enemy.curve
@@ -317,16 +331,27 @@ func _draw() -> void:
 		if enemy.phase=="windup":
 			WoolArt.box(self,Rect2(hp+Vector2(-22,-80),Vector2(44,31)),Color("ffe7ae"),12)
 			WoolArt.text(self,"!",hp+Vector2(0,-55),26,Color("c63d20"))
-		if enemy.phase=="fire" and not state.won:draw_flame(hp+(state.cat_position-hp).normalized()*37+Vector2(0,10),state.cat_position+Vector2(0,6),1.0)
+		if enemy.phase=="fire" and not state.won:draw_flame(hp+(state.cat_position-hp).normalized()*37+Vector2(0,10),state.cat_position+Vector2(state.definition.get("cat_visual_offset",Vector2.ZERO))+Vector2(0,6),1.0)
 		draw_set_transform(hp,rotation,Vector2(-1,1) if mirrored else Vector2.ONE)
 		draw_texture_rect_region(HEAD_IMAGE,Rect2(-52,-47,104,94),Rect2(76,13,511,622))
 		draw_set_transform(Vector2.ZERO)
-		if state.time<state.freeze_until:
+		if enemy.phase=="repelled":
+			var elapsed=state.time-float(enemy.repel_start)
+			if elapsed<0.55:
+				power_badge(hp+Vector2(0,-37),"repel",1.7)
+				for i in range(10):
+					var direction=Vector2.RIGHT.rotated(i*TAU/10)
+					draw_line(hp+direction*48,hp+direction*(62+elapsed*42),Color(1,0.96,0.45,1-elapsed/0.55),4,true)
+			else:
+				for i in range(3):
+					var p=hp+Vector2.RIGHT.rotated(heading)*(65+i*17)
+					WoolArt.arrow(self,p,-Vector2.RIGHT.rotated(heading),19,Color(0.96,1,0.72,0.7-i*0.15))
+		if state.time<state.freeze_until or state.time<float(enemy.get("slow_until",0.0)):
 			for i in range(8):
 				var p=hp+Vector2.RIGHT.rotated(i*TAU/8)*48
 				draw_colored_polygon(PackedVector2Array([p+Vector2(-9,0),p+Vector2(0,-23),p+Vector2(10,0),p+Vector2(0,19)]),Color(0.4,0.87,1,0.66))
 	upper_mist()
-	var cat=state.cat_position
+	var cat=state.cat_position+Vector2(state.definition.get("cat_visual_offset",Vector2.ZERO))
 	var running=state.cat_phase=="fleeing"
 	var hop=-absf(sin(clock*26))*6 if running else -absf(sin((state.time-rescue_time)*5))*13 if state.won else 0.0
 	if running:
@@ -345,7 +370,11 @@ func _draw() -> void:
 			draw_texture_rect_region(WoolArt.DETAILS,Rect2(center-Vector2(12,12),Vector2(24,24)),Rect2(701,166,472,365),Color.WHITE if i<state.hearts else Color("728ea0"))
 	ellipse(Vector2(35,373),Vector2(36,30),Color(1,0.85,0.1,0.13))
 	draw_texture_rect_region(WoolArt.CAST,Rect2(0,344,69,62),Rect2(78,717,490,444))
-	for i in range(state.slots.size()):spool(i);slot_completion(i)
+	for i in range(state.slots.size()):spool(i)
+	for b in state.blocks:
+		if b.remaining!=0 or b.finish<0 or not b.has("destination_slot"):continue
+		var age=state.time-(b.finish-state.clear_duration)
+		if age>=0 and age<0.52:slot_completion(b.destination_slot,age)
 	for f in flights:yarn_flight(f)
 	for p in sparks:
 		draw_set_transform(p.p,p.t*4+p.r)

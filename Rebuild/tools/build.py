@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROJECT = ROOT / "Rebuild"
 OUTPUT = ROOT / "Builds/Rebuild"
 WORK = ROOT / "BuildWork"
-EVIDENCE = ROOT / "Evidence/Rebuild/FunRevision/Verification/Build"
+EVIDENCE = ROOT / "Evidence/Rebuild/Representative/Verification/Build"
 GODOT = ROOT / "Tools/Godot/Godot_v4.7.2-stable_win64.exe"
 APKTOOL = ROOT / "Tools/Godot/apktool_3.0.3.jar"
 ANDROID = ROOT / "Tools/Unity/Editor/Data/PlaybackEngines/AndroidPlayer"
@@ -58,6 +58,7 @@ def desktop():
     run([GODOT, "--headless", "--path", PROJECT, "-s", "res://tests/prepare_assets.gd"])
     run([GODOT, "--headless", "--path", PROJECT, "-s", "res://tests/verify_campaign.gd"], EVIDENCE / "rules.log")
     run([GODOT, "--headless", "--path", PROJECT, "-s", "res://tests/verify_stage_progression.gd"], EVIDENCE / "stage-progression.log")
+    run([GODOT, "--headless", "--path", PROJECT, "-s", "res://tests/verify_representative.gd", "--", "--out", EVIDENCE.parent / "Representative"], EVIDENCE / "representative.log")
     profile = WORK / "TestProfile" / str(int(time.time()))
     profile.mkdir(parents=True, exist_ok=True)
     test_env = dict(ENV, APPDATA=str(profile))
@@ -121,8 +122,8 @@ def android():
     settings = folder / "apktool.yml"
     text = settings.read_text(encoding="utf-8")
     text = re.sub(r"minSdkVersion: \d+", "minSdkVersion: 26", text)
-    text = re.sub(r"versionName: .*", "versionName: 0.4.0", text)
-    text = re.sub(r"versionCode: \d+", "versionCode: 4", text)
+    text = re.sub(r"versionName: .*", "versionName: 0.5.0", text)
+    text = re.sub(r"versionCode: \d+", "versionCode: 5", text)
     for value in ("pck", "assets/_cl_"):
         if "\n- " + value + "\n" not in text:
             text += "\n- " + value + "\n"

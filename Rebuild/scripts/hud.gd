@@ -214,7 +214,9 @@ func _draw() -> void:
 		Art.outlined_text(self,"%d 코인"%state.coins if state.mode=="challenge" else "자유 모드",Vector2(425,56),18)
 		Art.outlined_text(self,"%d%%"%roundi(100.0*state.collected/maxi(1,state.total)),Vector2(37,411),17)
 		if state.time<state.boost_until:text("강화 %d초"%ceili(state.boost_until-state.time),Vector2(444,151),20,Color("795725"))
-		if state.reserve.is_empty() and state.time<8:text(str(state.definition.get("lesson","화살표 방향으로 꺼내 같은 색 실을 감아요")),Vector2(296,578),17,Color("668397"))
+		if state.reserve.is_empty() and state.time<8:
+			var lesson="블록을 고르면 시작해요 · 주먹 실을 찾아보세요" if not state.first_departure and state.definition.get("reading_grace",0.0)>0 else str(state.definition.get("lesson","화살표 방향으로 꺼내 같은 색 실을 감아요"))
+			text(lesson,Vector2(296,578),17,Color("668397"))
 		if state.stalled_since>=0 and not state.lost:text("감길 색을 기다리고 있어요",Vector2(296,578),17,Color("ba613e"))
 		if state.won:
 			Art.box(self,Rect2(0,572,592,119),Color("9dde7e"),0,Color("519a37"),4)
@@ -231,5 +233,7 @@ func _draw() -> void:
 		var font_size=17
 		while font_size>12 and Art.FONT.get_string_size(toast,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x>528:font_size-=1
 		var width=minf(556,Art.FONT.get_string_size(toast,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x+28)
-		Art.box(self,Rect2(296-width/2,930,width,51),Color(0.20,0.30,0.34,0.96),13)
-		text(toast,Vector2(296,962),font_size,Color.WHITE)
+		var above_board=app.screen=="play" and not state.paused and not state.lost and state.reserve.is_empty()
+		var toast_y=548.0 if above_board else 930.0
+		Art.box(self,Rect2(296-width/2,toast_y,width,38 if above_board else 51),Color(0.20,0.30,0.34,0.96),13)
+		text(toast,Vector2(296,toast_y+26 if above_board else toast_y+32),font_size,Color.WHITE)

@@ -12,7 +12,7 @@ const HEAD = Rect2(22, 15, 633, 602)
 const CAT = Rect2(715, 53, 445, 565)
 const CUFF = Rect2(24, 687, 586, 453)
 const BLOCK = Rect2(710, 679, 481, 495)
-const COLORS = [Color("f13b30"), Color("ffdd23"), Color("37d629"), Color("3299ff"), Color("a331f6"), Color("ff9823")]
+const COLORS = [Color("f13b30"), Color("ffdd23"), Color("37d629"), Color("3299ff"), Color("a331f6"), Color("ff9823"), Color("21c8b4"), Color("e45ae1")]
 
 static func material() -> ShaderMaterial:
 	var m = ShaderMaterial.new()

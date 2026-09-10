@@ -41,6 +41,8 @@ func choose(s: State,style: int=0) -> int:
 		if not s.can_select(b.id):continue
 		var matching=int(counts.get(b.color,0))
 		if matching<=0:continue
+		# The reference board needs one recoverable shelf position for its held colors.
+		if s.definition.get("reference_stage",false) and s.slots.count(-1)==1 and matching<b.remaining:continue
 		var value=float(matching)/b.remaining
 		if style==1:value=float(matching)-b.remaining*0.1
 		if value>score:score=value;best=b.id
@@ -87,6 +89,9 @@ func run() -> void:
 				next=s.time+0.8
 			s.advance(0.05)
 		check(s.won and not s.lost,"Scene completes stage %d"%(level+1))
+		if not s.won:
+			printerr("UI scene stopped: ",s.loss_reason)
+			game.queue_free();await frames();quit(1);return
 		check(game.profile.current().completed.has(level),"Victory persists before result animation")
 		s.advance(2.1);await frames()
 		check(game.screen=="result" and not s.active,"Victory opens result")

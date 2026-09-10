@@ -28,6 +28,8 @@ func choose(s: State,style: int=0) -> int:
 		if not s.can_select(b.id):continue
 		var matching=int(counts.get(b.color,0))
 		if matching<=0:continue
+		# The reference board needs one recoverable shelf position for its held colors.
+		if s.definition.get("reference_stage",false) and s.slots.count(-1)==1 and matching<b.remaining:continue
 		var value=float(matching)/b.remaining
 		if style==1:value=float(matching)-b.remaining*0.1
 		if value>score:score=value;best=b.id
@@ -55,7 +57,33 @@ func check_winding_resets_stall() -> void:
 	check(captures_after_stall>=5,"Replay captures while all shelf positions are occupied")
 	check(not s.lost and not reset_failed,"Successful winding resets shelf inactivity before defeat")
 
+func check_winding_evades_fire() -> void:
+	# Independent reproduction: a real winding during the warning pushed the head
+	# beyond the 100px attack range, yet the expired warning still dealt damage.
+	for react in [false,true]:
+		var s=State.new();s.reset(0,1,{"max_hearts":1})
+		s.first_departure=true # Fixture represents an encounter after play has started.
+		s.cat_anchor_index=s.definition.anchors.size()-1;s.cat_position=s.definition.anchors[-1]
+		s.head=s.route_curve.get_closest_offset(s.cat_position)-90.0;s.advance(0.01)
+		check(s.dragons[0].phase=="windup","Approach starts fire warning")
+		if react:
+			for b in s.blocks:
+				if s.can_select(b.id) and s.available(b.color):s.select(b.id);break
+		s.advance(0.71)
+		if react:check(s.collected>0 and not s.lost and s.hearts==1,"Winding beyond fire range cancels damage")
+		else:check(s.lost and s.hearts==0,"Unanswered fire warning still deals damage")
+
+func check_final_approach() -> void:
+	for gap in [200.0,600.0]:
+		var s=State.new();s.reset(0,1,{"max_hearts":1});s.first_departure=true
+		s.cat_anchor_index=s.definition.anchors.size()-1;s.cat_position=s.definition.anchors[-1]
+		s.head=s.route_curve.get_closest_offset(s.cat_position)-gap;var before=s.head
+		s.advance(0.4)
+		check(absf((s.head-before)-(27.0 if gap==200.0 else 54.0)*0.4)<0.05,"Final approach slows while normal chase retains its speed")
+
 func _initialize() -> void:
+	check_final_approach()
+	check_winding_evades_fire()
 	check_winding_resets_stall()
 	var completed=[]
 	for level in range(10):

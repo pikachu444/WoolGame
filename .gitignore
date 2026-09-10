@@ -64,3 +64,7 @@ Evidence/Research/2026-09-10/*
 
 # Core choice and distinct reward revision evidence.
 !Evidence/Rebuild/FunRevision/
+
+# Original Level 2 reconstruction and independent review evidence.
+!Evidence/Rebuild/Representative/
+Evidence/Rebuild/Representative/**/frame_*.png

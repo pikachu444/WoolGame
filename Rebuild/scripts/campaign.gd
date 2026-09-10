@@ -1,10 +1,12 @@
 extends RefCounted
+const ReferenceStage=preload("res://scripts/reference_stage.gd")
 
 # Observed visual/mechanical vocabulary; authored personal campaign, not original level IDs.
-const TITLES=["첫 번째 실","옆으로 한 걸음","네 방향 출구","갈림길의 순서","긴 실과 짧은 실","선반 한 칸","안개 속 출구","눈 속의 여섯 색","두 갈래 추격","함께 집으로"]
+const COLOR_COUNT=8
+const TITLES=["첫 번째 실","다이아몬드 출구","네 방향 출구","갈림길의 순서","긴 실과 짧은 실","선반 한 칸","안개 속 출구","눈 속의 여섯 색","두 갈래 추격","함께 집으로"]
 const CARDS=["첫 만남","들꽃 산책","작은 용기","따뜻한 목도리","무지개 실","숲속의 약속","안개 속 불빛","얼음꽃","두 친구","우리의 집"]
-const COUNTS=[12,16,18,20,22,24,24,26,26,28]
-const LESSONS=["위쪽부터 차례로 꺼내요","가로 화살표는 옆 출구로 나가요","아래쪽 출구도 함께 살펴봐요","막힌 색의 앞을 먼저 열어요","숫자는 실의 양 · 감는 동안 다음 색을 골라요","다섯 색을 네 칸 선반에 나눠 담아요","안개 밖에서 보이는 색을 먼저 골라요","짧은 실로 자리를 만들고 긴 실을 준비해요","두 용의 색을 번갈아 살펴봐요","출구와 선반, 두 용을 함께 살펴봐요"]
+const COUNTS=[12,28,18,20,22,24,24,26,26,28]
+const LESSONS=["위쪽부터 차례로 꺼내요","필요한 색의 출구를 열고 연달아 감아요","아래쪽 출구도 함께 살펴봐요","막힌 색의 앞을 먼저 열어요","숫자는 실의 양 · 감는 동안 다음 색을 골라요","다섯 색을 네 칸 선반에 나눠 담아요","안개 밖에서 보이는 색을 먼저 골라요","짧은 실로 자리를 만들고 긴 실을 준비해요","두 용의 색을 번갈아 살펴봐요","출구와 선반, 두 용을 함께 살펴봐요"]
 const SPEEDS=[13.0,14.0,14.0,14.5,15.0,15.0,17.0,15.0,14.5,15.0]
 # Authored cells: color (R/Y/G/B/P/O), direction (U/R/D/L), yarn capacity.
 # Each row is eight fixed columns. Dots are intentional open corridors.
@@ -52,6 +54,7 @@ static func curve_for(level: int,secondary: bool=false) -> Curve2D:
 
 static func definition(level: int) -> Dictionary:
 	level=clampi(level,0,9)
+	if level==1:return ReferenceStage.definition()
 	var curve=curve_for(level)
 	var anchors=[curve.get_point_position(7),curve.get_point_position(9),curve.get_point_position(10)]
 	var blocks: Array[Dictionary]=[]

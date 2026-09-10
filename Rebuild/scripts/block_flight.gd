@@ -63,6 +63,12 @@ static func build(b: Dictionary,slot: int) -> Dictionary:
  step(p,target,maxf(0.10,p.position.distance_to(target)/1600.0),angle_for(p,Vector2.UP),CARRY_SCALE)
  return p
 
+static func retime(p: Dictionary,factor: float) -> void:
+ # Stage-specific reference timing preserves every path pose and contact ordering.
+ for segment in p.segments:segment.start*=factor;segment.duration*=factor
+ for hit in p.impacts:hit.time*=factor
+ p.duration*=factor
+
 static func sample(p: Dictionary,elapsed: float) -> Dictionary:
  if p.is_empty():return {"position":Vector2.ZERO,"angle":0.0,"scale":Vector2.ONE}
  var part: Dictionary=p.segments.back()

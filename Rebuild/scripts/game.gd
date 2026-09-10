@@ -47,7 +47,11 @@ func _ready() -> void:
 	state.encounter.connect(func(kind):
 		if kind=="shield":play_tone(660,0.3,0.09)
 		elif kind=="freeze":play_tone(1100,0.2,0.07)
-		elif kind=="warning":play_tone(220,0.12,0.08))
+		elif kind=="warning":play_tone(220,0.12,0.08)
+		elif kind=="yarn_repel":
+			play_tone(150,0.25,0.14);$Interface.notify("주먹 실! 용을 밀어냈어요")
+		elif kind=="yarn_slow":
+			play_tone(1100,0.35,0.09);$Interface.notify("얼음 실! 용이 느려졌어요"))
 	state.rescued.connect(on_rescued)
 	for i in range(6):
 		var player=AudioStreamPlayer.new();add_child(player);tones.append(player)

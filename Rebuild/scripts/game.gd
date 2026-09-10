@@ -38,6 +38,7 @@ func _ready() -> void:
 	state.reset(0,0,options());state.active=false
 	state.captured.connect($World.capture)
 	state.selected.connect($PuzzleBoard.on_selected)
+	$PuzzleBoard.edge_tapped.connect(func():play_tone(290,0.06,0.07))
 	state.selected.connect(func(_id):play_tone(540,0.055,0.075))
 	state.captured.connect(func(_unit,b):play_tone(330*pow(1.12246,b.color),0.09,0.06))
 	state.rejected.connect($Interface.notify)
@@ -67,8 +68,8 @@ func start_stage(level: int,qa_override: bool=false) -> void:
 	if level<0 or level>9 or (not qa_override and level>int(profile.current().unlocked)):return
 	run_id=profile.start_run();receipt={};speed_multiplier=1.0
 	state.reset(0,level,options());screen="play";state.active=true;focus_suspended=false
-	$World.route=state.route_curve;$World.reset_visuals()
-	$PuzzleBoard.press_id=-1;$PuzzleBoard.bounce.clear();$Interface.toast_until=0;$Interface.reserve_page=0
+	$World.route=state.route_curve;$World.reset_visuals();$TextileBackdrop.apply_theme(state.level_index)
+	$PuzzleBoard.reset_visuals();$Interface.toast_until=0;$Interface.reserve_page=0
 	demo_next=state.time+2.2;sync_visibility();check_storage()
 
 func navigate(page: String) -> void:

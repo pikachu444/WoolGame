@@ -3,6 +3,7 @@ const WoolArt = preload("res://scripts/art.gd")
 const WoolState = preload("res://scripts/state.gd")
 const HEAD_IMAGE = preload("res://art/reference_details.res")
 const Layout = preload("res://scripts/layout.gd")
+const MapTheme = preload("res://scripts/map_theme.gd")
 const CUFF_SIZE = Vector2(65,80)
 
 var state: WoolState
@@ -13,6 +14,7 @@ var sparks: Array[Dictionary] = []
 var clock = 0.0
 var rescue_time = -1.0
 var mist_visibility=1.0
+var scenery_positions: Array[Vector2]=[]
 
 func _ready() -> void:
 	position=Layout.WORLD_ORIGIN
@@ -38,7 +40,9 @@ func capture(unit: Dictionary, block: Dictionary) -> void:
 	positions.erase(unit.id)
 
 func reset_visuals() -> void:
-	positions.clear(); flights.clear(); sparks.clear(); rescue_time=-1;mist_visibility=1.0
+	positions.clear(); flights.clear(); sparks.clear(); rescue_time=-1
+	mist_visibility=1.0 if state!=null and state.has_lower_yarn() and not state.won and state.time>=state.boost_until else 0.0
+	scenery_positions=choose_scenery_positions()
 
 func celebrate() -> void:
 	rescue_time=state.time
@@ -105,14 +109,15 @@ func winding_point(index: int) -> Vector2:
 
 func draw_route() -> void:
 	var line=route.get_baked_points()
-	draw_polyline(line,Color("9abdd5"),54,true)
-	draw_polyline(line,Color("759fc2"),48,true)
-	draw_circle(line[-1],24,Color("759fc2"),true,-1,true)
+	var palette=MapTheme.for_level(state.level_index)
+	draw_polyline(line,Color(palette.rim),54,true)
+	draw_polyline(line,Color(palette.road),48,true)
+	draw_circle(line[-1],24,Color(palette.road),true,-1,true)
 	for distance in range(0,int(route.get_baked_length())-8,16):
 		for side in [-1,1]:
 			var a=point_at(distance)+Vector2.UP.rotated(tangent_at(distance))*21*side
 			var b=point_at(distance+7)+Vector2.UP.rotated(tangent_at(distance+7))*21*side
-			draw_line(a,b,Color("a8cde4"),1.1,true)
+			draw_line(a,b,Color(palette.seam),1.1,true)
 
 func snow_decor() -> void:
 	# Small scenery stays below the moving figures, as in the observed winter stage.
@@ -123,10 +128,87 @@ func snow_decor() -> void:
 	draw_texture_rect_region(WoolArt.CAST,Rect2(346,122,41,50),Rect2(739,695,402,486))
 	draw_texture_rect_region(WoolArt.DETAILS,Rect2(498,227,51,60),Rect2(74,651,509,571))
 
+func choose_scenery_positions() -> Array[Vector2]:
+	var result: Array[Vector2]=[]
+	for preferred in [Vector2(105,190),Vector2(460,210),Vector2(285,321)]:
+		var best=Vector2.ZERO;var score=-INF
+		for y in range(120,353,42):
+			for x in range(45,551,55):
+				var p=Vector2(x,y);var clearance=INF
+				for enemy in state.dragons:
+					var curve: Curve2D=enemy.curve
+					clearance=minf(clearance,p.distance_to(curve.sample_baked(curve.get_closest_offset(p),true)))
+				if clearance<37 or p.distance_to(state.cat_position)<72:continue
+				if result.any(func(other):return other.distance_to(p)<85):continue
+				var value=minf(clearance,65)*2.0-p.distance_to(preferred)*0.3
+				if value>score:score=value;best=p
+		if score> -INF:result.append(best)
+	return result
+
+func felt_disk(center: Vector2,radius: float,color: Color) -> void:
+	draw_circle(center+Vector2(0,2),radius,Color(0.18,0.29,0.22,0.13))
+	draw_circle(center,radius,color)
+	draw_arc(center,radius-2,0.2,2.8,18,color.lightened(0.18),1.0,true)
+
+func flower(center: Vector2,color: Color) -> void:
+	for i in range(5):felt_disk(center+Vector2.UP.rotated(i*TAU/5)*9,8,color)
+	felt_disk(center,5,Color("ffdf73"))
+
+func ribbon(center: Vector2,color: Color) -> void:
+	for sign in [-1,1]:
+		draw_set_transform(center,sign*0.30)
+		ellipse(Vector2(sign*10,0),Vector2(13,10),color)
+		draw_arc(Vector2(sign*10,0),7,0,TAU,24,color.lightened(0.16),1.0,true)
+		draw_colored_polygon(PackedVector2Array([Vector2(sign*4,4),Vector2(sign*17,20),Vector2(sign*9,18),Vector2(sign*6,24)]),color.darkened(0.05))
+		draw_set_transform(Vector2.ZERO)
+	felt_disk(center,6,color.lightened(0.10))
+
+func gingerbread(center: Vector2) -> void:
+	var dough=Color("d7a569");var icing=Color("fff0ce")
+	for offset in [Vector2(-9,10),Vector2(9,10),Vector2(-8,26),Vector2(8,26)]:
+		draw_line(center+Vector2(0,12),center+offset,dough,11,true)
+	WoolArt.box(self,Rect2(center+Vector2(-9,4),Vector2(18,23)),dough,7)
+	felt_disk(center-Vector2(0,4),11,dough)
+	draw_circle(center+Vector2(-4,-6),1.5,Color("77442c"));draw_circle(center+Vector2(4,-6),1.5,Color("77442c"))
+	draw_arc(center+Vector2(0,-4),4,0.15,PI-0.15,12,icing,1.5,true)
+	for y in [10,17]:draw_circle(center+Vector2(0,y),2.2,icing)
+
+func stocking(center: Vector2) -> void:
+	var sock=Color("c85542")
+	WoolArt.box(self,Rect2(center+Vector2(-8,-13),Vector2(19,27)),sock,6)
+	WoolArt.box(self,Rect2(center+Vector2(-18,4),Vector2(29,15)),sock,7)
+	WoolArt.box(self,Rect2(center+Vector2(-10,-16),Vector2(23,10)),Color("fff4d5"),4)
+	draw_line(center+Vector2(6,-3),center+Vector2(6,8),sock.lightened(0.28),1,true)
+
+func santa(center: Vector2) -> void:
+	felt_disk(center+Vector2(0,5),16,Color("fff4df"))
+	felt_disk(center,11,Color("efc399"))
+	draw_colored_polygon(PackedVector2Array([center+Vector2(-14,-7),center+Vector2(8,-28),center+Vector2(14,-7)]),Color("c65441"))
+	WoolArt.box(self,Rect2(center+Vector2(-15,-10),Vector2(30,7)),Color("fff4df"),3)
+	felt_disk(center+Vector2(9,-26),4,Color("fff4df"))
+	draw_circle(center+Vector2(-4,-1),1.4,Color("66513b"));draw_circle(center+Vector2(4,-1),1.4,Color("66513b"))
+
+func draw_scenery() -> void:
+	var theme=MapTheme.for_level(state.level_index).id
+	if theme=="winter":snow_decor();return
+	for i in range(scenery_positions.size()):
+		var center=scenery_positions[i]
+		if theme=="meadow":
+			flower(center,Color("f3b1c4") if i%2==0 else Color("f0cb72"))
+			for side in [-1,1]:draw_line(center+Vector2(18*side,15),center+Vector2(22*side,7),Color("8ab777"),2,true)
+		elif theme=="festive":
+			if i==0:santa(center)
+			elif i==1:stocking(center)
+			else:gingerbread(center)
+		else:
+			ribbon(center,Color("ceacdF") if i%2==0 else Color("f1b4c8"))
+			felt_disk(center+Vector2(25,18),5,Color("f0c8e2"))
+
 func upper_mist() -> void:
 	if mist_visibility<=0:return
-	for y in range(0,230,3):
-		var alpha=0.70*mist_visibility*(1-smoothstep(115,230,float(y)))
+	var edge=state.fog_edge()
+	for y in range(0,ceili(edge+15),3):
+		var alpha=0.94*mist_visibility*(1-smoothstep(edge,edge+15,float(y)))
 		draw_rect(Rect2(0,y,592,3),Color(0.87,0.93,0.98,alpha))
 
 func unravel_contact(source: Vector2, angle: float, edge: Vector2, peel: float, t: float, color: Color) -> void:
@@ -211,7 +293,7 @@ func _draw() -> void:
 		route=enemy.curve
 		draw_route()
 	route=state.route_curve
-	snow_decor()
+	draw_scenery()
 	if not state.won:
 		for i in range(state.units.size()):
 			var unit=state.units[i]
@@ -222,6 +304,7 @@ func _draw() -> void:
 			if point.x< -60 or point.x>652:continue
 			var angle=tangent_for(curve,d)-PI/2
 			var color: Color=WoolArt.COLORS[unit.color]
+			if state.has_lower_yarn() and state.time>=state.boost_until and not state.exposed(i):color=Color("d6e0e8")
 			WoolArt.stamp(self,WoolArt.CUFF,point+Vector2(0,3),CUFF_SIZE+Vector2(2,2),Color(0.2,0.33,0.39,0.12),angle)
 			WoolArt.stamp(self,WoolArt.CUFF,point,CUFF_SIZE,color,angle)
 	for enemy in state.dragons:

@@ -11,6 +11,7 @@ signal wallet_changed(coins: int)
 signal encounter(kind: String)
 
 const Campaign=preload("res://scripts/campaign.gd")
+const BlockFlight=preload("res://scripts/block_flight.gd")
 const WIDTH=592
 const HEIGHT=1138
 const DIRS=[Vector2i.UP,Vector2i.RIGHT,Vector2i.DOWN,Vector2i.LEFT]
@@ -122,7 +123,8 @@ func select(id: int) -> bool:
 func begin_travel(id: int) -> bool:
 	if not slots.has(-1):return false
 	var b=blocks[id];b.slot=slots.find(-1);slots[b.slot]=id
-	b.from_reserve=b.phase=="reserve";reserve.erase(id);b.phase="travel";b.depart=time;b.arrival=time+0.62;b.next=b.arrival+0.16
+	b.from_reserve=b.phase=="reserve";reserve.erase(id);b.phase="travel";b.depart=time
+	b.flight=BlockFlight.build(b,b.slot);b.arrival=time+b.flight.duration;b.next=b.arrival+0.16
 	hint_id=-1;stalled_since=-1;selected.emit(id);changed.emit();return true
 
 func affordable(tool: String) -> bool:return mode=="free" or coins>=int(COSTS[tool])
@@ -193,13 +195,15 @@ func unit_point(index: int) -> Vector2:
 	var u=units[index];var curve: Curve2D=dragons[u.dragon].curve
 	return curve.sample_baked(clampf(unit_distance(index),0,curve.get_baked_length()),true)
 
+func fog_edge() -> float:return clampf(float(definition.get("fog_ceiling",210.0)),80.0,230.0)
+
 func exposed(index: int) -> bool:
 	if time<boost_until:return true
 	var distance=unit_distance(index);var curve: Curve2D=dragons[units[index].dragon].curve
 	if distance<0 or distance>curve.get_baked_length():return false
 	var p=unit_point(index)
 	if not Rect2(0,20,592,397).has_point(p):return false
-	return not definition.fog or p.y>=210
+	return not definition.fog or p.y>=fog_edge()
 
 func has_lower_yarn() -> bool:return bool(definition.get("fog",false))
 

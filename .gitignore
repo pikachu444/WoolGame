@@ -55,3 +55,9 @@ Evidence/Research/2026-09-10/*
 !Evidence/Research/2026-09-10/*.png
 !Evidence/Research/2026-09-10/frames/
 !Evidence/Rebuild/OfflineCampaign/
+
+# Reviewed block motion, map, and stage evidence.
+!Evidence/Rebuild/BlockExit/
+!Evidence/Research/2026-09-10/BlockExit/
+!Evidence/Research/2026-09-10/Themes/
+/.codex-remote-attachments/

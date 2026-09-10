@@ -3,6 +3,7 @@ const Art=preload("res://scripts/art.gd")
 const State=preload("res://scripts/state.gd")
 const Campaign=preload("res://scripts/campaign.gd")
 const Layout=preload("res://scripts/layout.gd")
+const MapTheme=preload("res://scripts/map_theme.gd")
 var state: State
 var app: Node
 var clock=0.0
@@ -93,7 +94,8 @@ func rebuild() -> void:
 				var unlock=make_button("Unlock%d"%i,"VIP" if i==0 else "해제",Layout.slot_rect(i+4),func():state.unlock_slot(),21)
 				if i>0:
 					for name in ["normal","hover","pressed","focus","disabled"]:
-						var box=StyleBoxFlat.new();box.bg_color=Color("81a4c2");box.border_color=Color("adcce1");box.set_border_width_all(2);box.set_corner_radius_all(7);box.content_margin_left=4;box.content_margin_right=43;unlock.add_theme_stylebox_override(name,box)
+						var palette=MapTheme.for_level(state.level_index)
+						var box=StyleBoxFlat.new();box.bg_color=Color(palette.well).lightened(0.10);box.border_color=Color(palette.dock).lightened(0.20);box.set_border_width_all(2);box.set_corner_radius_all(7);box.content_margin_left=4;box.content_margin_right=43;unlock.add_theme_stylebox_override(name,box)
 					for name in ["font_color","font_hover_color","font_pressed_color"]:unlock.add_theme_color_override(name,Color.WHITE)
 					var plus=Panel.new();plus.position=Vector2(95,1);plus.size=Vector2(36,36);plus.mouse_filter=Control.MOUSE_FILTER_IGNORE
 					var style=StyleBoxFlat.new();style.bg_color=Color("55c333");style.set_corner_radius_all(7);plus.add_theme_stylebox_override("panel",style);unlock.add_child(plus)
@@ -195,12 +197,14 @@ func _draw() -> void:
 				if growth.has(int(app.receipt.level)):text(growth[int(app.receipt.level)],Vector2(296,697),18,Color("679b45"))
 			text("진행과 보상을 저장했어요" if app.profile.last_error.is_empty() else app.profile.last_error,Vector2(296,728),18,Color("8a8a74"))
 	else:
-		Art.outlined_text(self,"스테이지 %d / 10"%(state.level_index+1),Vector2(188,82),20)
-		Art.outlined_text(self,state.definition.title,Vector2(190,113),17)
+		var header_color=Color(MapTheme.for_level(state.level_index).stage).darkened(0.10);header_color.a=0.80
+		Art.box(self,Rect2(112,10,181,54),header_color,10)
+		Art.outlined_text(self,"스테이지 %d / 10"%(state.level_index+1),Vector2(188,32),20)
+		Art.outlined_text(self,state.definition.title,Vector2(190,56),17)
 		Art.outlined_text(self,"%d 코인"%state.coins if state.mode=="challenge" else "자유 모드",Vector2(425,56),18)
 		Art.outlined_text(self,"%d%%"%roundi(100.0*state.collected/maxi(1,state.total)),Vector2(37,411),17)
 		if state.time<state.boost_until:text("강화 %d초"%ceili(state.boost_until-state.time),Vector2(444,151),20,Color("795725"))
-		if state.reserve.is_empty() and state.time<8:text("화살표 방향으로 꺼내 같은 색 실을 감아요",Vector2(296,578),17,Color("668397"))
+		if state.reserve.is_empty() and state.time<8:text(str(state.definition.get("lesson","화살표 방향으로 꺼내 같은 색 실을 감아요")),Vector2(296,578),17,Color("668397"))
 		if state.stalled_since>=0 and not state.lost:text("감길 색을 기다리고 있어요",Vector2(296,578),17,Color("ba613e"))
 		if state.won:
 			Art.box(self,Rect2(0,572,592,119),Color("9dde7e"),0,Color("519a37"),4)

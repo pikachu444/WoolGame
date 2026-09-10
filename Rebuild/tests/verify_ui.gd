@@ -66,6 +66,7 @@ func run() -> void:
 	await press("Start");await press("Tool0");check(s.slots.size()==5 and s.coins==300,"Free tool has no coin charge")
 	await press("Pause");await press("Home");await press("Challenge")
 	check(game.profile.current().coins==800 and game.profile.current().cards.size()==10,"Challenge progress preserved across mode switch")
-	game.queue_free();await process_frame
+	for player in game.tones:player.stop();player.stream=null
+	game.queue_free();await process_frame;await process_frame
 	print("UI_VERIFY ",checks-failures.size(),"/",checks," passed")
 	quit(0 if failures.is_empty() else 1)

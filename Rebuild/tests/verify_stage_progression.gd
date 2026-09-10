@@ -4,7 +4,7 @@ const Campaign=preload("res://scripts/campaign.gd")
 var checks=0
 var failures=[]
 var reports=[]
-var out="C:/SourceCodes/WoolGame/Evidence/Rebuild/BlockExit/Stages"
+var out="C:/SourceCodes/WoolGame/Evidence/Rebuild/FunRevision/Stages"
 func check(value: bool,label: String) -> void:
 	checks+=1
 	if not value:failures.append(label);printerr("FAIL ",label)
@@ -136,7 +136,12 @@ func run() -> void:
 	file.store_string(JSON.stringify({"checks":checks,"failures":failures,"godot_version":Engine.get_version_info().string,"verified_utc":Time.get_datetime_string_from_system(true),"harness_sha256":FileAccess.get_sha256("res://tests/verify_stage_progression.gd"),"campaign_sha256":FileAccess.get_sha256("res://scripts/campaign.gd"),"state_sha256":FileAccess.get_sha256("res://scripts/state.gd"),"scope":"Development simulation, not independent review or native play","original_seven_order_replay":original_seven,"stages":reports},"  "));file.close()
 	print("STAGE_PROGRESSION ",checks-failures.size(),"/",checks)
 	quit(0 if failures.is_empty() else 1)
-func _initialize() -> void:call_deferred("run")
+func _initialize() -> void:
+	var args=OS.get_cmdline_user_args()
+	for i in range(args.size()-1):
+		if args[i]=="--out":out=args[i+1]
+	DirAccess.make_dir_recursive_absolute(out)
+	call_deferred("run")
 
 # Fixed pre-review fog110 / speed14.5 sequence; this replay never re-scores choices.
 func replay_original_seven() -> Dictionary:

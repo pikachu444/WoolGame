@@ -14,7 +14,7 @@ func _initialize() -> void:
 	if FileAccess.file_exists("res://art/spool_keyed.png"):
 		var spool=ImageTexture.create_from_image(Image.load_from_file("res://art/spool_keyed.png"))
 		ResourceSaver.save(spool,"res://art/spool.res",ResourceSaver.FLAG_COMPRESS)
-	for name in ["dragon_profile","booster_icons","rounded_cuff","reference_cast","pointed_cuff","reference_details"]:
+	for name in ["dragon_profile","booster_icons","rounded_cuff","reference_cast","pointed_cuff","reference_details","memory_cards_v1"]:
 		if FileAccess.file_exists("res://art/"+name+".png"):
 			ResourceSaver.save(ImageTexture.create_from_image(Image.load_from_file("res://art/"+name+".png")),"res://art/"+name+".res",ResourceSaver.FLAG_COMPRESS)
 	print("ASSETS_READY ",first," ",second)

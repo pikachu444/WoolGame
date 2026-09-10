@@ -6,6 +6,39 @@ var failed=0
 func check(value: bool,label: String) -> void:
 	if value:passed+=1
 	else:failed+=1;printerr("FAIL ",label)
+func exposed_counts(s: State) -> Dictionary:
+	var counts={}
+	for i in range(s.units.size()):
+		if s.exposed(i):counts[s.units[i].color]=counts.get(s.units[i].color,0)+1
+	for id in s.slots:
+		if id>=0:counts[s.blocks[id].color]=counts.get(s.blocks[id].color,0)-s.blocks[id].remaining
+	return counts
+func ancestors(s: State,id: int,seen: Array=[]) -> Array:
+	if seen.has(id):return []
+	var path=seen.duplicate();path.append(id)
+	if s.can_select(id):return [id]
+	var result=[]
+	for blocker in s.blockers(id):
+		for candidate in ancestors(s,blocker,path):
+			if not result.has(candidate):result.append(candidate)
+	return result
+func choose(s: State,style: int=0) -> int:
+	var counts=exposed_counts(s);var best=-1;var score=-INF
+	for b in s.blocks:
+		if not s.can_select(b.id):continue
+		var matching=int(counts.get(b.color,0))
+		if matching<=0:continue
+		var value=float(matching)/b.remaining
+		if style==1:value=float(matching)-b.remaining*0.1
+		if value>score:score=value;best=b.id
+	if best>=0:return best
+	# Open a blocked matching color while leaving room for its spool.
+	if s.slots.count(-1)<2:return -1
+	for b in s.blocks:
+		if b.phase!="board" or counts.get(b.color,0)<=0:continue
+		var candidates=ancestors(s,b.id)
+		if not candidates.is_empty():return candidates[0]
+	return -1
 func _initialize() -> void:
 	var completed=[]
 	for level in range(10):
@@ -15,9 +48,9 @@ func _initialize() -> void:
 		var next=0.2
 		while s.time<200 and not s.won and not s.lost:
 			if s.time>=next:
-				# Test the authored escape sequence via normal validation, never delete units.
-				for id in s.witness:
-					if s.can_select(id) and s.available(s.blocks[id].color):s.select(id);break
+				# Use visible yarn, slot commitments and exit blockers; never read a solution order.
+				var chosen=choose(s)
+				if chosen>=0:s.select(chosen)
 				next=s.time+0.8
 			s.advance(1.0/20.0)
 		check(s.won and not s.lost,"tool-free completion %d (%s)"%[level,s.loss_reason])

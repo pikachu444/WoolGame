@@ -15,12 +15,14 @@ const BOARDS=[
  [". . RU3 YU3 GU3 BU3 . .", ". RL3 YL3 GU3 BU3 RR3 BR3 .", ". GL3 BU3 YU3 RU3 . . .", ". . YD3 GD3 BD3 RD3 . ."],
  [". . RU3 YU3 GU3 BU3 . .", ". RL3 YL3 GU3 BU3 GR3 BR3 .", ". GL3 BL3 RU3 YU3 RR3 YR3 .", ". . GU3 BU3 RU3 YU3 . ."],
  [". . RU2 YU4 GU2 BU4 . .", ". RL2 YL6 GU2 BU4 RR2 BR6 .", ". GU4 BL2 RU6 YU2 GR4 YR2 .", ". GL6 YL2 BU4 RU2 YR4 BR6 ."],
- [". RU2 YU4 GU4 BU2 PU4 RU4 .", ". YU4 RL4 BL2 GR4 PR4 RU2 .", ". BU2 YL4 GL4 PR2 RR4 GU4 .", ". PD4 BD2 YD4 GD4 RD2 PD4 ."],
+ [". RU2 YU4 GU4 RU2 PU4 RU4 .", ". YU4 RL4 BU2 GR4 PR4 BU2 .", ". BU2 YL4 GL4 BR2 RR4 GU4 .", ". PD4 PD2 YD4 GD4 RD2 PD4 ."],
  [". . RU2 YU2 GU2 BU2 . .", ". PL2 RL2 YU2 GU2 BR2 PR2 .", ". . BU2 PU2 RU2 YU2 . .", ". GL2 YL2 BU2 PU2 RR2 GR2 .", ". . RD2 BD2 GD2 PD2 . ."],
- [". . RU2 YU2 GU4 BU2 . .", ". PL2 RL4 YU2 GU4 BR2 OR4 .", ". GU4 BL2 PU4 OU2 YR4 RR2 .", ". YL2 PL4 RU4 BU2 OR4 GR2 .", ". . BD4 OD4 PD2 YD4 . ."],
+ [". . RU2 YU2 GU4 BU2 . .", ". PL2 RL4 YU2 GU4 OR2 RR4 .", ". GU4 BL2 PU4 BU2 YR4 RR2 .", ". YL2 OL4 OU4 BU2 OR4 GR2 .", ". . BD4 PD4 PD2 YD4 . ."],
  [". . . RU2 BU2 . . .", ". . YU4 GU2 PU4 OU2 . .", ". RL2 YL4 GU4 BU2 PR4 OR4 .", ". BL4 PL2 RU4 YU4 GR2 OR4 .", ". GL4 YL4 BU2 OU4 PR4 RR2 .", ". . . PD6 OD6 . . ."],
- [". . RU2 YU4 GU2 BU4 . .", ". . PU4 OU2 RU4 YU2 . .", ". GL2 BL6 PU4 OU2 YR4 RR6 .", ". YL4 PL2 RU6 BU4 OR2 GR4 .", ". . OU6 GU2 PU4 YU6 . .", ". . RD4 BD6 OD2 PD4 . ."]
+ [". . RU2 YU4 GU2 YU4 . .", ". . PU4 OU2 RU4 YU2 . .", ". GL2 BL6 RU4 OU2 BR4 OR6 .", ". YL4 PL2 RU6 BU4 OR2 GR4 .", ". . RU6 GU2 PU4 BU6 . .", ". . PD4 YD6 OD2 PD4 . ."]
 ]
+
+const YARN_ORDERS={5:[8,11,12,15,2,5,0,6,4,10,7,1,3,9,13,14,16,17,18,19,20,21,22,23],7:[8,17,20,9,16,21,18,3,7,4,0,1,2,5,6,10,11,12,13,14,15,19,22,23,24,25],9:[6,9,19,11,20,12,13,7,16,23,10,17,0,1,2,5,8,3,4,15,14,18,22,21,24,25,26,27]}
 
 static func curve_for(level: int,secondary: bool=false) -> Curve2D:
 	var shapes=[
@@ -62,4 +64,6 @@ static func definition(level: int) -> Dictionary:
 			var width=48 if direction%2==0 else 56
 			var height=68 if direction%2==0 and capacity>=5 else 59
 			blocks.append({"cell":Vector2i(39+col*64,599+row*70),"size":Vector2i(width,height),"direction":direction,"color":color,"capacity":capacity})
-	return {"id":level,"title":TITLES[level],"card":CARDS[level],"lesson":LESSONS[level],"blocks":blocks,"curve":curve,"anchors":anchors,"dragons":2 if level>=8 else 1,"speed":SPEEDS[level],"fog":level in [6,7],"fog_ceiling":110.0 if level==6 else 155.0 if level==7 else 210.0}
+	var result={"id":level,"title":TITLES[level],"card":CARDS[level],"lesson":LESSONS[level],"blocks":blocks,"curve":curve,"anchors":anchors,"dragons":2 if level>=8 else 1,"speed":SPEEDS[level],"fog":level in [6,7],"fog_ceiling":110.0 if level==6 else 155.0 if level==7 else 210.0}
+	if YARN_ORDERS.has(level):result.yarn_order=YARN_ORDERS[level]
+	return result

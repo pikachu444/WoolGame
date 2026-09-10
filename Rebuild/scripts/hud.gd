@@ -3,6 +3,7 @@ const Art=preload("res://scripts/art.gd")
 const State=preload("res://scripts/state.gd")
 const Campaign=preload("res://scripts/campaign.gd")
 const Layout=preload("res://scripts/layout.gd")
+const Memories=preload("res://scripts/memory_cards.gd")
 const MapTheme=preload("res://scripts/map_theme.gd")
 var state: State
 var app: Node
@@ -11,6 +12,7 @@ var toast=""
 var toast_until=0.0
 var key=""
 var buttons: Dictionary={}
+var pictures: Array[TextureRect]=[]
 var reserve_page=0
 var muted=false
 var fast=false
@@ -41,6 +43,15 @@ func icon(parent: Node,texture: Texture2D,region: Rect2,p: Vector2,size: Vector2
 	picture.mouse_filter=Control.MOUSE_FILTER_IGNORE
 	var mat=ShaderMaterial.new();mat.shader=preload("res://art/icon_chroma.gdshader");picture.material=mat;parent.add_child(picture);picture.set_deferred("size",size)
 
+func memory_picture(index: int,rect: Rect2) -> void:
+	var picture=TextureRect.new();picture.name="Memory%d"%(index+1)
+	picture.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+	picture.texture=Memories.texture(index);picture.position=rect.position
+	picture.expand_mode=TextureRect.EXPAND_IGNORE_SIZE;picture.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	picture.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	# Full scenes retain their meadow greens; character chroma is only for keyed sprites.
+	add_child(picture);picture.size=rect.size;picture.set_deferred("size",rect.size);pictures.append(picture)
+
 func _ready() -> void:
 	app=get_parent();material=Art.material()
 
@@ -56,6 +67,8 @@ func _process(dt: float) -> void:
 	queue_redraw()
 
 func rebuild() -> void:
+	for picture in pictures:remove_child(picture);picture.queue_free()
+	pictures.clear()
 	for b in buttons.values():remove_child(b);b.queue_free()
 	buttons.clear()
 	if app.screen=="home":
@@ -71,8 +84,12 @@ func rebuild() -> void:
 		make_button("Collection","모은 카드",Rect2(44,1042,244,58),func():app.navigate("collection"),21)
 		make_button("Growth","고양이 성장",Rect2(304,1042,244,58),func():app.navigate("growth"),21)
 	elif app.screen in ["collection","growth"]:
+		if app.screen=="collection":
+			for i in range(10):
+				if app.profile.current().cards.has(i):memory_picture(i,Rect2(41+(i%2)*266,160+(i/2)*176,244,147))
 		make_button("Home","홈으로",Rect2(166,1057,260,57),func():app.navigate("home"),23,true)
 	elif app.screen=="result":
+		memory_picture(int(app.receipt.get("level",0)),Rect2(99,267,394,247))
 		make_button("ResultHome","홈으로",Rect2(145,827,302,66),func():app.acknowledge_result(),25,true)
 	elif app.screen=="play":
 		if state.paused:
@@ -153,19 +170,17 @@ func _draw() -> void:
 			cat_art(Vector2(221,342+sin(clock*1.6)*3),1.30)
 			dragon_art(Vector2(369,330+sin(clock*1.3)*4),1.4)
 			text("%d / 10 구조 완료"%p.completed.size(),Vector2(296,471),20)
+			if p.cards.size()<10:text("다음 추억 · "+Campaign.CARDS[int(p.unlocked)],Vector2(296,524),16,Color("72815c"))
 			text("%d 코인"%p.coins,Vector2(445,257),19,Color("af7827"))
 			text("보상을 모아 도구를 써요" if app.profile.data.mode=="challenge" else "도구와 이어하기를 마음껏 써요",Vector2(296,631),17)
 		elif app.screen=="collection":
 			header("우리의 추억",mode_name+" · %d / 10장"%p.cards.size())
 			for i in range(10):
-				var r=Rect2(37+(i%2)*266,174+(i/2)*166,252,151)
+				var r=Rect2(37+(i%2)*266,156+(i/2)*176,252,172)
 				var unlocked=p.cards.has(i)
 				panel(r,Art.COLORS[i%6].lightened(0.80) if unlocked else Color("dce3d7"))
-				if unlocked:
-					cat_art(r.get_center()+Vector2(-35,-15),0.60)
-					dragon_art(r.get_center()+Vector2(39,-15),0.65)
-				else:text("?",r.get_center()+Vector2(0,5),36,Color("9daa9d"))
-				text(Campaign.CARDS[i] if unlocked else "%d 스테이지에서 만나요"%(i+1),r.position+Vector2(126,132),17)
+				if not unlocked:text("?",r.get_center()+Vector2(0,5),36,Color("9daa9d"))
+				text(Campaign.CARDS[i] if unlocked else "%d 스테이지에서 만나요"%(i+1),r.position+Vector2(126,166),17)
 		elif app.screen=="growth":
 			header("고양이의 작은 용기",mode_name+"의 성장")
 			cat_art(Vector2(296,260+sin(clock*2)*3),1.25)
@@ -184,14 +199,9 @@ func _draw() -> void:
 		elif app.screen=="result":
 			header("고양이를 구했어요!","스테이지 %d 완료"%(int(app.receipt.get("level",0))+1))
 			panel(Rect2(69,199,454,587),Color("fff3d1"))
-			cat_art(Vector2(246,330+sin(clock*3)*5),1.5)
-			dragon_art(Vector2(389,334),0.85)
-			text("+%d 코인"%int(app.receipt.get("coins",0)),Vector2(296,459),35,Color("b47d22"))
-			if app.receipt.get("first",false):
-				text("새로운 추억을 모았어요",Vector2(296,527),23)
-				panel(Rect2(138,558,316,104),Color("ddefd3"))
-				text(Campaign.CARDS[int(app.receipt.level)],Vector2(296,620),26)
-			else:text("다시 지켜 줘서 고마워요",Vector2(296,565),23)
+			text("새로운 추억을 모았어요" if app.receipt.get("first",false) else "다시 지켜 줘서 고마워요",Vector2(296,241),23)
+			text(Campaign.CARDS[int(app.receipt.get("level",0))],Vector2(296,558),29)
+			text("+%d 코인"%int(app.receipt.get("coins",0)),Vector2(296,628),35,Color("b47d22"))
 			if app.receipt.get("first",false):
 				var growth={1:"보호막을 배웠어요!",2:"하트가 2개로 늘었어요!",5:"하트가 3개로 늘었어요!",6:"얼음꽃을 배웠어요!"}
 				if growth.has(int(app.receipt.level)):text(growth[int(app.receipt.level)],Vector2(296,697),18,Color("679b45"))

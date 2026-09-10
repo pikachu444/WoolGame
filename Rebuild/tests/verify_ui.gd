@@ -1,4 +1,5 @@
 extends SceneTree
+const State=preload("res://scripts/state.gd")
 var failures: Array[String]=[]
 var checks=0
 var game: Node
@@ -18,6 +19,39 @@ func pointer(point: Vector2,down: bool) -> void:
 	var actual=game.get_viewport().get_final_transform()*point
 	var motion=InputEventMouseMotion.new();motion.position=actual;motion.global_position=actual;Input.parse_input_event(motion)
 	var event=InputEventMouseButton.new();event.button_index=MOUSE_BUTTON_LEFT;event.pressed=down;event.position=actual;event.global_position=actual;Input.parse_input_event(event)
+func exposed_counts(s: State) -> Dictionary:
+	var counts={}
+	for i in range(s.units.size()):
+		if s.exposed(i):counts[s.units[i].color]=counts.get(s.units[i].color,0)+1
+	for id in s.slots:
+		if id>=0:counts[s.blocks[id].color]=counts.get(s.blocks[id].color,0)-s.blocks[id].remaining
+	return counts
+func ancestors(s: State,id: int,seen: Array=[]) -> Array:
+	if seen.has(id):return []
+	var path=seen.duplicate();path.append(id)
+	if s.can_select(id):return [id]
+	var result=[]
+	for blocker in s.blockers(id):
+		for candidate in ancestors(s,blocker,path):
+			if not result.has(candidate):result.append(candidate)
+	return result
+func choose(s: State,style: int=0) -> int:
+	var counts=exposed_counts(s);var best=-1;var score=-INF
+	for b in s.blocks:
+		if not s.can_select(b.id):continue
+		var matching=int(counts.get(b.color,0))
+		if matching<=0:continue
+		var value=float(matching)/b.remaining
+		if style==1:value=float(matching)-b.remaining*0.1
+		if value>score:score=value;best=b.id
+	if best>=0:return best
+	# Open a blocked matching color while leaving room for its spool.
+	if s.slots.count(-1)<2:return -1
+	for b in s.blocks:
+		if b.phase!="board" or counts.get(b.color,0)<=0:continue
+		var candidates=ancestors(s,b.id)
+		if not candidates.is_empty():return candidates[0]
+	return -1
 func run() -> void:
 	game=load("res://scenes/game.tscn").instantiate();root.add_child(game);await frames()
 	var s=game.state;var ui=game.get_node("Interface");var board=game.get_node("PuzzleBoard")
@@ -48,19 +82,32 @@ func run() -> void:
 		var next=s.time
 		while s.time<200 and not s.won and not s.lost:
 			if s.time>=next:
-				var candidate=s.request_hint()
-				if candidate>=0 and s.available(s.blocks[candidate].color):s.select(candidate)
+				var candidate=choose(s)
+				if candidate>=0:s.select(candidate)
 				next=s.time+0.8
 			s.advance(0.05)
 		check(s.won and not s.lost,"Scene completes stage %d"%(level+1))
 		check(game.profile.current().completed.has(level),"Victory persists before result animation")
 		s.advance(2.1);await frames()
 		check(game.screen=="result" and not s.active,"Victory opens result")
+		check(ui.pictures.size()==1 and ui.pictures[0].name=="Memory%d"%(level+1),"Victory displays earned scene %d"%(level+1))
+		check(ui.pictures[0].size.x<=394 and ui.pictures[0].size.y<=247,"Reward picture stays above its title")
 		await press("ResultHome")
 		check(game.screen=="home" and game.profile.current().pending.is_empty(),"Result returns home and acknowledges receipt")
+		if level==0:
+			await press("Collection")
+			check(ui.pictures.size()==1 and ui.pictures[0].name=="Memory1","Mixed collection reveals only the earned first scene")
+			await press("Home")
 		if level<9:await press("Start")
 	check(game.profile.current().cards.size()==10 and game.profile.current().coins==800,"Ten unique cards and first rewards")
-	await press("Collection");check(game.screen=="collection","Collection reachable");await press("Home")
+	await press("Collection");check(game.screen=="collection","Collection reachable")
+	check(ui.pictures.size()==10,"Collection displays ten earned scenes")
+	var regions=[]
+	for picture in ui.pictures:
+		check(picture.size.x<=244 and picture.size.y<=147,"Collection picture stays inside its card")
+		check(picture.material==null and not picture.use_parent_material,"Scene greens remain opaque")
+		check(not regions.has(picture.texture.region),"Every memory has a distinct atlas panel");regions.append(picture.texture.region)
+	await press("Home");check(ui.pictures.is_empty(),"Memory controls removed after navigation")
 	await press("Growth");check(game.screen=="growth" and game.profile.stats().max_hearts==3,"Growth reachable and earned");await press("Home")
 	await press("Free");check(game.profile.current().completed.is_empty(),"Free mode has independent progression")
 	await press("Start");await press("Tool0");check(s.slots.size()==5 and s.coins==300,"Free tool has no coin charge")

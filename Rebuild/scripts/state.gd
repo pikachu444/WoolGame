@@ -90,8 +90,9 @@ func reset(_length: float=0.0,level: int=0,options: Dictionary={}) -> void:
 			if not removed.has(b.id) and blockers(b.id,removed).is_empty():next=b.id;break
 		if next<0:push_error("Campaign escape cycle");break
 		removed.append(next);witness.append(next)
-	for order in range(witness.size()):
-		var b=blocks[witness[order]]
+	var yarn_order: Array=definition.get("yarn_order",witness)
+	for order in range(yarn_order.size()):
+		var b=blocks[yarn_order[order]]
 		for j in range(b.capacity):units.append({"id":total,"color":b.color,"dragon":order%dragons.size()});total+=1
 	changed.emit()
 

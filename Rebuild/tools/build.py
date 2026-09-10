@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROJECT = ROOT / "Rebuild"
 OUTPUT = ROOT / "Builds/Rebuild"
 WORK = ROOT / "BuildWork"
-EVIDENCE = ROOT / "Evidence/Rebuild/BlockExit/Verification/Build"
+EVIDENCE = ROOT / "Evidence/Rebuild/FunRevision/Verification/Build"
 GODOT = ROOT / "Tools/Godot/Godot_v4.7.2-stable_win64.exe"
 APKTOOL = ROOT / "Tools/Godot/apktool_3.0.3.jar"
 ANDROID = ROOT / "Tools/Unity/Editor/Data/PlaybackEngines/AndroidPlayer"
@@ -121,8 +121,8 @@ def android():
     settings = folder / "apktool.yml"
     text = settings.read_text(encoding="utf-8")
     text = re.sub(r"minSdkVersion: \d+", "minSdkVersion: 26", text)
-    text = re.sub(r"versionName: .*", "versionName: 0.3.0", text)
-    text = re.sub(r"versionCode: \d+", "versionCode: 3", text)
+    text = re.sub(r"versionName: .*", "versionName: 0.4.0", text)
+    text = re.sub(r"versionCode: \d+", "versionCode: 4", text)
     for value in ("pck", "assets/_cl_"):
         if "\n- " + value + "\n" not in text:
             text += "\n- " + value + "\n"

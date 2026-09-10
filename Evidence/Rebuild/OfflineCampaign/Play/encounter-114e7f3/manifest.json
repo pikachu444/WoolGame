@@ -1,0 +1,9 @@
+{
+  "source_commit": "114e7f3",
+  "source": "../../Visual/encounter-staged.mp4",
+  "sha256": "9a309af44b43806f895f2aae20393d61865e85437754a5d5eaed15725cc90ed8",
+  "duration_seconds": 11,
+  "video": "540x1038, 30 fps",
+  "method": "FFmpeg 4fps overview; selected full-width upper-playfield frames. Initial encounter boundary placed by capture harness; subsequent game transitions rendered normally. Not mouse UI gameplay.",
+  "verdict": "Approach/flee without damage and attack warning/fire/damage/protection sequence are visually legible in this bounded event recording. Full UI play remains unverified."
+}

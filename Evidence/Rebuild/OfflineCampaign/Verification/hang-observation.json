@@ -1,0 +1,16 @@
+{
+  "candidate": "114e7f3",
+  "pid": 87312,
+  "status": "Not Responding",
+  "windowId": 3408060,
+  "logsContainRuntimeErrors": false,
+  "lastMode": "free",
+  "lastKnownScreen": "home",
+  "time": "2026-09-10T06:09:26.976Z",
+  "capture": "black with cursor",
+  "activation": "failed in two independent tool sessions",
+  "peSubsystem": 2,
+  "rootCause": "not established",
+  "followup": "A later direct capture showed the Windows lock screen at 15:10. Both native OpenGL and diagnostic ANGLE launch were inaccessible while locked. Do not attribute Not Responding to a product hang until retested on an unlocked desktop.",
+  "product_code_changed": false
+}

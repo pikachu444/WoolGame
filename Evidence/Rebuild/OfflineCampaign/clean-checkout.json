@@ -1,0 +1,19 @@
+{
+  "commit": "114e7f3",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nCAMPAIGN_LEVEL {\"collected\":42,\"hearts\":1,\"level\":0,\"lost\":false,\"reason\":\"\",\"time\":12.15,\"total\":42,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":56,\"hearts\":1,\"level\":1,\"lost\":false,\"reason\":\"\",\"time\":15.3500000000001,\"total\":56,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":63,\"hearts\":1,\"level\":2,\"lost\":false,\"reason\":\"\",\"time\":16.9500000000001,\"total\":63,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":70,\"hearts\":2,\"level\":3,\"lost\":false,\"reason\":\"\",\"time\":18.1000000000001,\"total\":70,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":88,\"hearts\":2,\"level\":4,\"lost\":false,\"reason\":\"\",\"time\":20.1500000000002,\"total\":88,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":96,\"hearts\":2,\"level\":5,\"lost\":false,\"reason\":\"\",\"time\":21.7500000000002,\"total\":96,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":96,\"hearts\":3,\"level\":6,\"lost\":false,\"reason\":\"\",\"time\":23.3500000000002,\"total\":96,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":106,\"hearts\":3,\"level\":7,\"lost\":false,\"reason\":\"\",\"time\":29.6000000000003,\"total\":106,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":104,\"hearts\":3,\"level\":8,\"lost\":false,\"reason\":\"\",\"time\":22.7000000000002,\"total\":104,\"won\":true}\r\nCAMPAIGN_LEVEL {\"collected\":110,\"hearts\":3,\"level\":9,\"lost\":false,\"reason\":\"\",\"time\":25.7500000000002,\"total\":110,\"won\":true}\r\nCAMPAIGN_VERIFY 40/40\r\n",
+        "stderr": ""
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\r\n\r\nWOOL_READY profile=C:/SourceCodes/WoolGame/BuildWork/CleanCandidate/profile-verify_ui-1789019049020/campaign_v2.json screen=home level=1 viewport=(592.0, 1138.0)\r\nUI_VERIFY 88/88 passed\r\n",
+        "stderr": "WARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).\r\n   at: cleanup (core/object/object.cpp:2536)\r\n"
+      }
+    }
+  ]
+}

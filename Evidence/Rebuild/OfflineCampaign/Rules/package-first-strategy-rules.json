@@ -1,0 +1,6843 @@
+{
+  "checks": 78876,
+  "failures": [
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 0,
+            "time": 1.5
+          },
+          {
+            "block": 1,
+            "time": 2.4
+          },
+          {
+            "block": 2,
+            "time": 3.3
+          },
+          {
+            "block": 3,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 4,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 16,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 5,
+            "time": 6.89999999999998
+          },
+          {
+            "block": 6,
+            "time": 7.79999999999998
+          },
+          {
+            "block": 12,
+            "time": 8.69999999999998
+          }
+        ],
+        "collected": 28,
+        "hearts": 2,
+        "level": 4,
+        "lost": true,
+        "mode": "challenge",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(231, 599)",
+              "color": 2,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 0,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(295, 599)",
+              "color": 1,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 1,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(167, 669)",
+              "color": 0,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(231, 669)",
+              "color": 5,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": 6.45333333333332,
+              "from_reserve": true,
+              "id": 3,
+              "next": 6.39333333333332,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 6,
+              "cell": "(295, 669)",
+              "color": 4,
+              "depart": 5.09999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 7.75999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 0
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 2,
+              "cell": "(359, 669)",
+              "color": 3,
+              "depart": 6.89999999999998,
+              "direction": 0,
+              "finish": 8.68666666666665,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.62666666666665,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 8.41999999999998,
+              "capacity": 4,
+              "cell": "(103, 739)",
+              "color": 2,
+              "depart": 7.79999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 6,
+              "next": 9.99333333333331,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 739)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 11,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 9.31999999999998,
+              "capacity": 4,
+              "cell": "(39, 809)",
+              "color": 2,
+              "depart": 8.69999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 12,
+              "next": 9.95999999999998,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(56, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(231, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(295, 809)",
+              "color": 4,
+              "depart": 5.99999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 16,
+              "next": 7.72666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(359, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(423, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(487, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 879)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 879)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            110.0,
+            178.0
+          ],
+          "coins": 200,
+          "collected": 28,
+          "dragons": [
+            {
+              "head": 664.662744140636,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 2,
+          "invulnerable_until": 4.5,
+          "level": 4,
+          "lost": true,
+          "max_hearts": 2,
+          "mode": "challenge",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            4,
+            16,
+            12,
+            6
+          ],
+          "time": 17.5333333333334,
+          "total": 88,
+          "units": [
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 87
+            }
+          ],
+          "won": false
+        },
+        "time": 17.5333333333334,
+        "total": 88,
+        "won": false
+      },
+      "name": "all levels continued solution challenge4"
+    },
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 1,
+            "time": 1.5
+          },
+          {
+            "block": 2,
+            "time": 2.4
+          },
+          {
+            "block": 3,
+            "time": 3.3
+          },
+          {
+            "block": 4,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 22,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 5,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 11,
+            "time": 6.89999999999998
+          }
+        ],
+        "collected": 24,
+        "hearts": 3,
+        "level": 6,
+        "lost": true,
+        "mode": "challenge",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 0.62,
+              "capacity": 2,
+              "cell": "(231, 599)",
+              "color": 0,
+              "depart": 0,
+              "direction": 0,
+              "finish": 1.78666666666667,
+              "from_reserve": false,
+              "id": 0,
+              "next": 1.72666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(295, 599)",
+              "color": 5,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 1,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(167, 669)",
+              "color": 4,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(231, 669)",
+              "color": 3,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 3,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(295, 669)",
+              "color": 2,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 6.39333333333332,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(48, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(359, 669)",
+              "color": 1,
+              "depart": 5.99999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.65999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 6,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(231, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(295, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(359, 739)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 6,
+              "cell": "(423, 739)",
+              "color": 1,
+              "depart": 6.89999999999998,
+              "direction": 1,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 11,
+              "next": 8.62666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(39, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 12,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(103, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 809)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 16,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(487, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 879)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 879)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 4,
+              "cell": "(231, 879)",
+              "color": 2,
+              "depart": 5.09999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 22,
+              "next": 6.35999999999999,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(48, 59)",
+              "slot": 0
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(295, 879)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 23,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            95.0,
+            170.0
+          ],
+          "coins": 200,
+          "collected": 24,
+          "dragons": [
+            {
+              "head": 641.42063802083,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 3,
+          "invulnerable_until": 4.5,
+          "level": 6,
+          "lost": true,
+          "max_hearts": 3,
+          "mode": "challenge",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            22,
+            5,
+            4,
+            11
+          ],
+          "time": 16.2333333333333,
+          "total": 96,
+          "units": [
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 24
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 25
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 26
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 27
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 87
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 88
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 89
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 90
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 91
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 92
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 93
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 94
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 95
+            }
+          ],
+          "won": false
+        },
+        "time": 16.2333333333333,
+        "total": 96,
+        "won": false
+      },
+      "name": "all levels continued solution challenge6"
+    },
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 0,
+            "time": 1.5
+          },
+          {
+            "block": 1,
+            "time": 2.4
+          },
+          {
+            "block": 2,
+            "time": 3.3
+          },
+          {
+            "block": 3,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 4,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 22,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 5,
+            "time": 6.89999999999998
+          },
+          {
+            "block": 6,
+            "time": 7.79999999999998
+          },
+          {
+            "block": 12,
+            "time": 8.69999999999998
+          }
+        ],
+        "collected": 28,
+        "hearts": 3,
+        "level": 7,
+        "lost": true,
+        "mode": "challenge",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(231, 599)",
+              "color": 2,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 0,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(295, 599)",
+              "color": 1,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 1,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(167, 669)",
+              "color": 0,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(231, 669)",
+              "color": 5,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": 6.45333333333332,
+              "from_reserve": true,
+              "id": 3,
+              "next": 6.39333333333332,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 6,
+              "cell": "(295, 669)",
+              "color": 4,
+              "depart": 5.09999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 7.75999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 0
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 2,
+              "cell": "(359, 669)",
+              "color": 3,
+              "depart": 6.89999999999998,
+              "direction": 0,
+              "finish": 8.68666666666665,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.62666666666665,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 8.41999999999998,
+              "capacity": 4,
+              "cell": "(103, 739)",
+              "color": 2,
+              "depart": 7.79999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 6,
+              "next": 9.99333333333331,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 739)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 11,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 9.31999999999998,
+              "capacity": 4,
+              "cell": "(39, 809)",
+              "color": 2,
+              "depart": 8.69999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 12,
+              "next": 9.95999999999998,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(56, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(231, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(295, 809)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 16,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(359, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(423, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(487, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 879)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 879)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(231, 879)",
+              "color": 4,
+              "depart": 5.99999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 22,
+              "next": 7.72666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(295, 879)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 23,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(359, 879)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 24,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(423, 879)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 25,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            110.0,
+            178.0
+          ],
+          "coins": 200,
+          "collected": 28,
+          "dragons": [
+            {
+              "head": 664.662744140636,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 3,
+          "invulnerable_until": 4.5,
+          "level": 7,
+          "lost": true,
+          "max_hearts": 3,
+          "mode": "challenge",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            4,
+            22,
+            12,
+            6
+          ],
+          "time": 17.5333333333334,
+          "total": 106,
+          "units": [
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 87
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 88
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 89
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 90
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 91
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 92
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 93
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 94
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 95
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 96
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 97
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 98
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 99
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 100
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 101
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 102
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 103
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 104
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 105
+            }
+          ],
+          "won": false
+        },
+        "time": 17.5333333333334,
+        "total": 106,
+        "won": false
+      },
+      "name": "all levels continued solution challenge7"
+    },
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 0,
+            "time": 1.5
+          },
+          {
+            "block": 1,
+            "time": 2.4
+          },
+          {
+            "block": 2,
+            "time": 3.3
+          },
+          {
+            "block": 3,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 4,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 16,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 5,
+            "time": 6.89999999999998
+          },
+          {
+            "block": 6,
+            "time": 7.79999999999998
+          },
+          {
+            "block": 12,
+            "time": 8.69999999999998
+          }
+        ],
+        "collected": 28,
+        "hearts": 2,
+        "level": 4,
+        "lost": true,
+        "mode": "free",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(231, 599)",
+              "color": 2,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 0,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(295, 599)",
+              "color": 1,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 1,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(167, 669)",
+              "color": 0,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(231, 669)",
+              "color": 5,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": 6.45333333333332,
+              "from_reserve": true,
+              "id": 3,
+              "next": 6.39333333333332,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 6,
+              "cell": "(295, 669)",
+              "color": 4,
+              "depart": 5.09999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 7.75999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 0
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 2,
+              "cell": "(359, 669)",
+              "color": 3,
+              "depart": 6.89999999999998,
+              "direction": 0,
+              "finish": 8.68666666666665,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.62666666666665,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 8.41999999999998,
+              "capacity": 4,
+              "cell": "(103, 739)",
+              "color": 2,
+              "depart": 7.79999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 6,
+              "next": 9.99333333333331,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 739)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 11,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 9.31999999999998,
+              "capacity": 4,
+              "cell": "(39, 809)",
+              "color": 2,
+              "depart": 8.69999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 12,
+              "next": 9.95999999999998,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(56, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(231, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(295, 809)",
+              "color": 4,
+              "depart": 5.99999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 16,
+              "next": 7.72666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(359, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(423, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(487, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 879)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 879)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            110.0,
+            178.0
+          ],
+          "coins": 300,
+          "collected": 28,
+          "dragons": [
+            {
+              "head": 664.662744140636,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 2,
+          "invulnerable_until": 4.5,
+          "level": 4,
+          "lost": true,
+          "max_hearts": 2,
+          "mode": "free",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            4,
+            16,
+            12,
+            6
+          ],
+          "time": 17.5333333333334,
+          "total": 88,
+          "units": [
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 87
+            }
+          ],
+          "won": false
+        },
+        "time": 17.5333333333334,
+        "total": 88,
+        "won": false
+      },
+      "name": "all levels continued solution free4"
+    },
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 1,
+            "time": 1.5
+          },
+          {
+            "block": 2,
+            "time": 2.4
+          },
+          {
+            "block": 3,
+            "time": 3.3
+          },
+          {
+            "block": 4,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 22,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 5,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 11,
+            "time": 6.89999999999998
+          }
+        ],
+        "collected": 24,
+        "hearts": 3,
+        "level": 6,
+        "lost": true,
+        "mode": "free",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 0.62,
+              "capacity": 2,
+              "cell": "(231, 599)",
+              "color": 0,
+              "depart": 0,
+              "direction": 0,
+              "finish": 1.78666666666667,
+              "from_reserve": false,
+              "id": 0,
+              "next": 1.72666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(295, 599)",
+              "color": 5,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 1,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(167, 669)",
+              "color": 4,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(231, 669)",
+              "color": 3,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 3,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(295, 669)",
+              "color": 2,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 6.39333333333332,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(48, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(359, 669)",
+              "color": 1,
+              "depart": 5.99999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.65999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 6,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(231, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(295, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(359, 739)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 6,
+              "cell": "(423, 739)",
+              "color": 1,
+              "depart": 6.89999999999998,
+              "direction": 1,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 11,
+              "next": 8.62666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(39, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 12,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(103, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 809)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 16,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(487, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 879)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 879)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 4,
+              "cell": "(231, 879)",
+              "color": 2,
+              "depart": 5.09999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 22,
+              "next": 6.35999999999999,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(48, 59)",
+              "slot": 0
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(295, 879)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 23,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            95.0,
+            170.0
+          ],
+          "coins": 300,
+          "collected": 24,
+          "dragons": [
+            {
+              "head": 641.42063802083,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 3,
+          "invulnerable_until": 4.5,
+          "level": 6,
+          "lost": true,
+          "max_hearts": 3,
+          "mode": "free",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            22,
+            5,
+            4,
+            11
+          ],
+          "time": 16.2333333333333,
+          "total": 96,
+          "units": [
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 24
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 25
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 26
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 27
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 87
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 88
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 89
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 90
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 91
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 92
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 93
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 94
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 95
+            }
+          ],
+          "won": false
+        },
+        "time": 16.2333333333333,
+        "total": 96,
+        "won": false
+      },
+      "name": "all levels continued solution free6"
+    },
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 0,
+            "time": 1.5
+          },
+          {
+            "block": 1,
+            "time": 2.4
+          },
+          {
+            "block": 2,
+            "time": 3.3
+          },
+          {
+            "block": 3,
+            "time": 4.19999999999999
+          },
+          {
+            "block": 4,
+            "time": 5.09999999999999
+          },
+          {
+            "block": 22,
+            "time": 5.99999999999999
+          },
+          {
+            "block": 5,
+            "time": 6.89999999999998
+          },
+          {
+            "block": 6,
+            "time": 7.79999999999998
+          },
+          {
+            "block": 12,
+            "time": 8.69999999999998
+          }
+        ],
+        "collected": 28,
+        "hearts": 3,
+        "level": 7,
+        "lost": true,
+        "mode": "free",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 2.12,
+              "capacity": 4,
+              "cell": "(231, 599)",
+              "color": 2,
+              "depart": 1.5,
+              "direction": 0,
+              "finish": 3.28666666666667,
+              "from_reserve": true,
+              "id": 0,
+              "next": 3.22666666666667,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.02,
+              "capacity": 6,
+              "cell": "(295, 599)",
+              "color": 1,
+              "depart": 2.4,
+              "direction": 0,
+              "finish": 5.11999999999999,
+              "from_reserve": true,
+              "id": 1,
+              "next": 5.05999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 3.92,
+              "capacity": 2,
+              "cell": "(167, 669)",
+              "color": 0,
+              "depart": 3.3,
+              "direction": 0,
+              "finish": 4.61999999999999,
+              "from_reserve": true,
+              "id": 2,
+              "next": 4.55999999999999,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 4.81999999999999,
+              "capacity": 4,
+              "cell": "(231, 669)",
+              "color": 5,
+              "depart": 4.19999999999999,
+              "direction": 0,
+              "finish": 6.45333333333332,
+              "from_reserve": true,
+              "id": 3,
+              "next": 6.39333333333332,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 5.71999999999999,
+              "capacity": 6,
+              "cell": "(295, 669)",
+              "color": 4,
+              "depart": 5.09999999999999,
+              "direction": 0,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 4,
+              "next": 7.75999999999998,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 68)",
+              "slot": 0
+            },
+            {
+              "arrival": 7.51999999999998,
+              "capacity": 2,
+              "cell": "(359, 669)",
+              "color": 3,
+              "depart": 6.89999999999998,
+              "direction": 0,
+              "finish": 8.68666666666665,
+              "from_reserve": false,
+              "id": 5,
+              "next": 8.62666666666665,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 8.41999999999998,
+              "capacity": 4,
+              "cell": "(103, 739)",
+              "color": 2,
+              "depart": 7.79999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 6,
+              "next": 9.99333333333331,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(56, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 739)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 7,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(231, 739)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 8,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 739)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 9,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(359, 739)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 0,
+              "finish": -1.0,
+              "id": 10,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(423, 739)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 11,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 9.31999999999998,
+              "capacity": 4,
+              "cell": "(39, 809)",
+              "color": 2,
+              "depart": 8.69999999999998,
+              "direction": 3,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 12,
+              "next": 9.95999999999998,
+              "phase": "working",
+              "remaining": 3,
+              "size": "(56, 59)",
+              "slot": 2
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(103, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(167, 809)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(231, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(295, 809)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 16,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(359, 809)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(423, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 18,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(487, 809)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 19,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(103, 879)",
+              "color": 0,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 20,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(167, 879)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 21,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 6.61999999999999,
+              "capacity": 6,
+              "cell": "(231, 879)",
+              "color": 4,
+              "depart": 5.99999999999999,
+              "direction": 2,
+              "finish": -1.0,
+              "from_reserve": false,
+              "id": 22,
+              "next": 7.72666666666665,
+              "phase": "working",
+              "remaining": 4,
+              "size": "(48, 68)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 2,
+              "cell": "(295, 879)",
+              "color": 3,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 23,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(359, 879)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 24,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(423, 879)",
+              "color": 1,
+              "depart": -1.0,
+              "direction": 1,
+              "finish": -1.0,
+              "id": 25,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(56, 59)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 0,
+          "cat_phase": "waiting",
+          "cat_position": [
+            110.0,
+            178.0
+          ],
+          "coins": 300,
+          "collected": 28,
+          "dragons": [
+            {
+              "head": 664.662744140636,
+              "id": 0,
+              "phase": "chasing",
+              "until": 1.5
+            }
+          ],
+          "freeze_until": 0,
+          "hearts": 3,
+          "invulnerable_until": 4.5,
+          "level": 7,
+          "lost": true,
+          "max_hearts": 3,
+          "mode": "free",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            4,
+            22,
+            12,
+            6
+          ],
+          "time": 17.5333333333334,
+          "total": 106,
+          "units": [
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 28
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 29
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 30
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 31
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 32
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 33
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 34
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 35
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 36
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 37
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 38
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 39
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 40
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 41
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 42
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 43
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 44
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 45
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 46
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 47
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 48
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 49
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 50
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 51
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 52
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 54
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 55
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 56
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 57
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 58
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 59
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 60
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 61
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 62
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 63
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 64
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 65
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 66
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 67
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 68
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 69
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 70
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 71
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 72
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 73
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 74
+            },
+            {
+              "color": 0,
+              "dragon": 0,
+              "id": 75
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 76
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 77
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 78
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 79
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 80
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 84
+            },
+            {
+              "color": 5,
+              "dragon": 0,
+              "id": 85
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 86
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 87
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 88
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 89
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 90
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 91
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 92
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 93
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 94
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 95
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 96
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 97
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 98
+            },
+            {
+              "color": 3,
+              "dragon": 0,
+              "id": 99
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 100
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 101
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 102
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 103
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 104
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 105
+            }
+          ],
+          "won": false
+        },
+        "time": 17.5333333333334,
+        "total": 106,
+        "won": false
+      },
+      "name": "all levels continued solution free7"
+    }
+  ],
+  "resource_hashes": {
+    "res://scripts/campaign.gd": "e1ac63d3b64c596d4b4c71b53f7bd9f08c0968786184a143d37477dc446cca31",
+    "res://scripts/game.gd": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
+    "res://scripts/profile.gd": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+    "res://scripts/state.gd": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492"
+  },
+  "runs": [
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 4,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 6,
+          "time": 2.7
+        },
+        {
+          "block": 10,
+          "time": 3.6
+        },
+        {
+          "block": 8,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 3,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 1,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 5,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        }
+      ],
+      "collected": 42,
+      "hearts": 1,
+      "level": 0,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 12.7,
+      "total": 42,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        }
+      ],
+      "collected": 56,
+      "hearts": 1,
+      "level": 1,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 16.3,
+      "total": 56,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        }
+      ],
+      "collected": 63,
+      "hearts": 1,
+      "level": 2,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 18.1000000000001,
+      "total": 63,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        },
+        {
+          "block": 19,
+          "time": 16.2
+        },
+        {
+          "block": 18,
+          "time": 17.1
+        }
+      ],
+      "collected": 70,
+      "hearts": 2,
+      "level": 3,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 19.4000000000001,
+      "total": 70,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 15,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.19999999999998
+        },
+        {
+          "block": 8,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "time": 14.1
+        },
+        {
+          "block": 9,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 17,
+          "time": 17.8
+        },
+        {
+          "block": 18,
+          "time": 18.7000000000001
+        },
+        {
+          "block": 20,
+          "time": 19.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 20.5000000000002
+        },
+        {
+          "block": 14,
+          "time": 21.4000000000002
+        }
+      ],
+      "collected": 88,
+      "hearts": 2,
+      "level": 4,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 23.3000000000003,
+      "total": 88,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 20,
+          "time": 2.7
+        },
+        {
+          "block": 3,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.29999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.69999999999998
+        },
+        {
+          "block": 9,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 8,
+          "time": 14.1
+        },
+        {
+          "block": 15,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 18,
+          "time": 16.8
+        },
+        {
+          "block": 19,
+          "time": 17.7
+        },
+        {
+          "block": 14,
+          "time": 18.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.5000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.4000000000002
+        },
+        {
+          "block": 23,
+          "time": 21.3000000000002
+        },
+        {
+          "block": 17,
+          "time": 22.2000000000003
+        }
+      ],
+      "collected": 96,
+      "hearts": 2,
+      "level": 5,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 25.0000000000004,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 17,
+          "time": 12.6
+        },
+        {
+          "block": 19,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.3
+        },
+        {
+          "block": 21,
+          "time": 16.2
+        },
+        {
+          "block": 14,
+          "time": 17.1
+        },
+        {
+          "block": 22,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 15,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 23,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 16,
+          "time": 20.7000000000002
+        }
+      ],
+      "collected": 96,
+      "hearts": 3,
+      "level": 6,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 23.5000000000003,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 21,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.19999999999998
+        },
+        {
+          "block": 8,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "time": 14.1
+        },
+        {
+          "block": 25,
+          "time": 15.0
+        },
+        {
+          "block": 14,
+          "time": 15.9
+        },
+        {
+          "block": 9,
+          "time": 16.9
+        },
+        {
+          "block": 18,
+          "time": 17.8
+        },
+        {
+          "block": 20,
+          "time": 19.7000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.6000000000002
+        },
+        {
+          "block": 15,
+          "time": 21.5000000000002
+        },
+        {
+          "block": 23,
+          "time": 24.3000000000004
+        },
+        {
+          "block": 16,
+          "time": 25.2000000000004
+        },
+        {
+          "block": 24,
+          "time": 26.1000000000005
+        },
+        {
+          "block": 17,
+          "time": 27.5000000000005
+        }
+      ],
+      "collected": 106,
+      "hearts": 3,
+      "level": 7,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 29.3000000000006,
+      "total": 106,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 14,
+          "time": 11.7
+        },
+        {
+          "block": 20,
+          "time": 12.6
+        },
+        {
+          "block": 16,
+          "time": 13.5
+        },
+        {
+          "block": 15,
+          "time": 14.5
+        },
+        {
+          "block": 21,
+          "time": 15.4
+        },
+        {
+          "block": 23,
+          "time": 16.3
+        },
+        {
+          "block": 17,
+          "time": 17.2
+        },
+        {
+          "block": 13,
+          "time": 18.2000000000001
+        },
+        {
+          "block": 25,
+          "time": 19.1000000000001
+        },
+        {
+          "block": 24,
+          "time": 20.0000000000002
+        },
+        {
+          "block": 18,
+          "time": 20.9000000000002
+        },
+        {
+          "block": 19,
+          "time": 21.8000000000002
+        },
+        {
+          "block": 22,
+          "time": 22.7000000000003
+        }
+      ],
+      "collected": 104,
+      "hearts": 3,
+      "level": 8,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 24.6000000000004,
+      "total": 104,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 19,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 25,
+          "time": 10.8
+        },
+        {
+          "block": 12,
+          "time": 11.7
+        },
+        {
+          "block": 11,
+          "time": 12.6
+        },
+        {
+          "block": 23,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 24,
+          "time": 15.3
+        },
+        {
+          "block": 27,
+          "time": 16.2
+        },
+        {
+          "block": 13,
+          "time": 17.1
+        },
+        {
+          "block": 16,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 20,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 17,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 26,
+          "time": 20.7000000000002
+        },
+        {
+          "block": 21,
+          "time": 21.6000000000002
+        },
+        {
+          "block": 14,
+          "time": 22.6000000000003
+        },
+        {
+          "block": 22,
+          "time": 23.5000000000003
+        },
+        {
+          "block": 15,
+          "time": 24.4000000000004
+        }
+      ],
+      "collected": 110,
+      "hearts": 3,
+      "level": 9,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 26.3000000000005,
+      "total": 110,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 4,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 6,
+          "time": 2.7
+        },
+        {
+          "block": 10,
+          "time": 3.6
+        },
+        {
+          "block": 8,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 3,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 1,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 5,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        }
+      ],
+      "collected": 42,
+      "hearts": 1,
+      "level": 0,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 12.7,
+      "total": 42,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        }
+      ],
+      "collected": 56,
+      "hearts": 1,
+      "level": 1,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 16.3,
+      "total": 56,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        }
+      ],
+      "collected": 63,
+      "hearts": 1,
+      "level": 2,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 18.1000000000001,
+      "total": 63,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        },
+        {
+          "block": 19,
+          "time": 16.2
+        },
+        {
+          "block": 18,
+          "time": 17.1
+        }
+      ],
+      "collected": 70,
+      "hearts": 2,
+      "level": 3,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 19.4000000000001,
+      "total": 70,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 15,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.19999999999998
+        },
+        {
+          "block": 8,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "time": 14.1
+        },
+        {
+          "block": 9,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 17,
+          "time": 17.8
+        },
+        {
+          "block": 18,
+          "time": 18.7000000000001
+        },
+        {
+          "block": 20,
+          "time": 19.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 20.5000000000002
+        },
+        {
+          "block": 14,
+          "time": 21.4000000000002
+        }
+      ],
+      "collected": 88,
+      "hearts": 2,
+      "level": 4,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 23.3000000000003,
+      "total": 88,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 20,
+          "time": 2.7
+        },
+        {
+          "block": 3,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.29999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.69999999999998
+        },
+        {
+          "block": 9,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 8,
+          "time": 14.1
+        },
+        {
+          "block": 15,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 18,
+          "time": 16.8
+        },
+        {
+          "block": 19,
+          "time": 17.7
+        },
+        {
+          "block": 14,
+          "time": 18.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.5000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.4000000000002
+        },
+        {
+          "block": 23,
+          "time": 21.3000000000002
+        },
+        {
+          "block": 17,
+          "time": 22.2000000000003
+        }
+      ],
+      "collected": 96,
+      "hearts": 2,
+      "level": 5,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 25.0000000000004,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 17,
+          "time": 12.6
+        },
+        {
+          "block": 19,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.3
+        },
+        {
+          "block": 21,
+          "time": 16.2
+        },
+        {
+          "block": 14,
+          "time": 17.1
+        },
+        {
+          "block": 22,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 15,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 23,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 16,
+          "time": 20.7000000000002
+        }
+      ],
+      "collected": 96,
+      "hearts": 3,
+      "level": 6,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 23.5000000000003,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 21,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.19999999999998
+        },
+        {
+          "block": 8,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "time": 14.1
+        },
+        {
+          "block": 25,
+          "time": 15.0
+        },
+        {
+          "block": 14,
+          "time": 15.9
+        },
+        {
+          "block": 9,
+          "time": 16.9
+        },
+        {
+          "block": 18,
+          "time": 17.8
+        },
+        {
+          "block": 20,
+          "time": 19.7000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.6000000000002
+        },
+        {
+          "block": 15,
+          "time": 21.5000000000002
+        },
+        {
+          "block": 23,
+          "time": 24.3000000000004
+        },
+        {
+          "block": 16,
+          "time": 25.2000000000004
+        },
+        {
+          "block": 24,
+          "time": 26.1000000000005
+        },
+        {
+          "block": 17,
+          "time": 27.5000000000005
+        }
+      ],
+      "collected": 106,
+      "hearts": 3,
+      "level": 7,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 29.3000000000006,
+      "total": 106,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 14,
+          "time": 11.7
+        },
+        {
+          "block": 20,
+          "time": 12.6
+        },
+        {
+          "block": 16,
+          "time": 13.5
+        },
+        {
+          "block": 15,
+          "time": 14.5
+        },
+        {
+          "block": 21,
+          "time": 15.4
+        },
+        {
+          "block": 23,
+          "time": 16.3
+        },
+        {
+          "block": 17,
+          "time": 17.2
+        },
+        {
+          "block": 13,
+          "time": 18.2000000000001
+        },
+        {
+          "block": 25,
+          "time": 19.1000000000001
+        },
+        {
+          "block": 24,
+          "time": 20.0000000000002
+        },
+        {
+          "block": 18,
+          "time": 20.9000000000002
+        },
+        {
+          "block": 19,
+          "time": 21.8000000000002
+        },
+        {
+          "block": 22,
+          "time": 22.7000000000003
+        }
+      ],
+      "collected": 104,
+      "hearts": 3,
+      "level": 8,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 24.6000000000004,
+      "total": 104,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 19,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 25,
+          "time": 10.8
+        },
+        {
+          "block": 12,
+          "time": 11.7
+        },
+        {
+          "block": 11,
+          "time": 12.6
+        },
+        {
+          "block": 23,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 24,
+          "time": 15.3
+        },
+        {
+          "block": 27,
+          "time": 16.2
+        },
+        {
+          "block": 13,
+          "time": 17.1
+        },
+        {
+          "block": 16,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 20,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 17,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 26,
+          "time": 20.7000000000002
+        },
+        {
+          "block": 21,
+          "time": 21.6000000000002
+        },
+        {
+          "block": 14,
+          "time": 22.6000000000003
+        },
+        {
+          "block": 22,
+          "time": 23.5000000000003
+        },
+        {
+          "block": 15,
+          "time": 24.4000000000004
+        }
+      ],
+      "collected": 110,
+      "hearts": 3,
+      "level": 9,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 26.3000000000005,
+      "total": 110,
+      "won": true
+    }
+  ]
+}

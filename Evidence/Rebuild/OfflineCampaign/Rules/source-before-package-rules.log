@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RUN challenge 0 won=true t=12.7 hp=1
+RUN challenge 1 won=true t=16.3 hp=1
+RUN challenge 2 won=true t=18.1000000000001 hp=1
+RUN challenge 3 won=true t=19.4000000000001 hp=2
+RUN challenge 4 won=true t=23.3000000000003 hp=2
+RUN challenge 5 won=true t=25.0000000000004 hp=2
+RUN challenge 6 won=true t=23.5000000000003 hp=3
+RUN challenge 7 won=true t=29.3000000000006 hp=3
+RUN challenge 8 won=true t=24.6000000000004 hp=3
+RUN challenge 9 won=true t=26.3000000000005 hp=3
+RUN free 0 won=true t=12.7 hp=1
+RUN free 1 won=true t=16.3 hp=1
+RUN free 2 won=true t=18.1000000000001 hp=1
+RUN free 3 won=true t=19.4000000000001 hp=2
+RUN free 4 won=true t=23.3000000000003 hp=2
+RUN free 5 won=true t=25.0000000000004 hp=2
+RUN free 6 won=true t=23.5000000000003 hp=3
+RUN free 7 won=true t=29.3000000000006 hp=3
+RUN free 8 won=true t=24.6000000000004 hp=3
+RUN free 9 won=true t=26.3000000000005 hp=3
+INDEPENDENT_RULES checks=85975 failures=0

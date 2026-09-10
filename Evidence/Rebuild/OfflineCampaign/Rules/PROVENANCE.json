@@ -1,0 +1,87 @@
+{
+  "candidate_commit": "114e7f3e8e21b3dc072277b1ecc6266bd24790a9",
+  "pck_sha256": "685155149327a4d061b6d8a1f03be065332208804ae5513acbe3c7c9a7f9c56e",
+  "pck_hash_matches": true,
+  "runtime": "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe",
+  "runtime_sha256": "c8f0a6bc45a19b33541501e57f6f7cd972ab18453743266339d495cbbe846643",
+  "resource_matches": [
+    {
+      "resource": "res://scripts/campaign.gd",
+      "packed_sha256": "e1ac63d3b64c596d4b4c71b53f7bd9f08c0968786184a143d37477dc446cca31",
+      "committed_sha256": "e1ac63d3b64c596d4b4c71b53f7bd9f08c0968786184a143d37477dc446cca31",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/game.gd",
+      "packed_sha256": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
+      "committed_sha256": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/profile.gd",
+      "packed_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "committed_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/state.gd",
+      "packed_sha256": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492",
+      "committed_sha256": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492",
+      "match": true
+    }
+  ],
+  "verdict": "PASS_WITHIN_RULES_SCOPE",
+  "rules": {
+    "repeated_assertions": 80773,
+    "failures": 0,
+    "tool_free_new_runs": 20
+  },
+  "scene": {
+    "repeated_assertions": 30774,
+    "failures": 0,
+    "campaign_runs": 20
+  },
+  "recovery_intervals": [
+    {
+      "interval": 0.1,
+      "won": true,
+      "elapsed": 43.0999999999976
+    },
+    {
+      "interval": 0.25,
+      "won": true,
+      "elapsed": 43.0999999999976
+    },
+    {
+      "interval": 0.4,
+      "won": true,
+      "elapsed": 43.0999999999976
+    },
+    {
+      "interval": 0.6,
+      "won": true,
+      "elapsed": 43.0999999999976
+    },
+    {
+      "interval": 0.85,
+      "won": true,
+      "elapsed": 43.0999999999976
+    },
+    {
+      "interval": 1.35,
+      "won": true,
+      "elapsed": 45.0999999999974
+    }
+  ],
+  "limitations": [
+    "Headless rules/scene calls, not native mouse or touch input",
+    "Godot 4.7.2 inspection runtime loaded the final PCK; export template forbids --path harness override",
+    "No Android device gameplay certification",
+    "Corrupted or complete temporary save fixtures do not emulate every power-loss or filesystem failure"
+  ],
+  "commands": [
+    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/independent_rules.gd",
+    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/recovery_variants.gd",
+    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd -- --profile-dir <new-isolated-directory>"
+  ]
+}

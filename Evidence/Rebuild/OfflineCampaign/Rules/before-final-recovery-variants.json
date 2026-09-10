@@ -1,0 +1,1870 @@
+[
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 22,
+        "time": 65.7999999999988
+      },
+      {
+        "block": 15,
+        "time": 65.8999999999988
+      },
+      {
+        "block": 2,
+        "time": 65.9999999999988
+      },
+      {
+        "block": 0,
+        "time": 67.4999999999987
+      },
+      {
+        "block": 6,
+        "time": 67.6999999999987
+      },
+      {
+        "block": 1,
+        "time": 68.5999999999987
+      },
+      {
+        "block": 7,
+        "time": 69.2999999999986
+      },
+      {
+        "block": 5,
+        "time": 69.4999999999986
+      },
+      {
+        "block": 11,
+        "time": 69.6999999999986
+      },
+      {
+        "block": 23,
+        "time": 71.3999999999985
+      },
+      {
+        "block": 4,
+        "time": 72.0999999999985
+      },
+      {
+        "block": 12,
+        "time": 73.1999999999984
+      },
+      {
+        "block": 13,
+        "time": 73.3999999999984
+      },
+      {
+        "block": 3,
+        "time": 74.8999999999983
+      },
+      {
+        "block": 9,
+        "time": 74.9999999999983
+      },
+      {
+        "block": 19,
+        "time": 75.0999999999983
+      },
+      {
+        "block": 8,
+        "time": 76.1999999999982
+      },
+      {
+        "block": 20,
+        "time": 76.6999999999982
+      },
+      {
+        "block": 26,
+        "time": 76.7999999999982
+      },
+      {
+        "block": 10,
+        "time": 77.8999999999981
+      },
+      {
+        "block": 16,
+        "time": 79.899999999998
+      },
+      {
+        "block": 18,
+        "time": 80.399999999998
+      },
+      {
+        "block": 21,
+        "time": 80.699999999998
+      },
+      {
+        "block": 24,
+        "time": 82.1999999999979
+      },
+      {
+        "block": 17,
+        "time": 82.4999999999979
+      },
+      {
+        "block": 25,
+        "time": 86.9999999999976
+      },
+      {
+        "block": 14,
+        "time": 89.9999999999975
+      }
+    ],
+    "collected": 110,
+    "hearts": 3,
+    "interval": 0.1,
+    "level": 9,
+    "lost": false,
+    "mode": "challenge",
+    "resume_duration": 27.9999999999984,
+    "snapshot": {},
+    "time": 93.6999999999972,
+    "total": 110,
+    "won": true
+  },
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 22,
+        "time": 65.9999999999988
+      },
+      {
+        "block": 15,
+        "time": 66.2999999999988
+      },
+      {
+        "block": 2,
+        "time": 66.5999999999988
+      },
+      {
+        "block": 5,
+        "time": 67.4999999999987
+      },
+      {
+        "block": 0,
+        "time": 68.0999999999987
+      },
+      {
+        "block": 1,
+        "time": 68.7999999999987
+      },
+      {
+        "block": 7,
+        "time": 69.8999999999986
+      },
+      {
+        "block": 19,
+        "time": 70.2999999999986
+      },
+      {
+        "block": 6,
+        "time": 71.1999999999985
+      },
+      {
+        "block": 12,
+        "time": 71.5999999999985
+      },
+      {
+        "block": 4,
+        "time": 72.6999999999984
+      },
+      {
+        "block": 10,
+        "time": 72.9999999999984
+      },
+      {
+        "block": 11,
+        "time": 73.2999999999984
+      },
+      {
+        "block": 23,
+        "time": 73.5999999999984
+      },
+      {
+        "block": 3,
+        "time": 75.4999999999983
+      },
+      {
+        "block": 9,
+        "time": 75.7999999999983
+      },
+      {
+        "block": 8,
+        "time": 76.9999999999982
+      },
+      {
+        "block": 20,
+        "time": 77.2999999999982
+      },
+      {
+        "block": 26,
+        "time": 77.5999999999982
+      },
+      {
+        "block": 13,
+        "time": 77.8999999999981
+      },
+      {
+        "block": 16,
+        "time": 80.699999999998
+      },
+      {
+        "block": 18,
+        "time": 80.999999999998
+      },
+      {
+        "block": 21,
+        "time": 81.299999999998
+      },
+      {
+        "block": 24,
+        "time": 82.7999999999979
+      },
+      {
+        "block": 17,
+        "time": 83.0999999999978
+      },
+      {
+        "block": 25,
+        "time": 86.7999999999976
+      },
+      {
+        "block": 14,
+        "time": 89.9999999999975
+      }
+    ],
+    "collected": 110,
+    "hearts": 3,
+    "interval": 0.25,
+    "level": 9,
+    "lost": false,
+    "mode": "challenge",
+    "resume_duration": 27.9999999999984,
+    "snapshot": {},
+    "time": 93.6999999999972,
+    "total": 110,
+    "won": true
+  },
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 22,
+        "time": 66.1999999999988
+      },
+      {
+        "block": 15,
+        "time": 66.6999999999988
+      },
+      {
+        "block": 5,
+        "time": 67.1999999999988
+      },
+      {
+        "block": 11,
+        "time": 67.6999999999987
+      },
+      {
+        "block": 0,
+        "time": 68.4999999999987
+      },
+      {
+        "block": 1,
+        "time": 68.9999999999987
+      },
+      {
+        "block": 19,
+        "time": 70.2999999999986
+      },
+      {
+        "block": 6,
+        "time": 70.8999999999985
+      },
+      {
+        "block": 12,
+        "time": 71.3999999999985
+      },
+      {
+        "block": 18,
+        "time": 71.8999999999985
+      },
+      {
+        "block": 13,
+        "time": 72.6999999999984
+      },
+      {
+        "block": 25,
+        "time": 73.1999999999984
+      },
+      {
+        "block": 2,
+        "time": 73.6999999999984
+      },
+      {
+        "block": 3,
+        "time": 74.1999999999984
+      },
+      {
+        "block": 4,
+        "time": 75.4999999999983
+      },
+      {
+        "block": 9,
+        "time": 75.9999999999983
+      },
+      {
+        "block": 23,
+        "time": 77.3999999999982
+      },
+      {
+        "block": 10,
+        "time": 77.8999999999981
+      },
+      {
+        "block": 8,
+        "time": 78.3999999999981
+      },
+      {
+        "block": 20,
+        "time": 80.699999999998
+      },
+      {
+        "block": 26,
+        "time": 81.199999999998
+      },
+      {
+        "block": 16,
+        "time": 82.0999999999979
+      },
+      {
+        "block": 21,
+        "time": 84.3999999999978
+      },
+      {
+        "block": 24,
+        "time": 84.8999999999977
+      },
+      {
+        "block": 17,
+        "time": 86.1999999999977
+      },
+      {
+        "block": 7,
+        "time": 86.6999999999976
+      },
+      {
+        "block": 14,
+        "time": 89.9999999999975
+      }
+    ],
+    "collected": 110,
+    "hearts": 3,
+    "interval": 0.4,
+    "level": 9,
+    "lost": false,
+    "mode": "challenge",
+    "resume_duration": 27.9999999999984,
+    "snapshot": {},
+    "time": 93.6999999999972,
+    "total": 110,
+    "won": true
+  },
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 22,
+        "time": 66.3999999999988
+      },
+      {
+        "block": 5,
+        "time": 67.0999999999988
+      },
+      {
+        "block": 10,
+        "time": 67.7999999999987
+      },
+      {
+        "block": 0,
+        "time": 68.4999999999987
+      },
+      {
+        "block": 6,
+        "time": 69.1999999999986
+      },
+      {
+        "block": 1,
+        "time": 70.2999999999986
+      },
+      {
+        "block": 19,
+        "time": 70.9999999999985
+      },
+      {
+        "block": 25,
+        "time": 71.6999999999985
+      },
+      {
+        "block": 2,
+        "time": 72.3999999999985
+      },
+      {
+        "block": 20,
+        "time": 73.0999999999984
+      },
+      {
+        "block": 11,
+        "time": 73.7999999999984
+      },
+      {
+        "block": 23,
+        "time": 74.4999999999983
+      },
+      {
+        "block": 12,
+        "time": 76.0999999999982
+      },
+      {
+        "block": 3,
+        "time": 76.7999999999982
+      },
+      {
+        "block": 15,
+        "time": 77.4999999999982
+      },
+      {
+        "block": 4,
+        "time": 78.1999999999981
+      },
+      {
+        "block": 9,
+        "time": 78.8999999999981
+      },
+      {
+        "block": 8,
+        "time": 79.599999999998
+      },
+      {
+        "block": 26,
+        "time": 80.299999999998
+      },
+      {
+        "block": 7,
+        "time": 80.999999999998
+      },
+      {
+        "block": 13,
+        "time": 81.6999999999979
+      },
+      {
+        "block": 16,
+        "time": 83.2999999999978
+      },
+      {
+        "block": 24,
+        "time": 87.0999999999976
+      },
+      {
+        "block": 17,
+        "time": 88.2999999999976
+      },
+      {
+        "block": 21,
+        "time": 89.2999999999975
+      },
+      {
+        "block": 18,
+        "time": 89.9999999999975
+      },
+      {
+        "block": 14,
+        "time": 91.3999999999974
+      }
+    ],
+    "collected": 110,
+    "hearts": 3,
+    "interval": 0.6,
+    "level": 9,
+    "lost": false,
+    "mode": "challenge",
+    "resume_duration": 30.7999999999982,
+    "snapshot": {},
+    "time": 96.4999999999971,
+    "total": 110,
+    "won": true
+  },
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 22,
+        "time": 66.5999999999988
+      },
+      {
+        "block": 5,
+        "time": 67.4999999999987
+      },
+      {
+        "block": 0,
+        "time": 68.3999999999987
+      },
+      {
+        "block": 6,
+        "time": 69.2999999999986
+      },
+      {
+        "block": 1,
+        "time": 70.1999999999986
+      },
+      {
+        "block": 19,
+        "time": 71.0999999999985
+      },
+      {
+        "block": 25,
+        "time": 71.9999999999985
+      },
+      {
+        "block": 2,
+        "time": 72.8999999999984
+      },
+      {
+        "block": 11,
+        "time": 73.7999999999984
+      },
+      {
+        "block": 4,
+        "time": 74.6999999999983
+      },
+      {
+        "block": 12,
+        "time": 76.5999999999982
+      },
+      {
+        "block": 23,
+        "time": 77.4999999999982
+      },
+      {
+        "block": 3,
+        "time": 78.3999999999981
+      },
+      {
+        "block": 9,
+        "time": 79.2999999999981
+      },
+      {
+        "block": 15,
+        "time": 80.199999999998
+      },
+      {
+        "block": 8,
+        "time": 81.099999999998
+      },
+      {
+        "block": 20,
+        "time": 81.9999999999979
+      },
+      {
+        "block": 26,
+        "time": 82.8999999999979
+      },
+      {
+        "block": 10,
+        "time": 83.7999999999978
+      },
+      {
+        "block": 16,
+        "time": 84.7999999999978
+      },
+      {
+        "block": 7,
+        "time": 85.6999999999977
+      },
+      {
+        "block": 13,
+        "time": 86.5999999999977
+      },
+      {
+        "block": 21,
+        "time": 88.4999999999975
+      },
+      {
+        "block": 18,
+        "time": 94.6999999999972
+      },
+      {
+        "block": 14,
+        "time": 96.4999999999971
+      },
+      {
+        "block": 24,
+        "time": 98.299999999997
+      },
+      {
+        "block": 17,
+        "time": 100.199999999997
+      }
+    ],
+    "collected": 100,
+    "hearts": 0,
+    "interval": 0.85,
+    "level": 9,
+    "lost": true,
+    "mode": "challenge",
+    "resume_duration": 35.099999999998,
+    "snapshot": {
+      "blocks": [
+        {
+          "arrival": 69.0199999999987,
+          "capacity": 2,
+          "cell": "(231, 599)",
+          "color": 0,
+          "depart": 68.3999999999987,
+          "direction": 0,
+          "finish": 70.1866666666653,
+          "from_reserve": false,
+          "id": 0,
+          "next": 70.1266666666653,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 70.8199999999986,
+          "capacity": 4,
+          "cell": "(295, 599)",
+          "color": 5,
+          "depart": 70.1999999999986,
+          "direction": 0,
+          "finish": 72.9199999999985,
+          "from_reserve": false,
+          "id": 1,
+          "next": 72.8599999999985,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 73.5199999999984,
+          "capacity": 6,
+          "cell": "(167, 669)",
+          "color": 4,
+          "depart": 72.8999999999984,
+          "direction": 0,
+          "finish": 76.5533333333316,
+          "from_reserve": false,
+          "id": 2,
+          "next": 76.4933333333316,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 79.0199999999981,
+          "capacity": 2,
+          "cell": "(231, 669)",
+          "color": 3,
+          "depart": 78.3999999999981,
+          "direction": 0,
+          "finish": 80.1866666666647,
+          "from_reserve": false,
+          "id": 3,
+          "next": 80.1266666666647,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 75.3199999999983,
+          "capacity": 4,
+          "cell": "(295, 669)",
+          "color": 2,
+          "depart": 74.6999999999983,
+          "direction": 0,
+          "finish": 77.4199999999982,
+          "from_reserve": false,
+          "id": 4,
+          "next": 77.3599999999982,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 68.1199999999987,
+          "capacity": 6,
+          "cell": "(359, 669)",
+          "color": 1,
+          "depart": 67.4999999999987,
+          "direction": 0,
+          "finish": 71.1533333333319,
+          "from_reserve": false,
+          "id": 5,
+          "next": 71.0933333333319,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 69.9199999999986,
+          "capacity": 2,
+          "cell": "(103, 739)",
+          "color": 0,
+          "depart": 69.2999999999986,
+          "direction": 3,
+          "finish": 71.0866666666652,
+          "from_reserve": false,
+          "id": 6,
+          "next": 71.0266666666652,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 86.3199999999977,
+          "capacity": 4,
+          "cell": "(167, 739)",
+          "color": 5,
+          "depart": 85.6999999999977,
+          "direction": 0,
+          "finish": 88.4199999999976,
+          "from_reserve": false,
+          "id": 7,
+          "next": 88.3599999999976,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 81.719999999998,
+          "capacity": 6,
+          "cell": "(231, 739)",
+          "color": 4,
+          "depart": 81.099999999998,
+          "direction": 0,
+          "finish": 84.7533333333311,
+          "from_reserve": false,
+          "id": 8,
+          "next": 84.6933333333311,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 79.9199999999981,
+          "capacity": 2,
+          "cell": "(295, 739)",
+          "color": 3,
+          "depart": 79.2999999999981,
+          "direction": 0,
+          "finish": 81.0866666666647,
+          "from_reserve": false,
+          "id": 9,
+          "next": 81.0266666666647,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 84.4199999999978,
+          "capacity": 4,
+          "cell": "(359, 739)",
+          "color": 2,
+          "depart": 83.7999999999978,
+          "direction": 0,
+          "finish": 86.5199999999977,
+          "from_reserve": false,
+          "id": 10,
+          "next": 86.4599999999977,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 74.4199999999984,
+          "capacity": 6,
+          "cell": "(423, 739)",
+          "color": 1,
+          "depart": 73.7999999999984,
+          "direction": 1,
+          "finish": 77.4533333333315,
+          "from_reserve": false,
+          "id": 11,
+          "next": 77.3933333333315,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 77.2199999999982,
+          "capacity": 2,
+          "cell": "(39, 809)",
+          "color": 0,
+          "depart": 76.5999999999982,
+          "direction": 3,
+          "finish": 78.3866666666648,
+          "from_reserve": false,
+          "id": 12,
+          "next": 78.3266666666648,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 87.2199999999977,
+          "capacity": 4,
+          "cell": "(103, 809)",
+          "color": 5,
+          "depart": 86.5999999999977,
+          "direction": 3,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 13,
+          "next": 88.7933333333309,
+          "phase": "working",
+          "remaining": 1,
+          "size": "(56, 59)",
+          "slot": 3
+        },
+        {
+          "arrival": 97.1199999999971,
+          "capacity": 6,
+          "cell": "(167, 809)",
+          "color": 4,
+          "depart": 96.4999999999971,
+          "direction": 2,
+          "finish": 100.15333333333,
+          "from_reserve": false,
+          "id": 14,
+          "next": 100.09333333333,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 80.819999999998,
+          "capacity": 2,
+          "cell": "(231, 809)",
+          "color": 3,
+          "depart": 80.199999999998,
+          "direction": 2,
+          "finish": 81.9866666666646,
+          "from_reserve": false,
+          "id": 15,
+          "next": 81.9266666666646,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 85.4199999999978,
+          "capacity": 4,
+          "cell": "(295, 809)",
+          "color": 2,
+          "depart": 84.7999999999978,
+          "direction": 2,
+          "finish": 98.2866666666637,
+          "from_reserve": false,
+          "id": 16,
+          "next": 98.2266666666637,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 100.819999999997,
+          "capacity": 6,
+          "cell": "(359, 809)",
+          "color": 1,
+          "depart": 100.199999999997,
+          "direction": 2,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 17,
+          "next": 100.979999999997,
+          "phase": "travel",
+          "remaining": 6,
+          "size": "(48, 68)",
+          "slot": 1
+        },
+        {
+          "arrival": 95.3199999999972,
+          "capacity": 2,
+          "cell": "(423, 809)",
+          "color": 0,
+          "depart": 94.6999999999972,
+          "direction": 1,
+          "finish": 96.4866666666638,
+          "from_reserve": false,
+          "id": 18,
+          "next": 96.4266666666638,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 71.7199999999985,
+          "capacity": 4,
+          "cell": "(487, 809)",
+          "color": 5,
+          "depart": 71.0999999999985,
+          "direction": 1,
+          "finish": 73.8199999999984,
+          "from_reserve": false,
+          "id": 19,
+          "next": 73.7599999999984,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 82.6199999999979,
+          "capacity": 6,
+          "cell": "(103, 879)",
+          "color": 4,
+          "depart": 81.9999999999979,
+          "direction": 3,
+          "finish": 85.6533333333311,
+          "from_reserve": false,
+          "id": 20,
+          "next": 85.5933333333311,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 89.1199999999975,
+          "capacity": 2,
+          "cell": "(167, 879)",
+          "color": 3,
+          "depart": 88.4999999999975,
+          "direction": 2,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 21,
+          "next": 89.7599999999975,
+          "phase": "working",
+          "remaining": 1,
+          "size": "(48, 59)",
+          "slot": 0
+        },
+        {
+          "arrival": 67.2199999999988,
+          "capacity": 4,
+          "cell": "(231, 879)",
+          "color": 2,
+          "depart": 66.5999999999988,
+          "direction": 2,
+          "finish": 69.3199999999987,
+          "from_reserve": false,
+          "id": 22,
+          "next": 69.2599999999987,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 78.1199999999982,
+          "capacity": 6,
+          "cell": "(295, 879)",
+          "color": 1,
+          "depart": 77.4999999999982,
+          "direction": 2,
+          "finish": 81.1533333333313,
+          "from_reserve": false,
+          "id": 23,
+          "next": 81.0933333333313,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 98.919999999997,
+          "capacity": 2,
+          "cell": "(359, 879)",
+          "color": 0,
+          "depart": 98.299999999997,
+          "direction": 2,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 24,
+          "next": 99.079999999997,
+          "phase": "working",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": 2
+        },
+        {
+          "arrival": 72.6199999999985,
+          "capacity": 4,
+          "cell": "(423, 879)",
+          "color": 5,
+          "depart": 71.9999999999985,
+          "direction": 1,
+          "finish": 76.5199999999982,
+          "from_reserve": false,
+          "id": 25,
+          "next": 76.4599999999982,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 83.5199999999979,
+          "capacity": 6,
+          "cell": "(167, 949)",
+          "color": 4,
+          "depart": 82.8999999999979,
+          "direction": 2,
+          "finish": 94.6866666666639,
+          "from_reserve": false,
+          "id": 26,
+          "next": 94.6266666666639,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 66.3199999999988,
+          "capacity": 2,
+          "cell": "(231, 949)",
+          "color": 3,
+          "depart": 65.6999999999988,
+          "direction": 2,
+          "finish": 67.4866666666654,
+          "from_reserve": false,
+          "id": 27,
+          "next": 67.4266666666654,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        }
+      ],
+      "cat_anchor": 2,
+      "cat_phase": "hurt",
+      "cat_position": [
+        390.000061035156,
+        285.000030517578
+      ],
+      "coins": 200,
+      "collected": 100,
+      "dragons": [
+        {
+          "head": 1550.07805989594,
+          "id": 0,
+          "phase": "cleared",
+          "until": 65.6999999999988
+        },
+        {
+          "head": 1464.28491210938,
+          "id": 1,
+          "phase": "fire",
+          "until": 101.299999999997
+        }
+      ],
+      "freeze_until": 30.6333333333339,
+      "hearts": 0,
+      "invulnerable_until": 101.799999999997,
+      "level": 9,
+      "lost": true,
+      "max_hearts": 3,
+      "mode": "challenge",
+      "reserve": [],
+      "shield_until": 0,
+      "slots": [
+        21,
+        17,
+        24,
+        13
+      ],
+      "time": 100.799999999997,
+      "total": 110,
+      "units": [
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 18
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 67
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 68
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 69
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 70
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 71
+        },
+        {
+          "color": 0,
+          "dragon": 1,
+          "id": 76
+        },
+        {
+          "color": 0,
+          "dragon": 1,
+          "id": 77
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 85
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 109
+        }
+      ],
+      "won": false
+    },
+    "time": 100.799999999997,
+    "total": 110,
+    "won": false
+  },
+  {
+    "actions": [
+      {
+        "block": 27,
+        "time": 65.6999999999988
+      },
+      {
+        "block": 5,
+        "time": 67.0999999999988
+      },
+      {
+        "block": 10,
+        "time": 68.4999999999987
+      },
+      {
+        "block": 0,
+        "time": 69.8999999999986
+      },
+      {
+        "block": 1,
+        "time": 71.2999999999985
+      },
+      {
+        "block": 19,
+        "time": 72.6999999999984
+      },
+      {
+        "block": 6,
+        "time": 74.0999999999984
+      },
+      {
+        "block": 2,
+        "time": 75.4999999999983
+      },
+      {
+        "block": 4,
+        "time": 76.8999999999982
+      },
+      {
+        "block": 11,
+        "time": 78.2999999999981
+      },
+      {
+        "block": 23,
+        "time": 79.699999999998
+      },
+      {
+        "block": 12,
+        "time": 81.099999999998
+      },
+      {
+        "block": 3,
+        "time": 82.4999999999979
+      },
+      {
+        "block": 9,
+        "time": 83.8999999999978
+      },
+      {
+        "block": 7,
+        "time": 85.2999999999977
+      },
+      {
+        "block": 18,
+        "time": 86.6999999999976
+      },
+      {
+        "block": 8,
+        "time": 88.0999999999976
+      },
+      {
+        "block": 20,
+        "time": 89.4999999999975
+      },
+      {
+        "block": 26,
+        "time": 90.8999999999974
+      },
+      {
+        "block": 16,
+        "time": 92.2999999999973
+      },
+      {
+        "block": 21,
+        "time": 93.6999999999972
+      },
+      {
+        "block": 13,
+        "time": 95.0999999999972
+      },
+      {
+        "block": 24,
+        "time": 96.4999999999971
+      },
+      {
+        "block": 17,
+        "time": 97.899999999997
+      },
+      {
+        "block": 25,
+        "time": 99.2999999999969
+      }
+    ],
+    "collected": 93,
+    "hearts": 0,
+    "interval": 1.35,
+    "level": 9,
+    "lost": true,
+    "mode": "challenge",
+    "resume_duration": 34.4666666666647,
+    "snapshot": {
+      "blocks": [
+        {
+          "arrival": 70.5199999999986,
+          "capacity": 2,
+          "cell": "(231, 599)",
+          "color": 0,
+          "depart": 69.8999999999986,
+          "direction": 0,
+          "finish": 71.6866666666652,
+          "from_reserve": false,
+          "id": 0,
+          "next": 71.6266666666652,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 71.9199999999985,
+          "capacity": 4,
+          "cell": "(295, 599)",
+          "color": 5,
+          "depart": 71.2999999999985,
+          "direction": 0,
+          "finish": 74.0199999999984,
+          "from_reserve": false,
+          "id": 1,
+          "next": 73.9599999999984,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 76.1199999999983,
+          "capacity": 6,
+          "cell": "(167, 669)",
+          "color": 4,
+          "depart": 75.4999999999983,
+          "direction": 0,
+          "finish": 79.1533333333314,
+          "from_reserve": false,
+          "id": 2,
+          "next": 79.0933333333314,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 83.1199999999979,
+          "capacity": 2,
+          "cell": "(231, 669)",
+          "color": 3,
+          "depart": 82.4999999999979,
+          "direction": 0,
+          "finish": 84.2866666666645,
+          "from_reserve": false,
+          "id": 3,
+          "next": 84.2266666666645,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 77.5199999999982,
+          "capacity": 4,
+          "cell": "(295, 669)",
+          "color": 2,
+          "depart": 76.8999999999982,
+          "direction": 0,
+          "finish": 79.6199999999981,
+          "from_reserve": false,
+          "id": 4,
+          "next": 79.5599999999981,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 67.7199999999988,
+          "capacity": 6,
+          "cell": "(359, 669)",
+          "color": 1,
+          "depart": 67.0999999999988,
+          "direction": 0,
+          "finish": 70.7533333333319,
+          "from_reserve": false,
+          "id": 5,
+          "next": 70.6933333333319,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 74.7199999999984,
+          "capacity": 2,
+          "cell": "(103, 739)",
+          "color": 0,
+          "depart": 74.0999999999984,
+          "direction": 3,
+          "finish": 75.886666666665,
+          "from_reserve": false,
+          "id": 6,
+          "next": 75.8266666666649,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 85.9199999999977,
+          "capacity": 4,
+          "cell": "(167, 739)",
+          "color": 5,
+          "depart": 85.2999999999977,
+          "direction": 0,
+          "finish": 88.0199999999976,
+          "from_reserve": false,
+          "id": 7,
+          "next": 87.9599999999976,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 88.7199999999976,
+          "capacity": 6,
+          "cell": "(231, 739)",
+          "color": 4,
+          "depart": 88.0999999999976,
+          "direction": 0,
+          "finish": 91.7533333333307,
+          "from_reserve": false,
+          "id": 8,
+          "next": 91.6933333333307,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 84.5199999999978,
+          "capacity": 2,
+          "cell": "(295, 739)",
+          "color": 3,
+          "depart": 83.8999999999978,
+          "direction": 0,
+          "finish": 85.6866666666644,
+          "from_reserve": false,
+          "id": 9,
+          "next": 85.6266666666644,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 69.1199999999987,
+          "capacity": 4,
+          "cell": "(359, 739)",
+          "color": 2,
+          "depart": 68.4999999999987,
+          "direction": 0,
+          "finish": 71.2199999999985,
+          "from_reserve": false,
+          "id": 10,
+          "next": 71.1599999999985,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 78.9199999999981,
+          "capacity": 6,
+          "cell": "(423, 739)",
+          "color": 1,
+          "depart": 78.2999999999981,
+          "direction": 1,
+          "finish": 81.9533333333313,
+          "from_reserve": false,
+          "id": 11,
+          "next": 81.8933333333313,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 81.719999999998,
+          "capacity": 2,
+          "cell": "(39, 809)",
+          "color": 0,
+          "depart": 81.099999999998,
+          "direction": 3,
+          "finish": 82.8866666666646,
+          "from_reserve": false,
+          "id": 12,
+          "next": 82.8266666666646,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 95.7199999999972,
+          "capacity": 4,
+          "cell": "(103, 809)",
+          "color": 5,
+          "depart": 95.0999999999972,
+          "direction": 3,
+          "finish": 97.819999999997,
+          "from_reserve": false,
+          "id": 13,
+          "next": 97.759999999997,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1.0,
+          "capacity": 6,
+          "cell": "(167, 809)",
+          "color": 4,
+          "depart": -1.0,
+          "direction": 2,
+          "finish": -1.0,
+          "id": 14,
+          "next": 0.0,
+          "phase": "board",
+          "remaining": 6,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": -1.0,
+          "capacity": 2,
+          "cell": "(231, 809)",
+          "color": 3,
+          "depart": -1.0,
+          "direction": 2,
+          "finish": -1.0,
+          "id": 15,
+          "next": 0.0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 92.9199999999973,
+          "capacity": 4,
+          "cell": "(295, 809)",
+          "color": 2,
+          "depart": 92.2999999999973,
+          "direction": 2,
+          "finish": 95.0199999999972,
+          "from_reserve": false,
+          "id": 16,
+          "next": 94.9599999999972,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 98.519999999997,
+          "capacity": 6,
+          "cell": "(359, 809)",
+          "color": 1,
+          "depart": 97.899999999997,
+          "direction": 2,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 17,
+          "next": 100.559999999997,
+          "phase": "working",
+          "remaining": 2,
+          "size": "(48, 68)",
+          "slot": 1
+        },
+        {
+          "arrival": 87.3199999999976,
+          "capacity": 2,
+          "cell": "(423, 809)",
+          "color": 0,
+          "depart": 86.6999999999976,
+          "direction": 1,
+          "finish": 88.4866666666642,
+          "from_reserve": false,
+          "id": 18,
+          "next": 88.4266666666642,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 73.3199999999984,
+          "capacity": 4,
+          "cell": "(487, 809)",
+          "color": 5,
+          "depart": 72.6999999999984,
+          "direction": 1,
+          "finish": 75.4199999999983,
+          "from_reserve": false,
+          "id": 19,
+          "next": 75.3599999999983,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 90.1199999999975,
+          "capacity": 6,
+          "cell": "(103, 879)",
+          "color": 4,
+          "depart": 89.4999999999975,
+          "direction": 3,
+          "finish": 93.1533333333306,
+          "from_reserve": false,
+          "id": 20,
+          "next": 93.0933333333306,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 94.3199999999973,
+          "capacity": 2,
+          "cell": "(167, 879)",
+          "color": 3,
+          "depart": 93.6999999999972,
+          "direction": 2,
+          "finish": 95.4866666666638,
+          "from_reserve": false,
+          "id": 21,
+          "next": 95.4266666666638,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1.0,
+          "capacity": 4,
+          "cell": "(231, 879)",
+          "color": 2,
+          "depart": -1.0,
+          "direction": 2,
+          "finish": -1.0,
+          "id": 22,
+          "next": 0.0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 80.319999999998,
+          "capacity": 6,
+          "cell": "(295, 879)",
+          "color": 1,
+          "depart": 79.699999999998,
+          "direction": 2,
+          "finish": 83.3533333333312,
+          "from_reserve": false,
+          "id": 23,
+          "next": 83.2933333333312,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 97.1199999999971,
+          "capacity": 2,
+          "cell": "(359, 879)",
+          "color": 0,
+          "depart": 96.4999999999971,
+          "direction": 2,
+          "finish": 98.2866666666637,
+          "from_reserve": false,
+          "id": 24,
+          "next": 98.2266666666637,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 99.9199999999969,
+          "capacity": 4,
+          "cell": "(423, 879)",
+          "color": 5,
+          "depart": 99.2999999999969,
+          "direction": 1,
+          "finish": -1.0,
+          "from_reserve": false,
+          "id": 25,
+          "next": 100.559999999997,
+          "phase": "working",
+          "remaining": 3,
+          "size": "(56, 59)",
+          "slot": 0
+        },
+        {
+          "arrival": 91.5199999999974,
+          "capacity": 6,
+          "cell": "(167, 949)",
+          "color": 4,
+          "depart": 90.8999999999974,
+          "direction": 2,
+          "finish": 98.2866666666637,
+          "from_reserve": false,
+          "id": 26,
+          "next": 98.2266666666637,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": 66.3199999999988,
+          "capacity": 2,
+          "cell": "(231, 949)",
+          "color": 3,
+          "depart": 65.6999999999988,
+          "direction": 2,
+          "finish": 67.4866666666654,
+          "from_reserve": false,
+          "id": 27,
+          "next": 67.4266666666654,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        }
+      ],
+      "cat_anchor": 2,
+      "cat_phase": "hurt",
+      "cat_position": [
+        390.000061035156,
+        285.000030517578
+      ],
+      "coins": 200,
+      "collected": 93,
+      "dragons": [
+        {
+          "head": 1587.94472656261,
+          "id": 0,
+          "phase": "chasing",
+          "until": 100.43333333333
+        },
+        {
+          "head": 1454.48491210948,
+          "id": 1,
+          "phase": "fire",
+          "until": 100.666666666664
+        }
+      ],
+      "freeze_until": 30.6333333333339,
+      "hearts": 0,
+      "invulnerable_until": 101.166666666664,
+      "level": 9,
+      "lost": true,
+      "max_hearts": 3,
+      "mode": "challenge",
+      "reserve": [],
+      "shield_until": 0,
+      "slots": [
+        25,
+        17,
+        -1,
+        -1
+      ],
+      "time": 100.166666666664,
+      "total": 110,
+      "units": [
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 82
+        },
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 83
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 85
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 86
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 87
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 90
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 91
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 92
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 93
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 96
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 100
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 104
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 105
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 106
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 107
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 108
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 109
+        }
+      ],
+      "won": false
+    },
+    "time": 100.166666666664,
+    "total": 110,
+    "won": false
+  }
+]

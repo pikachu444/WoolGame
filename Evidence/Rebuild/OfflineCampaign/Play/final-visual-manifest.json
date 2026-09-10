@@ -1,0 +1,101 @@
+{
+  "candidate_commit": "114e7f3e8e21b3dc072277b1ecc6266bd24790a9",
+  "pck_sha256": "685155149327a4d061b6d8a1f03be065332208804ae5513acbe3c7c9a7f9c56e",
+  "images": [
+    {
+      "name": "01-home.png",
+      "sameAsReviewed": false,
+      "sha256": "cc8c8bffbc30b108c5635975f6b252d26437495adacd2433765d0fa642d74e90"
+    },
+    {
+      "name": "02-growth.png",
+      "sameAsReviewed": false,
+      "sha256": "073b0d2fa47cd31dc9757b8701595f2285daa59f442bc23e0129ac539a1f2913"
+    },
+    {
+      "name": "03-collection-locked.png",
+      "sameAsReviewed": true,
+      "sha256": "5884c421359e69c394f47b341709b8ed3495983baf625294c7c4c3fd4a8592df"
+    },
+    {
+      "name": "04-winding.png",
+      "sameAsReviewed": false,
+      "sha256": "eff91a470c363c6bf32ee0f7b740a510d1e7f17ba4b74ed60a946727e3663fcf"
+    },
+    {
+      "name": "05-flee-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "2508a2b6e51339cf07df71718552ae7fa96577c1c354e1a98d42c8033ed43c40"
+    },
+    {
+      "name": "06-windup-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "a471acfa8d4dbf357f849403629581c75d7b4779a7ea3586cc707eed8151b237"
+    },
+    {
+      "name": "07-fire-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "ba77616b940aff7a6ab4c96cfcb7d1f0380f2a1f44149b4a823ffd652ae6bc90"
+    },
+    {
+      "name": "08-shield-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "ce03a92f24fe649ce6d62b07a819e5d6e7afc9cdb2dfd7e22a199189a7d97f64"
+    },
+    {
+      "name": "09-freeze-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "d84fea6a100d59207cc05a9fb4ddde92cd9f6d086e028b6907b36f5c3460ace2"
+    },
+    {
+      "name": "10-failure-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "9e7492e46582f8d81c84a8e95cb6966d3217e53e06b2e767049fde6b2bd12a1c"
+    },
+    {
+      "name": "11-continue-staged.png",
+      "sameAsReviewed": false,
+      "sha256": "5446c83ad1885eba8112b1ce57cafd84148c8008005768b4a7125331ea2be809"
+    },
+    {
+      "name": "12-result-normal-moves.png",
+      "sameAsReviewed": false,
+      "sha256": "0edbed0ff23d9bdccb277efb7eec9bbff8a0939d9eac3a525921f61b0a215fb5"
+    },
+    {
+      "name": "13-home-after-clear.png",
+      "sameAsReviewed": false,
+      "sha256": "da12576d23a5f1ef925ce9e00ebd483a2e28573ce8cb5bb7e67ce1bd374d1c91"
+    },
+    {
+      "name": "14-collection-earned.png",
+      "sameAsReviewed": true,
+      "sha256": "a0d70c0fbdd9f32964aa3cb45a75486955c4e92993c076aa69887641b06dc392"
+    },
+    {
+      "name": "15-first-shield-unlock.png",
+      "sameAsReviewed": false,
+      "sha256": "c4c87101c004a360df4ea9b344d777faa8d8d3d9faf58f3e1b9a9eb13cc7b117"
+    },
+    {
+      "name": "16-growth-earned.png",
+      "sameAsReviewed": false,
+      "sha256": "b6e2109598760645dcf7932b64e8baa5bfd315863be504989f25f7fc9c27319c"
+    },
+    {
+      "name": "stage-01-start.png",
+      "sameAsReviewed": false,
+      "sha256": "fda2385835d7141dd6d7f348e406d02315c6253e9aa051785fcdea089636de2a"
+    },
+    {
+      "name": "stage-05-start.png",
+      "sameAsReviewed": false,
+      "sha256": "a55651e8fd7846266d6f68092c7bb725c875d93e13767575de1deceb4e2436c1"
+    },
+    {
+      "name": "stage-09-start.png",
+      "sameAsReviewed": false,
+      "sha256": "0f012c7034b1b242e2cbd63e911bffbe15ad5aa8d415a7ef39106f5522e747d3"
+    }
+  ]
+}

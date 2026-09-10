@@ -1,0 +1,57 @@
+WorkerThreadPool: 16 threads, 4 max low-priority.
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+Using "default" pen tablet driver...
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2004498165
+EDITOR API HASH: 1696660745
+Loading resource: C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd remapped: C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd
+Completed load for: 'C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd' remapped 'C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd' at thread -1
+SceneTreeFTI: traversal method DEFAULT
+Loaded system CA certificates
+Loading resource: res://scenes/game.tscn remapped: res://scenes/game.tscn
+Loading resource: res://scripts/game.gd remapped: res://scripts/game.gd
+Completed load for: 'res://scripts/game.gd' remapped 'res://scripts/game.gd' at thread -1
+Loading resource: res://scripts/background.gd remapped: res://scripts/background.gd
+Loading resource: res://art/textile.gdshader remapped: res://art/textile.gdshader
+Completed load for: 'res://art/textile.gdshader' remapped 'res://art/textile.gdshader' at thread -1
+Loading resource: res://art/characters.res remapped: res://art/characters.res
+Completed load for: 'res://art/characters.res' remapped 'res://art/characters.res' at thread -1
+Loading resource: res://art/pointed_cuff.res remapped: res://art/pointed_cuff.res
+Completed load for: 'res://art/pointed_cuff.res' remapped 'res://art/pointed_cuff.res' at thread -1
+Loading resource: res://art/reference_cast.res remapped: res://art/reference_cast.res
+Completed load for: 'res://art/reference_cast.res' remapped 'res://art/reference_cast.res' at thread -1
+Loading resource: res://art/reference_details.res remapped: res://art/reference_details.res
+Completed load for: 'res://art/reference_details.res' remapped 'res://art/reference_details.res' at thread -1
+Loading resource: res://art/korean.res remapped: res://art/korean.res
+Completed load for: 'res://art/korean.res' remapped 'res://art/korean.res' at thread -1
+Loading resource: res://art/chroma.gdshader remapped: res://art/chroma.gdshader
+Completed load for: 'res://art/chroma.gdshader' remapped 'res://art/chroma.gdshader' at thread -1
+Completed load for: 'res://scripts/background.gd' remapped 'res://scripts/background.gd' at thread -1
+Loading resource: res://scripts/world.gd remapped: res://scripts/world.gd
+Loading resource: res://art/spool.gdshader remapped: res://art/spool.gdshader
+Completed load for: 'res://art/spool.gdshader' remapped 'res://art/spool.gdshader' at thread -1
+Completed load for: 'res://scripts/world.gd' remapped 'res://scripts/world.gd' at thread -1
+Loading resource: res://scripts/board.gd remapped: res://scripts/board.gd
+Completed load for: 'res://scripts/board.gd' remapped 'res://scripts/board.gd' at thread -1
+Loading resource: res://scripts/hud.gd remapped: res://scripts/hud.gd
+Loading resource: res://art/icon_chroma.gdshader remapped: res://art/icon_chroma.gdshader
+Completed load for: 'res://art/icon_chroma.gdshader' remapped 'res://art/icon_chroma.gdshader' at thread -1
+Loading resource: res://art/booster_icons.res remapped: res://art/booster_icons.res
+Completed load for: 'res://art/booster_icons.res' remapped 'res://art/booster_icons.res' at thread -1
+Completed load for: 'res://scripts/hud.gd' remapped 'res://scripts/hud.gd' at thread -1
+Completed load for: 'res://scenes/game.tscn' remapped 'res://scenes/game.tscn' at thread -1
+WOOL_READY profile=C:/SourceCodes/WoolGame/BuildWork/IndependentRules/leak-check-1789019351590/campaign_v2.json screen=home level=1 viewport=(592.0, 1138.0)
+INDEPENDENT_SCENE checks=30774 failures=0
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+Leaked instance: AudioStreamWAV:9223372155771688731 - Reference count: 1
+Leaked instance: AudioStreamPlaybackWAV:9223372155788465948 - Reference count: 1
+Hint: Leaked instances typically happen when nodes are removed from the scene tree (with `remove_child()`) but not freed (with `free()` or `queue_free()`).
+Orphan StringName: Master (static: 0, total: 2)
+StringName: 1 unclaimed string names at exit.
+WARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

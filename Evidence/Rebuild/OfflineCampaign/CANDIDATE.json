@@ -1,0 +1,26 @@
+{
+  "candidate_commit": "114e7f3e8e21b3dc072277b1ecc6266bd24790a9",
+  "rebuild_tree": "32873b32a9ede636d6272965d81c0435e8064d41",
+  "command": "python Rebuild/tools/build.py --android",
+  "build_exit_code": 0,
+  "packages": {
+    "WoolRescue.pck": {
+      "sha256": "685155149327a4d061b6d8a1f03be065332208804ae5513acbe3c7c9a7f9c56e",
+      "bytes": 24436784
+    },
+    "WoolRescue.exe": {
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+      "bytes": 109268480
+    },
+    "WoolRescue-Windows.zip": {
+      "sha256": "4c96a528b4474017057cef59c97606929be4d599b094074f0fc3224f1e8bcc2b",
+      "bytes": 62425921
+    },
+    "WoolRescue-Android.apk": {
+      "sha256": "b5a58312d50c2ea8ff8acc1590391282e30e41e7e6d66136d7bc9b966a19e069",
+      "bytes": 54938486
+    }
+  },
+  "actual_windows_input": "partial_native_input_then_windows_relocked",
+  "android_device": "none_connected"
+}

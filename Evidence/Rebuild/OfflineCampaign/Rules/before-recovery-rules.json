@@ -1,0 +1,2696 @@
+{
+  "checks": 85538,
+  "failures": [
+    {
+      "detail": {
+        "actions": [
+          {
+            "block": 0,
+            "time": 66.1666666666655
+          },
+          {
+            "block": 1,
+            "time": 67.0666666666654
+          },
+          {
+            "block": 19,
+            "time": 67.9666666666654
+          },
+          {
+            "block": 25,
+            "time": 68.8666666666653
+          },
+          {
+            "block": 3,
+            "time": 69.7666666666653
+          },
+          {
+            "block": 6,
+            "time": 70.6666666666652
+          },
+          {
+            "block": 5,
+            "time": 71.5666666666652
+          },
+          {
+            "block": 2,
+            "time": 72.4666666666651
+          },
+          {
+            "block": 11,
+            "time": 73.3666666666651
+          },
+          {
+            "block": 4,
+            "time": 74.266666666665
+          },
+          {
+            "block": 12,
+            "time": 75.266666666665
+          },
+          {
+            "block": 18,
+            "time": 76.1666666666649
+          },
+          {
+            "block": 9,
+            "time": 77.0666666666649
+          },
+          {
+            "block": 27,
+            "time": 77.9666666666648
+          },
+          {
+            "block": 7,
+            "time": 78.8666666666648
+          },
+          {
+            "block": 8,
+            "time": 79.7666666666647
+          },
+          {
+            "block": 20,
+            "time": 80.6666666666647
+          },
+          {
+            "block": 26,
+            "time": 81.5666666666646
+          },
+          {
+            "block": 10,
+            "time": 82.4666666666646
+          },
+          {
+            "block": 21,
+            "time": 83.4666666666645
+          },
+          {
+            "block": 22,
+            "time": 84.3666666666644
+          },
+          {
+            "block": 23,
+            "time": 85.2666666666644
+          },
+          {
+            "block": 15,
+            "time": 86.1666666666643
+          },
+          {
+            "block": 24,
+            "time": 87.0666666666643
+          },
+          {
+            "block": 17,
+            "time": 87.9666666666642
+          }
+        ],
+        "collected": 86,
+        "hearts": 0,
+        "level": 9,
+        "lost": true,
+        "mode": "challenge",
+        "snapshot": {
+          "blocks": [
+            {
+              "arrival": 66.7866666666655,
+              "capacity": 2,
+              "cell": "(231, 599)",
+              "color": 0,
+              "depart": 66.1666666666655,
+              "direction": 0,
+              "finish": 67.9533333333321,
+              "id": 0,
+              "next": 67.8933333333321,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 67.6866666666654,
+              "capacity": 4,
+              "cell": "(295, 599)",
+              "color": 5,
+              "depart": 67.0666666666654,
+              "direction": 0,
+              "finish": 69.7866666666653,
+              "id": 1,
+              "next": 69.7266666666653,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 73.0866666666651,
+              "capacity": 6,
+              "cell": "(167, 669)",
+              "color": 4,
+              "depart": 72.4666666666651,
+              "direction": 0,
+              "finish": 76.1199999999983,
+              "id": 2,
+              "next": 76.0599999999983,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 70.3866666666653,
+              "capacity": 2,
+              "cell": "(231, 669)",
+              "color": 3,
+              "depart": 69.7666666666653,
+              "direction": 0,
+              "finish": 71.5533333333319,
+              "id": 3,
+              "next": 71.4933333333319,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 74.886666666665,
+              "capacity": 4,
+              "cell": "(295, 669)",
+              "color": 2,
+              "depart": 74.266666666665,
+              "direction": 0,
+              "finish": 76.9866666666649,
+              "id": 4,
+              "next": 76.9266666666649,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 72.1866666666652,
+              "capacity": 6,
+              "cell": "(359, 669)",
+              "color": 1,
+              "depart": 71.5666666666652,
+              "direction": 0,
+              "finish": 75.2199999999983,
+              "id": 5,
+              "next": 75.1599999999983,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 71.2866666666652,
+              "capacity": 2,
+              "cell": "(103, 739)",
+              "color": 0,
+              "depart": 70.6666666666652,
+              "direction": 3,
+              "finish": 72.4533333333318,
+              "id": 6,
+              "next": 72.3933333333318,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 79.4866666666648,
+              "capacity": 4,
+              "cell": "(167, 739)",
+              "color": 5,
+              "depart": 78.8666666666648,
+              "direction": 0,
+              "finish": 81.5866666666646,
+              "id": 7,
+              "next": 81.5266666666646,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 80.3866666666647,
+              "capacity": 6,
+              "cell": "(231, 739)",
+              "color": 4,
+              "depart": 79.7666666666647,
+              "direction": 0,
+              "finish": 83.4199999999979,
+              "id": 8,
+              "next": 83.3599999999979,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 77.6866666666649,
+              "capacity": 2,
+              "cell": "(295, 739)",
+              "color": 3,
+              "depart": 77.0666666666649,
+              "direction": 0,
+              "finish": 78.8533333333314,
+              "id": 9,
+              "next": 78.7933333333314,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 83.0866666666646,
+              "capacity": 4,
+              "cell": "(359, 739)",
+              "color": 2,
+              "depart": 82.4666666666646,
+              "direction": 0,
+              "finish": 85.1866666666644,
+              "id": 10,
+              "next": 85.1266666666644,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 73.9866666666651,
+              "capacity": 6,
+              "cell": "(423, 739)",
+              "color": 1,
+              "depart": 73.3666666666651,
+              "direction": 1,
+              "finish": 77.0199999999982,
+              "id": 11,
+              "next": 76.9599999999982,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 75.886666666665,
+              "capacity": 2,
+              "cell": "(39, 809)",
+              "color": 0,
+              "depart": 75.266666666665,
+              "direction": 3,
+              "finish": 77.0533333333316,
+              "id": 12,
+              "next": 76.9933333333315,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(103, 809)",
+              "color": 5,
+              "depart": -1.0,
+              "direction": 3,
+              "finish": -1.0,
+              "id": 13,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 6,
+              "cell": "(167, 809)",
+              "color": 4,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 14,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 86.7866666666643,
+              "capacity": 2,
+              "cell": "(231, 809)",
+              "color": 3,
+              "depart": 86.1666666666643,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 15,
+              "next": 86.9466666666643,
+              "phase": "working",
+              "remaining": 2,
+              "size": "(48, 59)",
+              "slot": 1
+            },
+            {
+              "arrival": -1.0,
+              "capacity": 4,
+              "cell": "(295, 809)",
+              "color": 2,
+              "depart": -1.0,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 16,
+              "next": 0.0,
+              "phase": "board",
+              "remaining": 4,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 88.5866666666642,
+              "capacity": 6,
+              "cell": "(359, 809)",
+              "color": 1,
+              "depart": 87.9666666666642,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 17,
+              "next": 88.7466666666642,
+              "phase": "travel",
+              "remaining": 6,
+              "size": "(48, 68)",
+              "slot": 2
+            },
+            {
+              "arrival": 76.7866666666649,
+              "capacity": 2,
+              "cell": "(423, 809)",
+              "color": 0,
+              "depart": 76.1666666666649,
+              "direction": 1,
+              "finish": 77.9533333333315,
+              "id": 18,
+              "next": 77.8933333333315,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 68.5866666666654,
+              "capacity": 4,
+              "cell": "(487, 809)",
+              "color": 5,
+              "depart": 67.9666666666654,
+              "direction": 1,
+              "finish": 70.6866666666652,
+              "id": 19,
+              "next": 70.6266666666652,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 81.2866666666647,
+              "capacity": 6,
+              "cell": "(103, 879)",
+              "color": 4,
+              "depart": 80.6666666666647,
+              "direction": 3,
+              "finish": 84.3199999999978,
+              "id": 20,
+              "next": 84.2599999999978,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 84.0866666666645,
+              "capacity": 2,
+              "cell": "(167, 879)",
+              "color": 3,
+              "depart": 83.4666666666645,
+              "direction": 2,
+              "finish": 85.2533333333311,
+              "id": 21,
+              "next": 85.1933333333311,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 84.9866666666644,
+              "capacity": 4,
+              "cell": "(231, 879)",
+              "color": 2,
+              "depart": 84.3666666666644,
+              "direction": 2,
+              "finish": 87.0866666666643,
+              "id": 22,
+              "next": 87.0266666666643,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 85.8866666666644,
+              "capacity": 6,
+              "cell": "(295, 879)",
+              "color": 1,
+              "depart": 85.2666666666644,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 23,
+              "next": 88.3933333333309,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(48, 68)",
+              "slot": 0
+            },
+            {
+              "arrival": 87.6866666666643,
+              "capacity": 2,
+              "cell": "(359, 879)",
+              "color": 0,
+              "depart": 87.0666666666643,
+              "direction": 2,
+              "finish": -1.0,
+              "id": 24,
+              "next": 88.3266666666642,
+              "phase": "working",
+              "remaining": 1,
+              "size": "(48, 59)",
+              "slot": 3
+            },
+            {
+              "arrival": 69.4866666666653,
+              "capacity": 4,
+              "cell": "(423, 879)",
+              "color": 5,
+              "depart": 68.8666666666653,
+              "direction": 1,
+              "finish": 71.5866666666652,
+              "id": 25,
+              "next": 71.5266666666652,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(56, 59)",
+              "slot": -1
+            },
+            {
+              "arrival": 82.1866666666646,
+              "capacity": 6,
+              "cell": "(167, 949)",
+              "color": 4,
+              "depart": 81.5666666666646,
+              "direction": 2,
+              "finish": 85.2199999999978,
+              "id": 26,
+              "next": 85.1599999999978,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 68)",
+              "slot": -1
+            },
+            {
+              "arrival": 78.5866666666648,
+              "capacity": 2,
+              "cell": "(231, 949)",
+              "color": 3,
+              "depart": 77.9666666666648,
+              "direction": 2,
+              "finish": 79.7533333333314,
+              "id": 27,
+              "next": 79.6933333333314,
+              "phase": "finished",
+              "remaining": 0,
+              "size": "(48, 59)",
+              "slot": -1
+            }
+          ],
+          "cat_anchor": 2,
+          "cat_phase": "hurt",
+          "cat_position": [
+            390.000061035156,
+            285.000030517578
+          ],
+          "coins": 200,
+          "collected": 86,
+          "dragons": [
+            {
+              "head": 1616.5780598959,
+              "id": 0,
+              "phase": "fire",
+              "until": 88.6333333333309
+            },
+            {
+              "head": 1492.98491210944,
+              "id": 1,
+              "phase": "fire",
+              "until": 88.6333333333309
+            }
+          ],
+          "freeze_until": 32.5000000000006,
+          "hearts": 0,
+          "invulnerable_until": 89.1333333333309,
+          "level": 9,
+          "lost": true,
+          "max_hearts": 3,
+          "mode": "challenge",
+          "reserve": [],
+          "shield_until": 0,
+          "slots": [
+            23,
+            15,
+            17,
+            24
+          ],
+          "time": 88.1333333333309,
+          "total": 110,
+          "units": [
+            {
+              "color": 1,
+              "dragon": 1,
+              "id": 47
+            },
+            {
+              "color": 5,
+              "dragon": 1,
+              "id": 53
+            },
+            {
+              "color": 1,
+              "dragon": 1,
+              "id": 69
+            },
+            {
+              "color": 1,
+              "dragon": 1,
+              "id": 70
+            },
+            {
+              "color": 1,
+              "dragon": 1,
+              "id": 71
+            },
+            {
+              "color": 0,
+              "dragon": 1,
+              "id": 77
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 81
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 82
+            },
+            {
+              "color": 1,
+              "dragon": 0,
+              "id": 83
+            },
+            {
+              "color": 5,
+              "dragon": 1,
+              "id": 84
+            },
+            {
+              "color": 5,
+              "dragon": 1,
+              "id": 85
+            },
+            {
+              "color": 5,
+              "dragon": 1,
+              "id": 87
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 96
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 97
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 98
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 99
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 100
+            },
+            {
+              "color": 4,
+              "dragon": 0,
+              "id": 101
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 104
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 105
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 106
+            },
+            {
+              "color": 2,
+              "dragon": 0,
+              "id": 107
+            },
+            {
+              "color": 3,
+              "dragon": 1,
+              "id": 108
+            },
+            {
+              "color": 3,
+              "dragon": 1,
+              "id": 109
+            }
+          ],
+          "won": false
+        },
+        "time": 88.1333333333309,
+        "total": 110,
+        "won": false
+      },
+      "name": "natural failure recovery tool free 9"
+    }
+  ],
+  "runs": [
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 4,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 6,
+          "time": 2.7
+        },
+        {
+          "block": 10,
+          "time": 3.6
+        },
+        {
+          "block": 8,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 3,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 1,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 5,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        }
+      ],
+      "collected": 42,
+      "hearts": 1,
+      "level": 0,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 12.7,
+      "total": 42,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        }
+      ],
+      "collected": 56,
+      "hearts": 1,
+      "level": 1,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 16.3,
+      "total": 56,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        }
+      ],
+      "collected": 63,
+      "hearts": 1,
+      "level": 2,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 18.1000000000001,
+      "total": 63,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        },
+        {
+          "block": 19,
+          "time": 16.2
+        },
+        {
+          "block": 18,
+          "time": 17.1
+        }
+      ],
+      "collected": 70,
+      "hearts": 2,
+      "level": 3,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 19.4000000000001,
+      "total": 70,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 19,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 16.3
+        },
+        {
+          "block": 18,
+          "time": 17.2
+        },
+        {
+          "block": 20,
+          "time": 18.1000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.0000000000001
+        },
+        {
+          "block": 14,
+          "time": 19.9000000000001
+        }
+      ],
+      "collected": 88,
+      "hearts": 2,
+      "level": 4,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 21.8000000000002,
+      "total": 88,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 20,
+          "time": 2.7
+        },
+        {
+          "block": 3,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.29999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.69999999999998
+        },
+        {
+          "block": 9,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 8,
+          "time": 14.1
+        },
+        {
+          "block": 15,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 18,
+          "time": 16.8
+        },
+        {
+          "block": 19,
+          "time": 17.7
+        },
+        {
+          "block": 14,
+          "time": 18.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.5000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.4000000000002
+        },
+        {
+          "block": 23,
+          "time": 21.3000000000002
+        },
+        {
+          "block": 17,
+          "time": 22.2000000000003
+        }
+      ],
+      "collected": 96,
+      "hearts": 2,
+      "level": 5,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 25.0000000000004,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 17,
+          "time": 12.6
+        },
+        {
+          "block": 19,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.3
+        },
+        {
+          "block": 21,
+          "time": 16.2
+        },
+        {
+          "block": 14,
+          "time": 17.1
+        },
+        {
+          "block": 22,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 15,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 23,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 16,
+          "time": 20.7000000000002
+        }
+      ],
+      "collected": 96,
+      "hearts": 3,
+      "level": 6,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 23.5000000000003,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 19,
+          "time": 12.6
+        },
+        {
+          "block": 25,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.4
+        },
+        {
+          "block": 21,
+          "time": 17.2
+        },
+        {
+          "block": 14,
+          "time": 18.1000000000001
+        },
+        {
+          "block": 22,
+          "time": 19.9000000000001
+        },
+        {
+          "block": 15,
+          "time": 20.8000000000002
+        },
+        {
+          "block": 23,
+          "time": 23.6000000000003
+        },
+        {
+          "block": 16,
+          "time": 24.5000000000004
+        },
+        {
+          "block": 24,
+          "time": 25.4000000000004
+        },
+        {
+          "block": 17,
+          "time": 26.8000000000005
+        }
+      ],
+      "collected": 106,
+      "hearts": 3,
+      "level": 7,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 28.6000000000006,
+      "total": 106,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 14,
+          "time": 11.7
+        },
+        {
+          "block": 20,
+          "time": 12.6
+        },
+        {
+          "block": 16,
+          "time": 13.5
+        },
+        {
+          "block": 15,
+          "time": 14.5
+        },
+        {
+          "block": 21,
+          "time": 15.4
+        },
+        {
+          "block": 23,
+          "time": 16.3
+        },
+        {
+          "block": 17,
+          "time": 17.2
+        },
+        {
+          "block": 13,
+          "time": 18.2000000000001
+        },
+        {
+          "block": 25,
+          "time": 19.1000000000001
+        },
+        {
+          "block": 24,
+          "time": 20.0000000000002
+        },
+        {
+          "block": 18,
+          "time": 20.9000000000002
+        },
+        {
+          "block": 19,
+          "time": 21.8000000000002
+        },
+        {
+          "block": 22,
+          "time": 22.7000000000003
+        }
+      ],
+      "collected": 104,
+      "hearts": 3,
+      "level": 8,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 24.6000000000004,
+      "total": 104,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 19,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 25,
+          "time": 10.8
+        },
+        {
+          "block": 12,
+          "time": 11.7
+        },
+        {
+          "block": 11,
+          "time": 12.6
+        },
+        {
+          "block": 23,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 24,
+          "time": 15.3
+        },
+        {
+          "block": 27,
+          "time": 16.2
+        },
+        {
+          "block": 13,
+          "time": 17.1
+        },
+        {
+          "block": 16,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 20,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 17,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 26,
+          "time": 20.7000000000002
+        },
+        {
+          "block": 21,
+          "time": 21.6000000000002
+        },
+        {
+          "block": 14,
+          "time": 22.6000000000003
+        },
+        {
+          "block": 22,
+          "time": 23.5000000000003
+        },
+        {
+          "block": 15,
+          "time": 24.4000000000004
+        }
+      ],
+      "collected": 110,
+      "hearts": 3,
+      "level": 9,
+      "lost": false,
+      "mode": "challenge",
+      "snapshot": {},
+      "time": 26.3000000000005,
+      "total": 110,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 4,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 6,
+          "time": 2.7
+        },
+        {
+          "block": 10,
+          "time": 3.6
+        },
+        {
+          "block": 8,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 3,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 1,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 5,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        }
+      ],
+      "collected": 42,
+      "hearts": 1,
+      "level": 0,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 12.7,
+      "total": 42,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        }
+      ],
+      "collected": 56,
+      "hearts": 1,
+      "level": 1,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 16.3,
+      "total": 56,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        }
+      ],
+      "collected": 63,
+      "hearts": 1,
+      "level": 2,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 18.1000000000001,
+      "total": 63,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 14,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 15.3
+        },
+        {
+          "block": 19,
+          "time": 16.2
+        },
+        {
+          "block": 18,
+          "time": 17.1
+        }
+      ],
+      "collected": 70,
+      "hearts": 2,
+      "level": 3,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 19.4000000000001,
+      "total": 70,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 19,
+          "time": 12.6
+        },
+        {
+          "block": 15,
+          "time": 13.5
+        },
+        {
+          "block": 16,
+          "time": 14.4
+        },
+        {
+          "block": 17,
+          "time": 16.3
+        },
+        {
+          "block": 18,
+          "time": 17.2
+        },
+        {
+          "block": 20,
+          "time": 18.1000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.0000000000001
+        },
+        {
+          "block": 14,
+          "time": 19.9000000000001
+        }
+      ],
+      "collected": 88,
+      "hearts": 2,
+      "level": 4,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 21.8000000000002,
+      "total": 88,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 20,
+          "time": 2.7
+        },
+        {
+          "block": 3,
+          "time": 3.6
+        },
+        {
+          "block": 4,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 5,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 6,
+          "time": 7.29999999999998
+        },
+        {
+          "block": 7,
+          "time": 8.69999999999998
+        },
+        {
+          "block": 9,
+          "time": 9.59999999999998
+        },
+        {
+          "block": 10,
+          "time": 10.5
+        },
+        {
+          "block": 11,
+          "time": 11.4
+        },
+        {
+          "block": 12,
+          "time": 12.3
+        },
+        {
+          "block": 13,
+          "time": 13.2
+        },
+        {
+          "block": 8,
+          "time": 14.1
+        },
+        {
+          "block": 15,
+          "time": 15.0
+        },
+        {
+          "block": 16,
+          "time": 15.9
+        },
+        {
+          "block": 18,
+          "time": 16.8
+        },
+        {
+          "block": 19,
+          "time": 17.7
+        },
+        {
+          "block": 14,
+          "time": 18.6000000000001
+        },
+        {
+          "block": 21,
+          "time": 19.5000000000001
+        },
+        {
+          "block": 22,
+          "time": 20.4000000000002
+        },
+        {
+          "block": 23,
+          "time": 21.3000000000002
+        },
+        {
+          "block": 17,
+          "time": 22.2000000000003
+        }
+      ],
+      "collected": 96,
+      "hearts": 2,
+      "level": 5,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 25.0000000000004,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 17,
+          "time": 12.6
+        },
+        {
+          "block": 19,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.3
+        },
+        {
+          "block": 21,
+          "time": 16.2
+        },
+        {
+          "block": 14,
+          "time": 17.1
+        },
+        {
+          "block": 22,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 15,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 23,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 16,
+          "time": 20.7000000000002
+        }
+      ],
+      "collected": 96,
+      "hearts": 3,
+      "level": 6,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 23.5000000000003,
+      "total": 96,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 13,
+          "time": 11.7
+        },
+        {
+          "block": 19,
+          "time": 12.6
+        },
+        {
+          "block": 25,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 20,
+          "time": 15.4
+        },
+        {
+          "block": 21,
+          "time": 17.2
+        },
+        {
+          "block": 14,
+          "time": 18.1000000000001
+        },
+        {
+          "block": 22,
+          "time": 19.9000000000001
+        },
+        {
+          "block": 15,
+          "time": 20.8000000000002
+        },
+        {
+          "block": 23,
+          "time": 23.6000000000003
+        },
+        {
+          "block": 16,
+          "time": 24.5000000000004
+        },
+        {
+          "block": 24,
+          "time": 25.4000000000004
+        },
+        {
+          "block": 17,
+          "time": 26.8000000000005
+        }
+      ],
+      "collected": 106,
+      "hearts": 3,
+      "level": 7,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 28.6000000000006,
+      "total": 106,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 11,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 12,
+          "time": 10.8
+        },
+        {
+          "block": 14,
+          "time": 11.7
+        },
+        {
+          "block": 20,
+          "time": 12.6
+        },
+        {
+          "block": 16,
+          "time": 13.5
+        },
+        {
+          "block": 15,
+          "time": 14.5
+        },
+        {
+          "block": 21,
+          "time": 15.4
+        },
+        {
+          "block": 23,
+          "time": 16.3
+        },
+        {
+          "block": 17,
+          "time": 17.2
+        },
+        {
+          "block": 13,
+          "time": 18.2000000000001
+        },
+        {
+          "block": 25,
+          "time": 19.1000000000001
+        },
+        {
+          "block": 24,
+          "time": 20.0000000000002
+        },
+        {
+          "block": 18,
+          "time": 20.9000000000002
+        },
+        {
+          "block": 19,
+          "time": 21.8000000000002
+        },
+        {
+          "block": 22,
+          "time": 22.7000000000003
+        }
+      ],
+      "collected": 104,
+      "hearts": 3,
+      "level": 8,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 24.6000000000004,
+      "total": 104,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "time": 0
+        },
+        {
+          "block": 1,
+          "time": 0.9
+        },
+        {
+          "block": 2,
+          "time": 1.8
+        },
+        {
+          "block": 3,
+          "time": 2.7
+        },
+        {
+          "block": 4,
+          "time": 3.6
+        },
+        {
+          "block": 5,
+          "time": 4.49999999999999
+        },
+        {
+          "block": 6,
+          "time": 5.39999999999999
+        },
+        {
+          "block": 7,
+          "time": 6.29999999999999
+        },
+        {
+          "block": 8,
+          "time": 7.19999999999998
+        },
+        {
+          "block": 9,
+          "time": 8.09999999999998
+        },
+        {
+          "block": 10,
+          "time": 8.99999999999998
+        },
+        {
+          "block": 19,
+          "time": 9.89999999999998
+        },
+        {
+          "block": 25,
+          "time": 10.8
+        },
+        {
+          "block": 12,
+          "time": 11.7
+        },
+        {
+          "block": 11,
+          "time": 12.6
+        },
+        {
+          "block": 23,
+          "time": 13.5
+        },
+        {
+          "block": 18,
+          "time": 14.4
+        },
+        {
+          "block": 24,
+          "time": 15.3
+        },
+        {
+          "block": 27,
+          "time": 16.2
+        },
+        {
+          "block": 13,
+          "time": 17.1
+        },
+        {
+          "block": 16,
+          "time": 18.0000000000001
+        },
+        {
+          "block": 20,
+          "time": 18.9000000000001
+        },
+        {
+          "block": 17,
+          "time": 19.8000000000001
+        },
+        {
+          "block": 26,
+          "time": 20.7000000000002
+        },
+        {
+          "block": 21,
+          "time": 21.6000000000002
+        },
+        {
+          "block": 14,
+          "time": 22.6000000000003
+        },
+        {
+          "block": 22,
+          "time": 23.5000000000003
+        },
+        {
+          "block": 15,
+          "time": 24.4000000000004
+        }
+      ],
+      "collected": 110,
+      "hearts": 3,
+      "level": 9,
+      "lost": false,
+      "mode": "free",
+      "snapshot": {},
+      "time": 26.3000000000005,
+      "total": 110,
+      "won": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "release_url": "https://github.com/pikachu444/WoolGame/releases/tag/v0.5.0-test.1",
+  "tag": "v0.5.0-test.1",
+  "target_commit": "e0ed4ef1220fb7a5a9e2b0ec9b44c7970fa7c428",
+  "verified_utc": "2026-09-10T16:27:16.749Z",
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 344,
+      "digest": "sha256:069f56de0c2e3b4dcbb4ad23b2dc78bd088ddf507607227520086874492ec85f",
+      "url": "https://github.com/pikachu444/WoolGame/releases/download/v0.5.0-test.1/SHA256SUMS.txt",
+      "http_status": 200
+    },
+    {
+      "name": "WoolRescue-Android.apk",
+      "bytes": 59677558,
+      "digest": "sha256:aa7d8ef7d5bda3533edfdcbab4b4586a674f0af3be0f9203d183e9e6f3721412",
+      "url": "https://github.com/pikachu444/WoolGame/releases/download/v0.5.0-test.1/WoolRescue-Android.apk",
+      "http_status": 200
+    },
+    {
+      "name": "WoolRescue-Stage2.mp4",
+      "bytes": 4858952,
+      "digest": "sha256:4e6f22d0ccf44fe67628ee354fc63cfce361f05f8a74fefcc4b6e97c5a824200",
+      "url": "https://github.com/pikachu444/WoolGame/releases/download/v0.5.0-test.1/WoolRescue-Stage2.mp4",
+      "http_status": 200
+    },
+    {
+      "name": "WoolRescue-Windows.zip",
+      "bytes": 67034348,
+      "digest": "sha256:88dde4bb2c1788a58b46cfa6d17d64fc8fd73f3bc7aa16d1edf2b0c9288e8695",
+      "url": "https://github.com/pikachu444/WoolGame/releases/download/v0.5.0-test.1/WoolRescue-Windows.zip",
+      "http_status": 200
+    }
+  ]
+}

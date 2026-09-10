@@ -240,5 +240,26 @@
     "won": true,
     "time": 60.1999999999999,
     "policy": "current visible match count; no pending-demand subtraction or last-slot completion guard"
+  },
+  "diagnostic_unfavorable_first": {
+    "first_block": "b02",
+    "initial_same_color_visible": 0,
+    "interval": 3.2,
+    "policy": 0,
+    "won": true,
+    "collected": 176,
+    "total": 176,
+    "time": 113.35999999999,
+    "hearts": 1,
+    "max_capture_gap": 14.7999999999977,
+    "final_wait": 4.55999999999909,
+    "checks": 8056,
+    "failed_thresholds": [
+      {
+        "detail": 14.7999999999977,
+        "name": "visible policy capture gap below8 3.2:0"
+      }
+    ],
+    "classification": "Separate forced unfavorable-first diagnostic; excluded from eight unforced normal-policy acceptance runs. Recovery succeeds, but 8-second gap threshold fails."
   }
 }

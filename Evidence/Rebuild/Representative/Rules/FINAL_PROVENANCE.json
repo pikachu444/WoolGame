@@ -1,0 +1,175 @@
+{
+  "audit": "Representative candidate 07 independent final rules review",
+  "date": "2026-09-11",
+  "reviewer": "/root/rules_reviewer",
+  "verdict": "Required source replay, eight normal visible-policy runs, and effect boundary checks passed; optional forced unfavorable-first recovery won but failed the 8-second collection-gap threshold.",
+  "source_sha256": {
+    "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+    "reference_stage": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+    "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+  },
+  "definitions_baseline_commit": "8718affc22bea206ddb5af8acaf44a3aee02a3d0",
+  "execution": {
+    "engine": "Godot 4.7.2 stable Windows console",
+    "headless": true,
+    "windowsHide": true,
+    "path": "C:/SourceCodes/WoolGame/Rebuild",
+    "source_only": true,
+    "product_source_modified": false,
+    "actual_ui_input": false,
+    "developer_choose_witness_hint_used": false,
+    "package_verified_by_this_audit": false
+  },
+  "required_runs": {
+    "replay": {
+      "checks": 54581,
+      "failures": 0,
+      "source_actions": 28,
+      "normal_visible_policy_runs": 8
+    },
+    "effects": {
+      "checks": 378,
+      "failures": 0,
+      "source_at_start": {
+        "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+        "reference_stage": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+        "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+      },
+      "source_at_end": {
+        "campaign": "4e6d27b757b13432614136d6399bad3daa1393e2603eb259d98b173d7066172a",
+        "reference_stage": "7a79f797d62b2b08033ba271a61da691bc04951946476d734f5c1a870a7f814f",
+        "state": "8eda68bbc1765694ba87be6ab48ac665db37f69a647b426eedebc737608d5987"
+      }
+    }
+  },
+  "optional_diagnostics": {
+    "unfavorable_first": {
+      "first_block": "b02",
+      "initial_same_color_visible": 0,
+      "interval": 3.2,
+      "policy": 0,
+      "won": true,
+      "collected": 176,
+      "total": 176,
+      "time": 113.35999999999,
+      "hearts": 1,
+      "max_capture_gap": 14.7999999999977,
+      "final_wait": 4.55999999999909,
+      "checks": 8056,
+      "failed_thresholds": [
+        {
+          "detail": 14.7999999999977,
+          "name": "visible policy capture gap below8 3.2:0"
+        }
+      ],
+      "classification": "Separate forced unfavorable-first diagnostic; excluded from eight unforced normal-policy acceptance runs. Recovery succeeds, but 8-second gap threshold fails."
+    },
+    "naive": {
+      "won": true,
+      "time": 60.1999999999999,
+      "policy": "current visible match count; no pending-demand subtraction or last-slot completion guard"
+    }
+  },
+  "limits": [
+    "Source-only evidence; final package and commit binding belongs to main.",
+    "Original exact hidden yarn order unknown; b16 and b23 finish about 4.90 and 5.393 seconds early; full source replay finishes 1.454 seconds late.",
+    "No mid-run State restore API; continue and JSON encoding tested, not app-close reload.",
+    "No actual UI or final render assertion.",
+    "Developer greedy defeat not independently reproduced.",
+    "Preliminary geometry and earlier effect snapshots are not final candidate executions."
+  ],
+  "reference_inputs": [
+    {
+      "path": "Evidence/Rebuild/Representative/Reference/level2_replay_observed.json",
+      "bytes": 15885,
+      "sha256": "3150e4e69429c436e4ca9081730dbfc83530678b32e6d3bc48c1e207fd95f897"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Reference/level2_start_blocks.json",
+      "bytes": 9263,
+      "sha256": "3eee17240c646b0749962e2f6fa57baa46766a5f0881b887ddc3d0ed9e8a9489"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Reference/level2_threat_109-113.json",
+      "bytes": 2507,
+      "sha256": "6a196d4a423615a41f30d750f547cec1c0205f1cab886e6c0226a36a74f5029f"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/INDEPENDENT_FINAL_RULES.md",
+      "bytes": 7157,
+      "sha256": "701ed8cf270e27d71f9754d325dac78cacd5160961778e1f005d9a4a2fd146b9"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final-replay.json",
+      "bytes": 756169,
+      "sha256": "14436ce93aa72070e70f53ad75f2bf80437b3f330e79918b56321a5725ab8120"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final-replay.log",
+      "bytes": 1388,
+      "sha256": "ec97416bc5de2a5a8536968f891cc13532db3cc7cc5d7ec6d209cf3e5f68ae1a"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final-power-units.json",
+      "bytes": 3699,
+      "sha256": "34f9defc809e7d0c076e7446ba3c61ef64af1a4f9909b4adf3bae8647f1cca0a"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final-power-units.log",
+      "bytes": 2709,
+      "sha256": "bf674938c421a8f73937c869fd4f030bf08a4554b61d9fcb0cc9be4b0f90d1a1"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final-comparison-summary.json",
+      "bytes": 6241,
+      "sha256": "216dcf5deccd144e80d772c5c92e1ae1a799d484d425e105c0b8e62d2671b59c"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/naive-greedy-diagnostic.json",
+      "bytes": 68832,
+      "sha256": "eefd61d639c8a2e3afbf1715d78b73e7144aac12d8eb45d02338bf0bb45d51d2"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/naive-greedy-diagnostic.log",
+      "bytes": 207,
+      "sha256": "030c9a2bcd9818c9c7662e224bc026783f45a565254ed1601714a8e8fc7e9537"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/unfavorable-first-recovery.json",
+      "bytes": 70900,
+      "sha256": "09f3110ed1c0844f3d356eef6ab07e587c8f996062f66de687fb496bbb5a2f30"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/unfavorable-first-recovery.log",
+      "bytes": 268,
+      "sha256": "56234630d69a78d9e55fd357493859d4369d8cd16f5631bb8479d19e5472494d"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final_replay.gd",
+      "bytes": 15062,
+      "sha256": "d742d76bb157f5bd8b9970846a3f6d7fb2172172ce2505b4ecf3f6764de4eec3"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/final_power_units.gd",
+      "bytes": 12461,
+      "sha256": "be12a2547ef7e5498cb7561f80164c73a8b5495101935424914126afbf53ee37"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/naive_greedy_diagnostic.gd",
+      "bytes": 14647,
+      "sha256": "69bb856c1bfef25c218fc90958dc8ed0f311253be1149e7a51cded354d733ac1"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/unfavorable_first_recovery.gd",
+      "bytes": 14904,
+      "sha256": "f0de4c878f31c2ded9b4e585e65eceb30e19727a6afa7eff8a9544d4c3fecce8"
+    },
+    {
+      "path": "Evidence/Rebuild/Representative/Rules/baseline_campaign.gd",
+      "bytes": 6727,
+      "sha256": "48a9c2e5beac65486411c1722550fb7ecf505465d8c04f3271d75a0dc48007c4"
+    }
+  ]
+}

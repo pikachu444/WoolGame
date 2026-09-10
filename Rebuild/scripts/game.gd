@@ -4,6 +4,7 @@ const Profile=preload("res://scripts/profile.gd")
 var state=State.new()
 var profile=Profile.new()
 var screen="home"
+var focus_suspended=false
 var receipt: Dictionary={}
 var run_id=""
 var muted=false
@@ -65,13 +66,13 @@ func check_storage() -> void:
 func start_stage(level: int,qa_override: bool=false) -> void:
 	if level<0 or level>9 or (not qa_override and level>int(profile.current().unlocked)):return
 	run_id=profile.start_run();receipt={};speed_multiplier=1.0
-	state.reset(0,level,options());screen="play";state.active=true
+	state.reset(0,level,options());screen="play";state.active=true;focus_suspended=false
 	$World.route=state.route_curve;$World.reset_visuals()
 	$PuzzleBoard.press_id=-1;$PuzzleBoard.bounce.clear();$Interface.toast_until=0;$Interface.reserve_page=0
 	demo_next=state.time+2.2;sync_visibility();check_storage()
 
 func navigate(page: String) -> void:
-	screen=page;state.active=false;state.paused=false;sync_visibility()
+	screen=page;state.active=false;state.paused=false;focus_suspended=false;sync_visibility()
 
 func sync_visibility() -> void:
 	$World.visible=screen=="play";$PuzzleBoard.visible=screen=="play";$TextileBackdrop.visible=screen=="play"
@@ -105,7 +106,11 @@ func _unhandled_key_input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):back()
 
 func _notification(what: int) -> void:
-	if what==NOTIFICATION_APPLICATION_FOCUS_OUT and not demo and screen=="play" and not state.won and not state.lost:state.paused=true
+	if what==NOTIFICATION_APPLICATION_FOCUS_OUT and not demo and screen=="play" and not state.won and not state.lost:
+		# Background suspension must not replace the board with a clickable menu.
+		focus_suspended=true;state.active=false;$PuzzleBoard.press_id=-1;$PuzzleBoard.cancelled=true
+	elif what==NOTIFICATION_APPLICATION_FOCUS_IN and focus_suspended:
+		focus_suspended=false;state.active=screen=="play"
 	elif what==NOTIFICATION_WM_GO_BACK_REQUEST:back()
 
 func _process(dt: float) -> void:

@@ -1,0 +1,9 @@
+{
+  "checks": 24,
+  "failures": [],
+  "resource_hashes": {
+    "res://scripts/game.gd": "c9cc406b3247fc4b1e47474a5669c3d7429e246b36a86d82efd52dc5c57bdc61",
+    "res://scripts/state.gd": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492"
+  },
+  "scope": "headless notification/state and generated controls; not native focus delivery"
+}

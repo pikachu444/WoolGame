@@ -1,0 +1,62 @@
+{
+  "candidate_commit": "be25ca9569c006b2574143f73cc217e40644f581",
+  "pck_sha256": "f7a88e117bb490f8e285f2527e2720f3bdece9c60edec04a7704c9e496faa8d2",
+  "input_actor": "main_agent",
+  "review_actor": "independent_play_reviewer",
+  "verdict": "PASS_WITHIN_OBSERVED_NATIVE_FLOW",
+  "profiles_byte_equal": true,
+  "successful_run": "free-7",
+  "free_continues": 3,
+  "free_completed": [
+    0
+  ],
+  "free_cards": [
+    0
+  ],
+  "free_coins": 350,
+  "free_unlocked": 1,
+  "challenge_coins": 200,
+  "challenge_completed": [],
+  "files": [
+    {
+      "file": "01-result.jpg",
+      "sha256": "72c5f24fe66d389f82851a44401f2e704cb956c532c41a4592e59cf40a1bc279"
+    },
+    {
+      "file": "02-home-unlocked.jpg",
+      "sha256": "65972cb1a836dca059820c00423d196012c636047aa246896008ffd86c68637b"
+    },
+    {
+      "file": "03-cards.jpg",
+      "sha256": "84c16e2a08c2ee08460640d68a1ccb586fae9db3fea4e4e81902077fbfe69303"
+    },
+    {
+      "file": "04-relaunch-home.jpg",
+      "sha256": "ad3a3a4759956ac0d7c716be58f5038e7dfb21370f37284165508b32dd8e56b0"
+    },
+    {
+      "file": "05-stage2-start.jpg",
+      "sha256": "d342a05c1a9c97750dd2423eebac8e04f6bccab9dbc2d55ce53474ff9be4e8f8"
+    },
+    {
+      "file": "actions.json",
+      "sha256": "2749622912fe7faa1e9a068decbd84d519c28fbd2b4f00064720d24403ac70e8"
+    },
+    {
+      "file": "profile-after-clear.json",
+      "sha256": "70e64bd962bf7565a7653223018a21471cbad615dd31164b622e8388e21e64a4"
+    },
+    {
+      "file": "profile-after-relaunch.json",
+      "sha256": "70e64bd962bf7565a7653223018a21471cbad615dd31164b622e8388e21e64a4"
+    },
+    {
+      "file": "PROVENANCE.json",
+      "sha256": "400bd9a568e065ec1206f8bd41c2e774d7af356b64ed8bc5a1a3ef2690052a4b"
+    },
+    {
+      "file": "SESSION.md",
+      "sha256": "9d6c5849fd611f2810245df4ffd9a7e1af6062338c1384707a67808147aeeb2d"
+    }
+  ]
+}

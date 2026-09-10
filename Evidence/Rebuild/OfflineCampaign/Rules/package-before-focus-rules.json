@@ -3,7 +3,7 @@
   "failures": [],
   "resource_hashes": {
     "res://scripts/campaign.gd": "e1ac63d3b64c596d4b4c71b53f7bd9f08c0968786184a143d37477dc446cca31",
-    "res://scripts/game.gd": "c9cc406b3247fc4b1e47474a5669c3d7429e246b36a86d82efd52dc5c57bdc61",
+    "res://scripts/game.gd": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
     "res://scripts/profile.gd": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
     "res://scripts/state.gd": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492"
   },

@@ -1,0 +1,5 @@
+{
+  "same_pck_in_windows_zip_and_android": true,
+  "same_windows_exe_in_zip": true,
+  "sha256": "f7a88e117bb490f8e285f2527e2720f3bdece9c60edec04a7704c9e496faa8d2"
+}

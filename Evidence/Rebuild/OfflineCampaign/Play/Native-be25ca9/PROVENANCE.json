@@ -1,0 +1,28 @@
+{
+  "candidate_commit": "be25ca9569c006b2574143f73cc217e40644f581",
+  "pck_sha256": "f7a88e117bb490f8e285f2527e2720f3bdece9c60edec04a7704c9e496faa8d2",
+  "exe_sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+  "input_actor": "main_agent",
+  "input_tool": "@oai/sky",
+  "state_injection": false,
+  "initial_pid": 58448,
+  "normal_exit_code": 0,
+  "relaunch_pid": 54964,
+  "profile_dir": "BuildWork/IndependentPlay/final-profile",
+  "successful_run": "free-7",
+  "free_continues_in_successful_run": 3,
+  "observed": [
+    "stage 1 native clear",
+    "reward 50 exactly once in saved profile",
+    "card 1 of 10",
+    "home with 350 coins and stage 2 unlocked",
+    "same profile preserved after actual EXE restart",
+    "stage 2 native entry and progress 41%"
+  ],
+  "limits": [
+    "Initial abandoned attempt is also present in actions.json",
+    "Stage 2 ended after delayed board input hit the loss-overlay Home control",
+    "No native ten-stage completion",
+    "No Android device gameplay"
+  ]
+}

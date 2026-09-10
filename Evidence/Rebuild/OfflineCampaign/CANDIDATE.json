@@ -1,26 +1,27 @@
 {
-  "candidate_commit": "114e7f3e8e21b3dc072277b1ecc6266bd24790a9",
-  "rebuild_tree": "32873b32a9ede636d6272965d81c0435e8064d41",
+  "candidate_commit": "be25ca9569c006b2574143f73cc217e40644f581",
+  "rebuild_tree": "d9948c689fcd4829781cdaeeb1e829e5c25588f0",
   "command": "python Rebuild/tools/build.py --android",
   "build_exit_code": 0,
   "packages": {
     "WoolRescue.pck": {
-      "sha256": "685155149327a4d061b6d8a1f03be065332208804ae5513acbe3c7c9a7f9c56e",
-      "bytes": 24436784
+      "sha256": "f7a88e117bb490f8e285f2527e2720f3bdece9c60edec04a7704c9e496faa8d2",
+      "bytes": 24437104
     },
     "WoolRescue.exe": {
       "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
       "bytes": 109268480
     },
     "WoolRescue-Windows.zip": {
-      "sha256": "4c96a528b4474017057cef59c97606929be4d599b094074f0fc3224f1e8bcc2b",
-      "bytes": 62425921
+      "sha256": "b8e072818a079003f1bf3ef85290609b78c85329b319e9281fcaa69b881bb35c",
+      "bytes": 62426020
     },
     "WoolRescue-Android.apk": {
-      "sha256": "b5a58312d50c2ea8ff8acc1590391282e30e41e7e6d66136d7bc9b966a19e069",
+      "sha256": "a8a38cd9058d21beb173872223c37625a9c1e8e8cb9cd222498abdb23d5f349d",
       "bytes": 54938486
     }
   },
-  "actual_windows_input": "partial_native_input_then_windows_relocked",
+  "actual_windows_input": "native_stage1_clear_result_home_card_relaunch_and_stage2_entry",
+  "native_evidence": "Play/Native-be25ca9/SESSION.md",
   "android_device": "none_connected"
 }

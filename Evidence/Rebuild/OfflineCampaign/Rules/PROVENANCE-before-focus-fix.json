@@ -1,6 +1,6 @@
 {
-  "candidate_commit": "be25ca9569c006b2574143f73cc217e40644f581",
-  "pck_sha256": "f7a88e117bb490f8e285f2527e2720f3bdece9c60edec04a7704c9e496faa8d2",
+  "candidate_commit": "114e7f3e8e21b3dc072277b1ecc6266bd24790a9",
+  "pck_sha256": "685155149327a4d061b6d8a1f03be065332208804ae5513acbe3c7c9a7f9c56e",
   "pck_hash_matches": true,
   "runtime": "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe",
   "runtime_sha256": "c8f0a6bc45a19b33541501e57f6f7cd972ab18453743266339d495cbbe846643",
@@ -13,8 +13,8 @@
     },
     {
       "resource": "res://scripts/game.gd",
-      "packed_sha256": "c9cc406b3247fc4b1e47474a5669c3d7429e246b36a86d82efd52dc5c57bdc61",
-      "committed_sha256": "c9cc406b3247fc4b1e47474a5669c3d7429e246b36a86d82efd52dc5c57bdc61",
+      "packed_sha256": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
+      "committed_sha256": "3224d83b93cb1b4731e113914923af3ae626bcd3bc38e08fac6eddb3fcd5022b",
       "match": true
     },
     {
@@ -82,15 +82,6 @@
   "commands": [
     "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/independent_rules.gd",
     "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/recovery_variants.gd",
-    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd -- --profile-dir <new-isolated-directory>",
-    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/focus_rules.gd -- --profile-dir <new-isolated-directory>"
-  ],
-  "focus": {
-    "checks": 24,
-    "failures": 0,
-    "resource_hashes": {
-      "res://scripts/game.gd": "c9cc406b3247fc4b1e47474a5669c3d7429e246b36a86d82efd52dc5c57bdc61",
-      "res://scripts/state.gd": "a16f197eff7c8f928ddbee474c75649522ec837c3e557eb28cfdd9e1d9270492"
-    }
-  }
+    "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe --headless --path C:/SourceCodes/WoolGame/Rebuild --main-pack C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck --script C:/SourceCodes/WoolGame/BuildWork/IndependentRules/scene_integration.gd -- --profile-dir <new-isolated-directory>"
+  ]
 }

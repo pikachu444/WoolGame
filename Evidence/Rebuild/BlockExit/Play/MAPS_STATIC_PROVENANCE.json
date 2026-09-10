@@ -1,0 +1,101 @@
+{
+  "reviewed_at": "2026-09-10T08:27:14.160Z",
+  "scope": "Static Maps after HUD overlap fix; campaign currently under stage7 pacing correction so this is not final source approval",
+  "maps": [
+    {
+      "file": "../Maps/loss-with-travel.png",
+      "sha256": "6e813c72c88c0cfc874d34f6249ba69dd702a015912f3839d8bcacf897a1ecf1"
+    },
+    {
+      "file": "../Maps/pause-with-travel.png",
+      "sha256": "69259ef0eb06d8352e3fc997acef9b473c143eac9510dbb23cec86fc6c795b3b"
+    },
+    {
+      "file": "../Maps/stage-01-start.png",
+      "sha256": "a91b97989cccffbb4336777db2b9a4072cda8681c5ce00f8fd28a5f32beae874"
+    },
+    {
+      "file": "../Maps/stage-02-start.png",
+      "sha256": "e70aa9b03c5106d12e04c7fde252f95591480147f9114c8962aa5e0dd02d4b78"
+    },
+    {
+      "file": "../Maps/stage-03-cat-after-flee.png",
+      "sha256": "19ce0e70da633c9a542716ee3625a22728ba4a3c5707d625f38637cf4230ba45"
+    },
+    {
+      "file": "../Maps/stage-03-cat-flee-start.png",
+      "sha256": "67d2baa353dc593baaf7d55b915b848f008e5bd4bfce7b022a0587d5aa195048"
+    },
+    {
+      "file": "../Maps/stage-03-start.png",
+      "sha256": "e102ab92e8a8a34a933001d29f95e6fa100e463dadbe23af3c14a89ed3ae0c40"
+    },
+    {
+      "file": "../Maps/stage-04-start.png",
+      "sha256": "21110a5a9cd827bdc03eecd34090c8bb3318a326978fcb45a428c548d08ca415"
+    },
+    {
+      "file": "../Maps/stage-05-start.png",
+      "sha256": "5f0dba6eb633f3aed6049872ac7f421af541fa7239a227d3bc98daf23d9c4f71"
+    },
+    {
+      "file": "../Maps/stage-06-start.png",
+      "sha256": "b8ad5239b49634d514f71b6993b2e9efa513bb3e81a5a0f264b5b691bf232dec"
+    },
+    {
+      "file": "../Maps/stage-07-start.png",
+      "sha256": "95b14a93629adb426fe44e90d26656706093f270d1ca596e9937e82e09d05f88"
+    },
+    {
+      "file": "../Maps/stage-08-start.png",
+      "sha256": "5d9ef195a9afd8ff1364a4dead6bec983f9356e679b8f15e57cf59e699afbeae"
+    },
+    {
+      "file": "../Maps/stage-09-start.png",
+      "sha256": "77dacbcc77d962f329118f5a15b3e7144ff5ed7e27e1e065efc1a8207668de97"
+    },
+    {
+      "file": "../Maps/stage-10-start.png",
+      "sha256": "b6378af6a637c5f50724f2cfaf40095fff3c56b2a655db3649f1d6a22e24e8d1"
+    }
+  ],
+  "renderer_files": [
+    {
+      "file": "Rebuild/scripts/state.gd",
+      "sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552"
+    },
+    {
+      "file": "Rebuild/scripts/world.gd",
+      "sha256": "58cb841c2cabc4753d231a1af4e928fbee1e6c8c8c289c23d709e31e09f3af47"
+    },
+    {
+      "file": "Rebuild/scripts/hud.gd",
+      "sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534"
+    },
+    {
+      "file": "Rebuild/scripts/map_theme.gd",
+      "sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4"
+    },
+    {
+      "file": "Rebuild/scripts/background.gd",
+      "sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81"
+    },
+    {
+      "file": "Rebuild/scripts/layout.gd",
+      "sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693"
+    },
+    {
+      "file": "Rebuild/scripts/board.gd",
+      "sha256": "a0f4771dd93688ecd3ff8fe122af85dd94b4fc424893c9d6de16ec826a47d54e"
+    },
+    {
+      "file": "Rebuild/scripts/block_flight.gd",
+      "sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f"
+    }
+  ],
+  "capture_harness": {
+    "file": "../Verification/capture_maps.gd",
+    "sha256": "c43443ac85d22226523dd825b162d985d0edf7d83daca379ea05ec576e5a75ed"
+  },
+  "stage7_original_campaign_sha256": "fc9e89985c6f5bf2cf5eb2aa52ad38df58035095bb181af4512906a65cc7e593"
+}

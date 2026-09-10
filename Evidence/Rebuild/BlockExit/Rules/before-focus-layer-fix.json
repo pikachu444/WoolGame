@@ -1,0 +1,16 @@
+{
+  "board_sha256": "f6d35911746aaf90f114caa0af3865899a863f4681cc2c4a2035d03c732f330e",
+  "checks": 185,
+  "failures": [
+    {
+      "detail": [
+        0,
+        "line",
+        5,
+        0
+      ],
+      "label": "focus retains visible travel layer"
+    }
+  ],
+  "game_sha256": "07271b2a458136ae5fc4cb69b7a341fc611e069dad25c3c3c747d75151a0f0fb"
+}

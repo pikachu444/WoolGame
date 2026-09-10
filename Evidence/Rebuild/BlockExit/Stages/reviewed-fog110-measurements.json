@@ -1,0 +1,6731 @@
+{
+  "campaign_sha256": "fc9e89985c6f5bf2cf5eb2aa52ad38df58035095bb181af4512906a65cc7e593",
+  "checks": 1926,
+  "failures": [],
+  "godot_version": "4.7.2-stable (official)",
+  "harness_sha256": "6c4a1d2edc8ae85f3336e419ec81f85fd7f0abe50dbcd4e69ca10275800fae06",
+  "scope": "Development simulation, not independent review or native play",
+  "stages": [
+    {
+      "blocks": 12,
+      "capacities": [
+        3
+      ],
+      "colors": 3,
+      "dependency_depth": 2,
+      "dependency_edges": 12,
+      "directions": 1,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 4,
+      "initial_productive": 4,
+      "lesson": "위쪽부터 차례로 꺼내요",
+      "no_input_first_flee": 47.07,
+      "no_input_first_hurt": 78.43,
+      "no_input_loss": 78.43,
+      "route_length": 1685.3,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 8,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 2,
+          "mean_legal_choices": 3.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 16.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 6,
+              "time": 12.4
+            },
+            {
+              "block": 7,
+              "time": 14.9
+            },
+            {
+              "block": 5,
+              "time": 17.3
+            },
+            {
+              "block": 8,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 10,
+              "time": 24.5
+            },
+            {
+              "block": 11,
+              "time": 26.9
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 1.6,
+          "max_slots": 1,
+          "mean_legal_choices": 3.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 29.2,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 13.2
+            },
+            {
+              "block": 6,
+              "time": 16.4
+            },
+            {
+              "block": 7,
+              "time": 19.6
+            },
+            {
+              "block": 5,
+              "time": 22.8
+            },
+            {
+              "block": 8,
+              "time": 26.0
+            },
+            {
+              "block": 9,
+              "time": 29.2
+            },
+            {
+              "block": 10,
+              "time": 32.4
+            },
+            {
+              "block": 11,
+              "time": 35.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 2.4,
+          "max_slots": 1,
+          "mean_legal_choices": 3.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 38.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 2,
+              "time": 18.0
+            },
+            {
+              "block": 3,
+              "time": 20.4
+            },
+            {
+              "block": 1,
+              "time": 22.8
+            },
+            {
+              "block": 4,
+              "time": 25.2
+            },
+            {
+              "block": 6,
+              "time": 27.6
+            },
+            {
+              "block": 5,
+              "time": 30.0
+            },
+            {
+              "block": 7,
+              "time": 32.4
+            },
+            {
+              "block": 8,
+              "time": 34.9
+            },
+            {
+              "block": 9,
+              "time": 37.4
+            },
+            {
+              "block": 10,
+              "time": 39.9
+            },
+            {
+              "block": 11,
+              "time": 42.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 1,
+          "mean_legal_choices": 3.6,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 44.7,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 6,
+              "time": 12.4
+            },
+            {
+              "block": 7,
+              "time": 14.9
+            },
+            {
+              "block": 5,
+              "time": 17.3
+            },
+            {
+              "block": 8,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 10,
+              "time": 24.5
+            },
+            {
+              "block": 11,
+              "time": 26.9
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 1.6,
+          "max_slots": 1,
+          "mean_legal_choices": 3.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 29.2,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 8,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 2,
+          "mean_legal_choices": 3.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 16.4,
+          "won": true
+        }
+      ],
+      "speed": 13.0,
+      "stage": 1,
+      "title": "첫 번째 실",
+      "total_yarn": 36
+    },
+    {
+      "blocks": 16,
+      "capacities": [
+        3
+      ],
+      "colors": 3,
+      "dependency_depth": 3,
+      "dependency_edges": 13,
+      "directions": 3,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 8,
+      "initial_productive": 6,
+      "lesson": "가로 화살표는 옆 출구로 나가요",
+      "no_input_first_flee": 42.97,
+      "no_input_first_hurt": 72.83,
+      "no_input_loss": 72.83,
+      "route_length": 1685.1,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 8,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 14,
+              "time": 17.8
+            },
+            {
+              "block": 15,
+              "time": 19.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.5,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 5.13,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 21.5,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 9,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 10,
+              "time": 22.1
+            },
+            {
+              "block": 11,
+              "time": 24.5
+            },
+            {
+              "block": 8,
+              "time": 26.9
+            },
+            {
+              "block": 15,
+              "time": 29.3
+            },
+            {
+              "block": 12,
+              "time": 31.7
+            },
+            {
+              "block": 13,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 1.9,
+          "max_slots": 2,
+          "mean_legal_choices": 5.25,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 39.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 3,
+              "time": 13.2
+            },
+            {
+              "block": 5,
+              "time": 16.4
+            },
+            {
+              "block": 9,
+              "time": 19.6
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 7,
+              "time": 26.0
+            },
+            {
+              "block": 10,
+              "time": 29.2
+            },
+            {
+              "block": 11,
+              "time": 32.4
+            },
+            {
+              "block": 8,
+              "time": 35.7
+            },
+            {
+              "block": 15,
+              "time": 39.0
+            },
+            {
+              "block": 12,
+              "time": 42.3
+            },
+            {
+              "block": 13,
+              "time": 45.6
+            },
+            {
+              "block": 14,
+              "time": 48.9
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 2.8,
+          "max_slots": 1,
+          "mean_legal_choices": 5.25,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 51.2,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 1,
+              "time": 18.0
+            },
+            {
+              "block": 2,
+              "time": 20.4
+            },
+            {
+              "block": 4,
+              "time": 22.8
+            },
+            {
+              "block": 3,
+              "time": 25.2
+            },
+            {
+              "block": 5,
+              "time": 27.6
+            },
+            {
+              "block": 9,
+              "time": 30.0
+            },
+            {
+              "block": 6,
+              "time": 32.4
+            },
+            {
+              "block": 7,
+              "time": 34.9
+            },
+            {
+              "block": 10,
+              "time": 37.4
+            },
+            {
+              "block": 11,
+              "time": 39.9
+            },
+            {
+              "block": 8,
+              "time": 42.4
+            },
+            {
+              "block": 15,
+              "time": 44.9
+            },
+            {
+              "block": 12,
+              "time": 47.4
+            },
+            {
+              "block": 13,
+              "time": 49.9
+            },
+            {
+              "block": 14,
+              "time": 52.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 5.68,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 54.7,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 15,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 2,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 3,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 10,
+              "time": 22.1
+            },
+            {
+              "block": 9,
+              "time": 24.5
+            },
+            {
+              "block": 8,
+              "time": 26.9
+            },
+            {
+              "block": 11,
+              "time": 29.3
+            },
+            {
+              "block": 12,
+              "time": 31.7
+            },
+            {
+              "block": 13,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 2,
+          "mean_legal_choices": 4.33,
+          "minimum_legal_choices": 1,
+          "off_color_id": 15,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 39.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 8,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 14,
+              "time": 17.8
+            },
+            {
+              "block": 15,
+              "time": 19.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.5,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 5.13,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 21.5,
+          "won": true
+        }
+      ],
+      "speed": 14.0,
+      "stage": 2,
+      "title": "옆으로 한 걸음",
+      "total_yarn": 48
+    },
+    {
+      "blocks": 18,
+      "capacities": [
+        3
+      ],
+      "colors": 4,
+      "dependency_depth": 2,
+      "dependency_edges": 10,
+      "directions": 4,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 11,
+      "initial_productive": 8,
+      "lesson": "아래쪽 출구도 함께 살펴봐요",
+      "no_input_first_flee": 36.27,
+      "no_input_first_hurt": 89.87,
+      "no_input_loss": 89.87,
+      "route_length": 1809.8,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 7,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 9,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 14,
+              "time": 17.8
+            },
+            {
+              "block": 15,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 21.4
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.9,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 7.28,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 24.3,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 7,
+              "time": 12.4
+            },
+            {
+              "block": 5,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 9,
+              "time": 19.7
+            },
+            {
+              "block": 8,
+              "time": 22.1
+            },
+            {
+              "block": 12,
+              "time": 24.5
+            },
+            {
+              "block": 10,
+              "time": 26.9
+            },
+            {
+              "block": 11,
+              "time": 29.3
+            },
+            {
+              "block": 13,
+              "time": 31.7
+            },
+            {
+              "block": 14,
+              "time": 34.2
+            },
+            {
+              "block": 15,
+              "time": 36.7
+            },
+            {
+              "block": 16,
+              "time": 39.2
+            },
+            {
+              "block": 17,
+              "time": 41.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.9,
+          "lost": false,
+          "max_capture_gap": 2.1,
+          "max_slots": 2,
+          "mean_legal_choices": 7.28,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 44.6,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 13.2
+            },
+            {
+              "block": 7,
+              "time": 16.4
+            },
+            {
+              "block": 6,
+              "time": 19.6
+            },
+            {
+              "block": 9,
+              "time": 22.8
+            },
+            {
+              "block": 5,
+              "time": 26.0
+            },
+            {
+              "block": 8,
+              "time": 29.2
+            },
+            {
+              "block": 12,
+              "time": 32.4
+            },
+            {
+              "block": 10,
+              "time": 35.7
+            },
+            {
+              "block": 11,
+              "time": 39.0
+            },
+            {
+              "block": 13,
+              "time": 42.3
+            },
+            {
+              "block": 14,
+              "time": 45.6
+            },
+            {
+              "block": 15,
+              "time": 48.9
+            },
+            {
+              "block": 16,
+              "time": 52.2
+            },
+            {
+              "block": 17,
+              "time": 55.5
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 3.0,
+          "lost": false,
+          "max_capture_gap": 2.9,
+          "max_slots": 1,
+          "mean_legal_choices": 7.28,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 58.5,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 1,
+              "time": 18.0
+            },
+            {
+              "block": 2,
+              "time": 20.4
+            },
+            {
+              "block": 3,
+              "time": 22.8
+            },
+            {
+              "block": 7,
+              "time": 25.2
+            },
+            {
+              "block": 4,
+              "time": 27.6
+            },
+            {
+              "block": 6,
+              "time": 30.0
+            },
+            {
+              "block": 5,
+              "time": 32.4
+            },
+            {
+              "block": 9,
+              "time": 34.9
+            },
+            {
+              "block": 8,
+              "time": 37.4
+            },
+            {
+              "block": 10,
+              "time": 39.9
+            },
+            {
+              "block": 11,
+              "time": 42.4
+            },
+            {
+              "block": 12,
+              "time": 44.9
+            },
+            {
+              "block": 13,
+              "time": 47.4
+            },
+            {
+              "block": 14,
+              "time": 49.9
+            },
+            {
+              "block": 15,
+              "time": 52.4
+            },
+            {
+              "block": 16,
+              "time": 54.9
+            },
+            {
+              "block": 17,
+              "time": 57.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.9,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 7.81,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 60.3,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 16,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 2,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 3,
+              "time": 12.4
+            },
+            {
+              "block": 5,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 13,
+              "time": 22.1
+            },
+            {
+              "block": 12,
+              "time": 24.5
+            },
+            {
+              "block": 10,
+              "time": 26.9
+            },
+            {
+              "block": 9,
+              "time": 29.3
+            },
+            {
+              "block": 8,
+              "time": 31.7
+            },
+            {
+              "block": 11,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            },
+            {
+              "block": 15,
+              "time": 39.2
+            },
+            {
+              "block": 17,
+              "time": 41.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.0,
+          "lost": false,
+          "max_capture_gap": 2.1,
+          "max_slots": 2,
+          "mean_legal_choices": 6.53,
+          "minimum_legal_choices": 1,
+          "off_color_id": 16,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 44.7,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 7,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 9,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 14,
+              "time": 17.8
+            },
+            {
+              "block": 15,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 21.4
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 1,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.9,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 7.28,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 24.3,
+          "won": true
+        }
+      ],
+      "speed": 14.0,
+      "stage": 3,
+      "title": "네 방향 출구",
+      "total_yarn": 54
+    },
+    {
+      "blocks": 20,
+      "capacities": [
+        3
+      ],
+      "colors": 4,
+      "dependency_depth": 3,
+      "dependency_edges": 22,
+      "directions": 3,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 8,
+      "initial_productive": 4,
+      "lesson": "막힌 색의 앞을 먼저 열어요",
+      "no_input_first_flee": 25.97,
+      "no_input_first_hurt": 64.47,
+      "no_input_loss": 66.37,
+      "route_length": 1315.4,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 9,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 15,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 19,
+              "time": 23.8
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 4.75,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 26.1,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 7,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 10,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 8,
+              "time": 24.5
+            },
+            {
+              "block": 13,
+              "time": 26.9
+            },
+            {
+              "block": 12,
+              "time": 29.3
+            },
+            {
+              "block": 11,
+              "time": 31.7
+            },
+            {
+              "block": 18,
+              "time": 34.2
+            },
+            {
+              "block": 15,
+              "time": 36.7
+            },
+            {
+              "block": 14,
+              "time": 39.2
+            },
+            {
+              "block": 16,
+              "time": 41.7
+            },
+            {
+              "block": 17,
+              "time": 44.2
+            },
+            {
+              "block": 19,
+              "time": 46.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 1.9,
+          "max_slots": 2,
+          "mean_legal_choices": 4.7,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 49.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 13.2
+            },
+            {
+              "block": 5,
+              "time": 16.4
+            },
+            {
+              "block": 7,
+              "time": 19.6
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 9,
+              "time": 26.0
+            },
+            {
+              "block": 8,
+              "time": 29.2
+            },
+            {
+              "block": 13,
+              "time": 32.4
+            },
+            {
+              "block": 12,
+              "time": 35.7
+            },
+            {
+              "block": 10,
+              "time": 39.0
+            },
+            {
+              "block": 11,
+              "time": 42.3
+            },
+            {
+              "block": 18,
+              "time": 45.6
+            },
+            {
+              "block": 15,
+              "time": 48.9
+            },
+            {
+              "block": 14,
+              "time": 52.2
+            },
+            {
+              "block": 16,
+              "time": 55.5
+            },
+            {
+              "block": 17,
+              "time": 58.8
+            },
+            {
+              "block": 19,
+              "time": 62.1
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 2.7,
+          "max_slots": 1,
+          "mean_legal_choices": 4.65,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 64.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 1,
+              "time": 18.0
+            },
+            {
+              "block": 2,
+              "time": 20.4
+            },
+            {
+              "block": 3,
+              "time": 22.8
+            },
+            {
+              "block": 7,
+              "time": 25.2
+            },
+            {
+              "block": 6,
+              "time": 27.6
+            },
+            {
+              "block": 10,
+              "time": 30.0
+            },
+            {
+              "block": 9,
+              "time": 32.4
+            },
+            {
+              "block": 4,
+              "time": 34.9
+            },
+            {
+              "block": 5,
+              "time": 37.4
+            },
+            {
+              "block": 13,
+              "time": 39.9
+            },
+            {
+              "block": 12,
+              "time": 42.4
+            },
+            {
+              "block": 8,
+              "time": 44.9
+            },
+            {
+              "block": 11,
+              "time": 47.4
+            },
+            {
+              "block": 15,
+              "time": 49.9
+            },
+            {
+              "block": 14,
+              "time": 52.4
+            },
+            {
+              "block": 16,
+              "time": 54.9
+            },
+            {
+              "block": 17,
+              "time": 57.4
+            },
+            {
+              "block": 18,
+              "time": 59.9
+            },
+            {
+              "block": 19,
+              "time": 62.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 5.48,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 64.7,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 10,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 2,
+              "time": 12.4
+            },
+            {
+              "block": 7,
+              "time": 14.9
+            },
+            {
+              "block": 5,
+              "time": 17.3
+            },
+            {
+              "block": 6,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 8,
+              "time": 24.5
+            },
+            {
+              "block": 13,
+              "time": 26.9
+            },
+            {
+              "block": 12,
+              "time": 29.3
+            },
+            {
+              "block": 11,
+              "time": 31.7
+            },
+            {
+              "block": 18,
+              "time": 34.2
+            },
+            {
+              "block": 15,
+              "time": 36.7
+            },
+            {
+              "block": 14,
+              "time": 39.2
+            },
+            {
+              "block": 16,
+              "time": 41.7
+            },
+            {
+              "block": 17,
+              "time": 44.2
+            },
+            {
+              "block": 19,
+              "time": 46.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 2,
+          "mean_legal_choices": 4.68,
+          "minimum_legal_choices": 1,
+          "off_color_id": 10,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 49.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 9,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 10,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 12,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 15,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 19,
+              "time": 23.8
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 0.8,
+          "max_slots": 3,
+          "mean_legal_choices": 4.75,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 26.1,
+          "won": true
+        }
+      ],
+      "speed": 14.5,
+      "stage": 4,
+      "title": "갈림길의 순서",
+      "total_yarn": 60
+    },
+    {
+      "blocks": 22,
+      "capacities": [
+        2,
+        4,
+        6
+      ],
+      "colors": 4,
+      "dependency_depth": 3,
+      "dependency_edges": 19,
+      "directions": 3,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 9,
+      "initial_productive": 4,
+      "lesson": "긴 실을 감는 동안 다음 색을 골라요",
+      "no_input_first_flee": 29.13,
+      "no_input_first_hurt": 53.77,
+      "no_input_loss": 55.67,
+      "route_length": 1117.3,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 15,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 4,
+              "time": 6.3
+            },
+            {
+              "block": 5,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 7,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 8,
+              "time": 12.8
+            },
+            {
+              "block": 10,
+              "time": 14.1
+            },
+            {
+              "block": 11,
+              "time": 15.4
+            },
+            {
+              "block": 12,
+              "time": 16.6
+            },
+            {
+              "block": 13,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 22.6
+            },
+            {
+              "block": 18,
+              "time": 23.8
+            },
+            {
+              "block": 19,
+              "time": 25.0
+            },
+            {
+              "block": 21,
+              "time": 26.2
+            },
+            {
+              "block": 20,
+              "time": 27.4
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.2,
+          "lost": false,
+          "max_capture_gap": 1.1,
+          "max_slots": 4,
+          "mean_legal_choices": 5.65,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 30.6,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 15,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 1,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 12.4
+            },
+            {
+              "block": 6,
+              "time": 14.9
+            },
+            {
+              "block": 7,
+              "time": 17.3
+            },
+            {
+              "block": 13,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 8,
+              "time": 24.5
+            },
+            {
+              "block": 10,
+              "time": 26.9
+            },
+            {
+              "block": 19,
+              "time": 29.3
+            },
+            {
+              "block": 11,
+              "time": 31.7
+            },
+            {
+              "block": 5,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            },
+            {
+              "block": 16,
+              "time": 39.2
+            },
+            {
+              "block": 17,
+              "time": 41.7
+            },
+            {
+              "block": 21,
+              "time": 44.2
+            },
+            {
+              "block": 12,
+              "time": 46.7
+            },
+            {
+              "block": 18,
+              "time": 49.2
+            },
+            {
+              "block": 20,
+              "time": 51.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.1,
+          "lost": false,
+          "max_capture_gap": 2.4,
+          "max_slots": 2,
+          "mean_legal_choices": 5.86,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 54.8,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 15,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 1,
+              "time": 13.2
+            },
+            {
+              "block": 4,
+              "time": 16.4
+            },
+            {
+              "block": 6,
+              "time": 19.6
+            },
+            {
+              "block": 7,
+              "time": 22.8
+            },
+            {
+              "block": 13,
+              "time": 26.0
+            },
+            {
+              "block": 9,
+              "time": 29.2
+            },
+            {
+              "block": 8,
+              "time": 32.4
+            },
+            {
+              "block": 19,
+              "time": 35.7
+            },
+            {
+              "block": 10,
+              "time": 39.0
+            },
+            {
+              "block": 5,
+              "time": 42.3
+            },
+            {
+              "block": 14,
+              "time": 45.6
+            },
+            {
+              "block": 11,
+              "time": 48.9
+            },
+            {
+              "block": 16,
+              "time": 52.2
+            },
+            {
+              "block": 21,
+              "time": 55.5
+            },
+            {
+              "block": 17,
+              "time": 58.8
+            },
+            {
+              "block": 12,
+              "time": 62.1
+            },
+            {
+              "block": 18,
+              "time": 65.4
+            },
+            {
+              "block": 20,
+              "time": 68.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 3.2,
+          "lost": false,
+          "max_capture_gap": 3.3,
+          "max_slots": 2,
+          "mean_legal_choices": 5.86,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 71.9,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 15,
+              "time": 15.6
+            },
+            {
+              "block": 0,
+              "time": 18.0
+            },
+            {
+              "block": 2,
+              "time": 20.4
+            },
+            {
+              "block": 1,
+              "time": 22.8
+            },
+            {
+              "block": 3,
+              "time": 25.2
+            },
+            {
+              "block": 4,
+              "time": 27.6
+            },
+            {
+              "block": 7,
+              "time": 30.0
+            },
+            {
+              "block": 13,
+              "time": 32.4
+            },
+            {
+              "block": 6,
+              "time": 34.9
+            },
+            {
+              "block": 9,
+              "time": 37.4
+            },
+            {
+              "block": 8,
+              "time": 39.9
+            },
+            {
+              "block": 19,
+              "time": 42.4
+            },
+            {
+              "block": 5,
+              "time": 44.9
+            },
+            {
+              "block": 10,
+              "time": 47.4
+            },
+            {
+              "block": 14,
+              "time": 49.9
+            },
+            {
+              "block": 11,
+              "time": 52.4
+            },
+            {
+              "block": 12,
+              "time": 54.9
+            },
+            {
+              "block": 18,
+              "time": 57.4
+            },
+            {
+              "block": 16,
+              "time": 59.9
+            },
+            {
+              "block": 17,
+              "time": 62.4
+            },
+            {
+              "block": 21,
+              "time": 64.9
+            },
+            {
+              "block": 20,
+              "time": 67.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.1,
+          "lost": false,
+          "max_capture_gap": 16.8,
+          "max_slots": 2,
+          "mean_legal_choices": 6.2,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 70.5,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 21,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 15,
+              "time": 4.9
+            },
+            {
+              "block": 2,
+              "time": 7.4
+            },
+            {
+              "block": 1,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 12.4
+            },
+            {
+              "block": 6,
+              "time": 14.9
+            },
+            {
+              "block": 3,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 13,
+              "time": 22.1
+            },
+            {
+              "block": 10,
+              "time": 24.5
+            },
+            {
+              "block": 19,
+              "time": 26.9
+            },
+            {
+              "block": 11,
+              "time": 29.3
+            },
+            {
+              "block": 20,
+              "time": 31.7
+            },
+            {
+              "block": 12,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            },
+            {
+              "block": 16,
+              "time": 39.2
+            },
+            {
+              "block": 17,
+              "time": 41.7
+            },
+            {
+              "block": 18,
+              "time": 44.2
+            },
+            {
+              "block": 5,
+              "time": 46.7
+            },
+            {
+              "block": 9,
+              "time": 49.2
+            },
+            {
+              "block": 8,
+              "time": 51.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.1,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 3,
+          "mean_legal_choices": 6.14,
+          "minimum_legal_choices": 1,
+          "off_color_id": 21,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 53.8,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 15,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 4,
+              "time": 6.3
+            },
+            {
+              "block": 5,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 7,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 8,
+              "time": 12.8
+            },
+            {
+              "block": 10,
+              "time": 14.1
+            },
+            {
+              "block": 11,
+              "time": 15.4
+            },
+            {
+              "block": 12,
+              "time": 16.6
+            },
+            {
+              "block": 13,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 16,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 22.6
+            },
+            {
+              "block": 18,
+              "time": 23.8
+            },
+            {
+              "block": 19,
+              "time": 25.0
+            },
+            {
+              "block": 21,
+              "time": 26.2
+            },
+            {
+              "block": 20,
+              "time": 27.4
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.2,
+          "lost": false,
+          "max_capture_gap": 1.1,
+          "max_slots": 4,
+          "mean_legal_choices": 5.65,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 30.6,
+          "won": true
+        }
+      ],
+      "speed": 15.0,
+      "stage": 5,
+      "title": "긴 실과 짧은 실",
+      "total_yarn": 78
+    },
+    {
+      "blocks": 24,
+      "capacities": [
+        2,
+        4
+      ],
+      "colors": 5,
+      "dependency_depth": 4,
+      "dependency_edges": 18,
+      "directions": 4,
+      "dragons": 1,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 12,
+      "initial_productive": 7,
+      "lesson": "다섯 색을 네 칸 선반에 나눠 담아요",
+      "no_input_first_flee": 42.47,
+      "no_input_first_hurt": 79.03,
+      "no_input_loss": 80.93,
+      "route_length": 1691.5,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 22,
+              "time": 5.0
+            },
+            {
+              "block": 4,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 5,
+              "time": 8.9
+            },
+            {
+              "block": 11,
+              "time": 10.2
+            },
+            {
+              "block": 10,
+              "time": 11.5
+            },
+            {
+              "block": 12,
+              "time": 12.8
+            },
+            {
+              "block": 9,
+              "time": 14.1
+            },
+            {
+              "block": 19,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 14,
+              "time": 17.8
+            },
+            {
+              "block": 17,
+              "time": 19.0
+            },
+            {
+              "block": 7,
+              "time": 20.2
+            },
+            {
+              "block": 18,
+              "time": 21.4
+            },
+            {
+              "block": 8,
+              "time": 22.6
+            },
+            {
+              "block": 20,
+              "time": 23.8
+            },
+            {
+              "block": 21,
+              "time": 25.0
+            },
+            {
+              "block": 16,
+              "time": 26.2
+            },
+            {
+              "block": 15,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 1.5,
+          "max_slots": 3,
+          "mean_legal_choices": 7.04,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 32.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 22,
+              "time": 7.4
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 12.4
+            },
+            {
+              "block": 5,
+              "time": 14.9
+            },
+            {
+              "block": 11,
+              "time": 17.3
+            },
+            {
+              "block": 6,
+              "time": 19.7
+            },
+            {
+              "block": 12,
+              "time": 22.1
+            },
+            {
+              "block": 10,
+              "time": 24.5
+            },
+            {
+              "block": 9,
+              "time": 26.9
+            },
+            {
+              "block": 17,
+              "time": 29.3
+            },
+            {
+              "block": 7,
+              "time": 31.7
+            },
+            {
+              "block": 8,
+              "time": 34.2
+            },
+            {
+              "block": 18,
+              "time": 36.7
+            },
+            {
+              "block": 13,
+              "time": 39.2
+            },
+            {
+              "block": 14,
+              "time": 41.7
+            },
+            {
+              "block": 16,
+              "time": 44.2
+            },
+            {
+              "block": 15,
+              "time": 46.7
+            },
+            {
+              "block": 19,
+              "time": 49.2
+            },
+            {
+              "block": 20,
+              "time": 51.7
+            },
+            {
+              "block": 21,
+              "time": 54.2
+            },
+            {
+              "block": 23,
+              "time": 56.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 2.4,
+          "max_slots": 2,
+          "mean_legal_choices": 7.25,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 60.1,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 22,
+              "time": 9.9
+            },
+            {
+              "block": 3,
+              "time": 13.2
+            },
+            {
+              "block": 4,
+              "time": 16.4
+            },
+            {
+              "block": 5,
+              "time": 19.6
+            },
+            {
+              "block": 11,
+              "time": 22.8
+            },
+            {
+              "block": 6,
+              "time": 26.0
+            },
+            {
+              "block": 12,
+              "time": 29.2
+            },
+            {
+              "block": 10,
+              "time": 32.4
+            },
+            {
+              "block": 9,
+              "time": 35.7
+            },
+            {
+              "block": 17,
+              "time": 39.0
+            },
+            {
+              "block": 7,
+              "time": 42.3
+            },
+            {
+              "block": 8,
+              "time": 45.6
+            },
+            {
+              "block": 13,
+              "time": 48.9
+            },
+            {
+              "block": 14,
+              "time": 52.2
+            },
+            {
+              "block": 18,
+              "time": 55.5
+            },
+            {
+              "block": 23,
+              "time": 58.8
+            },
+            {
+              "block": 16,
+              "time": 62.1
+            },
+            {
+              "block": 15,
+              "time": 65.4
+            },
+            {
+              "block": 19,
+              "time": 68.7
+            },
+            {
+              "block": 20,
+              "time": 72.0
+            },
+            {
+              "block": 21,
+              "time": 75.3
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 3.5,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 2,
+          "mean_legal_choices": 7.25,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 78.8,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 1,
+              "time": 18.0
+            },
+            {
+              "block": 22,
+              "time": 20.4
+            },
+            {
+              "block": 2,
+              "time": 22.8
+            },
+            {
+              "block": 5,
+              "time": 25.2
+            },
+            {
+              "block": 3,
+              "time": 27.6
+            },
+            {
+              "block": 11,
+              "time": 30.0
+            },
+            {
+              "block": 4,
+              "time": 32.4
+            },
+            {
+              "block": 19,
+              "time": 34.9
+            },
+            {
+              "block": 6,
+              "time": 37.4
+            },
+            {
+              "block": 17,
+              "time": 39.9
+            },
+            {
+              "block": 21,
+              "time": 42.4
+            },
+            {
+              "block": 7,
+              "time": 44.9
+            },
+            {
+              "block": 10,
+              "time": 47.4
+            },
+            {
+              "block": 8,
+              "time": 49.9
+            },
+            {
+              "block": 20,
+              "time": 52.4
+            },
+            {
+              "block": 9,
+              "time": 54.9
+            },
+            {
+              "block": 18,
+              "time": 57.4
+            },
+            {
+              "block": 23,
+              "time": 59.9
+            },
+            {
+              "block": 12,
+              "time": 62.4
+            },
+            {
+              "block": 13,
+              "time": 64.9
+            },
+            {
+              "block": 14,
+              "time": 67.4
+            },
+            {
+              "block": 16,
+              "time": 69.9
+            },
+            {
+              "block": 15,
+              "time": 72.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.1,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 7.19,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 74.5,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 23,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 22,
+              "time": 7.4
+            },
+            {
+              "block": 2,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 3,
+              "time": 14.9
+            },
+            {
+              "block": 11,
+              "time": 17.3
+            },
+            {
+              "block": 4,
+              "time": 19.7
+            },
+            {
+              "block": 19,
+              "time": 22.1
+            },
+            {
+              "block": 6,
+              "time": 24.5
+            },
+            {
+              "block": 17,
+              "time": 26.9
+            },
+            {
+              "block": 21,
+              "time": 29.3
+            },
+            {
+              "block": 12,
+              "time": 31.7
+            },
+            {
+              "block": 7,
+              "time": 34.2
+            },
+            {
+              "block": 10,
+              "time": 36.7
+            },
+            {
+              "block": 13,
+              "time": 39.2
+            },
+            {
+              "block": 9,
+              "time": 41.7
+            },
+            {
+              "block": 8,
+              "time": 44.2
+            },
+            {
+              "block": 18,
+              "time": 46.7
+            },
+            {
+              "block": 14,
+              "time": 49.2
+            },
+            {
+              "block": 16,
+              "time": 51.7
+            },
+            {
+              "block": 15,
+              "time": 54.2
+            },
+            {
+              "block": 20,
+              "time": 56.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.3,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 3,
+          "mean_legal_choices": 6.35,
+          "minimum_legal_choices": 1,
+          "off_color_id": 23,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 60.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 1,
+              "time": 0.0
+            },
+            {
+              "block": 2,
+              "time": 1.2
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 4,
+              "time": 3.7
+            },
+            {
+              "block": 22,
+              "time": 5.0
+            },
+            {
+              "block": 6,
+              "time": 6.3
+            },
+            {
+              "block": 5,
+              "time": 7.6
+            },
+            {
+              "block": 3,
+              "time": 8.9
+            },
+            {
+              "block": 11,
+              "time": 10.2
+            },
+            {
+              "block": 10,
+              "time": 11.5
+            },
+            {
+              "block": 9,
+              "time": 12.8
+            },
+            {
+              "block": 12,
+              "time": 14.1
+            },
+            {
+              "block": 13,
+              "time": 15.4
+            },
+            {
+              "block": 14,
+              "time": 16.6
+            },
+            {
+              "block": 17,
+              "time": 17.8
+            },
+            {
+              "block": 7,
+              "time": 19.0
+            },
+            {
+              "block": 18,
+              "time": 20.2
+            },
+            {
+              "block": 8,
+              "time": 21.4
+            },
+            {
+              "block": 19,
+              "time": 22.6
+            },
+            {
+              "block": 20,
+              "time": 23.8
+            },
+            {
+              "block": 21,
+              "time": 25.0
+            },
+            {
+              "block": 16,
+              "time": 26.2
+            },
+            {
+              "block": 15,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 2,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 3,
+          "mean_legal_choices": 7.17,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 32.0,
+          "won": true
+        }
+      ],
+      "speed": 15.0,
+      "stage": 6,
+      "title": "선반 한 칸",
+      "total_yarn": 80
+    },
+    {
+      "blocks": 24,
+      "capacities": [
+        2
+      ],
+      "colors": 5,
+      "dependency_depth": 3,
+      "dependency_edges": 20,
+      "directions": 4,
+      "dragons": 1,
+      "fog": true,
+      "fog_ceiling": 110.0,
+      "initial_legal": 12,
+      "initial_productive": 12,
+      "lesson": "안개 밖에서 보이는 색을 먼저 골라요",
+      "no_input_first_flee": 41.73,
+      "no_input_first_hurt": 84.73,
+      "no_input_loss": 88.53,
+      "route_length": 1760.7,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 10,
+              "time": 7.6
+            },
+            {
+              "block": 9,
+              "time": 8.9
+            },
+            {
+              "block": 6,
+              "time": 10.2
+            },
+            {
+              "block": 7,
+              "time": 11.5
+            },
+            {
+              "block": 8,
+              "time": 12.8
+            },
+            {
+              "block": 13,
+              "time": 14.1
+            },
+            {
+              "block": 11,
+              "time": 15.4
+            },
+            {
+              "block": 14,
+              "time": 16.6
+            },
+            {
+              "block": 12,
+              "time": 17.8
+            },
+            {
+              "block": 20,
+              "time": 19.0
+            },
+            {
+              "block": 15,
+              "time": 20.2
+            },
+            {
+              "block": 16,
+              "time": 21.4
+            },
+            {
+              "block": 17,
+              "time": 22.6
+            },
+            {
+              "block": 19,
+              "time": 23.8
+            },
+            {
+              "block": 18,
+              "time": 25.0
+            },
+            {
+              "block": 21,
+              "time": 26.2
+            },
+            {
+              "block": 22,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.4,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 2,
+          "mean_legal_choices": 7.67,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 31.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 21,
+              "time": 12.4
+            },
+            {
+              "block": 9,
+              "time": 14.9
+            },
+            {
+              "block": 5,
+              "time": 17.3
+            },
+            {
+              "block": 6,
+              "time": 19.7
+            },
+            {
+              "block": 7,
+              "time": 22.1
+            },
+            {
+              "block": 8,
+              "time": 24.5
+            },
+            {
+              "block": 11,
+              "time": 26.9
+            },
+            {
+              "block": 12,
+              "time": 29.3
+            },
+            {
+              "block": 13,
+              "time": 31.7
+            },
+            {
+              "block": 14,
+              "time": 34.2
+            },
+            {
+              "block": 10,
+              "time": 36.7
+            },
+            {
+              "block": 17,
+              "time": 39.2
+            },
+            {
+              "block": 20,
+              "time": 41.7
+            },
+            {
+              "block": 19,
+              "time": 44.2
+            },
+            {
+              "block": 16,
+              "time": 46.7
+            },
+            {
+              "block": 23,
+              "time": 49.2
+            },
+            {
+              "block": 22,
+              "time": 51.7
+            },
+            {
+              "block": 15,
+              "time": 61.7
+            },
+            {
+              "block": 18,
+              "time": 64.2
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.2,
+          "lost": false,
+          "max_capture_gap": 6.2,
+          "max_slots": 1,
+          "mean_legal_choices": 7.11,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 2,
+              "time": 6.6
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 3,
+              "time": 13.2
+            },
+            {
+              "block": 21,
+              "time": 16.4
+            },
+            {
+              "block": 5,
+              "time": 19.6
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 7,
+              "time": 26.0
+            },
+            {
+              "block": 9,
+              "time": 29.2
+            },
+            {
+              "block": 8,
+              "time": 32.4
+            },
+            {
+              "block": 11,
+              "time": 35.7
+            },
+            {
+              "block": 12,
+              "time": 39.0
+            },
+            {
+              "block": 14,
+              "time": 42.3
+            },
+            {
+              "block": 17,
+              "time": 45.6
+            },
+            {
+              "block": 19,
+              "time": 48.9
+            },
+            {
+              "block": 10,
+              "time": 52.2
+            },
+            {
+              "block": 18,
+              "time": 55.5
+            },
+            {
+              "block": 22,
+              "time": 58.8
+            },
+            {
+              "block": 23,
+              "time": 62.1
+            },
+            {
+              "block": 13,
+              "time": 65.4
+            },
+            {
+              "block": 15,
+              "time": 68.7
+            },
+            {
+              "block": 16,
+              "time": 72.0
+            },
+            {
+              "block": 20,
+              "time": 75.3
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 2.3,
+          "lost": false,
+          "max_capture_gap": 3.3,
+          "max_slots": 2,
+          "mean_legal_choices": 7.96,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 77.6,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 1,
+              "time": 18.0
+            },
+            {
+              "block": 2,
+              "time": 20.4
+            },
+            {
+              "block": 3,
+              "time": 22.8
+            },
+            {
+              "block": 4,
+              "time": 25.2
+            },
+            {
+              "block": 5,
+              "time": 27.6
+            },
+            {
+              "block": 6,
+              "time": 30.0
+            },
+            {
+              "block": 7,
+              "time": 32.4
+            },
+            {
+              "block": 10,
+              "time": 34.9
+            },
+            {
+              "block": 9,
+              "time": 37.4
+            },
+            {
+              "block": 12,
+              "time": 39.9
+            },
+            {
+              "block": 8,
+              "time": 42.4
+            },
+            {
+              "block": 14,
+              "time": 44.9
+            },
+            {
+              "block": 11,
+              "time": 47.4
+            },
+            {
+              "block": 19,
+              "time": 49.9
+            },
+            {
+              "block": 18,
+              "time": 52.4
+            },
+            {
+              "block": 16,
+              "time": 54.9
+            },
+            {
+              "block": 13,
+              "time": 57.4
+            },
+            {
+              "block": 17,
+              "time": 59.9
+            },
+            {
+              "block": 21,
+              "time": 62.4
+            },
+            {
+              "block": 15,
+              "time": 64.9
+            },
+            {
+              "block": 20,
+              "time": 67.4
+            },
+            {
+              "block": 22,
+              "time": 69.9
+            },
+            {
+              "block": 23,
+              "time": 72.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.5,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 8.52,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 74.9,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 21,
+              "time": 12.4
+            },
+            {
+              "block": 9,
+              "time": 14.9
+            },
+            {
+              "block": 5,
+              "time": 17.3
+            },
+            {
+              "block": 6,
+              "time": 19.7
+            },
+            {
+              "block": 7,
+              "time": 22.1
+            },
+            {
+              "block": 8,
+              "time": 24.5
+            },
+            {
+              "block": 11,
+              "time": 26.9
+            },
+            {
+              "block": 12,
+              "time": 29.3
+            },
+            {
+              "block": 13,
+              "time": 31.7
+            },
+            {
+              "block": 14,
+              "time": 34.2
+            },
+            {
+              "block": 10,
+              "time": 36.7
+            },
+            {
+              "block": 17,
+              "time": 39.2
+            },
+            {
+              "block": 20,
+              "time": 41.7
+            },
+            {
+              "block": 19,
+              "time": 44.2
+            },
+            {
+              "block": 16,
+              "time": 46.7
+            },
+            {
+              "block": 23,
+              "time": 49.2
+            },
+            {
+              "block": 22,
+              "time": 51.7
+            },
+            {
+              "block": 15,
+              "time": 61.7
+            },
+            {
+              "block": 18,
+              "time": 64.2
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.2,
+          "lost": false,
+          "max_capture_gap": 6.2,
+          "max_slots": 1,
+          "mean_legal_choices": 7.11,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 10,
+              "time": 7.6
+            },
+            {
+              "block": 9,
+              "time": 8.9
+            },
+            {
+              "block": 6,
+              "time": 10.2
+            },
+            {
+              "block": 7,
+              "time": 11.5
+            },
+            {
+              "block": 8,
+              "time": 12.8
+            },
+            {
+              "block": 13,
+              "time": 14.1
+            },
+            {
+              "block": 11,
+              "time": 15.4
+            },
+            {
+              "block": 14,
+              "time": 16.6
+            },
+            {
+              "block": 12,
+              "time": 17.8
+            },
+            {
+              "block": 20,
+              "time": 19.0
+            },
+            {
+              "block": 15,
+              "time": 20.2
+            },
+            {
+              "block": 16,
+              "time": 21.4
+            },
+            {
+              "block": 17,
+              "time": 22.6
+            },
+            {
+              "block": 19,
+              "time": 23.8
+            },
+            {
+              "block": 18,
+              "time": 25.0
+            },
+            {
+              "block": 21,
+              "time": 26.2
+            },
+            {
+              "block": 22,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.4,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 2,
+          "mean_legal_choices": 7.67,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 31.0,
+          "won": true
+        }
+      ],
+      "speed": 14.5,
+      "stage": 7,
+      "title": "안개 속 출구",
+      "total_yarn": 48
+    },
+    {
+      "blocks": 26,
+      "capacities": [
+        2,
+        4
+      ],
+      "colors": 6,
+      "dependency_depth": 3,
+      "dependency_edges": 19,
+      "directions": 4,
+      "dragons": 1,
+      "fog": true,
+      "fog_ceiling": 155.0,
+      "initial_legal": 13,
+      "initial_productive": 7,
+      "lesson": "짧은 실로 자리를 만들고 긴 실을 준비해요",
+      "no_input_first_flee": 39.9,
+      "no_input_first_hurt": 81.7,
+      "no_input_loss": 85.5,
+      "route_length": 1683.8,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 21,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 15,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 4,
+              "time": 6.3
+            },
+            {
+              "block": 2,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 9,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 7,
+              "time": 12.8
+            },
+            {
+              "block": 24,
+              "time": 14.1
+            },
+            {
+              "block": 5,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 16,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 12,
+              "time": 20.2
+            },
+            {
+              "block": 19,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 10,
+              "time": 23.8
+            },
+            {
+              "block": 11,
+              "time": 25.0
+            },
+            {
+              "block": 20,
+              "time": 26.2
+            },
+            {
+              "block": 22,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            },
+            {
+              "block": 17,
+              "time": 29.8
+            },
+            {
+              "block": 25,
+              "time": 31.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 1.2,
+          "max_slots": 3,
+          "mean_legal_choices": 8.85,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 34.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 21,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 15,
+              "time": 7.4
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 2,
+              "time": 12.4
+            },
+            {
+              "block": 4,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 13,
+              "time": 22.1
+            },
+            {
+              "block": 19,
+              "time": 24.5
+            },
+            {
+              "block": 24,
+              "time": 26.9
+            },
+            {
+              "block": 5,
+              "time": 29.3
+            },
+            {
+              "block": 16,
+              "time": 31.7
+            },
+            {
+              "block": 12,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            },
+            {
+              "block": 18,
+              "time": 39.2
+            },
+            {
+              "block": 9,
+              "time": 41.7
+            },
+            {
+              "block": 8,
+              "time": 44.2
+            },
+            {
+              "block": 22,
+              "time": 46.7
+            },
+            {
+              "block": 20,
+              "time": 49.2
+            },
+            {
+              "block": 17,
+              "time": 51.7
+            },
+            {
+              "block": 25,
+              "time": 54.2
+            },
+            {
+              "block": 23,
+              "time": 56.7
+            },
+            {
+              "block": 10,
+              "time": 59.2
+            },
+            {
+              "block": 11,
+              "time": 64.2
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.1,
+          "lost": false,
+          "max_capture_gap": 2.6,
+          "max_slots": 2,
+          "mean_legal_choices": 8.33,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.3,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 21,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 3.3
+            },
+            {
+              "block": 1,
+              "time": 6.6
+            },
+            {
+              "block": 15,
+              "time": 9.9
+            },
+            {
+              "block": 2,
+              "time": 13.2
+            },
+            {
+              "block": 3,
+              "time": 16.4
+            },
+            {
+              "block": 4,
+              "time": 19.6
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 7,
+              "time": 26.0
+            },
+            {
+              "block": 13,
+              "time": 29.2
+            },
+            {
+              "block": 19,
+              "time": 32.4
+            },
+            {
+              "block": 24,
+              "time": 35.7
+            },
+            {
+              "block": 16,
+              "time": 39.0
+            },
+            {
+              "block": 12,
+              "time": 42.3
+            },
+            {
+              "block": 5,
+              "time": 45.6
+            },
+            {
+              "block": 14,
+              "time": 48.9
+            },
+            {
+              "block": 9,
+              "time": 52.2
+            },
+            {
+              "block": 8,
+              "time": 55.5
+            },
+            {
+              "block": 22,
+              "time": 58.8
+            },
+            {
+              "block": 20,
+              "time": 62.1
+            },
+            {
+              "block": 23,
+              "time": 65.4
+            },
+            {
+              "block": 25,
+              "time": 68.7
+            },
+            {
+              "block": 17,
+              "time": 72.0
+            },
+            {
+              "block": 18,
+              "time": 75.3
+            },
+            {
+              "block": 10,
+              "time": 78.6
+            },
+            {
+              "block": 11,
+              "time": 81.9
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 2.1,
+          "lost": false,
+          "max_capture_gap": 3.5,
+          "max_slots": 2,
+          "mean_legal_choices": 8.77,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 84.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 21,
+              "time": 15.6
+            },
+            {
+              "block": 0,
+              "time": 18.0
+            },
+            {
+              "block": 1,
+              "time": 20.4
+            },
+            {
+              "block": 15,
+              "time": 22.8
+            },
+            {
+              "block": 2,
+              "time": 25.2
+            },
+            {
+              "block": 3,
+              "time": 27.6
+            },
+            {
+              "block": 7,
+              "time": 30.0
+            },
+            {
+              "block": 13,
+              "time": 32.4
+            },
+            {
+              "block": 4,
+              "time": 34.9
+            },
+            {
+              "block": 19,
+              "time": 37.4
+            },
+            {
+              "block": 6,
+              "time": 39.9
+            },
+            {
+              "block": 16,
+              "time": 42.4
+            },
+            {
+              "block": 24,
+              "time": 44.9
+            },
+            {
+              "block": 14,
+              "time": 47.4
+            },
+            {
+              "block": 5,
+              "time": 49.9
+            },
+            {
+              "block": 12,
+              "time": 52.4
+            },
+            {
+              "block": 9,
+              "time": 54.9
+            },
+            {
+              "block": 8,
+              "time": 57.4
+            },
+            {
+              "block": 20,
+              "time": 59.9
+            },
+            {
+              "block": 22,
+              "time": 62.4
+            },
+            {
+              "block": 23,
+              "time": 64.9
+            },
+            {
+              "block": 10,
+              "time": 67.4
+            },
+            {
+              "block": 11,
+              "time": 69.9
+            },
+            {
+              "block": 25,
+              "time": 72.4
+            },
+            {
+              "block": 18,
+              "time": 74.9
+            },
+            {
+              "block": 17,
+              "time": 77.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.0,
+          "lost": false,
+          "max_capture_gap": 16.8,
+          "max_slots": 4,
+          "mean_legal_choices": 9.17,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 80.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 24,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 21,
+              "time": 2.4
+            },
+            {
+              "block": 0,
+              "time": 4.9
+            },
+            {
+              "block": 15,
+              "time": 7.4
+            },
+            {
+              "block": 1,
+              "time": 9.9
+            },
+            {
+              "block": 2,
+              "time": 12.4
+            },
+            {
+              "block": 3,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 13,
+              "time": 22.1
+            },
+            {
+              "block": 4,
+              "time": 24.5
+            },
+            {
+              "block": 19,
+              "time": 26.9
+            },
+            {
+              "block": 5,
+              "time": 29.3
+            },
+            {
+              "block": 16,
+              "time": 31.7
+            },
+            {
+              "block": 12,
+              "time": 34.2
+            },
+            {
+              "block": 14,
+              "time": 36.7
+            },
+            {
+              "block": 18,
+              "time": 39.2
+            },
+            {
+              "block": 9,
+              "time": 41.7
+            },
+            {
+              "block": 8,
+              "time": 44.2
+            },
+            {
+              "block": 22,
+              "time": 46.7
+            },
+            {
+              "block": 20,
+              "time": 49.2
+            },
+            {
+              "block": 17,
+              "time": 51.7
+            },
+            {
+              "block": 25,
+              "time": 54.2
+            },
+            {
+              "block": 23,
+              "time": 56.7
+            },
+            {
+              "block": 10,
+              "time": 59.2
+            },
+            {
+              "block": 11,
+              "time": 64.2
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 2.1,
+          "lost": false,
+          "max_capture_gap": 3.5,
+          "max_slots": 2,
+          "mean_legal_choices": 7.73,
+          "minimum_legal_choices": 1,
+          "off_color_id": 24,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.3,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 21,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 15,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 2,
+              "time": 6.3
+            },
+            {
+              "block": 4,
+              "time": 7.6
+            },
+            {
+              "block": 9,
+              "time": 8.9
+            },
+            {
+              "block": 6,
+              "time": 10.2
+            },
+            {
+              "block": 7,
+              "time": 11.5
+            },
+            {
+              "block": 8,
+              "time": 12.8
+            },
+            {
+              "block": 24,
+              "time": 14.1
+            },
+            {
+              "block": 5,
+              "time": 15.4
+            },
+            {
+              "block": 13,
+              "time": 16.6
+            },
+            {
+              "block": 16,
+              "time": 17.8
+            },
+            {
+              "block": 14,
+              "time": 19.0
+            },
+            {
+              "block": 12,
+              "time": 20.2
+            },
+            {
+              "block": 19,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 10,
+              "time": 23.8
+            },
+            {
+              "block": 11,
+              "time": 25.0
+            },
+            {
+              "block": 20,
+              "time": 26.2
+            },
+            {
+              "block": 22,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            },
+            {
+              "block": 17,
+              "time": 29.8
+            },
+            {
+              "block": 25,
+              "time": 31.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 1.2,
+          "max_slots": 3,
+          "mean_legal_choices": 8.85,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 34.4,
+          "won": true
+        }
+      ],
+      "speed": 15.0,
+      "stage": 8,
+      "title": "눈 속의 여섯 색",
+      "total_yarn": 78
+    },
+    {
+      "blocks": 26,
+      "capacities": [
+        2,
+        4,
+        6
+      ],
+      "colors": 6,
+      "dependency_depth": 4,
+      "dependency_edges": 26,
+      "directions": 4,
+      "dragons": 2,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 12,
+      "initial_productive": 12,
+      "lesson": "두 용의 색을 번갈아 살펴봐요",
+      "no_input_first_flee": 38.83,
+      "no_input_first_hurt": 83.3,
+      "no_input_loss": 87.1,
+      "route_length": 1727.7,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 2,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 4,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 8,
+              "time": 10.2
+            },
+            {
+              "block": 9,
+              "time": 11.5
+            },
+            {
+              "block": 15,
+              "time": 12.8
+            },
+            {
+              "block": 11,
+              "time": 14.1
+            },
+            {
+              "block": 10,
+              "time": 15.4
+            },
+            {
+              "block": 12,
+              "time": 16.6
+            },
+            {
+              "block": 13,
+              "time": 17.8
+            },
+            {
+              "block": 17,
+              "time": 19.0
+            },
+            {
+              "block": 21,
+              "time": 20.2
+            },
+            {
+              "block": 16,
+              "time": 21.4
+            },
+            {
+              "block": 23,
+              "time": 22.6
+            },
+            {
+              "block": 18,
+              "time": 23.8
+            },
+            {
+              "block": 14,
+              "time": 25.0
+            },
+            {
+              "block": 22,
+              "time": 26.2
+            },
+            {
+              "block": 19,
+              "time": 27.4
+            },
+            {
+              "block": 20,
+              "time": 28.6
+            },
+            {
+              "block": 24,
+              "time": 29.8
+            },
+            {
+              "block": 25,
+              "time": 31.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 4.4,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 3,
+          "mean_legal_choices": 7.62,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 35.4,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 2,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 4,
+              "time": 4.9
+            },
+            {
+              "block": 0,
+              "time": 7.4
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 8,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 11,
+              "time": 24.5
+            },
+            {
+              "block": 10,
+              "time": 26.9
+            },
+            {
+              "block": 15,
+              "time": 29.3
+            },
+            {
+              "block": 17,
+              "time": 31.7
+            },
+            {
+              "block": 16,
+              "time": 34.2
+            },
+            {
+              "block": 21,
+              "time": 36.7
+            },
+            {
+              "block": 23,
+              "time": 39.2
+            },
+            {
+              "block": 22,
+              "time": 41.7
+            },
+            {
+              "block": 12,
+              "time": 44.2
+            },
+            {
+              "block": 13,
+              "time": 46.7
+            },
+            {
+              "block": 14,
+              "time": 49.2
+            },
+            {
+              "block": 18,
+              "time": 51.7
+            },
+            {
+              "block": 19,
+              "time": 54.2
+            },
+            {
+              "block": 20,
+              "time": 56.7
+            },
+            {
+              "block": 24,
+              "time": 59.2
+            },
+            {
+              "block": 25,
+              "time": 61.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 4.3,
+          "lost": false,
+          "max_capture_gap": 2.5,
+          "max_slots": 2,
+          "mean_legal_choices": 7.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 2,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 4,
+              "time": 6.6
+            },
+            {
+              "block": 0,
+              "time": 9.9
+            },
+            {
+              "block": 3,
+              "time": 13.2
+            },
+            {
+              "block": 8,
+              "time": 16.4
+            },
+            {
+              "block": 5,
+              "time": 19.6
+            },
+            {
+              "block": 11,
+              "time": 22.8
+            },
+            {
+              "block": 9,
+              "time": 26.0
+            },
+            {
+              "block": 15,
+              "time": 29.2
+            },
+            {
+              "block": 6,
+              "time": 32.4
+            },
+            {
+              "block": 10,
+              "time": 35.7
+            },
+            {
+              "block": 17,
+              "time": 39.0
+            },
+            {
+              "block": 16,
+              "time": 42.3
+            },
+            {
+              "block": 21,
+              "time": 45.6
+            },
+            {
+              "block": 23,
+              "time": 48.9
+            },
+            {
+              "block": 22,
+              "time": 52.2
+            },
+            {
+              "block": 7,
+              "time": 55.5
+            },
+            {
+              "block": 12,
+              "time": 58.8
+            },
+            {
+              "block": 13,
+              "time": 62.1
+            },
+            {
+              "block": 14,
+              "time": 65.4
+            },
+            {
+              "block": 18,
+              "time": 68.7
+            },
+            {
+              "block": 19,
+              "time": 72.0
+            },
+            {
+              "block": 20,
+              "time": 75.3
+            },
+            {
+              "block": 24,
+              "time": 78.6
+            },
+            {
+              "block": 25,
+              "time": 81.9
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 4.3,
+          "lost": false,
+          "max_capture_gap": 3.3,
+          "max_slots": 2,
+          "mean_legal_choices": 7.77,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 86.2,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 3,
+              "time": 18.0
+            },
+            {
+              "block": 1,
+              "time": 20.4
+            },
+            {
+              "block": 4,
+              "time": 22.8
+            },
+            {
+              "block": 2,
+              "time": 25.2
+            },
+            {
+              "block": 5,
+              "time": 27.6
+            },
+            {
+              "block": 8,
+              "time": 30.0
+            },
+            {
+              "block": 9,
+              "time": 32.4
+            },
+            {
+              "block": 15,
+              "time": 34.9
+            },
+            {
+              "block": 6,
+              "time": 37.4
+            },
+            {
+              "block": 11,
+              "time": 39.9
+            },
+            {
+              "block": 17,
+              "time": 42.4
+            },
+            {
+              "block": 10,
+              "time": 44.9
+            },
+            {
+              "block": 16,
+              "time": 47.4
+            },
+            {
+              "block": 21,
+              "time": 49.9
+            },
+            {
+              "block": 23,
+              "time": 52.4
+            },
+            {
+              "block": 22,
+              "time": 54.9
+            },
+            {
+              "block": 7,
+              "time": 57.4
+            },
+            {
+              "block": 12,
+              "time": 59.9
+            },
+            {
+              "block": 13,
+              "time": 62.4
+            },
+            {
+              "block": 14,
+              "time": 64.9
+            },
+            {
+              "block": 18,
+              "time": 67.4
+            },
+            {
+              "block": 19,
+              "time": 69.9
+            },
+            {
+              "block": 20,
+              "time": 72.4
+            },
+            {
+              "block": 24,
+              "time": 74.9
+            },
+            {
+              "block": 25,
+              "time": 77.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 4.3,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 8.34,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 81.7,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 2,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 4,
+              "time": 4.9
+            },
+            {
+              "block": 0,
+              "time": 7.4
+            },
+            {
+              "block": 3,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 8,
+              "time": 14.9
+            },
+            {
+              "block": 6,
+              "time": 17.3
+            },
+            {
+              "block": 7,
+              "time": 19.7
+            },
+            {
+              "block": 9,
+              "time": 22.1
+            },
+            {
+              "block": 11,
+              "time": 24.5
+            },
+            {
+              "block": 10,
+              "time": 26.9
+            },
+            {
+              "block": 15,
+              "time": 29.3
+            },
+            {
+              "block": 17,
+              "time": 31.7
+            },
+            {
+              "block": 16,
+              "time": 34.2
+            },
+            {
+              "block": 21,
+              "time": 36.7
+            },
+            {
+              "block": 23,
+              "time": 39.2
+            },
+            {
+              "block": 22,
+              "time": 41.7
+            },
+            {
+              "block": 12,
+              "time": 44.2
+            },
+            {
+              "block": 13,
+              "time": 46.7
+            },
+            {
+              "block": 14,
+              "time": 49.2
+            },
+            {
+              "block": 18,
+              "time": 51.7
+            },
+            {
+              "block": 19,
+              "time": 54.2
+            },
+            {
+              "block": 20,
+              "time": 56.7
+            },
+            {
+              "block": 24,
+              "time": 59.2
+            },
+            {
+              "block": 25,
+              "time": 61.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 4.3,
+          "lost": false,
+          "max_capture_gap": 2.5,
+          "max_slots": 2,
+          "mean_legal_choices": 7.5,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 66.0,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 2,
+              "time": 0.0
+            },
+            {
+              "block": 24,
+              "time": 1.2
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 0,
+              "time": 3.7
+            },
+            {
+              "block": 3,
+              "time": 5.0
+            },
+            {
+              "block": 4,
+              "time": 6.3
+            },
+            {
+              "block": 8,
+              "time": 7.6
+            },
+            {
+              "block": 5,
+              "time": 8.9
+            },
+            {
+              "block": 11,
+              "time": 10.2
+            },
+            {
+              "block": 6,
+              "time": 11.5
+            },
+            {
+              "block": 7,
+              "time": 12.8
+            },
+            {
+              "block": 9,
+              "time": 14.1
+            },
+            {
+              "block": 15,
+              "time": 15.4
+            },
+            {
+              "block": 10,
+              "time": 16.6
+            },
+            {
+              "block": 17,
+              "time": 17.8
+            },
+            {
+              "block": 21,
+              "time": 19.0
+            },
+            {
+              "block": 25,
+              "time": 20.2
+            },
+            {
+              "block": 16,
+              "time": 21.4
+            },
+            {
+              "block": 23,
+              "time": 22.6
+            },
+            {
+              "block": 12,
+              "time": 23.8
+            },
+            {
+              "block": 18,
+              "time": 25.0
+            },
+            {
+              "block": 14,
+              "time": 26.2
+            },
+            {
+              "block": 13,
+              "time": 27.4
+            },
+            {
+              "block": 19,
+              "time": 28.6
+            },
+            {
+              "block": 22,
+              "time": 29.8
+            },
+            {
+              "block": 20,
+              "time": 31.0
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 1.9,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 3,
+          "mean_legal_choices": 7.12,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 32.9,
+          "won": true
+        }
+      ],
+      "speed": 14.5,
+      "stage": 9,
+      "title": "두 갈래 추격",
+      "total_yarn": 88
+    },
+    {
+      "blocks": 28,
+      "capacities": [
+        2,
+        4,
+        6
+      ],
+      "colors": 6,
+      "dependency_depth": 4,
+      "dependency_edges": 34,
+      "directions": 4,
+      "dragons": 2,
+      "fog": false,
+      "fog_ceiling": 210.0,
+      "initial_legal": 12,
+      "initial_productive": 11,
+      "lesson": "출구와 선반, 두 용을 함께 살펴봐요",
+      "no_input_first_flee": 38.67,
+      "no_input_first_hurt": 77.3,
+      "no_input_loss": 81.1,
+      "route_length": 1740.5,
+      "runs": [
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 1.2
+            },
+            {
+              "block": 2,
+              "time": 2.4
+            },
+            {
+              "block": 3,
+              "time": 3.7
+            },
+            {
+              "block": 4,
+              "time": 5.0
+            },
+            {
+              "block": 5,
+              "time": 6.3
+            },
+            {
+              "block": 6,
+              "time": 7.6
+            },
+            {
+              "block": 7,
+              "time": 8.9
+            },
+            {
+              "block": 24,
+              "time": 10.2
+            },
+            {
+              "block": 8,
+              "time": 11.5
+            },
+            {
+              "block": 14,
+              "time": 12.8
+            },
+            {
+              "block": 15,
+              "time": 14.1
+            },
+            {
+              "block": 9,
+              "time": 15.4
+            },
+            {
+              "block": 10,
+              "time": 16.6
+            },
+            {
+              "block": 11,
+              "time": 17.8
+            },
+            {
+              "block": 13,
+              "time": 19.0
+            },
+            {
+              "block": 12,
+              "time": 20.2
+            },
+            {
+              "block": 19,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 26,
+              "time": 23.8
+            },
+            {
+              "block": 17,
+              "time": 25.0
+            },
+            {
+              "block": 22,
+              "time": 26.2
+            },
+            {
+              "block": 23,
+              "time": 27.4
+            },
+            {
+              "block": 25,
+              "time": 28.6
+            },
+            {
+              "block": 27,
+              "time": 29.8
+            },
+            {
+              "block": 16,
+              "time": 31.0
+            },
+            {
+              "block": 20,
+              "time": 32.2
+            },
+            {
+              "block": 21,
+              "time": 33.5
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.4,
+          "lost": false,
+          "max_capture_gap": 1.3,
+          "max_slots": 4,
+          "mean_legal_choices": 7.86,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 35.9,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 2.4
+            },
+            {
+              "block": 2,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 4,
+              "time": 9.9
+            },
+            {
+              "block": 5,
+              "time": 12.4
+            },
+            {
+              "block": 6,
+              "time": 14.9
+            },
+            {
+              "block": 7,
+              "time": 17.3
+            },
+            {
+              "block": 14,
+              "time": 19.7
+            },
+            {
+              "block": 15,
+              "time": 22.1
+            },
+            {
+              "block": 11,
+              "time": 24.5
+            },
+            {
+              "block": 17,
+              "time": 26.9
+            },
+            {
+              "block": 8,
+              "time": 29.3
+            },
+            {
+              "block": 24,
+              "time": 31.7
+            },
+            {
+              "block": 9,
+              "time": 34.2
+            },
+            {
+              "block": 13,
+              "time": 36.7
+            },
+            {
+              "block": 12,
+              "time": 39.2
+            },
+            {
+              "block": 26,
+              "time": 41.7
+            },
+            {
+              "block": 10,
+              "time": 44.2
+            },
+            {
+              "block": 19,
+              "time": 46.7
+            },
+            {
+              "block": 18,
+              "time": 49.2
+            },
+            {
+              "block": 22,
+              "time": 51.7
+            },
+            {
+              "block": 16,
+              "time": 54.2
+            },
+            {
+              "block": 20,
+              "time": 56.7
+            },
+            {
+              "block": 21,
+              "time": 59.2
+            },
+            {
+              "block": 23,
+              "time": 61.7
+            },
+            {
+              "block": 25,
+              "time": 64.2
+            },
+            {
+              "block": 27,
+              "time": 66.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 2.2,
+          "max_slots": 2,
+          "mean_legal_choices": 8.0,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 70.1,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 0.0
+            },
+            {
+              "block": 1,
+              "time": 3.3
+            },
+            {
+              "block": 3,
+              "time": 6.6
+            },
+            {
+              "block": 2,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 13.2
+            },
+            {
+              "block": 5,
+              "time": 16.4
+            },
+            {
+              "block": 7,
+              "time": 19.6
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 14,
+              "time": 26.0
+            },
+            {
+              "block": 15,
+              "time": 29.2
+            },
+            {
+              "block": 8,
+              "time": 32.4
+            },
+            {
+              "block": 24,
+              "time": 35.7
+            },
+            {
+              "block": 11,
+              "time": 39.0
+            },
+            {
+              "block": 17,
+              "time": 42.3
+            },
+            {
+              "block": 9,
+              "time": 45.6
+            },
+            {
+              "block": 10,
+              "time": 48.9
+            },
+            {
+              "block": 26,
+              "time": 52.2
+            },
+            {
+              "block": 19,
+              "time": 55.5
+            },
+            {
+              "block": 18,
+              "time": 58.8
+            },
+            {
+              "block": 22,
+              "time": 62.1
+            },
+            {
+              "block": 13,
+              "time": 65.4
+            },
+            {
+              "block": 12,
+              "time": 68.7
+            },
+            {
+              "block": 16,
+              "time": 72.0
+            },
+            {
+              "block": 20,
+              "time": 75.3
+            },
+            {
+              "block": 21,
+              "time": 78.6
+            },
+            {
+              "block": 23,
+              "time": 81.9
+            },
+            {
+              "block": 25,
+              "time": 85.2
+            },
+            {
+              "block": 27,
+              "time": 88.5
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 3.2,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 3.1,
+          "max_slots": 2,
+          "mean_legal_choices": 7.86,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 91.9,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 0,
+              "time": 15.6
+            },
+            {
+              "block": 2,
+              "time": 18.0
+            },
+            {
+              "block": 4,
+              "time": 20.4
+            },
+            {
+              "block": 6,
+              "time": 22.8
+            },
+            {
+              "block": 1,
+              "time": 25.2
+            },
+            {
+              "block": 3,
+              "time": 27.6
+            },
+            {
+              "block": 7,
+              "time": 30.0
+            },
+            {
+              "block": 5,
+              "time": 32.4
+            },
+            {
+              "block": 24,
+              "time": 34.9
+            },
+            {
+              "block": 14,
+              "time": 37.4
+            },
+            {
+              "block": 8,
+              "time": 39.9
+            },
+            {
+              "block": 15,
+              "time": 42.4
+            },
+            {
+              "block": 11,
+              "time": 44.9
+            },
+            {
+              "block": 17,
+              "time": 47.4
+            },
+            {
+              "block": 9,
+              "time": 49.9
+            },
+            {
+              "block": 10,
+              "time": 52.4
+            },
+            {
+              "block": 26,
+              "time": 54.9
+            },
+            {
+              "block": 19,
+              "time": 57.4
+            },
+            {
+              "block": 18,
+              "time": 59.9
+            },
+            {
+              "block": 22,
+              "time": 62.4
+            },
+            {
+              "block": 13,
+              "time": 64.9
+            },
+            {
+              "block": 12,
+              "time": 67.4
+            },
+            {
+              "block": 16,
+              "time": 69.9
+            },
+            {
+              "block": 20,
+              "time": 72.4
+            },
+            {
+              "block": 21,
+              "time": 74.9
+            },
+            {
+              "block": 23,
+              "time": 77.4
+            },
+            {
+              "block": 25,
+              "time": 79.9
+            },
+            {
+              "block": 27,
+              "time": 82.4
+            }
+          ],
+          "blocked_taps": 3,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 8.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 16.4,
+          "max_slots": 2,
+          "mean_legal_choices": 8.16,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 85.8,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 26,
+              "off_color": true,
+              "time": 0.0
+            },
+            {
+              "block": 0,
+              "time": 2.4
+            },
+            {
+              "block": 1,
+              "time": 4.9
+            },
+            {
+              "block": 3,
+              "time": 7.4
+            },
+            {
+              "block": 2,
+              "time": 9.9
+            },
+            {
+              "block": 4,
+              "time": 12.4
+            },
+            {
+              "block": 6,
+              "time": 14.9
+            },
+            {
+              "block": 7,
+              "time": 17.3
+            },
+            {
+              "block": 14,
+              "time": 19.7
+            },
+            {
+              "block": 15,
+              "time": 22.1
+            },
+            {
+              "block": 5,
+              "time": 24.5
+            },
+            {
+              "block": 8,
+              "time": 26.9
+            },
+            {
+              "block": 24,
+              "time": 29.3
+            },
+            {
+              "block": 9,
+              "time": 31.7
+            },
+            {
+              "block": 13,
+              "time": 34.2
+            },
+            {
+              "block": 12,
+              "time": 36.7
+            },
+            {
+              "block": 11,
+              "time": 39.2
+            },
+            {
+              "block": 17,
+              "time": 41.7
+            },
+            {
+              "block": 10,
+              "time": 44.2
+            },
+            {
+              "block": 19,
+              "time": 46.7
+            },
+            {
+              "block": 18,
+              "time": 49.2
+            },
+            {
+              "block": 22,
+              "time": 51.7
+            },
+            {
+              "block": 16,
+              "time": 54.2
+            },
+            {
+              "block": 20,
+              "time": 56.7
+            },
+            {
+              "block": 21,
+              "time": 59.2
+            },
+            {
+              "block": 23,
+              "time": 61.7
+            },
+            {
+              "block": 25,
+              "time": 64.2
+            },
+            {
+              "block": 27,
+              "time": 66.7
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 2.4,
+          "last_action_to_clear": 3.4,
+          "lost": false,
+          "max_capture_gap": 3.2,
+          "max_slots": 2,
+          "mean_legal_choices": 7.19,
+          "minimum_legal_choices": 1,
+          "off_color_id": 26,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 0,
+          "time": 70.1,
+          "won": true
+        },
+        {
+          "actions": [
+            {
+              "block": 1,
+              "time": 0.0
+            },
+            {
+              "block": 3,
+              "time": 1.2
+            },
+            {
+              "block": 27,
+              "time": 2.4
+            },
+            {
+              "block": 0,
+              "time": 3.7
+            },
+            {
+              "block": 2,
+              "time": 5.0
+            },
+            {
+              "block": 25,
+              "time": 6.3
+            },
+            {
+              "block": 4,
+              "time": 7.6
+            },
+            {
+              "block": 6,
+              "time": 8.9
+            },
+            {
+              "block": 7,
+              "time": 10.2
+            },
+            {
+              "block": 14,
+              "time": 11.5
+            },
+            {
+              "block": 24,
+              "time": 12.8
+            },
+            {
+              "block": 5,
+              "time": 14.1
+            },
+            {
+              "block": 13,
+              "time": 15.4
+            },
+            {
+              "block": 11,
+              "time": 16.6
+            },
+            {
+              "block": 8,
+              "time": 17.8
+            },
+            {
+              "block": 12,
+              "time": 19.0
+            },
+            {
+              "block": 19,
+              "time": 20.2
+            },
+            {
+              "block": 17,
+              "time": 21.4
+            },
+            {
+              "block": 18,
+              "time": 22.6
+            },
+            {
+              "block": 26,
+              "time": 23.8
+            },
+            {
+              "block": 9,
+              "time": 25.0
+            },
+            {
+              "block": 15,
+              "time": 26.2
+            },
+            {
+              "block": 10,
+              "time": 27.4
+            },
+            {
+              "block": 23,
+              "time": 28.6
+            },
+            {
+              "block": 22,
+              "time": 29.8
+            },
+            {
+              "block": 16,
+              "time": 31.0
+            },
+            {
+              "block": 20,
+              "time": 32.2
+            },
+            {
+              "block": 21,
+              "time": 33.5
+            }
+          ],
+          "blocked_taps": 0,
+          "coins": 300,
+          "hearts": 3,
+          "initial_delay": 0.0,
+          "interval": 1.2,
+          "last_action_to_clear": 2.5,
+          "lost": false,
+          "max_capture_gap": 1.4,
+          "max_slots": 4,
+          "mean_legal_choices": 7.04,
+          "minimum_legal_choices": 1,
+          "off_color_id": -1,
+          "reason": "",
+          "remaining_units": 0,
+          "style": 1,
+          "time": 36.0,
+          "won": true
+        }
+      ],
+      "speed": 15.0,
+      "stage": 10,
+      "title": "함께 집으로",
+      "total_yarn": 104
+    }
+  ],
+  "state_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+  "verified_utc": "2026-09-10T08:20:40"
+}

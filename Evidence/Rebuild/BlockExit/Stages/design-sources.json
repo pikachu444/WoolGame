@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-10",
+  "sources": [
+    {
+      "author": "Jeremy Kang, King",
+      "title": "Level Design Saga: Creating Levels for Casual Games",
+      "event": "GDC Europe 2016",
+      "url": "https://media.gdcvault.com/gdceurope2016/presentations/KANG_Jeremy_LevelDesignSaga.pdf",
+      "pages_read": 72,
+      "sha256": "48e332f4166dcd8bbf8ee95c210f4b4510b2f5125b342d98e4eca87de87d4d79",
+      "relevant_pages": [
+        25,
+        27,
+        36,
+        37,
+        46,
+        47,
+        49,
+        52,
+        53,
+        55,
+        56,
+        59,
+        61
+      ]
+    },
+    {
+      "author": "Brett Taylor, My Dog Zorro",
+      "title": "Puzzle Game Magic Secrets",
+      "event": "GDC 2019",
+      "url": "https://media.gdcvault.com/gdc2019/presentations/Taylor_Brett_PuzzleGameMagic.pdf",
+      "pages": [
+        10,
+        12,
+        19,
+        26,
+        30,
+        36,
+        40,
+        41,
+        44,
+        45,
+        49,
+        57,
+        59,
+        65,
+        76
+      ]
+    },
+    {
+      "author": "Clara Fernandez-Vara, Singapore-MIT GAMBIT Game Lab",
+      "title": "Puzzle Writing: Best Practices",
+      "event": "GDC Online 2010",
+      "url": "https://www.gdcvault.com/play/1013851/Puzzle-Writing-Best",
+      "scope": "Official presentation summary; no claim of viewing entire talk"
+    }
+  ],
+  "original_video": {
+    "url": "https://www.youtube.com/watch?v=NM9-sUw9pu8",
+    "observed_exact_seconds": [
+      0,
+      10,
+      20,
+      55
+    ],
+    "limitation": "Begins within tutorial; 20-second settings screen displays v1.190-1. Not a current-version fixed stage design specification."
+  }
+}

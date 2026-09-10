@@ -1,0 +1,91 @@
+{
+  "fps": 30,
+  "method": "staged initial board, normal select and advance at 30fps; not native mouse input",
+  "runs": [
+    {
+      "block": 4,
+      "case": "left",
+      "duration": 0.84,
+      "end_frame": 47,
+      "impacts": [
+        {
+          "normal": "(-1.0, 0.0)",
+          "point": "(8.0, 698.5)",
+          "time": 0.13
+        }
+      ],
+      "level": 3,
+      "start_frame": 0
+    },
+    {
+      "block": 9,
+      "case": "right",
+      "duration": 1.01,
+      "end_frame": 99,
+      "impacts": [
+        {
+          "normal": "(1.0, 0.0)",
+          "point": "(584.0, 698.5)",
+          "time": 0.13
+        }
+      ],
+      "level": 3,
+      "start_frame": 47
+    },
+    {
+      "block": 14,
+      "case": "down-left",
+      "duration": 1.12054528487356,
+      "end_frame": 154,
+      "impacts": [
+        {
+          "normal": "(0.0, 1.0)",
+          "point": "(191.0, 1020.0)",
+          "time": 0.13
+        },
+        {
+          "normal": "(-1.0, 0.0)",
+          "point": "(8.0, 990.5)",
+          "time": 0.35
+        }
+      ],
+      "level": 4,
+      "start_frame": 99
+    },
+    {
+      "block": 17,
+      "case": "down-right",
+      "duration": 1.29054528487356,
+      "end_frame": 214,
+      "impacts": [
+        {
+          "normal": "(0.0, 1.0)",
+          "point": "(383.0, 1020.0)",
+          "time": 0.13
+        },
+        {
+          "normal": "(1.0, 0.0)",
+          "point": "(584.0, 990.5)",
+          "time": 0.35
+        }
+      ],
+      "level": 4,
+      "start_frame": 154
+    },
+    {
+      "block": 0,
+      "case": "up",
+      "duration": 0.57,
+      "end_frame": 253,
+      "impacts": [
+        {
+          "normal": "(0.0, -1.0)",
+          "point": "(191.0, 561.0)",
+          "time": 0.13
+        }
+      ],
+      "level": 3,
+      "start_frame": 214
+    }
+  ]
+}

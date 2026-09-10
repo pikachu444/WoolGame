@@ -1,0 +1,8 @@
+{
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "pck_sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+  "video_sha256": "0cc6129366d3ebb6fa6a1b9173db794082c1f7e95ea628bfcae48c6f83e7f2c8",
+  "fps": 30,
+  "frames": 253,
+  "scope": "Packaged game via --main-pack, QA stage initialization then normal select/advance; not OS mouse input"
+}

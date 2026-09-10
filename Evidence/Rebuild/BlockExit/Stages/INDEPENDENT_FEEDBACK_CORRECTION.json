@@ -1,0 +1,370 @@
+{
+  "reason": "Independent play review reproduced no productive action while all remaining yarn was hidden; previous broad 8-second threshold was insufficient.",
+  "baseline_campaign_sha256": "fc9e89985c6f5bf2cf5eb2aa52ad38df58035095bb181af4512906a65cc7e593",
+  "final_campaign_sha256": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+  "solver_changed": false,
+  "final_parameters": {
+    "stage": 7,
+    "fog_ceiling": 110,
+    "speed": 17
+  },
+  "rejected": [
+    {
+      "fog_ceiling": 95,
+      "speed": 14.5,
+      "all_hidden_seconds": 5.1,
+      "max_capture_gap": 7.1
+    },
+    {
+      "fog_ceiling": 80,
+      "speed": 14.5,
+      "all_hidden_seconds": 3.8,
+      "max_capture_gap": 6.6
+    }
+  ],
+  "accepted_result": {
+    "actions": [
+      {
+        "block": 0,
+        "time": 0
+      },
+      {
+        "block": 1,
+        "time": 2.4
+      },
+      {
+        "block": 2,
+        "time": 4.9
+      },
+      {
+        "block": 4,
+        "time": 7.4
+      },
+      {
+        "block": 3,
+        "time": 9.9
+      },
+      {
+        "block": 21,
+        "time": 12.4
+      },
+      {
+        "block": 9,
+        "time": 14.9
+      },
+      {
+        "block": 5,
+        "time": 17.3
+      },
+      {
+        "block": 6,
+        "time": 19.7
+      },
+      {
+        "block": 7,
+        "time": 22.1
+      },
+      {
+        "block": 8,
+        "time": 24.5
+      },
+      {
+        "block": 11,
+        "time": 26.9
+      },
+      {
+        "block": 12,
+        "time": 29.3
+      },
+      {
+        "block": 10,
+        "time": 31.7
+      },
+      {
+        "block": 14,
+        "time": 34.2
+      },
+      {
+        "block": 17,
+        "time": 36.7
+      },
+      {
+        "block": 19,
+        "time": 39.2
+      },
+      {
+        "block": 18,
+        "time": 41.7
+      },
+      {
+        "block": 16,
+        "time": 44.2
+      },
+      {
+        "block": 22,
+        "time": 46.7
+      },
+      {
+        "block": 23,
+        "time": 49.2
+      },
+      {
+        "block": 20,
+        "time": 51.7
+      },
+      {
+        "block": 13,
+        "time": 54.2
+      },
+      {
+        "block": 15,
+        "time": 56.7
+      }
+    ],
+    "blocked_taps": 0,
+    "coins": 300,
+    "first_hurt": -1,
+    "freeze_used": false,
+    "hearts": 3,
+    "initial_delay": 0,
+    "interval": 2.4,
+    "last_action_to_clear": 2.1,
+    "lost": false,
+    "max_all_yarn_hidden": 0,
+    "max_capture_gap": 2.7,
+    "max_slots": 4,
+    "mean_legal_choices": 7.88,
+    "minimum_legal_choices": 1,
+    "mixed_fog_seconds": 27.1,
+    "off_color_id": -1,
+    "peak_fog_hidden_yarn": 7,
+    "reason": "",
+    "remaining_units": 0,
+    "shield_used": false,
+    "style": 0,
+    "time": 58.8,
+    "won": true
+  },
+  "fixed_original_replay": {
+    "first_hurt": -1,
+    "fixed_actions": [
+      [
+        0,
+        0
+      ],
+      [
+        2.4,
+        1
+      ],
+      [
+        4.9,
+        2
+      ],
+      [
+        7.4,
+        3
+      ],
+      [
+        9.9,
+        4
+      ],
+      [
+        12.4,
+        21
+      ],
+      [
+        14.9,
+        9
+      ],
+      [
+        17.3,
+        5
+      ],
+      [
+        19.7,
+        6
+      ],
+      [
+        22.1,
+        7
+      ],
+      [
+        24.5,
+        8
+      ],
+      [
+        26.9,
+        11
+      ],
+      [
+        29.3,
+        12
+      ],
+      [
+        31.7,
+        13
+      ],
+      [
+        34.2,
+        14
+      ],
+      [
+        36.7,
+        10
+      ],
+      [
+        39.2,
+        17
+      ],
+      [
+        41.7,
+        20
+      ],
+      [
+        44.2,
+        19
+      ],
+      [
+        46.7,
+        16
+      ],
+      [
+        49.2,
+        23
+      ],
+      [
+        51.7,
+        22
+      ],
+      [
+        61.7,
+        15
+      ],
+      [
+        64.2,
+        18
+      ]
+    ],
+    "former_problem_window": [
+      {
+        "exposed_yarn": 1,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 52.5
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 53
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 53.5
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 54
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 54.5
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 7,
+        "time": 55
+      },
+      {
+        "exposed_yarn": 2,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 55.5
+      },
+      {
+        "exposed_yarn": 3,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 56
+      },
+      {
+        "exposed_yarn": 3,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 56.5
+      },
+      {
+        "exposed_yarn": 3,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 57
+      },
+      {
+        "exposed_yarn": 3,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 57.5
+      },
+      {
+        "exposed_yarn": 3,
+        "hearts": 3,
+        "remaining_yarn": 6,
+        "time": 58
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 5,
+        "time": 58.5
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 5,
+        "time": 59
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 5,
+        "time": 59.5
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 5,
+        "time": 60
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 5,
+        "time": 60.5
+      },
+      {
+        "exposed_yarn": 4,
+        "hearts": 3,
+        "remaining_yarn": 4,
+        "time": 61
+      }
+    ],
+    "hearts": 3,
+    "lost": false,
+    "max_all_yarn_hidden": 0,
+    "shield_used": false,
+    "time": 66.5,
+    "won": true
+  },
+  "limits": [
+    "Fast 1.2-second strategy finishes before any fog exposure.",
+    "Slow and distracted strategies preserve 3 hearts but trigger previously earned shield; no-input first harm is earlier.",
+    "Visual fog readability is owned by main and independent play review."
+  ]
+}

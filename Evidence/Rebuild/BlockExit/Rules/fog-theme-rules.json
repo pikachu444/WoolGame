@@ -1,0 +1,19 @@
+{
+  "checks": 3025,
+  "failures": [],
+  "observations": [],
+  "render_source_inspection": {
+    "hidden_units_neutralized": true,
+    "method": "func upper_mist() -> void:\n\tif mist_visibility<=0:return\n\tvar edge=state.fog_edge()\n\tfor y in range(0,ceili(edge+15),3):\n\t\tvar alpha=0.94*mist_visibility*(1-smoothstep(edge,edge+15,float(y)))\n\t\tdraw_rect(Rect2(0,y,592,3),Color(0.87,0.93,0.98,alpha))\n",
+    "note": "Source inspection of actual drawing method; no rendered pixel assertion in headless.",
+    "opaque_above_edge_then_fifteen_pixel_fade": true,
+    "uses_state_fog_edge": true
+  },
+  "resource_hashes": {
+    "res://scripts/background.gd": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+    "res://scripts/campaign.gd": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+    "res://scripts/map_theme.gd": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+    "res://scripts/state.gd": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+    "res://scripts/world.gd": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e"
+  }
+}

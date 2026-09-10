@@ -1,0 +1,85 @@
+{
+  "reviewed_at": "2026-09-10T07:53:59.231Z",
+  "reviewer": "/root/play_reviewer",
+  "scope": "read-only visual review of staged normal select/advance captures; no native UI input",
+  "video": {
+    "file": "../block-exits-30fps.mp4",
+    "sha256": "ab100b0d99bcd9aa0fe9daa446550fca7be995ef4d39decb0971da9afb2247f6",
+    "width": 540,
+    "height": 1038,
+    "fps": 30,
+    "duration_seconds": 8.433333
+  },
+  "sources": [
+    {
+      "file": "../after-final/down-left-arrived.png",
+      "sha256": "4a71ec050bcb4676ef7cf30b8c4624a5cc814a2f3b3839e6335f9db2d751172d"
+    },
+    {
+      "file": "../after-final/down-left-contact-0.png",
+      "sha256": "f946181a19e8f3d15768524b279d3fef6972fcbb5ec4520743b6990583f3a794"
+    },
+    {
+      "file": "../after-final/down-left-contact-1.png",
+      "sha256": "cbcca4fd12b3b067b6f66a51b50e6a25d4bc9b086ac1c0e73ff5d82f7161ea67"
+    },
+    {
+      "file": "../after-final/down-right-arrived.png",
+      "sha256": "93edb754f739bbc0fd1f3a8ce9c84da277d9bc7169cce6cb33d8d9463a327398"
+    },
+    {
+      "file": "../after-final/down-right-contact-0.png",
+      "sha256": "fe81007318d211b56719ffedc1c454b2ec21fa71c120c91a6f29a43eace4b187"
+    },
+    {
+      "file": "../after-final/down-right-contact-1.png",
+      "sha256": "6302e8df6dd1fca27a31eac1d5bd2f54c94237c8b61c11d9ca6941b889313f5e"
+    },
+    {
+      "file": "../after-final/left-arrived.png",
+      "sha256": "da40fe290c965afca45b96332ea2488904982d707eaa59aadccfe269d644ff15"
+    },
+    {
+      "file": "../after-final/left-contact-0.png",
+      "sha256": "146055effe96b1fd6e007694fb27e82c714a7cccbd2c35a64dba698fc4e9ac5d"
+    },
+    {
+      "file": "../after-final/recording.json",
+      "sha256": "c06ed3629fffbe82ea71bbbeae3d025072fcc0aef0d23ab29b2400556cbca6b3"
+    },
+    {
+      "file": "../after-final/right-arrived.png",
+      "sha256": "d27e1b5da2b4d879d65c9d3e35bf089185e86e30fac69ddddbeb27ebe4c81c63"
+    },
+    {
+      "file": "../after-final/right-contact-0.png",
+      "sha256": "21cea68ebea963dd57e5e83ef6def59d626f84f68eda099ade45d5be2e093e98"
+    },
+    {
+      "file": "../after-final/up-arrived.png",
+      "sha256": "870238bde05f61665533f5099ed7422aa339add2034a2b33876deefb7a449852"
+    },
+    {
+      "file": "../after-final/up-contact-0.png",
+      "sha256": "6942651d51fadd026b2fee9a8c206857cb210e3722ea04f0348047384b1449bd"
+    }
+  ],
+  "contact_sheets": {
+    "method": "Sequential source video samples every 2 frames (15fps), full case interval, row-major 5x6; board crop x0 y380 w540 h558 scaled to270x279; remaining cells black",
+    "files": [
+      "final-left-15fps.jpg",
+      "final-right-15fps.jpg",
+      "final-down-left-15fps.jpg",
+      "final-down-right-15fps.jpg",
+      "final-up-15fps.jpg"
+    ]
+  },
+  "verdict": "PASS_WITHIN_RENDERED_EXIT_SCOPE",
+  "excluded": [
+    "native mobile input",
+    "audio/haptics",
+    "simultaneous multiple flights",
+    "paused/lost modal overlay",
+    "new map themes"
+  ]
+}

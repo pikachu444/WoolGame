@@ -1,0 +1,20 @@
+I: Using Apktool 3.0.3 on android_debug.apk with 8 threads
+I: classes.dex has not changed.
+I: classes10.dex has not changed.
+I: classes11.dex has not changed.
+I: classes12.dex has not changed.
+I: classes13.dex has not changed.
+I: classes2.dex has not changed.
+I: classes3.dex has not changed.
+I: classes4.dex has not changed.
+I: classes5.dex has not changed.
+I: classes6.dex has not changed.
+I: classes7.dex has not changed.
+I: classes8.dex has not changed.
+I: classes9.dex has not changed.
+I: Building resources with aapt2...
+I: Building apk file...
+I: Importing assets...
+I: Importing lib...
+I: Importing unknown files...
+I: Built apk into: C:\SourceCodes\WoolGame\BuildWork\WoolRescue-all-unaligned.apk

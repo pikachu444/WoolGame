@@ -1,0 +1,9 @@
+{
+  "captures": 92,
+  "checks": 1796,
+  "failures": [],
+  "resource_hashes": {
+    "res://scripts/block_flight.gd": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+    "res://scripts/state.gd": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552"
+  }
+}

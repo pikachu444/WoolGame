@@ -1,0 +1,169 @@
+{
+  "cases": [
+    {
+      "actions": "pacing-actions.json",
+      "captures": [
+        {
+          "collected": 38,
+          "exposed": 4,
+          "file": "pacing-final-455.png",
+          "hearts": 1,
+          "slots": [
+            16,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 45.5,
+          "units": 10,
+          "won": false
+        },
+        {
+          "collected": 38,
+          "exposed": 4,
+          "file": "pacing-final-465.png",
+          "hearts": 1,
+          "slots": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 46.4999999999999,
+          "units": 10,
+          "won": false
+        },
+        {
+          "collected": 39,
+          "exposed": 3,
+          "file": "pacing-final-482.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 48.1999999999998,
+          "units": 9,
+          "won": false
+        },
+        {
+          "collected": 41,
+          "exposed": 2,
+          "file": "pacing-final-535.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            23,
+            20,
+            -1
+          ],
+          "time": 53.4999999999995,
+          "units": 7,
+          "won": false
+        },
+        {
+          "collected": 44,
+          "exposed": 2,
+          "file": "pacing-final-560.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            23,
+            20,
+            -1
+          ],
+          "time": 55.9999999999994,
+          "units": 4,
+          "won": false
+        },
+        {
+          "collected": 48,
+          "exposed": 0,
+          "file": "pacing-final-588.png",
+          "hearts": 1,
+          "slots": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 58.7999999999992,
+          "units": 0,
+          "won": true
+        }
+      ],
+      "case": "final",
+      "lost": false,
+      "time": 58.7999999999992
+    },
+    {
+      "actions": "pacing-old-actions.json",
+      "captures": [
+        {
+          "collected": 42,
+          "exposed": 1,
+          "file": "pacing-old-input-535.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 53.4999999999995,
+          "units": 6,
+          "won": false
+        },
+        {
+          "collected": 42,
+          "exposed": 2,
+          "file": "pacing-old-input-560.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 55.9999999999994,
+          "units": 6,
+          "won": false
+        },
+        {
+          "collected": 43,
+          "exposed": 3,
+          "file": "pacing-old-input-594.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 59.3999999999992,
+          "units": 5,
+          "won": false
+        }
+      ],
+      "case": "old-input",
+      "lost": false,
+      "time": 59.3999999999992
+    }
+  ],
+  "harness_sha256": "a42fa8239d2e1048ef72e40dab737e212846910baa1d04a879a6ff62ae3911f6",
+  "problems": [],
+  "scope": "Normal scene, QA stage7 start with separate fresh profile; replay final development 2.4s actions and old fixed actions through select/advance; no time/position/collection injection; not native input or independent solving",
+  "source_sha256": {
+    "background.gd": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+    "block_flight.gd": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+    "board.gd": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+    "campaign.gd": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+    "hud.gd": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+    "layout.gd": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+    "map_theme.gd": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+    "state.gd": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+    "world.gd": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-09-10T08:49:58.061Z",
+  "scope": "Only stage5 capacity visibility correction; source render at539px and downscaled360px; not native Android testing",
+  "verdict": "PASS_CAPACITY_PRESELECTION_INFORMATION",
+  "sources": [
+    {
+      "file": "Rebuild/scripts/board.gd",
+      "sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5"
+    },
+    {
+      "file": "Rebuild/scripts/campaign.gd",
+      "sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5"
+    }
+  ],
+  "images": [
+    {
+      "file": "Maps/stage-05-start.png",
+      "sha256": "a7c1494edf4e9a24251364c6634cf1b7c8352fe49396a3df57b4465fe926a57c"
+    },
+    {
+      "file": "Play/stage-05-capacity-360.png",
+      "sha256": "5ba1caf9d4a660a4689ce0f94316378b83ac01dc7a22e695e604430be61648f8"
+    }
+  ],
+  "pck_status": "Verified final351219ac PCK resource hashes against reviewed source; packaged stage5 image is byte-identical to approved source render",
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "pck_sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+  "apk_sha256": "bdeadf44dc83b1eb7057cfcb2d1554d9d43d6a3b91fe84d8a4aa55e20653a680",
+  "final_resource_verified_at": "2026-09-10T08:58:02.564Z",
+  "final_delta": "FINAL_DELTA_908c8ef.json"
+}

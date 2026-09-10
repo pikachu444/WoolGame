@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+VARIANT interval=0.1 won=true after=20.7999999999988 pct=100.0
+VARIANT interval=0.25 won=true after=21.5999999999988 pct=100.0
+VARIANT interval=0.4 won=true after=22.5999999999987 pct=100.0
+VARIANT interval=0.6 won=true after=23.6999999999987 pct=100.0
+VARIANT interval=0.85 won=true after=28.1999999999984 pct=100.0
+VARIANT interval=1.35 won=true after=41.0999999999977 pct=100.0

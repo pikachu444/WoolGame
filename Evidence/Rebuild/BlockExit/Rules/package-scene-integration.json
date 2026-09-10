@@ -1,0 +1,247 @@
+{
+  "audio_muted_in_harness": true,
+  "checks": 31040,
+  "failures": [],
+  "stages": [
+    {
+      "level": 0,
+      "mode": "challenge",
+      "receipt": {
+        "card": 0,
+        "coins": 50,
+        "first": true,
+        "level": 0,
+        "run_id": "challenge-1"
+      },
+      "time": 12.2
+    },
+    {
+      "level": 1,
+      "mode": "challenge",
+      "receipt": {
+        "card": 1,
+        "coins": 50,
+        "first": true,
+        "level": 1,
+        "run_id": "challenge-2"
+      },
+      "time": 16.2
+    },
+    {
+      "level": 2,
+      "mode": "challenge",
+      "receipt": {
+        "card": 2,
+        "coins": 50,
+        "first": true,
+        "level": 2,
+        "run_id": "challenge-3"
+      },
+      "time": 18.1000000000001
+    },
+    {
+      "level": 3,
+      "mode": "challenge",
+      "receipt": {
+        "card": 3,
+        "coins": 50,
+        "first": true,
+        "level": 3,
+        "run_id": "challenge-4"
+      },
+      "time": 19.4000000000001
+    },
+    {
+      "level": 4,
+      "mode": "challenge",
+      "receipt": {
+        "card": 4,
+        "coins": 50,
+        "first": true,
+        "level": 4,
+        "run_id": "challenge-5"
+      },
+      "time": 25.9000000000004
+    },
+    {
+      "level": 5,
+      "mode": "challenge",
+      "receipt": {
+        "card": 5,
+        "coins": 50,
+        "first": true,
+        "level": 5,
+        "run_id": "challenge-6"
+      },
+      "time": 24.3000000000004
+    },
+    {
+      "level": 6,
+      "mode": "challenge",
+      "receipt": {
+        "card": 6,
+        "coins": 50,
+        "first": true,
+        "level": 6,
+        "run_id": "challenge-7"
+      },
+      "time": 23.0000000000003
+    },
+    {
+      "level": 7,
+      "mode": "challenge",
+      "receipt": {
+        "card": 7,
+        "coins": 50,
+        "first": true,
+        "level": 7,
+        "run_id": "challenge-8"
+      },
+      "time": 26.2000000000005
+    },
+    {
+      "level": 8,
+      "mode": "challenge",
+      "receipt": {
+        "card": 8,
+        "coins": 50,
+        "first": true,
+        "level": 8,
+        "run_id": "challenge-9"
+      },
+      "time": 26.9000000000005
+    },
+    {
+      "level": 9,
+      "mode": "challenge",
+      "receipt": {
+        "card": 9,
+        "coins": 50,
+        "first": true,
+        "level": 9,
+        "run_id": "challenge-10"
+      },
+      "time": 27.8000000000005
+    },
+    {
+      "level": 0,
+      "mode": "free",
+      "receipt": {
+        "card": 0,
+        "coins": 50,
+        "first": true,
+        "level": 0,
+        "run_id": "free-11"
+      },
+      "time": 12.2
+    },
+    {
+      "level": 1,
+      "mode": "free",
+      "receipt": {
+        "card": 1,
+        "coins": 50,
+        "first": true,
+        "level": 1,
+        "run_id": "free-12"
+      },
+      "time": 16.2
+    },
+    {
+      "level": 2,
+      "mode": "free",
+      "receipt": {
+        "card": 2,
+        "coins": 50,
+        "first": true,
+        "level": 2,
+        "run_id": "free-13"
+      },
+      "time": 18.1000000000001
+    },
+    {
+      "level": 3,
+      "mode": "free",
+      "receipt": {
+        "card": 3,
+        "coins": 50,
+        "first": true,
+        "level": 3,
+        "run_id": "free-14"
+      },
+      "time": 19.4000000000001
+    },
+    {
+      "level": 4,
+      "mode": "free",
+      "receipt": {
+        "card": 4,
+        "coins": 50,
+        "first": true,
+        "level": 4,
+        "run_id": "free-15"
+      },
+      "time": 25.9000000000004
+    },
+    {
+      "level": 5,
+      "mode": "free",
+      "receipt": {
+        "card": 5,
+        "coins": 50,
+        "first": true,
+        "level": 5,
+        "run_id": "free-16"
+      },
+      "time": 24.3000000000004
+    },
+    {
+      "level": 6,
+      "mode": "free",
+      "receipt": {
+        "card": 6,
+        "coins": 50,
+        "first": true,
+        "level": 6,
+        "run_id": "free-17"
+      },
+      "time": 23.0000000000003
+    },
+    {
+      "level": 7,
+      "mode": "free",
+      "receipt": {
+        "card": 7,
+        "coins": 50,
+        "first": true,
+        "level": 7,
+        "run_id": "free-18"
+      },
+      "time": 26.2000000000005
+    },
+    {
+      "level": 8,
+      "mode": "free",
+      "receipt": {
+        "card": 8,
+        "coins": 50,
+        "first": true,
+        "level": 8,
+        "run_id": "free-19"
+      },
+      "time": 26.9000000000005
+    },
+    {
+      "level": 9,
+      "mode": "free",
+      "receipt": {
+        "card": 9,
+        "coins": 50,
+        "first": true,
+        "level": 9,
+        "run_id": "free-20"
+      },
+      "time": 27.8000000000005
+    }
+  ]
+}

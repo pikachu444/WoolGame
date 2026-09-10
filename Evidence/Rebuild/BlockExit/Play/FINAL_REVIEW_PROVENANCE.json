@@ -1,0 +1,209 @@
+{
+  "reviewed_at": "2026-09-10T08:58:02.564Z",
+  "reviewer": "/root/play_reviewer",
+  "repository_root": "C:/SourceCodes/WoolGame",
+  "evidence_root": "C:/SourceCodes/WoolGame/Evidence/Rebuild/BlockExit",
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "pck_sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+  "packaged_source_sha256": [
+    {
+      "file": "Rebuild/scripts/background.gd",
+      "sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/block_flight.gd",
+      "sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/board.gd",
+      "sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/campaign.gd",
+      "sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/hud.gd",
+      "sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/layout.gd",
+      "sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/map_theme.gd",
+      "sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/state.gd",
+      "sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/world.gd",
+      "sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "local_matches": true
+    }
+  ],
+  "evidence": [
+    {
+      "file": "Maps/loss-with-travel.png",
+      "sha256": "3061d250fd8aba8cefb9b192c8e5e841fddf278e665ff999f2431d548a94c800"
+    },
+    {
+      "file": "Maps/pause-with-travel.png",
+      "sha256": "f0932276dd6f943def1cbf91b558e690f52395714d37cf016da88c06fb2e9758"
+    },
+    {
+      "file": "Maps/stage-01-start.png",
+      "sha256": "cb3b01cde1e9e1d70271bc269303ffee192f8c2f5b25263b0b414250ecfc6115"
+    },
+    {
+      "file": "Maps/stage-02-start.png",
+      "sha256": "19f3a2de07910276cc10471f24589a82c13cf178bf03e8936c90ef57bd677fab"
+    },
+    {
+      "file": "Maps/stage-03-cat-after-flee.png",
+      "sha256": "277cce0f54d05269183649008dd0e33cdc476e39957cc31ee7de03623b3f0448"
+    },
+    {
+      "file": "Maps/stage-03-cat-flee-start.png",
+      "sha256": "3db6195a9343318f6e373d7164aaa3c474345a9aa26314d352e55bff3be8fa0b"
+    },
+    {
+      "file": "Maps/stage-03-start.png",
+      "sha256": "596882126b900d9181d342e7340805819f15b7def82be1024d146ed4f5a10108"
+    },
+    {
+      "file": "Maps/stage-04-start.png",
+      "sha256": "18ff48866f393945310b413e3b6af8330bdd47bd88dcd1a7490bd3b3da22b99a"
+    },
+    {
+      "file": "Maps/stage-05-start.png",
+      "sha256": "a7c1494edf4e9a24251364c6634cf1b7c8352fe49396a3df57b4465fe926a57c"
+    },
+    {
+      "file": "Maps/stage-06-start.png",
+      "sha256": "11a7d6fff040a17dbc899295d4b27042ca616e067b2f9e7962b1f210707338c3"
+    },
+    {
+      "file": "Maps/stage-07-start.png",
+      "sha256": "149461e62b17033ad190f956da519420bcc1abafdfcd0ea9d004f94a8777506e"
+    },
+    {
+      "file": "Maps/stage-08-start.png",
+      "sha256": "36f9a86f9e7924476adecf89b0f9c92f3406668b033923839f48f375bf2d4628"
+    },
+    {
+      "file": "Maps/stage-09-start.png",
+      "sha256": "a07acd51897e7008e36b3f9109d3e2bd307400a85e07c8f23c632e7bb63c00e1"
+    },
+    {
+      "file": "Maps/stage-10-start.png",
+      "sha256": "3c0341ab5f27d2ef73aaf756ce61047ef62227566adc236c4a972cc78f0e88ca"
+    },
+    {
+      "file": "Play/pacing-final-455.png",
+      "sha256": "b4f7460bf44974eb160476e0c013c91083a7d0fd13dc4292f080aed301284712"
+    },
+    {
+      "file": "Play/pacing-final-465.png",
+      "sha256": "91513c891a754b94a9cfbd11b3ae9f6e5a487964901d4ef48ee65865f5fbe0b2"
+    },
+    {
+      "file": "Play/pacing-final-482.png",
+      "sha256": "8930cf1f3b40717f5aad0bf4f695321495f4a79bf194b5d247818d729d23419c"
+    },
+    {
+      "file": "Play/pacing-final-535.png",
+      "sha256": "7c5baa16878f734ddc2cbab1fb5cdceb8d5252cc36785cab5a075eff08e5c7a5"
+    },
+    {
+      "file": "Play/pacing-final-560.png",
+      "sha256": "2e21fdb1ef781144ffc8058cfa1972ce9aa517b1432097c00972f2db8cfaefa3"
+    },
+    {
+      "file": "Play/pacing-final-588.png",
+      "sha256": "25e599a8fdf7a12b9d056d6abf7a517bb7684ee21396cbeeb9681771027dc4b8"
+    },
+    {
+      "file": "Play/pacing-old-input-535.png",
+      "sha256": "28445b418ef91ce8010e7bffa5d606849e4a1f81b7135e49e8d905eff4444023"
+    },
+    {
+      "file": "Play/pacing-old-input-560.png",
+      "sha256": "5c92378d3324a4d5c7ef41e45570a62d854ba56fae8d6c54a696729f5674b140"
+    },
+    {
+      "file": "Play/pacing-old-input-594.png",
+      "sha256": "cb61e54c804fa116cc56c8b0ecbd695874c8883f6c6ae966afce3c7c2c8ad361"
+    },
+    {
+      "file": "Play/pacing-render.json",
+      "sha256": "2b3e46989727f24ce93bd6d021f562bdd5144d221362118dc726dd60dd1b4fad"
+    },
+    {
+      "file": "FinalMotion/block-exits-0.3.0.mp4",
+      "sha256": "0cc6129366d3ebb6fa6a1b9173db794082c1f7e95ea628bfcae48c6f83e7f2c8"
+    },
+    {
+      "file": "FinalMotion/recording.json",
+      "sha256": "52d71f19495744d43c2478300299335491366ea9d72c1187a15648456328b13a"
+    },
+    {
+      "file": "FinalMotion/PROVENANCE.json",
+      "sha256": "55808454e30abf640a497bdb4e8fa7dea17698539a1e38c313445041da9e9a15"
+    },
+    {
+      "file": "Native/packaged-start.png",
+      "sha256": "3470da885dce7f15b02a4cb848ba1259ef2f32501f7f81f9525765ce48b1ef7c",
+      "provenance": "Earlier reviewed source/previous c16e7c1c package; not relabeled as current candidate"
+    },
+    {
+      "file": "Native/packaged-down-right-dock-turn.png",
+      "sha256": "332b7f3be8985a9bdddd4bd03429b154a77e69c16adae39f15bed9bab126964c",
+      "provenance": "Earlier reviewed source/previous c16e7c1c package; not relabeled as current candidate"
+    },
+    {
+      "file": "Native/packaged-right-slot-entry.png",
+      "sha256": "6bd812cd68d6fa9911e5bd4896ba94fd0fc07cee64bf3d39ac354c471c3c1a1d",
+      "provenance": "Earlier reviewed source/previous c16e7c1c package; not relabeled as current candidate"
+    },
+    {
+      "file": "Native/down-right-contact.png",
+      "sha256": "faac8737ce0665dc132f75677e937342e8099f86edaab283deb7f5c4f77d9ff2",
+      "provenance": "Earlier reviewed source/previous c16e7c1c package; not relabeled as current candidate"
+    },
+    {
+      "file": "Native/right-contact.png",
+      "sha256": "52d9899dc4decc7b76f525d14337a6d02049f64d988003fcc7754cd37660be71",
+      "provenance": "Earlier reviewed source/previous c16e7c1c package; not relabeled as current candidate"
+    }
+  ],
+  "verdict": "PASS_WITHIN_REVIEWED_MAP_EXIT_AND_PACING_SCOPE",
+  "native_actor": "parent /root; reviewer independently inspected the saved images, did not operate UI in this pass",
+  "scope_notes": [
+    "Maps: staged source scene loaded from final PCK, including do-not-overlay paused/lost cases",
+    "Pacing: QA stage7 with separate fresh profile, normal select/advance using developer action timestamps, not independent solving or native input",
+    "FinalMotion: QA stage3 normal select/advance, 30fps/253-frame video inspected as 15fps sequential frames",
+    "Native packaged screenshots: parent actual Windows clicks with QA stage3 direct entry; no full-stage completion claim",
+    "No Android touch/performance/audio/haptics or full 10-stage human play review",
+    "Current Maps and pacing renders regenerated from351219ac PCK; only bounded capacity review and hashes rechecked. Previous overview contact sheets remain illustrations of prior full review. Motion bytes are identical."
+  ],
+  "render_harness_sha256": "a42fa8239d2e1048ef72e40dab737e212846910baa1d04a879a6ff62ae3911f6",
+  "render_problems": [],
+  "apk_sha256": "bdeadf44dc83b1eb7057cfcb2d1554d9d43d6a3b91fe84d8a4aa55e20653a680",
+  "final_delta": "FINAL_DELTA_908c8ef.json",
+  "previous_candidate": {
+    "candidate_commit": "f66f92fb1678b90d4d8a9d5e698d1fd405e26a0b",
+    "pck_sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3",
+    "scope": "Prior full visual review; current bounded delta adds capacity review and source/resource comparison"
+  }
+}

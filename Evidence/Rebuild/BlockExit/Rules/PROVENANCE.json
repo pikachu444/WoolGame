@@ -1,0 +1,216 @@
+{
+  "recorded_utc": "2026-09-10T08:43:23.890Z",
+  "reviewer": "/root/rules_reviewer",
+  "verdict": "PASS_WITHIN_INDEPENDENT_HEADLESS_RULES_SCOPE",
+  "candidate_commit": "f66f92fb1678b90d4d8a9d5e698d1fd405e26a0b",
+  "rebuild_tree": "7176ff68d826db3943b562dd3184f868b1c4cd8c",
+  "expected_pck_sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3",
+  "expected_apk_sha256": "c4f1ee6bbe98150d6267456ad89a6d8b4c910532506249599fc878ca7e2e6041",
+  "artifacts": [
+    {
+      "path": "Builds/Rebuild/WoolRescue.pck",
+      "sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue-Android.apk",
+      "sha256": "c4f1ee6bbe98150d6267456ad89a6d8b4c910532506249599fc878ca7e2e6041"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue-Windows.zip",
+      "sha256": "bb3f6b498d005a4da2f7848e5887c61a1046d622fb0b09a65ce78b670c73eff0"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue.exe",
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+    }
+  ],
+  "package_resources_vs_disk_vs_commit": [
+    {
+      "resource": "res://scripts/background.gd",
+      "package_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "working_source_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "commit_source_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/block_flight.gd",
+      "package_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "working_source_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "commit_source_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/board.gd",
+      "package_sha256": "a0f4771dd93688ecd3ff8fe122af85dd94b4fc424893c9d6de16ec826a47d54e",
+      "working_source_sha256": "a0f4771dd93688ecd3ff8fe122af85dd94b4fc424893c9d6de16ec826a47d54e",
+      "commit_source_sha256": "a0f4771dd93688ecd3ff8fe122af85dd94b4fc424893c9d6de16ec826a47d54e",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/campaign.gd",
+      "package_sha256": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+      "working_source_sha256": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+      "commit_source_sha256": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/game.gd",
+      "package_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "working_source_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "commit_source_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/hud.gd",
+      "package_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "working_source_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "commit_source_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/map_theme.gd",
+      "package_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "working_source_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "commit_source_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/profile.gd",
+      "package_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "working_source_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "commit_source_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/state.gd",
+      "package_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "working_source_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "commit_source_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/world.gd",
+      "package_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "working_source_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "commit_source_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "match": true
+    }
+  ],
+  "all_10_resource_hashes_match": true,
+  "execution": {
+    "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf",
+    "engine_path": "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe",
+    "headless": true,
+    "windowsHide": true,
+    "main_pack": "C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck",
+    "project_path": "C:/SourceCodes/WoolGame/BuildWork/BlockExitRules/package-runtime",
+    "project_path_was_empty": true,
+    "external_test_harness_directory": "C:/SourceCodes/WoolGame/BuildWork/BlockExitRules",
+    "command_template": [
+      "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe",
+      "--headless",
+      "--path",
+      "C:/SourceCodes/WoolGame/BuildWork/BlockExitRules/package-runtime",
+      "--main-pack",
+      "C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck",
+      "--script",
+      "<absolute harness path>",
+      "--",
+      "--profile-dir",
+      "<isolated directory when scene used>"
+    ],
+    "audio_muted_for_scene_progression": true
+  },
+  "suites": [
+    {
+      "harness": "geometry_state.gd",
+      "checks": 4289072,
+      "zero_failures": true,
+      "result": "package-geometry-state.json",
+      "result_sha256": "5ba11d27291761e19bf9aebcb14f1debccd429ad78203ff5a6cf8d0ac7b251ba",
+      "log": "package-geometry-state.log",
+      "log_sha256": "aec44b25ee841d5bf85f914adcc53065b65c637f137cdd36998323ce6d65118d",
+      "result_written_utc": "2026-09-10T08:39:26.279Z",
+      "harness_sha256": "ed5822f4c9e912e1a6bb24bef69bb777c570102d9b267205064587a6e59aea9f"
+    },
+    {
+      "harness": "fog_theme_rules.gd",
+      "checks": 3025,
+      "zero_failures": true,
+      "result": "package-fog-theme.json",
+      "result_sha256": "68338f00ef079c836de3f7d7ed475091c752e5e1e7bbc0b7e98464ee7a92af57",
+      "log": "package-fog-theme.log",
+      "log_sha256": "157c273ee37edc70df7e6b1aedb6970ab3be9808c44a8ed1d0d12f9bf5e00515",
+      "result_written_utc": "2026-09-10T08:37:52.619Z",
+      "harness_sha256": "d27c989aed68eff7c9be8409ecce375e5d235d4bc663a463da5159091ef5cc7b"
+    },
+    {
+      "harness": "independent_rules.gd",
+      "checks": 78216,
+      "zero_failures": true,
+      "result": "package-campaign-rules.json",
+      "result_sha256": "3f4ef558c17cbb17f1d64da0474480301d6c103308a0988606367fb28765e490",
+      "log": "package-campaign-rules.log",
+      "log_sha256": "959380499e7fcd0629beb468b8309d0879163eb7b64a13639c5d124e1af68001",
+      "result_written_utc": "2026-09-10T08:39:13.067Z",
+      "harness_sha256": "337e324b2ff55ad5a7a979b0258114692799b6b2f3e64ac86c4db7c67ff86298"
+    },
+    {
+      "harness": "scene_integration.gd",
+      "checks": 31040,
+      "zero_failures": true,
+      "result": "package-scene-integration.json",
+      "result_sha256": "9434c861ccbf334b36b48b3c8ac2a72741b5343a54b3b85ec464ae0257657ccf",
+      "log": "package-scene-integration.log",
+      "log_sha256": "76dbf363f83a9cfd90adbabfd64c4057c13fcfbdcd779e37d7d567b1d76a3dde",
+      "result_written_utc": "2026-09-10T08:39:10.225Z",
+      "harness_sha256": "ae185f2589d5f61100db5686eb4b91705d50b6e6d17372578f871010e9e835f3"
+    },
+    {
+      "harness": "scene_transitions.gd",
+      "checks": 185,
+      "zero_failures": true,
+      "result": "package-scene-transitions.json",
+      "result_sha256": "a57c81bdd0f1abfc830489723968a4faad2ee32b194f7715ffd15960959c48ab",
+      "log": "package-scene-transitions.log",
+      "log_sha256": "a47febfaa340e06c123e1317af7dc8590d48e194e1edea195572c84732e53e99",
+      "result_written_utc": "2026-09-10T08:42:13.625Z",
+      "harness_sha256": "8f8c887f3da58233f8979baefc4864d06d44033d7e5a27979560772a391ff8b5"
+    },
+    {
+      "harness": "eight_slots.gd",
+      "checks": 1796,
+      "zero_failures": true,
+      "result": "package-eight-slots.json",
+      "result_sha256": "4ca9fa0ea244af8dfbf3ee1e6436efaa635bb01b08a9c6b292229b4e83c16907",
+      "log": "package-eight-slots.log",
+      "log_sha256": "4658fbee9bc1e26dfcea4aadaccb6dff4a5e6b2d32c42fb81ef09e7200e4e502",
+      "result_written_utc": "2026-09-10T08:42:13.451Z",
+      "harness_sha256": "41f54b2865c4b78aa81b237393d277d89a502494b1be82232052522828dcaf61"
+    },
+    {
+      "harness": "recovery_variants.gd",
+      "checks": null,
+      "zero_failures": true,
+      "result": "package-recovery-variants.json",
+      "result_sha256": "7bf7bb98bac73cb717826e62bc5db15fb50bc7ecf83026d33e3d1bdaa8d6a221",
+      "log": "package-recovery-variants.log",
+      "log_sha256": "d32641193d7128cff962f8ff00a725a42e535ecce0cb3a6894ae2facd7dce698",
+      "result_written_utc": "2026-09-10T08:42:14.344Z",
+      "harness_sha256": "cc01ba2b90ac81c4541d001fdcba69996126c7af79bf8f7a3fbfd9c9aebae939"
+    }
+  ],
+  "independence": {
+    "product_source_modified_by_reviewer": false,
+    "developer_test_results_relabelled": false,
+    "solver_uses_product_hint_or_witness": false,
+    "own_blocking_and_visible_color_choice": true
+  },
+  "limits": [
+    "Headless state/geometry and render-source checks, not pixel rendering or human gameplay approval.",
+    "Actual mouse play, Android device runtime, audio output and original-game visual likeness are outside this reviewer scope.",
+    "APK and Windows zip were SHA256 hashed; embedded PCK byte equality was reported by parent and is not claimed as independently unpacked here.",
+    "Downward exact-center left/right original-game tie-break remains unconfirmed reference behavior."
+  ],
+  "open_failures": []
+}

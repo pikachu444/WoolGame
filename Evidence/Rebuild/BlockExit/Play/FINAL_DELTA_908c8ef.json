@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-09-10T08:58:02.564Z",
+  "reviewer": "/root/play_reviewer",
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "pck_sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+  "apk_sha256": "bdeadf44dc83b1eb7057cfcb2d1554d9d43d6a3b91fe84d8a4aa55e20653a680",
+  "scope": "Bounded final resource/hash confirmation and stage5 capacity P1 resolution; no new full visual or native-play review",
+  "verdict": "PASS_CAPACITY_P1_RESOLVED_AND_FINAL_RESOURCE_MATCH",
+  "packaged_source_sha256": [
+    {
+      "file": "Rebuild/scripts/background.gd",
+      "sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/block_flight.gd",
+      "sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/board.gd",
+      "sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/campaign.gd",
+      "sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/hud.gd",
+      "sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/layout.gd",
+      "sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/map_theme.gd",
+      "sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/state.gd",
+      "sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "local_matches": true
+    },
+    {
+      "file": "Rebuild/scripts/world.gd",
+      "sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "local_matches": true
+    }
+  ],
+  "capacity_image_matches_reviewed_source_render": true,
+  "capacity_image_sha256": "a7c1494edf4e9a24251364c6634cf1b7c8352fe49396a3df57b4465fe926a57c",
+  "motion_sha256": "0cc6129366d3ebb6fa6a1b9173db794082c1f7e95ea628bfcae48c6f83e7f2c8",
+  "motion_byte_identical_to_previously_reviewed_video": true,
+  "render_problems": [],
+  "native_evidence": [
+    {
+      "file": "Native/quantity-final-start.png",
+      "sha256": "c63496b4273a71fd11d4dfe95dbc7d0a8ed57f3ae0231f423de1598e4bdbaa62"
+    },
+    {
+      "file": "Native/quantity-final-winding.png",
+      "sha256": "06e232a13e6653c2ce1115d1e3bade81a33f4d9899ae8d776531e03f16c49b4b"
+    }
+  ],
+  "native_scope": "Parent reports actual new Windows EXE stage5 input; reviewer records provenance only in this delta, no new UI operation or independent screenshot inspection",
+  "limitations": [
+    "No Android device test",
+    "No full 10-stage human completion",
+    "Older Native/packaged-* screenshots remain evidence for previous c16e7c1c package"
+  ]
+}

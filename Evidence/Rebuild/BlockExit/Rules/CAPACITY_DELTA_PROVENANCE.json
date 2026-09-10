@@ -1,0 +1,199 @@
+{
+  "recorded_utc": "2026-09-10T08:52:43.702Z",
+  "reviewer": "/root/rules_reviewer",
+  "verdict": "PASS_CAPACITY_DISPLAY_DELTA_RULES_EQUIVALENCE",
+  "full_regression_baseline": {
+    "commit": "f66f92fb1678b90d4d8a9d5e698d1fd405e26a0b",
+    "pck_sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3",
+    "provenance": "PROVENANCE.json",
+    "full_suites_rerun_on_new_pack": false
+  },
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "rebuild_tree": "5812956235ec49f033f381f95a52204bf17985b1",
+  "comparison": {
+    "prior_sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3",
+    "new_sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+    "definitions_equal_except_lesson": true,
+    "initial_states_equal": true,
+    "changed_script_resources": [
+      "board.gd",
+      "campaign.gd"
+    ],
+    "prior_addition_count": 0,
+    "new_addition_count": 1,
+    "normalized_board_equal": true,
+    "normalized_campaign_equal": true,
+    "lesson_changes": [
+      {
+        "level": 5,
+        "before": "긴 실을 감는 동안 다음 색을 골라요",
+        "after": "숫자는 실의 양 · 감는 동안 다음 색을 골라요"
+      }
+    ]
+  },
+  "source_binding": [
+    {
+      "resource": "res://scripts/art.gd",
+      "package_sha256": "e9af651425de8a33f43303ac6413dd2e8346b3461a8a6e959f0c20b298ff556a",
+      "working_source_sha256": "e9af651425de8a33f43303ac6413dd2e8346b3461a8a6e959f0c20b298ff556a",
+      "commit_source_sha256": "e9af651425de8a33f43303ac6413dd2e8346b3461a8a6e959f0c20b298ff556a",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/background.gd",
+      "package_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "working_source_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "commit_source_sha256": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/block_flight.gd",
+      "package_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "working_source_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "commit_source_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/board.gd",
+      "package_sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "working_source_sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "commit_source_sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/campaign.gd",
+      "package_sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+      "working_source_sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+      "commit_source_sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/game.gd",
+      "package_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "working_source_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "commit_source_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/hud.gd",
+      "package_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "working_source_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "commit_source_sha256": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/layout.gd",
+      "package_sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "working_source_sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "commit_source_sha256": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/levels.gd",
+      "package_sha256": "5271bd66a459edbc9e604dfc72a31d5e6aa240c146de071df1b434120c620dcc",
+      "working_source_sha256": "5271bd66a459edbc9e604dfc72a31d5e6aa240c146de071df1b434120c620dcc",
+      "commit_source_sha256": "5271bd66a459edbc9e604dfc72a31d5e6aa240c146de071df1b434120c620dcc",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/map_theme.gd",
+      "package_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "working_source_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "commit_source_sha256": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/profile.gd",
+      "package_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "working_source_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "commit_source_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/spool.gd",
+      "package_sha256": "75590deb8c536344d668bf4d16f497e532b5b60d738940e936126d69cea209e3",
+      "working_source_sha256": "75590deb8c536344d668bf4d16f497e532b5b60d738940e936126d69cea209e3",
+      "commit_source_sha256": "75590deb8c536344d668bf4d16f497e532b5b60d738940e936126d69cea209e3",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/state.gd",
+      "package_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "working_source_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "commit_source_sha256": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+      "match": true
+    },
+    {
+      "resource": "res://scripts/world.gd",
+      "package_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "working_source_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "commit_source_sha256": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e",
+      "match": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Builds/Rebuild/WoolRescue.pck",
+      "sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue-Android.apk",
+      "sha256": "bdeadf44dc83b1eb7057cfcb2d1554d9d43d6a3b91fe84d8a4aa55e20653a680"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue-Windows.zip",
+      "sha256": "e474ad933b29f4624d53e75a1a96b9d8e2302dc177dafb99a6b8b3562cc6fed1"
+    },
+    {
+      "path": "Builds/Rebuild/WoolRescue.exe",
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+    }
+  ],
+  "commit_delta_files": [
+    "Rebuild/scripts/board.gd",
+    "Rebuild/scripts/campaign.gd"
+  ],
+  "evidence": [
+    {
+      "path": "capacity_equivalence.gd",
+      "sha256": "751ad455966904970200dbc81f0afcf822b87879a72871c8a3857406ba057de5"
+    },
+    {
+      "path": "capacity-before.json",
+      "sha256": "1678bd8246f98c1274366a6c95c9333fda11d5126acf305b4499f4b6d474351c"
+    },
+    {
+      "path": "capacity-before.log",
+      "sha256": "acba6d5a8eeb29aa4a6a6540f987465108e653fe9f1848be770d5860215c06d1"
+    },
+    {
+      "path": "capacity-after.json",
+      "sha256": "374b99a897ef791ce13049dc90ab5e5e7b240a3c8aa440e5f1d5cc3b2dc30224"
+    },
+    {
+      "path": "capacity-after.log",
+      "sha256": "acba6d5a8eeb29aa4a6a6540f987465108e653fe9f1848be770d5860215c06d1"
+    }
+  ],
+  "execution": {
+    "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf",
+    "headless": true,
+    "windowsHide": true,
+    "project_path": "C:/SourceCodes/WoolGame/BuildWork/BlockExitRules/package-runtime",
+    "main_packs": [
+      "C:/SourceCodes/WoolGame/BuildWork/BlockExit/pck-before-capacity.pck",
+      "C:/SourceCodes/WoolGame/Builds/Rebuild/WoolRescue.pck"
+    ],
+    "harness": "C:/SourceCodes/WoolGame/BuildWork/BlockExitRules/capacity_equivalence.gd",
+    "prior_pack_error_output": "",
+    "new_pack_error_output": ""
+  },
+  "scope": {
+    "product_source_modified": false,
+    "prior_full_regression_preserved": true,
+    "rule_and_definition_equivalence_verified": true,
+    "pixel_legibility_review": false,
+    "android_runtime_review": false
+  },
+  "open_failures": []
+}

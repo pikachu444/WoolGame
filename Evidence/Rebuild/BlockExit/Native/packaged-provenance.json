@@ -1,0 +1,12 @@
+{
+  "candidate_commit": "f66f92fb1678b90d4d8a9d5e698d1fd405e26a0b",
+  "exe_sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+  "pck_sha256": "c16e7c1c48d231b437defccbfe4ef7e19bf622f927b7ff28ec455b512a2615e3",
+  "method": "Native OS pointer input via sky to packaged WoolRescue.exe; QA level 2 override with isolated profile",
+  "screenshots": [
+    "packaged-start.png",
+    "packaged-down-right-dock-turn.png",
+    "packaged-right-slot-entry.png",
+    "packaged-pause.png"
+  ]
+}

@@ -1,0 +1,5 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+WOOL_READY profile=C:/SourceCodes/WoolGame/BuildWork/BlockExitRules/scene-1789026566364/campaign_v2.json screen=home level=1 viewport=(592.0, 1138.0)
+FAIL focus retains visible travel layer [0,"line",5,0]
+INDEPENDENT_EXIT_SCENE checks=185 failures=1

@@ -1,0 +1,29 @@
+{
+  "candidate_commit": "908c8efc4a53977f707ac1bb11f12e4e2d0901a6",
+  "rebuild_tree": "5812956235ec49f033f381f95a52204bf17985b1",
+  "command": "python Rebuild/tools/build.py --android",
+  "build_exit_code": 0,
+  "version_name": "0.3.0",
+  "version_code": 3,
+  "packages": {
+    "WoolRescue.pck": {
+      "sha256": "351219ac1c7552ef9dfc4b755bd1e8b0bd452a1060ee731e8134ebee7b445090",
+      "bytes": 24452652
+    },
+    "WoolRescue.exe": {
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+      "bytes": 109268480
+    },
+    "WoolRescue-Windows.zip": {
+      "sha256": "e474ad933b29f4624d53e75a1a96b9d8e2302dc177dafb99a6b8b3562cc6fed1",
+      "bytes": 62431128
+    },
+    "WoolRescue-Android.apk": {
+      "sha256": "bdeadf44dc83b1eb7057cfcb2d1554d9d43d6a3b91fe84d8a4aa55e20653a680",
+      "bytes": 54954870
+    }
+  },
+  "actual_windows_input": "Final packaged EXE QA stage5 quantity display, pointer selection and winding; pre-quantity package stage3 exit/collection/pause with identical rules",
+  "native_evidence": "Native/SESSION.md",
+  "android_device": "Not exercised on physical Android in this revision"
+}

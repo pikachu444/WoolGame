@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "actions": "pacing-actions.json",
+      "captures": [
+        {
+          "collected": 38,
+          "exposed": 4,
+          "file": "pacing-final-455.png",
+          "hearts": 1,
+          "slots": [
+            16,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 45.5,
+          "units": 10,
+          "won": false
+        },
+        {
+          "collected": 38,
+          "exposed": 4,
+          "file": "pacing-final-465.png",
+          "hearts": 1,
+          "slots": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 46.4999999999999,
+          "units": 10,
+          "won": false
+        },
+        {
+          "collected": 39,
+          "exposed": 3,
+          "file": "pacing-final-482.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 48.1999999999998,
+          "units": 9,
+          "won": false
+        },
+        {
+          "collected": 41,
+          "exposed": 2,
+          "file": "pacing-final-535.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            23,
+            20,
+            -1
+          ],
+          "time": 53.4999999999995,
+          "units": 7,
+          "won": false
+        },
+        {
+          "collected": 44,
+          "exposed": 2,
+          "file": "pacing-final-560.png",
+          "hearts": 1,
+          "slots": [
+            22,
+            23,
+            20,
+            -1
+          ],
+          "time": 55.9999999999994,
+          "units": 4,
+          "won": false
+        },
+        {
+          "collected": 48,
+          "exposed": 0,
+          "file": "pacing-final-588.png",
+          "hearts": 1,
+          "slots": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "time": 58.7999999999992,
+          "units": 0,
+          "won": true
+        }
+      ],
+      "case": "final",
+      "lost": false,
+      "time": 58.7999999999992
+    },
+    null
+  ],
+  "harness_sha256": "6e2e22e2c934c7409c6d266e00fc0882dfc1723f0461e7b08f509230153f0b54",
+  "scope": "Normal scene, QA stage7 start with separate fresh profile; replay final development 2.4s actions and old fixed actions through select/advance; no time/position/collection injection; not native input or independent solving",
+  "source_sha256": {
+    "background.gd": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+    "block_flight.gd": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+    "board.gd": "a0f4771dd93688ecd3ff8fe122af85dd94b4fc424893c9d6de16ec826a47d54e",
+    "campaign.gd": "bb3adb34a9bd79b178f1e97ec520785f4b61ff114d517a304d69f48cd4014166",
+    "hud.gd": "a301a213e976320e3bd867d803a83787a61d81c41338046db69054f22a204534",
+    "layout.gd": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+    "map_theme.gd": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+    "state.gd": "c401a5899c9f7a8ff01d61c1dcdbe7f52159051ccaacc958a897075d04a08552",
+    "world.gd": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e"
+  }
+}

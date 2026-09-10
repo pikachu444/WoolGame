@@ -1,0 +1,2884 @@
+{
+  "campaign_sha256": "d7158dabbf82d508b5b5c8f2de61277d31bd4e91294d1f8f1086bb65be4d604f",
+  "checkpoints": {
+    "5/1.2": {
+      "legal": [
+        {
+          "capacity": 4,
+          "cell": [
+            103,
+            669
+          ],
+          "color": 1,
+          "direction": 0,
+          "id": 6,
+          "uncommitted_match": 4,
+          "visible_match": 4
+        },
+        {
+          "capacity": 4,
+          "cell": [
+            359,
+            669
+          ],
+          "color": 4,
+          "direction": 1,
+          "id": 10,
+          "uncommitted_match": -2,
+          "visible_match": 0
+        },
+        {
+          "capacity": 4,
+          "cell": [
+            423,
+            739
+          ],
+          "color": 2,
+          "direction": 0,
+          "id": 17,
+          "uncommitted_match": 0,
+          "visible_match": 0
+        },
+        {
+          "capacity": 4,
+          "cell": [
+            231,
+            809
+          ],
+          "color": 1,
+          "direction": 2,
+          "id": 20,
+          "uncommitted_match": 4,
+          "visible_match": 4
+        },
+        {
+          "capacity": 4,
+          "cell": [
+            295,
+            809
+          ],
+          "color": 2,
+          "direction": 2,
+          "id": 21,
+          "uncommitted_match": 0,
+          "visible_match": 0
+        },
+        {
+          "capacity": 4,
+          "cell": [
+            423,
+            809
+          ],
+          "color": 4,
+          "direction": 2,
+          "id": 23,
+          "uncommitted_match": -2,
+          "visible_match": 0
+        }
+      ],
+      "overcommitted_or_unseen_ids": [
+        10,
+        17,
+        21,
+        23
+      ],
+      "productive_ids": [
+        6,
+        20
+      ],
+      "score": 34,
+      "selected": 6,
+      "slots": [
+        {
+          "color": 4,
+          "id": 18,
+          "phase": "working",
+          "remaining": 2
+        },
+        {
+          "color": 0,
+          "id": 5,
+          "phase": "clearing",
+          "remaining": 0
+        },
+        {
+          "color": 3,
+          "id": 11,
+          "phase": "clearing",
+          "remaining": 0
+        },
+        null
+      ],
+      "stage": 6,
+      "time": 14.1,
+      "visible_yarn": {
+        "0": 2,
+        "1": 4,
+        "3": 4
+      }
+    }
+  },
+  "records": [
+    {
+      "actions": [
+        {
+          "block": 0,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 1.2
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 3.7
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 6.3
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 7.6
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 8.9
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 11.5
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 12.8
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 15.4
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 16.6
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 17.8
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 19.0
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 20.2
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 21.4
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 22.6
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 23.8
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 25.0
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 26.2
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 27.4
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 28.6
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 29.8
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 31.0
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 32.2
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 4.6,
+      "hearts": 2,
+      "initially_idle_selections": 5,
+      "interval": 1.2,
+      "lost": false,
+      "max_capture_gap": 3.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 19,
+      "no_winding_seconds": 3.1,
+      "policy": "first_legal",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 35.5,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 3.7
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 5.0
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 6.3
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 7.6
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 8.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 10.2
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 11.5
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 12.8
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 14.1
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 15.4
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 16.6
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 17.8
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 19.0
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 20.2
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 21.4
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 22.6
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 23.8
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 25.0
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 26.2
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 27.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 28.6
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 29.8
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 31.0
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.1,
+      "hearts": 2,
+      "initially_idle_selections": 0,
+      "interval": 1.2,
+      "lost": false,
+      "max_capture_gap": 3.2,
+      "max_slots": 4,
+      "mixed_credit_decisions": 21,
+      "no_winding_seconds": 0.0,
+      "policy": "visible_color",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 34.4,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 1.2
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 3.7
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 5.0
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 6.3
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 7.6
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 8.9
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 10.2
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 11.5
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 12.8
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 14.1
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 15.4
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 16.6
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 17.8
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 19.0
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 20.2
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 21.4
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 22.6
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 23.8
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 25.0
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 26.2
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 27.4
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 28.6
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 2.3,
+      "hearts": 2,
+      "initially_idle_selections": 1,
+      "interval": 1.2,
+      "lost": false,
+      "max_capture_gap": 1.5,
+      "max_slots": 4,
+      "mixed_credit_decisions": 20,
+      "no_winding_seconds": 0.6,
+      "policy": "slot_plan",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 32.0,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 1,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 1.2
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 3.7
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 6.3
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 7.6
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 8.9
+        }
+      ],
+      "collected": 14,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 12.4,
+      "hearts": 2,
+      "initially_idle_selections": 4,
+      "interval": 1.2,
+      "lost": true,
+      "max_capture_gap": 3.8,
+      "max_slots": 4,
+      "mixed_credit_decisions": 4,
+      "no_winding_seconds": 9.5,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 18.13,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 22,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 1.2
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 3.7
+        }
+      ],
+      "collected": 0,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 8.8,
+      "hearts": 2,
+      "initially_idle_selections": 4,
+      "interval": 1.2,
+      "lost": true,
+      "max_capture_gap": 0.0,
+      "max_slots": 4,
+      "mixed_credit_decisions": 2,
+      "no_winding_seconds": 9.4,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 31,
+      "shield_used": false,
+      "stage": 6,
+      "time": 12.43,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 20,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 1.2
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 3.7
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 6.3
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 7.6
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 17.8
+        }
+      ],
+      "collected": 18,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 19.8,
+      "hearts": 2,
+      "initially_idle_selections": 6,
+      "interval": 1.2,
+      "lost": true,
+      "max_capture_gap": 9.1,
+      "max_slots": 4,
+      "mixed_credit_decisions": 4,
+      "no_winding_seconds": 16.2,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 73,
+      "shield_used": false,
+      "stage": 6,
+      "time": 26.4,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 1.2
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 2.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 3.7
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 5.0
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 6.3
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 7.6
+        }
+      ],
+      "collected": 12,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 8.9,
+      "hearts": 2,
+      "initially_idle_selections": 6,
+      "interval": 1.2,
+      "lost": true,
+      "max_capture_gap": 9.9,
+      "max_slots": 4,
+      "mixed_credit_decisions": 6,
+      "no_winding_seconds": 8.6,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 101,
+      "shield_used": false,
+      "stage": 6,
+      "time": 16.27,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 19,
+          "color": 4,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 1.2
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 3.7
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 6.3
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 7.6
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 10.2
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 11.5
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 12.8
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 14.1
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 16.6
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 21.4
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 25.0
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 26.2
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 27.4
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 31.0
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 33.5
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 37.4
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 38.7
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 41.3
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 42.6
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 43.9
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 45.2
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 46.5
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 24.8,
+      "hearts": 2,
+      "initially_idle_selections": 9,
+      "interval": 1.2,
+      "lost": false,
+      "max_capture_gap": 3.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 12,
+      "no_winding_seconds": 7.4,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 223,
+      "shield_used": false,
+      "stage": 6,
+      "time": 49.5,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 2.4
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 4.9
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 7.4
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 9.9
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 12.4
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 14.9
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 17.3
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 19.7
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 22.1
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 24.5
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 26.9
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 29.3
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 31.7
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 34.2
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 36.7
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 39.2
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 41.7
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 44.2
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 46.7
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 49.2
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 51.7
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 54.2
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 56.7
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.2,
+      "hearts": 2,
+      "initially_idle_selections": 5,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 5.7,
+      "max_slots": 4,
+      "mixed_credit_decisions": 16,
+      "no_winding_seconds": 7.8,
+      "policy": "first_legal",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 60.1,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 2.4
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 4.9
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 7.4
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 9.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 12.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 14.9
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 17.3
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 19.7
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 22.1
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 24.5
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 26.9
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 29.3
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 31.7
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 34.2
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 36.7
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 39.2
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 41.7
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 44.2
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 46.7
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 49.2
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 51.7
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 54.2
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 56.7
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 59.2
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.0,
+      "hearts": 2,
+      "initially_idle_selections": 0,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 3.2,
+      "max_slots": 2,
+      "mixed_credit_decisions": 15,
+      "no_winding_seconds": 1.0,
+      "policy": "visible_color",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 62.6,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 2.4
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 4.9
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 7.4
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 12.4
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 14.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 17.3
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 19.7
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 22.1
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 24.5
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 26.9
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 29.3
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 31.7
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 34.2
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 36.7
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 39.2
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 41.7
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 44.2
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 46.7
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 49.2
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 51.7
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 54.2
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 56.7
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.0,
+      "hearts": 2,
+      "initially_idle_selections": 1,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 2.7,
+      "max_slots": 2,
+      "mixed_credit_decisions": 11,
+      "no_winding_seconds": 1.2,
+      "policy": "slot_plan",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 60.1,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 1,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 4.9
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 7.4
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 12.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 14.9
+        }
+      ],
+      "collected": 14,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 10.0,
+      "hearts": 2,
+      "initially_idle_selections": 4,
+      "interval": 2.4,
+      "lost": true,
+      "max_capture_gap": 6.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 5,
+      "no_winding_seconds": 15.4,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 24.1,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 22,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 4.9
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 7.4
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 14.9
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 17.3
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 19.7
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 22.1
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 24.5
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 26.9
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 29.3
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 31.7
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 34.2
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 36.7
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 39.2
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 41.7
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 44.2
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 46.7
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 49.2
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 51.7
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 54.2
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 56.7
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 59.2
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 61.7
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 6.9,
+      "hearts": 2,
+      "initially_idle_selections": 6,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 13.2,
+      "max_slots": 4,
+      "mixed_credit_decisions": 13,
+      "no_winding_seconds": 14.3,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 31,
+      "shield_used": false,
+      "stage": 6,
+      "time": 64.9,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 20,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 2.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 4.9
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 7.4
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 9.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 12.4
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 17.3
+        }
+      ],
+      "collected": 18,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 13.8,
+      "hearts": 2,
+      "initially_idle_selections": 5,
+      "interval": 2.4,
+      "lost": true,
+      "max_capture_gap": 6.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 6,
+      "no_winding_seconds": 15.1,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 73,
+      "shield_used": false,
+      "stage": 6,
+      "time": 25.9,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 4.9
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 7.4
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 9.9
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 12.4
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 14.9
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 17.3
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 19.7
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 22.1
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 24.5
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 26.9
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 29.3
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 34.2
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 39.2
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 44.2
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 46.7
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 49.2
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 51.7
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 54.2
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 56.7
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 59.2
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 61.7
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 64.2
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 14.6,
+      "hearts": 2,
+      "initially_idle_selections": 8,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 6.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 12,
+      "no_winding_seconds": 17.1,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 101,
+      "shield_used": false,
+      "stage": 6,
+      "time": 67.2,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 19,
+          "color": 4,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 2.4
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 4.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 7.4
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 9.9
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 12.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 14.9
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 17.3
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 19.7
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 22.1
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 24.5
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 26.9
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 29.3
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 31.7
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 34.2
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 39.2
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 41.7
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 44.2
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 46.7
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 49.2
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 51.7
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 54.2
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 56.7
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 59.2
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 14.3,
+      "hearts": 2,
+      "initially_idle_selections": 8,
+      "interval": 2.4,
+      "lost": false,
+      "max_capture_gap": 6.1,
+      "max_slots": 4,
+      "mixed_credit_decisions": 12,
+      "no_winding_seconds": 15.1,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 223,
+      "shield_used": false,
+      "stage": 6,
+      "time": 62.2,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 0,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 3.3
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 6.6
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 13.2
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 16.4
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 19.6
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 22.8
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 26.0
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 29.2
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 32.4
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 35.7
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 39.0
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 42.3
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 45.6
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 48.9
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 52.2
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 55.5
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 58.8
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 62.1
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 65.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 68.7
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 72.0
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 75.3
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.0,
+      "hearts": 2,
+      "initially_idle_selections": 3,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 7.4,
+      "max_slots": 3,
+      "mixed_credit_decisions": 13,
+      "no_winding_seconds": 8.9,
+      "policy": "first_legal",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 78.7,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 3.3
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 6.6
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 13.2
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 16.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 19.6
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 22.8
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 26.0
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 29.2
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 32.4
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 35.7
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 39.0
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 42.3
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 45.6
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 48.9
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 52.2
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 55.5
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 58.8
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 62.1
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 65.4
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 68.7
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 72.0
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 75.3
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 78.6
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.0,
+      "hearts": 2,
+      "initially_idle_selections": 0,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 4.1,
+      "max_slots": 2,
+      "mixed_credit_decisions": 14,
+      "no_winding_seconds": 0.0,
+      "policy": "visible_color",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 82.0,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 3.3
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 6.6
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 16.4
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 19.6
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 22.8
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 26.0
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 29.2
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 32.4
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 35.7
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 39.0
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 42.3
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 45.6
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 48.9
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 52.2
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 55.5
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 58.8
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 62.1
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 65.4
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 68.7
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 72.0
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 75.3
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 0.0,
+      "hearts": 2,
+      "initially_idle_selections": 1,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 3.0,
+      "max_slots": 2,
+      "mixed_credit_decisions": 8,
+      "no_winding_seconds": 1.2,
+      "policy": "slot_plan",
+      "reason": "",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 78.7,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 1,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 3.3
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 6.6
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 9.9
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 13.2
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 16.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 19.6
+        }
+      ],
+      "collected": 15,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 9.2,
+      "hearts": 2,
+      "initially_idle_selections": 4,
+      "interval": 3.2,
+      "lost": true,
+      "max_capture_gap": 8.0,
+      "max_slots": 4,
+      "mixed_credit_decisions": 6,
+      "no_winding_seconds": 19.6,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 17,
+      "shield_used": false,
+      "stage": 6,
+      "time": 28.8,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 22,
+          "color": 0,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 3.3
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 6.6
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 9.9
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 16.4
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 19.6
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 22.8
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 26.0
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 29.2
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 32.4
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 35.7
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 39.0
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 42.3
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 45.6
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 48.9
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 52.2
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 55.5
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 58.8
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 62.1
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 65.4
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 68.7
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 72.0
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 75.3
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 78.6
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 4.4,
+      "hearts": 2,
+      "initially_idle_selections": 6,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 13.2,
+      "max_slots": 4,
+      "mixed_credit_decisions": 12,
+      "no_winding_seconds": 15.7,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 31,
+      "shield_used": false,
+      "stage": 6,
+      "time": 81.8,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 20,
+          "color": 1,
+          "time": 0.0
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 3.3
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 6.6
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 13.2
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 16.4
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 19.6
+        }
+      ],
+      "collected": 18,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 9.0,
+      "hearts": 2,
+      "initially_idle_selections": 4,
+      "interval": 3.2,
+      "lost": true,
+      "max_capture_gap": 8.0,
+      "max_slots": 4,
+      "mixed_credit_decisions": 6,
+      "no_winding_seconds": 16.9,
+      "policy": "random_legal",
+      "reason": "선반이 가득 차서 실을 더 감을 수 없어요",
+      "seed": 73,
+      "shield_used": false,
+      "stage": 6,
+      "time": 28.2,
+      "total": 80,
+      "won": false
+    },
+    {
+      "actions": [
+        {
+          "block": 2,
+          "color": 2,
+          "time": 0.0
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 3.3
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 6.6
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 9.9
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 13.2
+        },
+        {
+          "block": 19,
+          "color": 4,
+          "time": 16.4
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 19.6
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 22.8
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 26.0
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 29.2
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 32.4
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 35.7
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 39.0
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 42.3
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 45.6
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 48.9
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 52.2
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 55.5
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 58.8
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 62.1
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 65.4
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 68.7
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 72.0
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 75.3
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 9.4,
+      "hearts": 2,
+      "initially_idle_selections": 6,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 6.3,
+      "max_slots": 4,
+      "mixed_credit_decisions": 11,
+      "no_winding_seconds": 17.5,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 101,
+      "shield_used": false,
+      "stage": 6,
+      "time": 78.3,
+      "total": 80,
+      "won": true
+    },
+    {
+      "actions": [
+        {
+          "block": 19,
+          "color": 4,
+          "time": 0.0
+        },
+        {
+          "block": 0,
+          "color": 0,
+          "time": 3.3
+        },
+        {
+          "block": 2,
+          "color": 2,
+          "time": 6.6
+        },
+        {
+          "block": 4,
+          "color": 4,
+          "time": 9.9
+        },
+        {
+          "block": 1,
+          "color": 1,
+          "time": 13.2
+        },
+        {
+          "block": 3,
+          "color": 0,
+          "time": 16.4
+        },
+        {
+          "block": 21,
+          "color": 2,
+          "time": 19.6
+        },
+        {
+          "block": 23,
+          "color": 4,
+          "time": 22.8
+        },
+        {
+          "block": 20,
+          "color": 1,
+          "time": 26.0
+        },
+        {
+          "block": 22,
+          "color": 0,
+          "time": 29.2
+        },
+        {
+          "block": 18,
+          "color": 4,
+          "time": 32.4
+        },
+        {
+          "block": 5,
+          "color": 0,
+          "time": 35.7
+        },
+        {
+          "block": 11,
+          "color": 3,
+          "time": 39.0
+        },
+        {
+          "block": 10,
+          "color": 4,
+          "time": 42.3
+        },
+        {
+          "block": 9,
+          "color": 2,
+          "time": 45.6
+        },
+        {
+          "block": 8,
+          "color": 3,
+          "time": 48.9
+        },
+        {
+          "block": 17,
+          "color": 2,
+          "time": 52.2
+        },
+        {
+          "block": 16,
+          "color": 0,
+          "time": 55.5
+        },
+        {
+          "block": 6,
+          "color": 1,
+          "time": 58.8
+        },
+        {
+          "block": 12,
+          "color": 3,
+          "time": 62.1
+        },
+        {
+          "block": 7,
+          "color": 0,
+          "time": 65.4
+        },
+        {
+          "block": 13,
+          "color": 1,
+          "time": 68.7
+        },
+        {
+          "block": 15,
+          "color": 3,
+          "time": 72.0
+        },
+        {
+          "block": 14,
+          "color": 2,
+          "time": 75.3
+        }
+      ],
+      "collected": 80,
+      "forced": {},
+      "forced_used": false,
+      "full_seconds": 3.9,
+      "hearts": 2,
+      "initially_idle_selections": 7,
+      "interval": 3.2,
+      "lost": false,
+      "max_capture_gap": 7.4,
+      "max_slots": 4,
+      "mixed_credit_decisions": 11,
+      "no_winding_seconds": 20.9,
+      "policy": "random_legal",
+      "reason": "",
+      "seed": 223,
+      "shield_used": false,
+      "stage": 6,
+      "time": 78.3,
+      "total": 80,
+      "won": true
+    }
+  ]
+}

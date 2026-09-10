@@ -1,0 +1,81 @@
+[
+  {
+    "at": "2026-09-10T09:22:14.102Z",
+    "action": "start_stage6",
+    "x": 271,
+    "y": 550,
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:22:31.818Z",
+    "action": "pause_for_observation",
+    "key": "Escape",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:23:07.457Z",
+    "action": "resume",
+    "key": "Escape",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:23:21.956Z",
+    "action": "select",
+    "x": 351,
+    "y": 604,
+    "intent": "Deliberate poor color: purple is absent from the visible dragon",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:23:32.906Z",
+    "action": "select",
+    "x": 234,
+    "y": 604,
+    "intent": "Open upward blue by removing its green blocker",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:23:44.956Z",
+    "action": "select",
+    "x": 234,
+    "y": 670,
+    "intent": "Use the newly opened blue exit",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:23:57.144Z",
+    "action": "pause_after_opening_blue",
+    "key": "Escape",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:24:51.742Z",
+    "action": "key",
+    "key": "Escape",
+    "intent": "Resume stage6",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:24:59.535Z",
+    "action": "click",
+    "x": 409,
+    "y": 603,
+    "intent": "Remove red4 above blue2; visible red also winds",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:25:09.202Z",
+    "action": "click",
+    "x": 409,
+    "y": 670,
+    "intent": "Select newly opened upward blue2",
+    "observation": "screenshot-0"
+  },
+  {
+    "at": "2026-09-10T09:25:22.414Z",
+    "action": "key",
+    "key": "Escape",
+    "intent": "Stop after unexpected reset to0% for investigation",
+    "observation": "screenshot-0"
+  }
+]

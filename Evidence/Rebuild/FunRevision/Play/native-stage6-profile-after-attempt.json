@@ -1,0 +1,37 @@
+{
+  "mode": "challenge",
+  "muted": false,
+  "next_run": 3,
+  "profiles": {
+    "challenge": {
+      "cards": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coins": 550,
+      "completed": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "pending": {},
+      "settled": {},
+      "unlocked": 5
+    },
+    "free": {
+      "cards": [],
+      "coins": 300,
+      "completed": [],
+      "pending": {},
+      "settled": {},
+      "unlocked": 0
+    }
+  },
+  "revision": 2,
+  "version": 2
+}

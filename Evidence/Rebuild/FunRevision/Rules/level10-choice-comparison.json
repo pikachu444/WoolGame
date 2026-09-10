@@ -1,0 +1,2534 @@
+{
+  "zero_based_block_ids": true,
+  "interval_seconds": 2.4,
+  "before_false_loss": {
+    "actions": [
+      {
+        "capacity": 4,
+        "color": 2,
+        "id": 19,
+        "t": 2.4,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 26,
+        "t": 4.79999999999999,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 0,
+        "id": 0,
+        "t": 7.19999999999998,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 5,
+        "id": 13,
+        "t": 9.59999999999998,
+        "visible_same_color": 3
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 12,
+        "t": 12,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 1,
+        "id": 25,
+        "t": 14.4,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 18,
+        "t": 16.8,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 14,
+        "t": 19.2000000000001,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 2,
+        "color": 4,
+        "id": 15,
+        "t": 21.6000000000002,
+        "visible_same_color": 0
+      }
+    ],
+    "collected": 25,
+    "end": {
+      "blocks": [
+        {
+          "arrival": 7.76999999999998,
+          "capacity": 2,
+          "cell": "(167, 599)",
+          "color": 0,
+          "depart": 7.19999999999998,
+          "direction": 0,
+          "finish": 8.91999999999998,
+          "flight": {
+            "angle": 0,
+            "base_angle": -1.57079637050629,
+            "duration": 0.57,
+            "impacts": [
+              {
+                "normal": "(0.0, -1.0)",
+                "point": "(191.0, 561.0)",
+                "time": 0.13
+              }
+            ],
+            "position": "(78.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(191.0, 628.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(191.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(191.0, 590.5)",
+                "angle_a": 0,
+                "angle_b": 4.71238911151886,
+                "b": "(191.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(191.0, 590.5)",
+                "angle_a": 4.71238911151886,
+                "angle_b": 4.71238911151886,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": 4.71238911151886,
+                "angle_b": 0,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.35
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(78.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.47
+              }
+            ],
+            "size": "(48.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 0,
+          "next": 8.85999999999998,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(231, 599)",
+          "color": 1,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 1,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(295, 599)",
+          "color": 2,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 2,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(359, 599)",
+          "color": 1,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 3,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(167, 669)",
+          "color": 4,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 4,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(231, 669)",
+          "color": 5,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 5,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(295, 669)",
+          "color": 0,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 6,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(359, 669)",
+          "color": 1,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 7,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(103, 739)",
+          "color": 2,
+          "depart": -1,
+          "direction": 3,
+          "finish": -1,
+          "id": 8,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 6,
+          "cell": "(167, 739)",
+          "color": 3,
+          "depart": -1,
+          "direction": 3,
+          "finish": -1,
+          "id": 9,
+          "next": 0,
+          "phase": "board",
+          "remaining": 6,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(231, 739)",
+          "color": 0,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 10,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(295, 739)",
+          "color": 5,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 11,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 12.93,
+          "capacity": 4,
+          "cell": "(359, 739)",
+          "color": 3,
+          "depart": 12,
+          "direction": 1,
+          "finish": 15.02,
+          "flight": {
+            "angle": -1.57079637050629,
+            "base_angle": 0,
+            "duration": 0.93,
+            "impacts": [
+              {
+                "normal": "(1.0, 0.0)",
+                "point": "(584.0, 768.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(222.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(387.0, 768.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(556.0, 768.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(556.0, 768.5)",
+                "angle_a": 0,
+                "angle_b": -1.57079637050629,
+                "b": "(556.0, 768.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(556.0, 768.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": 3.14159274101257,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": 3.14159274101257,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.19,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": -1.57079637050629,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.71
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(222.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.83
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 12,
+          "next": 14.96,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 10.61,
+          "capacity": 6,
+          "cell": "(423, 739)",
+          "color": 5,
+          "depart": 9.59999999999998,
+          "direction": 1,
+          "finish": 13.6533333333333,
+          "flight": {
+            "angle": -1.57079637050629,
+            "base_angle": 0,
+            "duration": 1.01,
+            "impacts": [
+              {
+                "normal": "(1.0, 0.0)",
+                "point": "(584.0, 768.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(78.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(451.0, 768.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(556.0, 768.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(556.0, 768.5)",
+                "angle_a": 0,
+                "angle_b": -1.57079637050629,
+                "b": "(556.0, 768.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(556.0, 768.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": 3.14159274101257,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": 3.14159274101257,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.27,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": -1.57079637050629,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.79
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(78.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.91
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 13,
+          "next": 13.5933333333333,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 20.1277777777779,
+          "capacity": 4,
+          "cell": "(103, 809)",
+          "color": 1,
+          "depart": 19.2000000000001,
+          "direction": 3,
+          "finish": -1,
+          "flight": {
+            "angle": -4.71238911151886,
+            "base_angle": 3.14159274101257,
+            "duration": 0.927777777777778,
+            "impacts": [
+              {
+                "normal": "(-1.0, 0.0)",
+                "point": "(8.0, 838.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(366.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(131.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(36.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(36.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": -4.71238911151886,
+                "b": "(36.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(36.0, 838.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -4.71238911151886,
+                "b": "(28.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(28.0, 590.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -3.14159274101257,
+                "b": "(28.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(28.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(366.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.187777777777778,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(366.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -4.71238911151886,
+                "b": "(366.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.707777777777778
+              },
+              {
+                "a": "(366.0, 590.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -4.71238911151886,
+                "b": "(366.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.827777777777778
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 14,
+          "next": 30.5266666666673,
+          "phase": "working",
+          "remaining": 2,
+          "size": "(56, 59)",
+          "slot": 2
+        },
+        {
+          "arrival": 22.607777777778,
+          "capacity": 2,
+          "cell": "(167, 809)",
+          "color": 4,
+          "depart": 21.6000000000002,
+          "direction": 3,
+          "finish": -1,
+          "flight": {
+            "angle": -4.71238911151886,
+            "base_angle": 3.14159274101257,
+            "duration": 1.00777777777778,
+            "impacts": [
+              {
+                "normal": "(-1.0, 0.0)",
+                "point": "(8.0, 838.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(510.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(195.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(36.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(36.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": -4.71238911151886,
+                "b": "(36.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(36.0, 838.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -4.71238911151886,
+                "b": "(28.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(28.0, 590.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -3.14159274101257,
+                "b": "(28.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(28.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(510.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.267777777777778,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(510.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -4.71238911151886,
+                "b": "(510.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.787777777777778
+              },
+              {
+                "a": "(510.0, 590.5)",
+                "angle_a": -4.71238911151886,
+                "angle_b": -4.71238911151886,
+                "b": "(510.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.907777777777778
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 15,
+          "next": 22.767777777778,
+          "phase": "working",
+          "remaining": 2,
+          "size": "(56, 59)",
+          "slot": 3
+        },
+        {
+          "arrival": -1,
+          "capacity": 6,
+          "cell": "(231, 809)",
+          "color": 0,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 16,
+          "next": 0,
+          "phase": "board",
+          "remaining": 6,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(295, 809)",
+          "color": 3,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 17,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 17.73,
+          "capacity": 2,
+          "cell": "(359, 809)",
+          "color": 5,
+          "depart": 16.8,
+          "direction": 1,
+          "finish": -1,
+          "flight": {
+            "angle": -1.57079637050629,
+            "base_angle": 0,
+            "duration": 0.93,
+            "impacts": [
+              {
+                "normal": "(1.0, 0.0)",
+                "point": "(584.0, 838.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(222.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(387.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(556.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(556.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": -1.57079637050629,
+                "b": "(556.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(556.0, 838.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": 3.14159274101257,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": 3.14159274101257,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.19,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": -1.57079637050629,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.71
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(222.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.83
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 18,
+          "next": 31.0600000000007,
+          "phase": "working",
+          "remaining": 1,
+          "size": "(56, 59)",
+          "slot": 1
+        },
+        {
+          "arrival": 3.41,
+          "capacity": 4,
+          "cell": "(423, 809)",
+          "color": 2,
+          "depart": 2.4,
+          "direction": 1,
+          "finish": 5.51999999999999,
+          "flight": {
+            "angle": -1.57079637050629,
+            "base_angle": 0,
+            "duration": 1.01,
+            "impacts": [
+              {
+                "normal": "(1.0, 0.0)",
+                "point": "(584.0, 838.5)",
+                "time": 0.13
+              }
+            ],
+            "position": "(78.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(451.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(556.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(556.0, 838.5)",
+                "angle_a": 0,
+                "angle_b": -1.57079637050629,
+                "b": "(556.0, 838.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(556.0, 838.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.15,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": 3.14159274101257,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.4
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": 3.14159274101257,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.27,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.52
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": 3.14159274101257,
+                "angle_b": -1.57079637050629,
+                "b": "(78.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.79
+              },
+              {
+                "a": "(78.0, 590.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(78.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.91
+              }
+            ],
+            "size": "(56.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 19,
+          "next": 5.45999999999999,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(56, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 6,
+          "cell": "(167, 879)",
+          "color": 0,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 20,
+          "next": 0,
+          "phase": "board",
+          "remaining": 6,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 2,
+          "cell": "(231, 879)",
+          "color": 2,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 21,
+          "next": 0,
+          "phase": "board",
+          "remaining": 2,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(295, 879)",
+          "color": 4,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 22,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 6,
+          "cell": "(359, 879)",
+          "color": 3,
+          "depart": -1,
+          "direction": 0,
+          "finish": -1,
+          "id": 23,
+          "next": 0,
+          "phase": "board",
+          "remaining": 6,
+          "size": "(48, 68)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(167, 949)",
+          "color": 4,
+          "depart": -1,
+          "direction": 2,
+          "finish": -1,
+          "id": 24,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": 15.5368247017665,
+          "capacity": 6,
+          "cell": "(231, 949)",
+          "color": 1,
+          "depart": 14.4,
+          "direction": 2,
+          "finish": -1,
+          "flight": {
+            "angle": -3.14159274101257,
+            "base_angle": 1.57079637050629,
+            "duration": 1.13682470176652,
+            "impacts": [
+              {
+                "normal": "(0.0, 1.0)",
+                "point": "(255.0, 1020.0)",
+                "time": 0.13
+              },
+              {
+                "normal": "(-1.0, 0.0)",
+                "point": "(8.0, 986.0)",
+                "time": 0.37097777472602
+              }
+            ],
+            "position": "(78.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(255.0, 983.0)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(255.0, 986.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(255.0, 986.0)",
+                "angle_a": 0,
+                "angle_b": 1.57079637050629,
+                "b": "(255.0, 986.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(255.0, 986.0)",
+                "angle_a": 1.57079637050629,
+                "angle_b": 1.57079637050629,
+                "b": "(37.24, 986.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12097777472602,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(37.24, 986.0)",
+                "angle_a": 1.57079637050629,
+                "angle_b": -3.14159274101257,
+                "b": "(37.24, 986.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.37097777472602
+              },
+              {
+                "a": "(37.24, 986.0)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(28.0, 595.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.205846927040502,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.49097777472602
+              },
+              {
+                "a": "(28.0, 595.0)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -1.57079637050629,
+                "b": "(28.0, 595.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.696824701766522
+              },
+              {
+                "a": "(28.0, 595.0)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(78.0, 595.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.816824701766522
+              },
+              {
+                "a": "(78.0, 595.0)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -3.14159274101257,
+                "b": "(78.0, 595.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.916824701766522
+              },
+              {
+                "a": "(78.0, 595.0)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(78.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 1.03682470176652
+              }
+            ],
+            "size": "(48.0, 68.0)"
+          },
+          "from_reserve": false,
+          "id": 25,
+          "next": 30.793333333334,
+          "phase": "working",
+          "remaining": 2,
+          "size": "(48, 68)",
+          "slot": 0
+        },
+        {
+          "arrival": 6.043673065364,
+          "capacity": 2,
+          "cell": "(295, 949)",
+          "color": 5,
+          "depart": 4.79999999999999,
+          "direction": 2,
+          "finish": 7.21999999999999,
+          "flight": {
+            "angle": -3.14159274101257,
+            "base_angle": 1.57079637050629,
+            "duration": 1.24367306536401,
+            "impacts": [
+              {
+                "normal": "(0.0, 1.0)",
+                "point": "(319.0, 1020.0)",
+                "time": 0.13
+              },
+              {
+                "normal": "(1.0, 0.0)",
+                "point": "(584.0, 990.5)",
+                "time": 0.383127780490451
+              }
+            ],
+            "position": "(222.0, 450.0)",
+            "scale": 0.86,
+            "segments": [
+              {
+                "a": "(319.0, 978.5)",
+                "angle_a": 0,
+                "angle_b": 0,
+                "b": "(319.0, 990.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.13,
+                "kind": "line",
+                "scale_a": 1,
+                "scale_b": 1,
+                "start": 0
+              },
+              {
+                "a": "(319.0, 990.5)",
+                "angle_a": 0,
+                "angle_b": -1.57079637050629,
+                "b": "(319.0, 990.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 1,
+                "scale_b": 0.86,
+                "start": 0.13
+              },
+              {
+                "a": "(319.0, 990.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -1.57079637050629,
+                "b": "(558.63, 990.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.133127780490451,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.25
+              },
+              {
+                "a": "(558.63, 990.5)",
+                "angle_a": -1.57079637050629,
+                "angle_b": -3.14159274101257,
+                "b": "(558.63, 990.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.383127780490451
+              },
+              {
+                "a": "(558.63, 990.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.210545284873561,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.503127780490451
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": 1.57079637050629,
+                "b": "(564.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.713673065364012
+              },
+              {
+                "a": "(564.0, 590.5)",
+                "angle_a": 1.57079637050629,
+                "angle_b": 1.57079637050629,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.19,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 0.833673065364012
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": 1.57079637050629,
+                "angle_b": -3.14159274101257,
+                "b": "(222.0, 590.5)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.12,
+                "kind": "turn",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 1.02367306536401
+              },
+              {
+                "a": "(222.0, 590.5)",
+                "angle_a": -3.14159274101257,
+                "angle_b": -3.14159274101257,
+                "b": "(222.0, 450.0)",
+                "control": "(0.0, 0.0)",
+                "duration": 0.1,
+                "kind": "line",
+                "scale_a": 0.86,
+                "scale_b": 0.86,
+                "start": 1.14367306536401
+              }
+            ],
+            "size": "(48.0, 59.0)"
+          },
+          "from_reserve": false,
+          "id": 26,
+          "next": 7.15999999999999,
+          "phase": "finished",
+          "remaining": 0,
+          "size": "(48, 59)",
+          "slot": -1
+        },
+        {
+          "arrival": -1,
+          "capacity": 4,
+          "cell": "(359, 949)",
+          "color": 4,
+          "depart": -1,
+          "direction": 2,
+          "finish": -1,
+          "id": 27,
+          "next": 0,
+          "phase": "board",
+          "remaining": 4,
+          "size": "(48, 59)",
+          "slot": -1
+        }
+      ],
+      "cat_anchor": 0,
+      "cat_phase": "waiting",
+      "cat_position": [
+        103,
+        197
+      ],
+      "coins": 300,
+      "collected": 25,
+      "dragons": [
+        {
+          "head": 1003.28290771484,
+          "id": 0,
+          "phase": "chasing",
+          "until": 0
+        },
+        {
+          "head": 945.989401855469,
+          "id": 1,
+          "phase": "chasing",
+          "until": 0
+        }
+      ],
+      "freeze_until": 0,
+      "hearts": 3,
+      "invulnerable_until": 0,
+      "level": 9,
+      "lost": true,
+      "max_hearts": 3,
+      "mode": "challenge",
+      "reserve": [],
+      "shield_until": 0,
+      "slots": [
+        25,
+        18,
+        14,
+        15
+      ],
+      "time": 30.633333333334,
+      "total": 104,
+      "units": [
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 2
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 3
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 8
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 9
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 16
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 17
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 18
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 19
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 20
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 21
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 22
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 23
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 24
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 25
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 34
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 35
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 36
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 37
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 38
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 39
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 40
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 41
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 42
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 43
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 44
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 45
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 46
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 47
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 48
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 49
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 50
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 51
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 52
+        },
+        {
+          "color": 3,
+          "dragon": 1,
+          "id": 53
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 54
+        },
+        {
+          "color": 0,
+          "dragon": 0,
+          "id": 55
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 60
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 61
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 63
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 64
+        },
+        {
+          "color": 2,
+          "dragon": 0,
+          "id": 65
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 66
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 67
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 68
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 69
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 70
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 71
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 72
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 73
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 74
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 75
+        },
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 76
+        },
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 77
+        },
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 78
+        },
+        {
+          "color": 1,
+          "dragon": 0,
+          "id": 79
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 80
+        },
+        {
+          "color": 5,
+          "dragon": 1,
+          "id": 81
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 82
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 83
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 84
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 85
+        },
+        {
+          "color": 2,
+          "dragon": 1,
+          "id": 86
+        },
+        {
+          "color": 2,
+          "dragon": 1,
+          "id": 87
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 88
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 89
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 90
+        },
+        {
+          "color": 4,
+          "dragon": 0,
+          "id": 91
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 92
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 93
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 94
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 95
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 96
+        },
+        {
+          "color": 1,
+          "dragon": 1,
+          "id": 97
+        },
+        {
+          "color": 5,
+          "dragon": 0,
+          "id": 98
+        },
+        {
+          "color": 5,
+          "dragon": 0,
+          "id": 99
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 100
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 101
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 102
+        },
+        {
+          "color": 4,
+          "dragon": 1,
+          "id": 103
+        }
+      ],
+      "won": false
+    },
+    "first": -1,
+    "hearts": 3,
+    "interval": 2.4,
+    "level": 10,
+    "longest_no_capture": 13.4000000000007,
+    "lost": true,
+    "policy": 1,
+    "time": 30.633333333334,
+    "total": 104,
+    "won": false
+  },
+  "after_same_policy": {
+    "actions": [
+      {
+        "capacity": 4,
+        "color": 2,
+        "id": 19,
+        "t": 2.4,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 26,
+        "t": 4.79999999999999,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 0,
+        "id": 0,
+        "t": 7.19999999999998,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 5,
+        "id": 13,
+        "t": 9.59999999999998,
+        "visible_same_color": 3
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 12,
+        "t": 12,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 1,
+        "id": 25,
+        "t": 14.4,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 18,
+        "t": 16.8,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 14,
+        "t": 19.2000000000001,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 2,
+        "color": 4,
+        "id": 15,
+        "t": 21.6000000000002,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 8,
+        "t": 33.6000000000007,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 9,
+        "t": 36.0000000000005,
+        "visible_same_color": 16
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 3,
+        "t": 38.4000000000004,
+        "visible_same_color": 3
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 27,
+        "t": 40.8000000000002,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 1,
+        "id": 7,
+        "t": 43.2000000000001,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 23,
+        "t": 45.6,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 2,
+        "t": 47.9999999999998,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 6,
+        "t": 50.3999999999997,
+        "visible_same_color": 20
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 24,
+        "t": 52.7999999999996,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 1,
+        "t": 55.1999999999994,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 4,
+        "t": 57.5999999999993,
+        "visible_same_color": 7
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 20,
+        "t": 59.9999999999992,
+        "visible_same_color": 16
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 11,
+        "t": 62.399999999999,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 17,
+        "t": 64.7999999999989,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 22,
+        "t": 67.1999999999988,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 5,
+        "t": 69.5999999999986,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 10,
+        "t": 71.9999999999985,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 16,
+        "t": 74.3999999999983,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 21,
+        "t": 76.7999999999982,
+        "visible_same_color": 2
+      }
+    ],
+    "collected": 104,
+    "end": {},
+    "first": -1,
+    "hearts": 3,
+    "interval": 2.4,
+    "level": 10,
+    "longest_no_capture": 13.4000000000007,
+    "loss_reason": "",
+    "lost": false,
+    "policy": 1,
+    "time": 78.5999999999981,
+    "total": 104,
+    "won": true
+  },
+  "alternative_normal_policy": {
+    "actions": [
+      {
+        "capacity": 2,
+        "color": 0,
+        "id": 0,
+        "t": 2.4,
+        "visible_same_color": 5
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 2,
+        "t": 4.79999999999999,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 6,
+        "t": 7.19999999999998,
+        "visible_same_color": 8
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 11,
+        "t": 9.59999999999998,
+        "visible_same_color": 7
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 26,
+        "t": 12,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 17,
+        "t": 14.4,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 8,
+        "t": 16.8,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 9,
+        "t": 19.2000000000001,
+        "visible_same_color": 11
+      },
+      {
+        "capacity": 6,
+        "color": 5,
+        "id": 13,
+        "t": 21.6000000000002,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 12,
+        "t": 24.0000000000004,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 1,
+        "t": 26.4000000000005,
+        "visible_same_color": 8
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 3,
+        "t": 28.8000000000006,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 2,
+        "color": 1,
+        "id": 7,
+        "t": 31.2000000000007,
+        "visible_same_color": 3
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 5,
+        "t": 33.6000000000007,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 10,
+        "t": 36.0000000000005,
+        "visible_same_color": 16
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 4,
+        "t": 38.4000000000004,
+        "visible_same_color": 8
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 16,
+        "t": 40.8000000000002,
+        "visible_same_color": 12
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 21,
+        "t": 43.2000000000001,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 14,
+        "t": 45.6,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 2,
+        "color": 4,
+        "id": 15,
+        "t": 47.9999999999998,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 22,
+        "t": 50.3999999999997,
+        "visible_same_color": 9
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 24,
+        "t": 52.7999999999996,
+        "visible_same_color": 8
+      },
+      {
+        "capacity": 4,
+        "color": 2,
+        "id": 19,
+        "t": 55.1999999999994,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 18,
+        "t": 57.5999999999993,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 20,
+        "t": 59.9999999999992,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 23,
+        "t": 62.399999999999,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 6,
+        "color": 1,
+        "id": 25,
+        "t": 64.7999999999989,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 27,
+        "t": 67.1999999999988,
+        "visible_same_color": 4
+      }
+    ],
+    "collected": 104,
+    "end": {},
+    "first": -1,
+    "hearts": 3,
+    "interval": 2.4,
+    "level": 10,
+    "longest_no_capture": 3.2,
+    "loss_reason": "",
+    "lost": false,
+    "policy": 0,
+    "time": 70.5999999999986,
+    "total": 104,
+    "won": true
+  },
+  "unfavorable_first_then_recovery": {
+    "actions": [
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 1,
+        "t": 2.4,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 4,
+        "color": 2,
+        "id": 19,
+        "t": 4.79999999999999,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 26,
+        "t": 7.19999999999998,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 0,
+        "id": 0,
+        "t": 9.59999999999998,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 6,
+        "color": 5,
+        "id": 13,
+        "t": 12,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 12,
+        "t": 14.4,
+        "visible_same_color": 12
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 18,
+        "t": 16.8,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 14,
+        "t": 19.2000000000001,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 2,
+        "color": 4,
+        "id": 15,
+        "t": 21.6000000000002,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 8,
+        "t": 31.2000000000007,
+        "visible_same_color": 0
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 9,
+        "t": 33.6000000000007,
+        "visible_same_color": 16
+      },
+      {
+        "capacity": 6,
+        "color": 1,
+        "id": 25,
+        "t": 36.0000000000005,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 5,
+        "t": 38.4000000000004,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 27,
+        "t": 40.8000000000002,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 10,
+        "t": 43.2000000000001,
+        "visible_same_color": 20
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 16,
+        "t": 45.6,
+        "visible_same_color": 16
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 24,
+        "t": 47.9999999999998,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 4,
+        "t": 50.3999999999997,
+        "visible_same_color": 5
+      },
+      {
+        "capacity": 6,
+        "color": 0,
+        "id": 20,
+        "t": 52.7999999999996,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 4,
+        "color": 1,
+        "id": 3,
+        "t": 55.1999999999994,
+        "visible_same_color": 6
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 21,
+        "t": 57.5999999999993,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 1,
+        "id": 7,
+        "t": 59.9999999999992,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 6,
+        "color": 3,
+        "id": 23,
+        "t": 62.399999999999,
+        "visible_same_color": 10
+      },
+      {
+        "capacity": 2,
+        "color": 2,
+        "id": 2,
+        "t": 64.7999999999989,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 4,
+        "color": 0,
+        "id": 6,
+        "t": 67.1999999999988,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 2,
+        "color": 5,
+        "id": 11,
+        "t": 69.5999999999986,
+        "visible_same_color": 2
+      },
+      {
+        "capacity": 4,
+        "color": 3,
+        "id": 17,
+        "t": 71.9999999999985,
+        "visible_same_color": 4
+      },
+      {
+        "capacity": 4,
+        "color": 4,
+        "id": 22,
+        "t": 74.3999999999983,
+        "visible_same_color": 4
+      }
+    ],
+    "collected": 104,
+    "end": {},
+    "first": 1,
+    "hearts": 3,
+    "interval": 2.4,
+    "level": 10,
+    "longest_no_capture": 12.7000000000006,
+    "loss_reason": "",
+    "lost": false,
+    "policy": 1,
+    "time": 77.1999999999982,
+    "total": 104,
+    "won": true
+  }
+}

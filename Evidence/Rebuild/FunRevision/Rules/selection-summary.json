@@ -1,0 +1,226 @@
+{
+  "trials": 160,
+  "wins": 158,
+  "summary": [
+    {
+      "level": 6,
+      "interval": 2.4,
+      "won": 26,
+      "total": 26,
+      "legal_first_count": 12,
+      "successful_first_count": 12,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 60.9999999999991
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 60.5999999999991
+        }
+      ],
+      "unique_winning_action_orders": 24,
+      "unfavorable_first_ids_with_success": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        18,
+        19,
+        20,
+        22,
+        23
+      ]
+    },
+    {
+      "level": 6,
+      "interval": 3.2,
+      "won": 26,
+      "total": 26,
+      "legal_first_count": 12,
+      "successful_first_count": 12,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 80.199999999998
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 79.799999999998
+        }
+      ],
+      "unique_winning_action_orders": 24,
+      "unfavorable_first_ids_with_success": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        18,
+        19,
+        20,
+        22,
+        23
+      ]
+    },
+    {
+      "level": 8,
+      "interval": 2.4,
+      "won": 27,
+      "total": 28,
+      "legal_first_count": 13,
+      "successful_first_count": 13,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 65.0999999999989
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 65.1999999999989
+        }
+      ],
+      "unique_winning_action_orders": 25,
+      "unfavorable_first_ids_with_success": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "level": 8,
+      "interval": 3.2,
+      "won": 28,
+      "total": 28,
+      "legal_first_count": 13,
+      "successful_first_count": 13,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 85.2999999999977
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 85.8999999999977
+        }
+      ],
+      "unique_winning_action_orders": 26,
+      "unfavorable_first_ids_with_success": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "level": 10,
+      "interval": 2.4,
+      "won": 26,
+      "total": 26,
+      "legal_first_count": 12,
+      "successful_first_count": 12,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 70.5999999999986
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 78.5999999999981
+        }
+      ],
+      "unique_winning_action_orders": 24,
+      "unfavorable_first_ids_with_success": [
+        1,
+        3,
+        14,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "level": 10,
+      "interval": 3.2,
+      "won": 25,
+      "total": 26,
+      "legal_first_count": 12,
+      "successful_first_count": 12,
+      "defaults": [
+        {
+          "policy": 0,
+          "won": true,
+          "time": 92.9999999999973
+        },
+        {
+          "policy": 1,
+          "won": true,
+          "time": 91.3999999999974
+        }
+      ],
+      "unique_winning_action_orders": 23,
+      "unfavorable_first_ids_with_success": [
+        1,
+        3,
+        14,
+        24,
+        25,
+        27
+      ]
+    }
+  ],
+  "unsuccessful_trials": [
+    {
+      "level": 8,
+      "interval": 2.4,
+      "first": 2,
+      "policy": 0,
+      "time": 23.266666666667,
+      "hearts": 3,
+      "progress": 8,
+      "total": 78,
+      "loss_reason": "선반이 가득 차서 실을 더 감을 수 없어요"
+    },
+    {
+      "level": 10,
+      "interval": 3.2,
+      "first": 19,
+      "policy": 0,
+      "time": 93.1999999999973,
+      "hearts": 0,
+      "progress": 103,
+      "total": 104,
+      "loss_reason": "용의 불꽃이 고양이에게 닿았어요"
+    }
+  ]
+}

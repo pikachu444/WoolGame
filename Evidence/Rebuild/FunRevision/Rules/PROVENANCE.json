@@ -1,0 +1,414 @@
+{
+  "recorded_utc": "2026-09-10T09:30:39.182Z",
+  "reviewer": "/root/rules_reviewer",
+  "verdict": "PASS_RULES_WITH_TWO_OBSERVED_PLAY_LOSSES",
+  "baseline_commit": "fd902f64226c0399fa52ff36224f4c3403b2b3a9",
+  "candidate": {
+    "campaign_sha256": "48a9c2e5beac65486411c1722550fb7ecf505465d8c04f3271d75a0dc48007c4",
+    "state_sha256": "7054d37f294dbe0f54c96e7d8e2947bc561b77983ea6e22ac03524c439aabb01",
+    "commit_not_supplied_at_audit": false,
+    "pck_not_executed_by_this_reviewer": true,
+    "package_source_binding_owner": "main",
+    "source_commit": "1eda8383154d1b19431fb3ed0637e8ae6a9d8e86",
+    "pck_sha256": "0b721b0d7e2524991d1801dc73f0680aded35ae1e9619cd82c663f8c96a4245a",
+    "main_candidate_evidence": "../CANDIDATE.json",
+    "main_binding_log": "../Verification/pck-source.log",
+    "main_package_integrity_evidence": "../package-integrity.json"
+  },
+  "execution": {
+    "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf",
+    "headless": true,
+    "windowsHide": true,
+    "project_path": "C:/SourceCodes/WoolGame/Rebuild",
+    "harness_path": "C:/SourceCodes/WoolGame/BuildWork/FunAudit/IndependentRules/independent_fun.gd",
+    "command": [
+      "C:/SourceCodes/WoolGame/Tools/Godot/Godot_v4.7.2-stable_win64_console.exe",
+      "--headless",
+      "--path",
+      "C:/SourceCodes/WoolGame/Rebuild",
+      "--script",
+      "C:/SourceCodes/WoolGame/BuildWork/FunAudit/IndependentRules/independent_fun.gd"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "resource_hashes": {
+      "art.gd": "e9af651425de8a33f43303ac6413dd2e8346b3461a8a6e959f0c20b298ff556a",
+      "background.gd": "71f4882d2c757b422f7d239a95c95820fee19ad52891da5a6e7961bdf5c2ba81",
+      "block_flight.gd": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "board.gd": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "campaign.gd": "48a9c2e5beac65486411c1722550fb7ecf505465d8c04f3271d75a0dc48007c4",
+      "game.gd": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "hud.gd": "c408fe0d5b0fe17dd82f3cb77cce9f27814e99b1f9f93a38295040710d001380",
+      "layout.gd": "b5566a0c5795bc86f52b9aa851fefba77365057354da425f8baabcf5d6255693",
+      "levels.gd": "5271bd66a459edbc9e604dfc72a31d5e6aa240c146de071df1b434120c620dcc",
+      "map_theme.gd": "6e538042ddd277f3a93f6aff8e3ed63720cad6a6cade1171f64263154254f9f4",
+      "memory_cards.gd": "2c9820bfc95a5e5a513188a5caa1982ae237a4c5b8e3875ac4512b594487e4ea",
+      "profile.gd": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "spool.gd": "75590deb8c536344d668bf4d16f497e532b5b60d738940e936126d69cea209e3",
+      "state.gd": "7054d37f294dbe0f54c96e7d8e2947bc561b77983ea6e22ac03524c439aabb01",
+      "world.gd": "6ef7ade9578a7f6a892a7b714ec0e358d3ba6b3a1cd8725c85b2e7cfd97f777e"
+    }
+  },
+  "preserved_code_vs_baseline": [
+    {
+      "resource": "profile.gd",
+      "baseline": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "executed": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "current": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0"
+    },
+    {
+      "resource": "game.gd",
+      "baseline": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "executed": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "current": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0"
+    },
+    {
+      "resource": "board.gd",
+      "baseline": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "executed": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "current": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5"
+    },
+    {
+      "resource": "block_flight.gd",
+      "baseline": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "executed": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "current": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f"
+    }
+  ],
+  "results": {
+    "rule_checks": 741133,
+    "rule_failures": [],
+    "play_trials": 160,
+    "play_wins": 158,
+    "play_losses": [
+      {
+        "level": 8,
+        "interval": 2.4,
+        "first": 2,
+        "policy": 0,
+        "time": 23.266666666667,
+        "hearts": 3,
+        "progress": 8,
+        "total": 78,
+        "loss_reason": "선반이 가득 차서 실을 더 감을 수 없어요"
+      },
+      {
+        "level": 10,
+        "interval": 3.2,
+        "first": 19,
+        "policy": 0,
+        "time": 93.1999999999973,
+        "hearts": 0,
+        "progress": 103,
+        "total": 104,
+        "loss_reason": "용의 불꽃이 고양이에게 닿았어요"
+      }
+    ],
+    "all_legal_first_selections_have_successful_continuation_in_each_interval": true,
+    "summary": [
+      {
+        "level": 6,
+        "interval": 2.4,
+        "won": 26,
+        "total": 26,
+        "legal_first_count": 12,
+        "successful_first_count": 12,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 60.9999999999991
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 60.5999999999991
+          }
+        ],
+        "unique_winning_action_orders": 24,
+        "unfavorable_first_ids_with_success": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          18,
+          19,
+          20,
+          22,
+          23
+        ]
+      },
+      {
+        "level": 6,
+        "interval": 3.2,
+        "won": 26,
+        "total": 26,
+        "legal_first_count": 12,
+        "successful_first_count": 12,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 80.199999999998
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 79.799999999998
+          }
+        ],
+        "unique_winning_action_orders": 24,
+        "unfavorable_first_ids_with_success": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          18,
+          19,
+          20,
+          22,
+          23
+        ]
+      },
+      {
+        "level": 8,
+        "interval": 2.4,
+        "won": 27,
+        "total": 28,
+        "legal_first_count": 13,
+        "successful_first_count": 13,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 65.0999999999989
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 65.1999999999989
+          }
+        ],
+        "unique_winning_action_orders": 25,
+        "unfavorable_first_ids_with_success": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9,
+          15,
+          16,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "level": 8,
+        "interval": 3.2,
+        "won": 28,
+        "total": 28,
+        "legal_first_count": 13,
+        "successful_first_count": 13,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 85.2999999999977
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 85.8999999999977
+          }
+        ],
+        "unique_winning_action_orders": 26,
+        "unfavorable_first_ids_with_success": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9,
+          15,
+          16,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      },
+      {
+        "level": 10,
+        "interval": 2.4,
+        "won": 26,
+        "total": 26,
+        "legal_first_count": 12,
+        "successful_first_count": 12,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 70.5999999999986
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 78.5999999999981
+          }
+        ],
+        "unique_winning_action_orders": 24,
+        "unfavorable_first_ids_with_success": [
+          1,
+          3,
+          14,
+          24,
+          25,
+          27
+        ]
+      },
+      {
+        "level": 10,
+        "interval": 3.2,
+        "won": 25,
+        "total": 26,
+        "legal_first_count": 12,
+        "successful_first_count": 12,
+        "defaults": [
+          {
+            "policy": 0,
+            "won": true,
+            "time": 92.9999999999973
+          },
+          {
+            "policy": 1,
+            "won": true,
+            "time": 91.3999999999974
+          }
+        ],
+        "unique_winning_action_orders": 23,
+        "unfavorable_first_ids_with_success": [
+          1,
+          3,
+          14,
+          24,
+          25,
+          27
+        ]
+      }
+    ],
+    "stall_bug_fixed": true,
+    "real_trace_at_40_seconds": {
+      "lost": false,
+      "collected": 32,
+      "stalled_since": -1
+    },
+    "eight_second_no_capture_control_passed": true
+  },
+  "independence": {
+    "product_source_modified": false,
+    "developer_choose_or_witness_reused": false,
+    "chooser_reads_only_geometry_current_visible_color_counts_and_slot_pending_demand": true,
+    "authored_yarn_order_read_for_validation_only": true,
+    "baseline_order_independently_reconstructed": true
+  },
+  "evidence": [
+    {
+      "path": "independent_fun.gd",
+      "sha256": "72432c831e98a944f6e6f09b5b9f3f694fa4b21b4c7d33a19f7d8f88d30445de"
+    },
+    {
+      "path": "baseline_campaign.gd",
+      "sha256": "faa98f444e9ad06dde7e9dd466714de012ac1ccb3cb3fea3a1e5ec1200e1b8f5"
+    },
+    {
+      "path": "after-stall-fix.json",
+      "sha256": "7a1f6b378c6ce11c9990a2c613f2bc57e1a100cb3cc7cf4e49520ffd1f9148c6"
+    },
+    {
+      "path": "after-stall-fix.log",
+      "sha256": "fe7f5db58a9dcdfd5cc962a6985fe5a6b112362b0ebadd366323f24976f3ad97"
+    },
+    {
+      "path": "before-stall-fix.json",
+      "sha256": "b61d515cadeab39aa9ea56adbe33816e27c0f4353db61c93192e97b2a440fc29"
+    },
+    {
+      "path": "before-stall-fix.log",
+      "sha256": "e07b49ba11aa00ec07274dc0f8bc0e43475a48f49d51be37e9f20cff17224bfd"
+    },
+    {
+      "path": "stall-after-capture.json",
+      "sha256": "6cdf292dbee94dd3140e22e6ff31a51a986a22106d7b9fe7592bda9c72b73abc"
+    },
+    {
+      "path": "stall-after-capture-fixed.json",
+      "sha256": "334627b56224d3b841a8e18a9596ddf096796082ac4a1f8f12d254c0d1afa9ec"
+    },
+    {
+      "path": "stall-after-capture-fixed.log",
+      "sha256": "4be4d0db3f12e320d8b3a5240da9758f09575ed98c4b25d2ffb5f84db4a55d24"
+    },
+    {
+      "path": "selection-summary.json",
+      "sha256": "af8dd69dea9ab8a6dd97d517b9cee0dbdb2596b918687a08d0f513d7dbeb3b95"
+    },
+    {
+      "path": "level10-choice-comparison.json",
+      "sha256": "3b11da640bf1baa1d59ee417d07d59c35d4072737b81ae4d38454b6e42de7e82"
+    }
+  ],
+  "limits": [
+    "Source execution; main owns final PCK/resource byte match.",
+    "Two choice policies and all legal first selections are sampled branches, not exhaustive future-game-tree proof.",
+    "Headless simulation does not certify human fun, actual screen visibility or Android performance.",
+    "Unchanged geometry/collision suites were not broadly repeated.",
+    "Synthetic full-shelf no-capture control is a rule boundary fixture, not human gameplay."
+  ],
+  "open_rule_defects": [],
+  "final_commit_rules_bindings": [
+    {
+      "resource": "campaign.gd",
+      "commit_sha256": "48a9c2e5beac65486411c1722550fb7ecf505465d8c04f3271d75a0dc48007c4",
+      "executed_sha256": "48a9c2e5beac65486411c1722550fb7ecf505465d8c04f3271d75a0dc48007c4",
+      "match": true
+    },
+    {
+      "resource": "state.gd",
+      "commit_sha256": "7054d37f294dbe0f54c96e7d8e2947bc561b77983ea6e22ac03524c439aabb01",
+      "executed_sha256": "7054d37f294dbe0f54c96e7d8e2947bc561b77983ea6e22ac03524c439aabb01",
+      "match": true
+    },
+    {
+      "resource": "profile.gd",
+      "commit_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "executed_sha256": "a92b1fefbb753264f0a82c5bc590583157c9a4b8b783b1731ec61e4553f775c0",
+      "match": true
+    },
+    {
+      "resource": "game.gd",
+      "commit_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "executed_sha256": "ae3e5e32bbf930deac56730ba78c0968c28a5a1b62e1128cff6b9fc0e69dbdb0",
+      "match": true
+    },
+    {
+      "resource": "board.gd",
+      "commit_sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "executed_sha256": "48ef8403ce455d464587dbfd216f85495b298bace33cf36b5b8f4c8565813de5",
+      "match": true
+    },
+    {
+      "resource": "block_flight.gd",
+      "commit_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "executed_sha256": "5b51445f60c4ef6fbef79d0635541d299f7cd206e3ae08511d426ef9ab0f718f",
+      "match": true
+    }
+  ],
+  "main_package_binding_log_sha256": "1cecf8cec8f329ff82e0fed597d529a3315551eb679a2dca27b559c36872032c"
+}

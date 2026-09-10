@@ -101,6 +101,9 @@ func _draw() -> void:
   var face=Rect2(r.position,r.size-Vector2(0,12))
   WoolArt.patch(self,face,WoolArt.COLORS[b.color])
   WoolArt.arrow(self,face.get_center(),Vector2(WoolState.DIRS[b.direction]),minf(58,face.size[0 if b.direction%2==1 else 1]*0.67))
+  if state.level_index>=4:
+   WoolArt.box(self,Rect2(Vector2(-11,size.y/2-12),Vector2(22,12)),Color("253d3c"),4)
+   WoolArt.text(self,str(b.capacity),Vector2(0,size.y/2-2),12,Color("fff9e8"))
   if b.phase=="board" and state.hint_id==b.id and state.time-state.hint_time<5:
    WoolArt.box(self,r.grow(3),Color.TRANSPARENT,12,Color(1,1,1,0.65+0.3*sin(clock*5)),3)
   draw_set_transform(Vector2.ZERO)

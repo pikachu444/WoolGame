@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 576.02 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060 Laptop GPU
+
+Movie Maker mode enabled, recording movie in 540×1170 @ 30 FPS...
+WOOL_READY route=1396.4892578125 blocks=19 yarn=134 viewport=(720.0, 1560.0)
+WOOL_RESULT {"avg_fps":29.9999999999994,"collected":134,"elapsed":32.0250000000008,"hearts":3,"lost":false,"total":134,"won":true}
+--------------------------------------------------------------------------------
+Done recording movie at path: C:/SourceCodes/WoolGame/Evidence/Rebuild/Final/gameplay.avi
+962 frames at 30 FPS (movie length: 00:00:32:02), recorded in 00:00:36 (88% of real-time speed).
+CPU render time: 3.47 seconds (average: 3.60 ms/frame)
+GPU render time: 1.60 seconds (average: 1.67 ms/frame)
+Encoding time: 12.00 seconds (average: 12.47 ms/frame)
+--------------------------------------------------------------------------------

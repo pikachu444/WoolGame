@@ -1,0 +1,43 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/game.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/background.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/world.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/board.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="5"]
+[ext_resource type="FontVariation" path="res://art/korean.res" id="6"]
+
+[sub_resource type="Curve2D" id="Route"]
+bake_interval = 3.0
+_data = {
+"points": PackedVector2Array(0,0,80,0,-180,357, -80,0,80,0,150,361, -80,5,80,-5,435,345, -50,35,50,-35,638,256, 15,60,-15,-60,615,25, 30,-30,-30,30,545,47, 25,0,-25,0,488,125, 10,35,-10,-35,442,92, 25,-15,-25,15,383,28, 25,-30,-25,30,328,62, 10,-35,-10,35,279,157, 30,0,-30,0,229,184, 30,20,-30,-20,140,149, 25,-15,-25,15,88,151, -10,-30,10,30,67,231, -30,-10,30,10,124,273, -40,0,40,0,250,279, -20,0,20,0,328,279)
+}
+point_count = 18
+
+[sub_resource type="Theme" id="Theme"]
+default_font = ExtResource("6")
+default_font_size = 22
+
+[node name="WoolRescue" type="Node2D"]
+script = ExtResource("1")
+
+[node name="TextileBackdrop" type="Node2D" parent="."]
+script = ExtResource("2")
+
+[node name="World" type="Node2D" parent="."]
+position = Vector2(0, 0)
+script = ExtResource("3")
+
+[node name="DragonRoute" type="Path2D" parent="World"]
+curve = SubResource("Route")
+
+[node name="PuzzleBoard" type="Node2D" parent="."]
+script = ExtResource("4")
+
+[node name="Interface" type="Control" parent="."]
+layout_mode = 0
+offset_right = 592.0
+offset_bottom = 1138.0
+mouse_filter = 2
+theme = SubResource("Theme")
+script = ExtResource("5")

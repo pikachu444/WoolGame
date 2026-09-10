@@ -1,0 +1,10 @@
+{
+  "same_pck_in_windows_zip_and_android": true,
+  "same_windows_exe_in_zip": true,
+  "sha256": {
+    "WoolRescue-Android.apk": "e4b501d615e14709fa49bedb959072724dfa601a3be992fcf670c7068fd812be",
+    "WoolRescue-Windows.zip": "22e8000b066a56b49d912373db2b099f7ff2cf20b794577165c689c570053a14",
+    "WoolRescue.exe": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+    "WoolRescue.pck": "3cc6756e2c128027f791785fc700d63677f76d3f48b2316a1c8a8c0afae2af9c"
+  }
+}

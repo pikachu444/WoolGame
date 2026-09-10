@@ -28,3 +28,30 @@ Evidence/*
 !Evidence/Android/
 Evidence/Final/frame_*.png
 Evidence/Final/recording.ffconcat
+
+# New Godot implementation: retain the authored project and final review evidence.
+BuildWork/
+Rebuild/.godot/
+Rebuild/*.log
+Rebuild/art/characters_atlas.png
+Rebuild/art/NotoSansKR.ttf
+!Evidence/Rebuild/
+Evidence/Rebuild/*
+!Evidence/Rebuild/Final/
+Evidence/Rebuild/Final/*.avi
+
+!Evidence/Rebuild/ReferenceMatch/
+Evidence/Rebuild/ReferenceMatch/*.avi
+
+# Local runtime profiles and portable research evidence
+Rebuild/Godot/
+Rebuild/WoolRescue/
+!Evidence/Research/
+Evidence/Research/*
+!Evidence/Research/2026-09-10/
+Evidence/Research/2026-09-10/*
+!Evidence/Research/2026-09-10/*.md
+!Evidence/Research/2026-09-10/*.json
+!Evidence/Research/2026-09-10/*.png
+!Evidence/Research/2026-09-10/frames/
+!Evidence/Rebuild/OfflineCampaign/

@@ -1,0 +1,436 @@
+{
+  "date": "2026-09-10",
+  "scope": "portable research evidence",
+  "files": [
+    {
+      "path": "Evidence/Research/2026-09-10/1775217513336832.png",
+      "bytes": 101693,
+      "sha256": "a00af19e84659e54aca178c05ebca27f3da50b642b8c0ce040372ec694a0ff73"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/1775218300960604-10s.png",
+      "bytes": 121101,
+      "sha256": "c6614323b8ecda78b2b815e1bdee438dc590efff64c2096ee522ef041a0929fc"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/1775218300960604-18s.png",
+      "bytes": 114987,
+      "sha256": "4ef1c0a3b61f143d4b84e3152bdcafa8c73dd4a2c47fac6cf70bd2c069f8c603"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/1775218300960604-1s.png",
+      "bytes": 122740,
+      "sha256": "73cc4857cce0dade6dc8178811febcc8078562af727018a51e3a1ef374d4e4c9"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/1775218300960604-22s.png",
+      "bytes": 121642,
+      "sha256": "1c4b5cfbb26cf5c955542cf97baa27e4f36cf0771ea0aed79e3778d42c0bcd45"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/1775221684775822.png",
+      "bytes": 70640,
+      "sha256": "01838b11edfd4d02f74b4c4c416cda211b6a7238b23abfb0a3bba58c127940ff"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/INDEPENDENT_RESEARCH_REVIEW.md",
+      "bytes": 5795,
+      "sha256": "9c8a836e77459fbc8448c175e08b6847986bf5d5a6a6513c756d46d55dd724ed"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1053s.png",
+      "bytes": 120557,
+      "sha256": "479e29b9ebda56cd84bd83dee7ad17c27514fcb26c83c05a94db2610952915ec"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1056s.png",
+      "bytes": 67121,
+      "sha256": "26eb736353776771e4e63ddd493cee637263f2e9e5e2397ddaa51090810f5351"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1060s.png",
+      "bytes": 111766,
+      "sha256": "faeb03830f97a3c7e232d1d709ceeef3fcd93a5d3270deffe1d0a9accf41983e"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1061s.png",
+      "bytes": 111326,
+      "sha256": "04f53e2cc21bbfc14fecca35bafbb9d5530d6f64c4fedd54ecf3f7692a6051b6"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1062s.png",
+      "bytes": 249641,
+      "sha256": "28dc957dbbb0008812c0f4ce659a5d780fa98ef887a9391fd489715598bc1efc"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N2-1063s.png",
+      "bytes": 249753,
+      "sha256": "15c2dcdc6b39d786acbaa2124fe74cdabc1d6d609ab5f0534c3d43a318e62016"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-140s.png",
+      "bytes": 143092,
+      "sha256": "062bc1e2da9e19c6bf7c5548d7387ee806233d94414187e736397585e6f45bd0"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-142s.png",
+      "bytes": 26670,
+      "sha256": "9b64d1cf7efb4c813614f0dbcd3c46983bdcbf123f9aecc93db32c6d98b3160f"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-144s.png",
+      "bytes": 118090,
+      "sha256": "2777efdd9cf33eaf6faa07b6842a3f76263182606011cfc1a199c647406bc46c"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-146s.png",
+      "bytes": 149143,
+      "sha256": "d99c84111581b6fcb6a7fa5c666b80cd017c4efc9bf09e0eb0279ba5feeb5b03"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-148s.png",
+      "bytes": 157997,
+      "sha256": "73d1ca17a3d2202945477af5c4404f6e24b5037e69e65a2ba12d343c50b5aad4"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-150s.png",
+      "bytes": 226339,
+      "sha256": "f95f15bf40505ffb4c735338a36f431f51685f90992963506cd771d1498661fe"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-270s.png",
+      "bytes": 228804,
+      "sha256": "e825b2a84d066d4b4868f0cd1de20c67ae8a3cc5d0366c71fbef7c5e42713cf7"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-275s.png",
+      "bytes": 223360,
+      "sha256": "addd38645de94a2050e427fc464ea0b408990c4b2bd8fb5daba29405e6366e1d"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-280s.png",
+      "bytes": 220812,
+      "sha256": "5217866521d23cdfcbf724ceaa8e455dc34e43ec9d6ab841e0c92cbeaff0ce01"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-282s.png",
+      "bytes": 101400,
+      "sha256": "8decaf562ede700f78ae633690a2b5ff52403badc5c2f39b470c4f1c5683db28"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-283.5s.png",
+      "bytes": 124996,
+      "sha256": "eb369d64aae2627270ec957df3720588cf0428b665430eee18ae0aea58378861"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-285s.png",
+      "bytes": 107891,
+      "sha256": "905337bb73dd7ef2eeac62b0981134d86f5fd80ab126ba14bfb4611c0ac9b049"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/N3-286s.png",
+      "bytes": 165571,
+      "sha256": "bc513980117f3f820f52904dc14c3a5205e66f087dc65199a9bc658b7893e406"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-1.png",
+      "bytes": 92421,
+      "sha256": "cca32bdd3d542758bf9aa5e10a396e569f43d19a982e0db6e640eda684920978"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-2.png",
+      "bytes": 75286,
+      "sha256": "18923476901ef81cd2b789758c71f592d57eb2ab86eeb559304b0c89083c1489"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-3.png",
+      "bytes": 77741,
+      "sha256": "36ac22347f88df8d9b4a30aca3221a87516c1479dad6262eb6a89e729b03b0ac"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-4.png",
+      "bytes": 93139,
+      "sha256": "693b8ba7fc11609307c42ae23760c34ddafe0ac98fffd72331ce30813fb3f5b2"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-5.png",
+      "bytes": 99283,
+      "sha256": "e7bbe8f512509ef49eb94c14221d76c76b670357671bbeccc2f1058bbc55ae4b"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-6.png",
+      "bytes": 167629,
+      "sha256": "b72f31a2b79fdcb84bc2e87d50d6c87901b46146b8dcea27ddda304376abdbcd"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-7.png",
+      "bytes": 152273,
+      "sha256": "b87b0280afcc02eaf79c7880bd4e8136371db9066d2a35a1c53ed54ad93578a7"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/official-store-8.png",
+      "bytes": 140418,
+      "sha256": "c63fd43531961fcb148276d7387742ae4573f3afd12e7b3443b07f7633c070ef"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/RRseHlTBPis-225s.png",
+      "bytes": 114133,
+      "sha256": "fb56772c8579501e5b086995f1463ca02c6c779a7118138f71d49c5a03894422"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/RRseHlTBPis-230s.png",
+      "bytes": 1804,
+      "sha256": "7937bdbce70c464ede24b0dcf82fe90dd36931fd29d66aa3dde4ea28f9cd71c9"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/RRseHlTBPis-meta.json",
+      "bytes": 244,
+      "sha256": "9b2c349323dd6c194d4b0de03761347b4868519ccffa8b7a8a1434d46da4a5b1"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/sources.json",
+      "bytes": 5483,
+      "sha256": "43471e9078ba65ba534fafda27c20670e4b1c23ee999532ae7fe191bb654d9ff"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/store-images.json",
+      "bytes": 2743,
+      "sha256": "85fce28180b3ea33e6816d6d53839c4969d1c45c1f0b7df76a08d1e5510e15b4"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-0s.png",
+      "bytes": 149989,
+      "sha256": "b1894815b73cd43534e9077586efa12b9276be4c7a6e14e1f90f8d43fa62dda8"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-18s.png",
+      "bytes": 241492,
+      "sha256": "9662fb24da3b860c63442235c296a867c10731b0b0d545affe33e11912a38ac0"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-4s.png",
+      "bytes": 278482,
+      "sha256": "44e2123f7c61cb31f96dc420cb87e6faf2d9e2e32ae909656f56f4993c4bdb09"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-5s.png",
+      "bytes": 271246,
+      "sha256": "b7f42b41d8ab80017f006f7990aa04fda11868247236467af8373d92e12dde95"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-6s.png",
+      "bytes": 287103,
+      "sha256": "6a6518bd4ac44913f14de18cb6f1eb5e87ff5c0882f3bfe74d411e9fd72ea52a"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-7s.png",
+      "bytes": 267700,
+      "sha256": "90085959964973f10c406a82cc539663e7bd03c310efeae88a8f190ee60b3e23"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/yx5iKjCEx7M-meta.json",
+      "bytes": 601,
+      "sha256": "ae06192b23ecd3e829b95ab181315a0528336fccbc0572492dd39fab6ca6d0ad"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_140_50s.png",
+      "bytes": 151323,
+      "sha256": "5f7ae3092e6f614286041a4b76c1f8272997e605fba71c5f0a31515a99a8f270"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_144_00s.png",
+      "bytes": 118090,
+      "sha256": "2777efdd9cf33eaf6faa07b6842a3f76263182606011cfc1a199c647406bc46c"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_146_50s.png",
+      "bytes": 145772,
+      "sha256": "c6bfd1cca4e3deb32fdd468c98ca286ada282d00aa9c44c873f8789cfd61baa6"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_148_50s.png",
+      "bytes": 216925,
+      "sha256": "8b22a91fc073c77aadcbb45230bd4b0e80d1b952181ac034b3babcd588f16870"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_272_50s.png",
+      "bytes": 225844,
+      "sha256": "064fb53fa509170197ed866ac6cb71613f200c3a4b29d3d7b934e9e6e4e050ef"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_274_50s.png",
+      "bytes": 225177,
+      "sha256": "59aa9d832ffec1e7c6d1501c6b64d7e2be999b3ae6fee0bab38bfb287526a422"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_277_00s.png",
+      "bytes": 214543,
+      "sha256": "4cd6dd974b8f58a3727c879347db6dcf948882b07987949ebb50e8a27b6d3100"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_279_50s.png",
+      "bytes": 221136,
+      "sha256": "1e4242ea9f0588ed2c89da32e5ec08f1b3c5e6036d1cbeef0d4db17269a63d2a"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_281_00s.png",
+      "bytes": 105047,
+      "sha256": "640dfb6aa34636f48db78cad33e4903fca7b56376e47b973888aced37a2f8407"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_283_50s.png",
+      "bytes": 124996,
+      "sha256": "eb369d64aae2627270ec957df3720588cf0428b665430eee18ae0aea58378861"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/HR-0KwTL8dA_286_50s.png",
+      "bytes": 211182,
+      "sha256": "e01dad033a24d48fe04dba49626187c4d3094ce1503779dea657c353d1f3f860"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/LjF8rB4lGig_1053_50s.png",
+      "bytes": 133163,
+      "sha256": "806feba04d55bc9c290c73637ae8690a13d8db7fd0b89f093833737f94a740ed"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/LjF8rB4lGig_1058_00s.png",
+      "bytes": 110143,
+      "sha256": "9ada0247b7756c8cee06a2cd655ed60a11ed996fa0e806c61198c2cf926d749c"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/LjF8rB4lGig_1061_50s.png",
+      "bytes": 247073,
+      "sha256": "6cc14fa2e201e2333f8130707681cde17f618f6f427911efb718578e0db44460"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/LjF8rB4lGig_1064_50s.png",
+      "bytes": 192925,
+      "sha256": "28d25d20df0fdd2075f5e40ec0deccb1a87e12d78d69c4190cbc8f48200cbba5"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/NM9-sUw9pu8_246_00s.png",
+      "bytes": 568790,
+      "sha256": "19a428773c3d4e362b1ca47f4d87a84ff82a271fe21cea608cd923e2138b0965"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/NM9-sUw9pu8_246_50s.png",
+      "bytes": 579791,
+      "sha256": "e5952aa18f472339aa5fdcda46ad1b3fd66767ce50f99b3d02a5416c715e94ef"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/NM9-sUw9pu8_247_50s.png",
+      "bytes": 576234,
+      "sha256": "249e9eb648edda7af242e55e8006979df80985cef971de1907291b4331762c77"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/NM9-sUw9pu8_248_00s.png",
+      "bytes": 580879,
+      "sha256": "82520443bb4b299b05ee3f0d8e7653b17d2157b176b04b2205ed5941afde1734"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/NM9-sUw9pu8_249_50s.png",
+      "bytes": 571687,
+      "sha256": "4942b3d5f4e8fd8ce5ebade639ee64e05d2b3e4f5b0a50f6c0a3262d9ed0dd82"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_19_00s.png",
+      "bytes": 45907,
+      "sha256": "c17679d6688bb8e8afebaccafccf6b1f58d9cd0b698008d1521a4f9918126f94"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_20_00s.png",
+      "bytes": 44768,
+      "sha256": "b4a3fb5ffdf81ccce6dbde20681f38512e491128879c1049066e8b3ceceb53ed"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_20_50s.png",
+      "bytes": 60466,
+      "sha256": "9c40c77d5ba8cfda0fd97a4ccb00db9806ee7c61d4ecbe9f610c64f14fdc2580"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_21_00s.png",
+      "bytes": 60000,
+      "sha256": "578d42386c9f0ee69aeedc600ea88ebd3af6fb4e804a12ef9ad91af8dceb4e4b"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_21_50s.png",
+      "bytes": 49195,
+      "sha256": "2f8c13ca6475378812e39c2b2806be78c3c9ba77b8af2af5cf8a48d4a24c79e8"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_22_00s.png",
+      "bytes": 97672,
+      "sha256": "d4ce05ea2839c7ec562027a0b15dcb685338db054a4877665eceb1705b4f5672"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_25_50s.png",
+      "bytes": 105427,
+      "sha256": "5696dc535805bdfca91b5d4980573a19bd6e7e980d37a3d43ea37ac53af7ec73"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_26_50s.png",
+      "bytes": 107762,
+      "sha256": "0104daa53193e27c92f106160bd239172d9284874467fe9ed2e82f58ee68270e"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_35_75s.png",
+      "bytes": 109415,
+      "sha256": "435df4d219919ed4ffe94e12bcaf9f2c33fd5ceb6168c8293299c936758f22ee"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_36_25s.png",
+      "bytes": 110623,
+      "sha256": "bbaed3823fc80ca6384a7a209cf56bf262f07fa615dfd9ad3841e95e856e147f"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_36_50s.png",
+      "bytes": 110217,
+      "sha256": "7174e9d92a741cd686f7046812923814400d53fd7abf360838e9e80678817682"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_37_00s.png",
+      "bytes": 111363,
+      "sha256": "58c24ef2b27a462dc6d22ba085db7d976a598a44c622295f0fb790fed05e1fe8"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_38_00s.png",
+      "bytes": 114514,
+      "sha256": "836726e4deab59da01420e894d65af01170ee8f935081f7588148d144deb25c5"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_38_75s.png",
+      "bytes": 114130,
+      "sha256": "98b8b52d3a75e60bafcf20f53a3aea6b44e9245ca7e250a80a59a6f202f8fc15"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_39_00s.png",
+      "bytes": 113154,
+      "sha256": "561e1b3b1604bac763689312e46af20c002eb601fcf217596601bc71375f02da"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_50_50s.png",
+      "bytes": 62208,
+      "sha256": "bd2c75ed143cb87c8d11f560953631f032938d583363942086e8708e2584e6e8"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_51_00s.png",
+      "bytes": 77424,
+      "sha256": "5d45213931da2066a6dc75b8b99b8f04e9e3f1140e19b6e709cf536dbd8327a1"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_54_00s.png",
+      "bytes": 116730,
+      "sha256": "9e29b214c798b2b22dfc08a78bd8d2b46d02a7daff636401d2008195145d26fd"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_55_00s.png",
+      "bytes": 103738,
+      "sha256": "8e9876df2e9c771a5e6cfb15d8d8ae33b164b4b50a5b923b935cc2f8c92ab2a6"
+    },
+    {
+      "path": "Evidence/Research/2026-09-10/frames/V01_65_50s.png",
+      "bytes": 106239,
+      "sha256": "c88c447573d972d686b97acaf2ea7d7aa2c10edc045ef62e95a46306ef2464a2"
+    }
+  ]
+}

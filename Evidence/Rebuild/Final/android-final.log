@@ -1,0 +1,150 @@
+I: Using Apktool 3.0.3 on android_debug.apk with 8 threads
+I: classes.dex has not changed.
+I: classes10.dex has not changed.
+I: classes11.dex has not changed.
+I: classes12.dex has not changed.
+I: classes13.dex has not changed.
+I: classes2.dex has not changed.
+I: classes3.dex has not changed.
+I: classes4.dex has not changed.
+I: classes5.dex has not changed.
+I: classes6.dex has not changed.
+I: classes7.dex has not changed.
+I: classes8.dex has not changed.
+I: classes9.dex has not changed.
+I: Building resources with aapt2...
+I: Building apk file...
+I: Importing assets...
+I: Importing lib...
+I: Importing unknown files...
+I: Built apk into: C:\SourceCodes\WoolGame\BuildWork\WoolRescue-all-unaligned.apk
+
+
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+
+package: name='com.woolrescue.game' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+install-location:'auto'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+application-label:'≈–Ω« ±∏¡∂¥Î'
+application-label-af:'≈–Ω« ±∏¡∂¥Î'
+application-label-am:'≈–Ω« ±∏¡∂¥Î'
+application-label-ar:'≈–Ω« ±∏¡∂¥Î'
+application-label-as:'≈–Ω« ±∏¡∂¥Î'
+application-label-az:'≈–Ω« ±∏¡∂¥Î'
+application-label-be:'≈–Ω« ±∏¡∂¥Î'
+application-label-bg:'≈–Ω« ±∏¡∂¥Î'
+application-label-bn:'≈–Ω« ±∏¡∂¥Î'
+application-label-bs:'≈–Ω« ±∏¡∂¥Î'
+application-label-ca:'≈–Ω« ±∏¡∂¥Î'
+application-label-cs:'≈–Ω« ±∏¡∂¥Î'
+application-label-da:'≈–Ω« ±∏¡∂¥Î'
+application-label-de:'≈–Ω« ±∏¡∂¥Î'
+application-label-el:'≈–Ω« ±∏¡∂¥Î'
+application-label-en:'≈–Ω« ±∏¡∂¥Î'
+application-label-en-AU:'≈–Ω« ±∏¡∂¥Î'
+application-label-en-CA:'≈–Ω« ±∏¡∂¥Î'
+application-label-en-GB:'≈–Ω« ±∏¡∂¥Î'
+application-label-en-IN:'≈–Ω« ±∏¡∂¥Î'
+application-label-en-XC:'≈–Ω« ±∏¡∂¥Î'
+application-label-es:'≈–Ω« ±∏¡∂¥Î'
+application-label-es-ES:'≈–Ω« ±∏¡∂¥Î'
+application-label-es-US:'≈–Ω« ±∏¡∂¥Î'
+application-label-et:'≈–Ω« ±∏¡∂¥Î'
+application-label-eu:'≈–Ω« ±∏¡∂¥Î'
+application-label-fa:'≈–Ω« ±∏¡∂¥Î'
+application-label-fi:'≈–Ω« ±∏¡∂¥Î'
+application-label-fr:'≈–Ω« ±∏¡∂¥Î'
+application-label-fr-CA:'≈–Ω« ±∏¡∂¥Î'
+application-label-gl:'≈–Ω« ±∏¡∂¥Î'
+application-label-gu:'≈–Ω« ±∏¡∂¥Î'
+application-label-hi:'≈–Ω« ±∏¡∂¥Î'
+application-label-hr:'≈–Ω« ±∏¡∂¥Î'
+application-label-hu:'≈–Ω« ±∏¡∂¥Î'
+application-label-hy:'≈–Ω« ±∏¡∂¥Î'
+application-label-in:'≈–Ω« ±∏¡∂¥Î'
+application-label-is:'≈–Ω« ±∏¡∂¥Î'
+application-label-it:'≈–Ω« ±∏¡∂¥Î'
+application-label-iw:'≈–Ω« ±∏¡∂¥Î'
+application-label-ja:'≈–Ω« ±∏¡∂¥Î'
+application-label-ka:'≈–Ω« ±∏¡∂¥Î'
+application-label-kk:'≈–Ω« ±∏¡∂¥Î'
+application-label-km:'≈–Ω« ±∏¡∂¥Î'
+application-label-kn:'≈–Ω« ±∏¡∂¥Î'
+application-label-ko:'≈–Ω« ±∏¡∂¥Î'
+application-label-ky:'≈–Ω« ±∏¡∂¥Î'
+application-label-lo:'≈–Ω« ±∏¡∂¥Î'
+application-label-lt:'≈–Ω« ±∏¡∂¥Î'
+application-label-lv:'≈–Ω« ±∏¡∂¥Î'
+application-label-mk:'≈–Ω« ±∏¡∂¥Î'
+application-label-ml:'≈–Ω« ±∏¡∂¥Î'
+application-label-mn:'≈–Ω« ±∏¡∂¥Î'
+application-label-mr:'≈–Ω« ±∏¡∂¥Î'
+application-label-ms:'≈–Ω« ±∏¡∂¥Î'
+application-label-my:'≈–Ω« ±∏¡∂¥Î'
+application-label-nb:'≈–Ω« ±∏¡∂¥Î'
+application-label-ne:'≈–Ω« ±∏¡∂¥Î'
+application-label-nl:'≈–Ω« ±∏¡∂¥Î'
+application-label-or:'≈–Ω« ±∏¡∂¥Î'
+application-label-pa:'≈–Ω« ±∏¡∂¥Î'
+application-label-pl:'≈–Ω« ±∏¡∂¥Î'
+application-label-pt:'≈–Ω« ±∏¡∂¥Î'
+application-label-pt-BR:'≈–Ω« ±∏¡∂¥Î'
+application-label-pt-PT:'≈–Ω« ±∏¡∂¥Î'
+application-label-ro:'≈–Ω« ±∏¡∂¥Î'
+application-label-ru:'≈–Ω« ±∏¡∂¥Î'
+application-label-si:'≈–Ω« ±∏¡∂¥Î'
+application-label-sk:'≈–Ω« ±∏¡∂¥Î'
+application-label-sl:'≈–Ω« ±∏¡∂¥Î'
+application-label-sq:'≈–Ω« ±∏¡∂¥Î'
+application-label-sr:'≈–Ω« ±∏¡∂¥Î'
+application-label-sr-Latn:'≈–Ω« ±∏¡∂¥Î'
+application-label-sv:'≈–Ω« ±∏¡∂¥Î'
+application-label-sw:'≈–Ω« ±∏¡∂¥Î'
+application-label-ta:'≈–Ω« ±∏¡∂¥Î'
+application-label-te:'≈–Ω« ±∏¡∂¥Î'
+application-label-th:'≈–Ω« ±∏¡∂¥Î'
+application-label-tl:'≈–Ω« ±∏¡∂¥Î'
+application-label-tr:'≈–Ω« ±∏¡∂¥Î'
+application-label-uk:'≈–Ω« ±∏¡∂¥Î'
+application-label-ur:'≈–Ω« ±∏¡∂¥Î'
+application-label-uz:'≈–Ω« ±∏¡∂¥Î'
+application-label-vi:'≈–Ω« ±∏¡∂¥Î'
+application-label-zh:'≈–Ω« ±∏¡∂¥Î'
+application-label-zh-CN:'≈–Ω« ±∏¡∂¥Î'
+application-label-zh-HK:'≈–Ω« ±∏¡∂¥Î'
+application-label-zh-TW:'≈–Ω« ±∏¡∂¥Î'
+application-label-zu:'≈–Ω« ±∏¡∂¥Î'
+application-icon-160:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-240:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-320:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-480:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-640:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-65534:'res/drawable-nodpi-v4/wool_icon.png'
+application-icon-65535:'res/drawable-nodpi-v4/wool_icon.png'
+application: label='≈–Ω« ±∏¡∂¥Î' icon='res/drawable-nodpi-v4/wool_icon.png'
+application-isGame
+application-debuggable
+launchable-activity: name='com.godot.game.GodotApp'  label='' icon=''
+feature-group: label=''
+  uses-gl-es: '0x30000'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.screen.portrait'
+  uses-implied-feature: name='android.hardware.screen.portrait' reason='one or more activities have specified a portrait orientation'
+main
+other-activities
+other-receivers
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-ES' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640' '65534' '65535'
+native-code: 'arm64-v8a'
+Android package verified. Device gameplay must be checked separately.

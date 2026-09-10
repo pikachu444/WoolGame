@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WoolRescue.exe",
+    "bytes": 109268480,
+    "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+  },
+  {
+    "name": "WoolRescue.pck",
+    "bytes": 9200812,
+    "sha256": "fbc5a74d54c536405cb27be6998c515eb38600fb46453adacf1964f2c89dffcb"
+  },
+  {
+    "name": "WoolRescue-Android.apk",
+    "bytes": 39701366,
+    "sha256": "72b98024fb362c25bdbb4ee43d69e9d9f3c570f2d14ffbd2e2f4175d155b22fa"
+  },
+  {
+    "name": "WoolRescue-Windows.zip",
+    "bytes": 47262116,
+    "sha256": "18d76e18e50b17740bb1e43eb67d7fadc348bf21623b129489d0f1aabc0ff650"
+  }
+]

@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+LEVEL_RESULT level=0 elapsed=19.2666666666669 hearts=3 captured=57 total=238
+LEVEL_RESULT level=1 elapsed=67.7166666666641 hearts=3 captured=124 total=124
+LEVEL_RESULT level=2 elapsed=56.5166666666647 hearts=3 captured=124 total=124
+VERIFY 1076/1076 passed

@@ -1,0 +1,5 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 576.02 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060 Laptop GPU
+
+WOOL_READY route=2216.83154296875 blocks=31 yarn=124 viewport=(592.0, 1138.0)
+WOOL_RESULT {"avg_fps":30.0000000000006,"collected":124,"elapsed":72.0249999999985,"hearts":3,"lost":false,"total":124,"won":true,"won_at":56.5249999999994}

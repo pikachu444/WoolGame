@@ -1,0 +1,74 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-1",
+      "url": "https://play-lh.googleusercontent.com/265yVb72SKdb_UfJKNVZw9UhzBHeJlcUdl2lDhrWPSg9T90ULgvuXWylLcqsndvliR_ucJGm5OSCXPfaC85ERQ=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-1.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-2",
+      "url": "https://play-lh.googleusercontent.com/bympe-jc6VsnK3Uxw9j9Kj2AoGCUOUO3X--oElglOqobjV25r7dCNpHKGFmsZH-wUsfyeyHgvTh8vFKgbnK39A=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-2.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-3",
+      "url": "https://play-lh.googleusercontent.com/zCe5uPDPmhnjCXNOjruiqlT2Cd4E5cvVWJa-YGOjoKAiH9D-mKa6ftbdcyCS4ixHeKuz7o1Hy2oYvrkCh8oa=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-3.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-4",
+      "url": "https://play-lh.googleusercontent.com/D6qxLRs7wqds8pVcdw0JSGJRLl6tigmbiwhuFZQQKCfHGMKj4yjnWbhDhOCP5SNU1g1yjSbylcWVSJcCuPZNvA=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-4.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-5",
+      "url": "https://play-lh.googleusercontent.com/YTVp5pYnH-0bs28QXj9O8ClmKzwSLAH9UXRY-Ppq2uHI08tqgjTCvgU6aYniFlvlAqNHaG616_0hbrdmqGqk=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-5.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-6",
+      "url": "https://play-lh.googleusercontent.com/-rmRyB4Uzqx0_RZVQOFI8TbazmPL2l2qxtH0td3ld7GiiGw3Q3RytEcgWWmTV8yxztQ4FCFqpt7kbTyXV1xTtQ=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-6.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-7",
+      "url": "https://play-lh.googleusercontent.com/Mj7akYUbx_prVgnAfoFNehk3h53EkFRWx5GHFTVRMjwrZeALa0-b5H_x3EB-pRvgtuD1esc0VtbkCpvXL5pJbw=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-7.png",
+      "status": 200
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "STORE-8",
+      "url": "https://play-lh.googleusercontent.com/sXl_0WvsZM3qBvhv9l8yQsoUbIcHAUE6VmHJ8B07saKZ9q1B8d9XyW7FyzNLnxo9aHDRWJimJWhsOKnV5xdjFq4=w1052-h592",
+      "path": "C:/SourceCodes/WoolGame/Evidence/Research/2026-09-10/official-store-8.png",
+      "status": 200
+    }
+  }
+]

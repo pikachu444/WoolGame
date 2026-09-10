@@ -1,0 +1,133 @@
+{
+  "asOf": "2026-09-10",
+  "scope": "research only; implementation paused",
+  "sources": [
+    {
+      "id": "O1",
+      "type": "official-store",
+      "title": "Wool Crush — Google Play",
+      "url": "https://play.google.com/store/apps/details?id=wool.match.color.sort.jam.puzzle&hl=en",
+      "observedUpdate": "2026-09-03",
+      "status": "page and selected official gallery images inspected"
+    },
+    {
+      "id": "O2",
+      "type": "official-store",
+      "title": "털실 마스터 / Wool Crush — App Store",
+      "url": "https://apps.apple.com/gb/app/wool-crush-bus-knit-away-jam/id6743385713?platform=ipad",
+      "observedVersion": "5.1, Aug 21 (retrieved page; search snippets differed)",
+      "status": "description, version history, IAP catalogue inspected"
+    },
+    {
+      "id": "O3",
+      "type": "official-event",
+      "title": "Discover Home Collection and Collect Cards in Wool Crush",
+      "url": "https://play.google.com/store/apps/eventdetails/4830473752881186444",
+      "status": "official feature description inspected; collection flow not played"
+    },
+    {
+      "id": "O4",
+      "type": "official-event",
+      "title": "龙之宝藏探索 / Dragon Treasure Quest",
+      "url": "https://apps.apple.com/gb/app/wool-crush-bus-knit-away-jam/id6743385713?eventid=6799881700",
+      "status": "event description inspected; reward thresholds unknown"
+    },
+    {
+      "id": "O5",
+      "type": "official-event",
+      "title": "Celebrate One Year of Wool Crush with Woolo and Crushpyr",
+      "url": "https://play.google.com/store/apps/eventdetails/4830743459273441654",
+      "status": "event description inspected; not gameplay evidence"
+    },
+    {
+      "id": "P1",
+      "type": "reported-hands-on",
+      "title": "拆毛线救小猫月入近千万，国内又一混休团队跑出成绩",
+      "publisher": "白鲸出海",
+      "date": "2026-04-03",
+      "url": "https://www.baijing.cn/article/55125",
+      "status": "article, character attributes screenshot, booster clip inspected; historical version"
+    },
+    {
+      "id": "P2",
+      "type": "reported-hands-on",
+      "title": "Save the Cat meow <Wool Crush>",
+      "author": "Zach Jiang 蒋文超",
+      "date": "2026-04-17",
+      "url": "https://www.linkedin.com/pulse/save-cat-meow-wool-crush-zach-jiang-%E8%92%8B%E6%96%87%E8%B6%85-coj9c",
+      "status": "first-person impressions, not exact numerical rules"
+    },
+    {
+      "id": "B1",
+      "type": "embedded-demonstration",
+      "title": "Level 16 Amplify demonstration",
+      "date": "2026-04-03",
+      "url": "https://www.baijing.cn/ueditor/php/upload/video/20260403/1775218300960604.mp4",
+      "duration": 25.205034,
+      "local": "1775218300960604.mp4",
+      "status": "selected timeline frames inspected; edited demo, exact app version unknown"
+    },
+    {
+      "id": "N4",
+      "type": "third-party-gameplay",
+      "title": "Wool Crush Level 127 | Addictive Gameplay",
+      "publisher": "Go2 Next Level",
+      "date": "2026-04-05",
+      "url": "https://www.youtube.com/watch?v=yx5iKjCEx7M",
+      "duration": 47,
+      "local": "yx5iKjCEx7M.mp4",
+      "status": "4s overview plus exact 0,4,5,6,7,18s frames; not a complete stage; playback speed unknown"
+    },
+    {
+      "id": "N5",
+      "type": "third-party-gameplay",
+      "title": "Wool crush, level 296",
+      "publisher": "Just Play Games",
+      "date": "2026-04-24",
+      "url": "https://www.youtube.com/watch?v=RRseHlTBPis",
+      "duration": 233,
+      "local": "RRseHlTBPis.mp4",
+      "status": "20s overview plus 225s ending; 97% then black ending, not clear evidence"
+    },
+    {
+      "id": "D1",
+      "type": "duplicate",
+      "url": "https://www.baijing.cn/ueditor/php/upload/video/20260403/1775217362680345.mp4",
+      "status": "byte-identical to existing V01; excluded from new-video count",
+      "sha256": "4cd7603dec2a009832dd1cbb82324d2464486492b9c5a4a751232023870548e1"
+    },
+    {
+      "id": "N1",
+      "title": "Wool Crush Level 1-2-3 Walkthrough Gameplay Android,iOS",
+      "channel": "Movie Night Gaming",
+      "date": "20251024",
+      "duration": 312,
+      "url": "https://www.youtube.com/watch?v=NM9-sUw9pu8",
+      "videoId": "NM9-sUw9pu8",
+      "type": "third-party-gameplay",
+      "status": "independent review: timeline sampling and high-resolution 246–248s inspection; fleeing confirmed, HP decrement unconfirmed"
+    },
+    {
+      "id": "N2",
+      "title": "🎮 Wool Crush Level 1–10 Full Gameplay Walkthrough | Wool Crush All Levels 1 to 10 | Daily 8 PM |",
+      "channel": "Crazzzy Games Walkthrough",
+      "date": "20260223",
+      "duration": 2025,
+      "url": "https://www.youtube.com/watch?v=LjF8rB4lGig",
+      "videoId": "LjF8rB4lGig",
+      "type": "third-party-gameplay",
+      "status": "independent 10–12s timeline sampling and 1s close inspection; main verified 1061–1063s result/home frames; home transition confirmed"
+    },
+    {
+      "id": "N3",
+      "title": "Wool Crush Gameplay FULL WALKTHROUGH🧶🚀 – All Levels Completed! 💯🎮",
+      "channel": "GamingLebra ",
+      "date": "20260406",
+      "duration": 993,
+      "url": "https://www.youtube.com/watch?v=HR-0KwTL8dA",
+      "videoId": "HR-0KwTL8dA",
+      "type": "third-party-gameplay",
+      "status": "independent timeline sampling and close inspection; main verified 140–150s reward/next-level and 270–286s failure/retry frames; accepted continue not observed"
+    }
+  ]
+}
